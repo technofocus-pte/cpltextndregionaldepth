@@ -1,4 +1,4 @@
-Lab 1B: Empowering Project managers and IT workforce
+# Lab 1B: Empowering Project managers and IT workforce
 
 Objective:
 
