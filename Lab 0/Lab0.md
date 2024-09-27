@@ -1,4 +1,4 @@
-#Lab 0: Preparing for the lab execution
+# Lab 0: Preparing for the lab execution
 
 Log into your Lab Virtual Machine
 
