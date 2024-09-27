@@ -1,4 +1,4 @@
-Lab 1C: Improving Sales and Marketing productivity
+# Lab 1C: Improving Sales and Marketing productivity
 
 Objective:
 
