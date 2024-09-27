@@ -1,4 +1,4 @@
-# **Lab 2A_Adding a conversational action for Copilot for Microsoft 365**
+# **Lab 2A:Adding a conversational action for Copilot for Microsoft 365**
 
 **Objective**
 
