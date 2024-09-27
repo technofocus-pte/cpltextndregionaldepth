@@ -1,4 +1,4 @@
-# **Lab 01 - Building your first copilot with Copilot Studio**
+# **Lab 3A_Building your first copilot with Copilot Studio**
 
 **Objective:**
 
