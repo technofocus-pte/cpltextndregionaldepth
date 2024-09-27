@@ -1,4 +1,4 @@
-Lab 1A: Empowering Executives to do more
+# Lab 1A: Empowering Executives to do more
 
 Objective:
 
