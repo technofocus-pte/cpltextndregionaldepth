@@ -1,4 +1,4 @@
-# **Lab 2B_Adding an AI action to Copilot for Microsoft 365**
+# **Lab 2B: Adding an AI action to Copilot for Microsoft 365**
 
 **Objective**
 
