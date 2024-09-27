@@ -1,4 +1,4 @@
-# **Lab 3B_Creating and deploying a Microsoft Copilot Studio copilot from Teams**
+# **Lab 3B: Creating and deploying a Microsoft Copilot Studio copilot from Teams**
 
 **Objective:**
 
