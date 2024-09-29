@@ -50,8 +50,6 @@ Lab duration – 15 minutes
 
     ![](./media/image5.png)
 
-    ![](./media/image6.png)
-
 3.  Once logged in, the Welcome to Microsoft Copilot Studio page, select
     your Country and click on **Start free trial**.
 
@@ -174,7 +172,7 @@ availability in the Microsoft Admin Center can take up to 4 hours.
     under **Settings**, then **Integrations to be reviewed and
     approved**.
 
-    ?[!Alert] **Important:** For the admin to get it listed in the admin center,
+    >[!Alert] **Important:** For the admin to get it listed in the admin center,
 the company will have to hold a valid Copilot license.
 
 7.  Once your Tenant admin approves the Dataverse and Microsoft Copilot
