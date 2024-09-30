@@ -59,40 +59,44 @@ Lab duration – 15 minutes
 
     ![](./media/image8.png)
 
-5.  Select **Contoso (default)** environment. Select **Copilot for
-    Microsoft 365**.
+    >[!Note] **Note:** Select Skip if Welcome screen appears.
+    >
+    >![](./media/image25.png)
+    
+5.	Select **Copilots** from the left pane
+
+    ![](./media/image26.png)
+  	
+6.  Select **Copilot for Microsoft 365**.
 
     ![](./media/image9.png)
 
-6.  Select **Actions**.
+7.  Select **Actions**.
 
     ![](./media/image10.png)
 
-7.  Select **+ Add an action**.
+8.  Select **+ Add action**.
 
     ![](./media/image11.png)
 
-8.  Select **Conversational** in the **New action** pane.
+9.  Select **Conversational** in the **New action** pane.
 
     ![](./media/image12.png)
 
-9.  Provide the name for the action as +++**Conversational action**+++.
+10.  Provide the name for the action as +++**Conversational action**+++.
     Select **Create**.
 
-    ![](./media/image13.png)
-    
-    ![](./media/image14.png)
+    ![](./media/image27.png)
 
-10. Once ready, the created action opens in Authoring canvas. Select
-    **Topics**.
+11. Once ready, the created action opens in Authoring canvas. Select **Topics**.
 
     ![](./media/image15.png)
 
-11. Name the topic as +++Holidaylist+++
+12. Name the topic as +++Holidaylist+++
 
     ![](./media/image16.png)
 
-12. In the Trigger node’s description, provide a clear description of
+13. In the Trigger node’s description, provide a clear description of
     how the conversational plugin can help the user and what it can
     do. Let this topic help the user to find the list of holidays in the
     year 2024.
@@ -105,7 +109,7 @@ Lab duration – 15 minutes
     This description has functional purpose and is used by the Microsoft
     Copilot to determine whether to invoke your plugin or not.
 
-13. Add a **message node** with the list of holidays.
+14. Add a **message node** with the list of holidays.
 
     ```
     - New Year's Day - January 1
@@ -135,7 +139,7 @@ Lab duration – 15 minutes
     ```
     ![](./media/image18.png)
 
-14. Click on **Save** to save the action.
+15. Click on **Save** to save the action.
 
     ![](./media/image19.png)
 
