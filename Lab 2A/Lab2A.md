@@ -86,6 +86,8 @@ Lab duration – 15 minutes
 10.  Provide the name for the action as +++**Conversational action**+++.
     Select **Create**.
 
+    ![](./media/image12.png)
+
     ![](./media/image27.png)
 
 11. Once ready, the created action opens in Authoring canvas. Select **Topics**.
