@@ -83,8 +83,7 @@ Lab duration – 15 minutes
 
     ![](./media/image12.png)
 
-10.  Provide the name for the action as +++**Conversational action**+++.
-    Select **Create**.
+10.  Provide the name for the action as +++**Conversational action**+++. Select **Create**.
 
     ![](./media/image12.png)
 
