@@ -24,8 +24,7 @@ flow when a customer asks about the weather.
 4.  Click on + symbol to add a node after any existing node, select
     **call an action** and then **Create a flow**.
 
-**Note:** This action will not add anything here but will only open the
-flow creation page on Power Automate with the proper template.
+    >[!Note] **Note:** This action will not add anything here but will only open the flow creation page on Power Automate with the proper template.
 
     ![](./media/image3.png)
 
@@ -55,7 +54,7 @@ flow creation page on Power Automate with the proper template.
     ![](./media/image8.png)
 
 5.  Select a **Number** input and name it as +++**Zipcode**+++. Click on
-    the **back(\<)** symbol on the right corner to come out of the node
+    the **back(<<)** symbol on the right corner to come out of the node
     details pane.
 
     ![](./media/image9.png)
@@ -70,9 +69,9 @@ flow creation page on Power Automate with the proper template.
 
     ![](./media/image11.png)
 
-**Note:** If asked to create a new connection, select **Create New**.
+    >[!Note] **Note:** If asked to create a new connection, select **Create New**.
 
-   ![](./media/image12.png)
+    ![](./media/image12.png)
 
 8.  In the **Get forecast for today** action, in the **Location** box,
     select **Add dynamic content**, and then
@@ -94,10 +93,14 @@ flow creation page on Power Automate with the proper template.
 11. In the Return value(s) to Microsoft Copilot Studio **Parameters**
     tab, add the following output parameters and variables.
 
-[TABLE]
-
-**Note:** Select **Add dynamic content**, click on **See more** next to
-**Get forecast for today** to see the above variable options
+    |    |    |    |
+    |:-----|:----|:------|
+    |  Output Parameter Name  |   Type | Variable   |
+    | +++day_summary+++   |  Text  |    Day Summary|
+    | +++Location+++   |  Text  | Location|
+    |  +++chance_of_rain+++  |  Text  | Day Rain Chance|
+    
+    >[!Note] **Note:** Select **Add dynamic content**, click on **See more** next to **Get forecast for today** to see the above variable options
 
    ![](./media/image17.png)
 
@@ -121,14 +124,13 @@ flow creation page on Power Automate with the proper template.
 
 **Exercise 3: Turn off asynchronous responses in the flow**
 
-Flows that you want to use in a bot must return values in real time,
-or [*synchronously*](https://learn.microsoft.com/en-us/power-automate/guide-staff-through-common-tasks-processes#when-to-use-workflows).
+    Flows that you want to use in a bot must return values in real time, or synchronously.
 Flows that run in the background, or asynchronously, may cause an error
 when your bot tries to run them. Instead of running the flow, the bot
 will say, "Something unexpected happened. We're looking into it. Error
 code: 3000."
 
-When you create a flow from Microsoft Copilot Studio, **asynchronous
+    When you create a flow from Microsoft Copilot Studio, **asynchronous
 responses** are turned off by default. If you modified an existing flow
 that has asynchronous responses turned on, you'll need to change the
 setting.
@@ -160,15 +162,15 @@ setting.
 
 4.  Add the following **trigger phrases**:
 
-- +++**will it rain**+++
+    - +++**will it rain**+++
+    
+    - +++**today's forecast**+++
+    
+    - +++**get weather**+++
+    
+    - +++**what's the weather**+++
 
-- +++**today's forecast**+++
-
-- +++**get weather**+++
-
-- +++**what's the weather**+++
-
-Enter the phrase and then click on **+** symbol to add it.
+    Enter the phrase and then click on **+** symbol to add it.
 
     ![](./media/image29.png)
 
@@ -187,13 +189,13 @@ Enter the phrase and then click on **+** symbol to add it.
 
 7.  Add the question +++**What is your city?**+++
 
-[TABLE]
+    [TABLE]
 
     ![](./media/image33.png)
 
 8.  Add another question node and provide the following details.
 
-[TABLE]
+    [TABLE]
 
     ![](./media/image34.png)
 
@@ -212,14 +214,11 @@ Enter the phrase and then click on **+** symbol to add it.
 11. Under the flow node, add a **Message** node, and then enter a
     message that uses the flow's outputs as below.
 
-> +++**Today's forecast for**+++** **\<Select **X** and choose
-> **location**\> +++**:**+++ \<Select **X** and choose **day_summary**\>
-> +++**Chance of rain is**+++ \<Select **X** and choose
-> **chance_of_rain.**\>+++
->
+    +++Today's forecast for+++ <Select X and choose location> +++:+++  <Select X and choose day_summary> +++Chance of rain is+++ <Select X and choose chance_of_rain.>+++
+    
    ![](./media/image37.png)
 
-12. Click on **Save** to save the topic.
+13. Click on **Save** to save the topic.
 
     ![](./media/image38.png)
 
