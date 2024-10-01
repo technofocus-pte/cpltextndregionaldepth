@@ -90,8 +90,7 @@ flow when a customer asks about the weather.
 
     ![](./media/image16.png)
 
-11. In the Return value(s) to Microsoft Copilot Studio **Parameters**
-    tab, add the following output parameters and variables.
+11. In the Return value(s) to Microsoft Copilot Studio **Parameters** tab, add the following output parameters and variables.
 
     |    |    |    |
     |:-----|:----|:------|
@@ -102,25 +101,25 @@ flow when a customer asks about the weather.
     
     >[!Note] **Note:** Select **Add dynamic content**, click on **See more** next to **Get forecast for today** to see the above variable options
 
-   ![](./media/image17.png)
+    ![](./media/image17.png)
 
-   ![](./media/image18.png)
+    ![](./media/image18.png)
 
-   ![](./media/image19.png)
+    ![](./media/image19.png)
 
 12. Click on **Save Draft** to save the flow.
 
-   ![](./media/image20.png)
+    ![](./media/image20.png)
 
 13. Look for a success message as in the screenshot below.
 
-   ![](./media/image21.png)
+    ![](./media/image21.png)
 
 14. Click on **Publish** and look for a success message.
 
-   ![](./media/image22.png)
+    ![](./media/image22.png)
 
-   ![](./media/image23.png)
+    ![](./media/image23.png)
 
 **Exercise 3: Turn off asynchronous responses in the flow**
 
