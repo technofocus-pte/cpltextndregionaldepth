@@ -45,70 +45,77 @@ Lab duration – 15 minutes
 1.  Login to +++**https://copilotstudio.microsoft.com/**+++ using your
     tenant credentials.
 
-2.  Sign in with the **Office 365 Tenant Credentials** provided under
-    the **Resources** tab of your Lab VM.
+2.  Sign in with the **Credentials** provided under the **Resources** tab of your Lab VM.
 
-    ![](./media/image5.png)
+    ![](./media/image28.png)
 
-3.  Once logged in, the Welcome to Microsoft Copilot Studio page, select
-    your Country and click on **Start free trial**.
+3.  Once logged in, the Welcome to Microsoft Copilot Studio page, leave the country as **United States** and click on **Get Started**.
 
     ![](./media/image7.png)
 
-4.  The Copilot Studio Home page opens.
+4.	Select **Skip** in the **Welcome** screen.
+
+    ![](./media/image25.png)
+
+5.  The Copilot Studio **Home** page opens.
 
     ![](./media/image8.png)
 
-    >[!Note] **Note:** Select Skip if Welcome screen appears.
+    >[!Note] **Note:** If the Copilot creation page opens up automatically, click on the 3 dots next to **Create** in the top right and click on **Cancel copilot creation** and click on **Leave** in the confirmation dialog.
     >
-    >![](./media/image25.png)
+    >![](./media/image29.png)
+    >
+    >![](./media/image30.png)
     
-5.	Select **Copilots** from the left pane
+6.	From the Home screen’s left pane, select **Copilots**.
 
     ![](./media/image26.png)
   	
-6.  Select **Copilot for Microsoft 365**.
+7.  Select **Copilot for Microsoft 365**.
 
-    ![](./media/image9.png)
+    ![](./media/image31.png)
 
-7.  Select **Actions**.
+8.  Select **Extensions**.
 
-    ![](./media/image10.png)
+    ![](./media/image32.png)
 
-8.  Select **+ Add action**.
+9.  Select **+ Add Extension**.
 
-    ![](./media/image11.png)
+    ![](./media/image33.png)
 
-9.  Select **Conversational** in the **New action** pane.
+10.	Select **New action**.
+    
+    ![](./media/image34.png)
+   	
+11.  Select **Conversational** in the **New action** pane.
 
     ![](./media/image12.png)
 
-10.  Provide the name for the action as +++**Conversational action**+++. Select **Create**.
+12.  Provide the name for the action as +++**Conversational action**+++. Select **Create**.
 
      ![](./media/image27.png)
 
-11. Once ready, the created action opens in Authoring canvas. Select **Topics**.
+13. Once ready, the created action opens in Authoring canvas. Select **Topics**.
 
-    ![](./media/image15.png)
+    ![](./media/image35.png)
 
-12. Name the topic as +++Holidaylist+++
+14. Name the topic as +++Holidaylist+++
 
     ![](./media/image16.png)
 
-13. In the Trigger node’s description, provide a clear description of
+15. In the Trigger node’s description, provide a clear description of
     how the conversational plugin can help the user and what it can
     do. Let this topic help the user to find the list of holidays in the
     year 2024.
 
-    Type +++**This plugin helps to retrieve the list of holidays for the
-    year 2024.**+++ in the Trigger node’s description.
+    Type +++**This plugin helps to retrieve the list of holidays for the year 2024.**+++ in the Trigger node’s description.
 
     ![](./media/image17.png)
 
     This description has functional purpose and is used by the Microsoft
     Copilot to determine whether to invoke your plugin or not.
 
-14. Add a **message node** with the list of holidays.
+16. Add a **message node** with the list of holidays.
 
     ```
     - New Year's Day - January 1
@@ -138,7 +145,7 @@ Lab duration – 15 minutes
     ```
     ![](./media/image18.png)
 
-15. Click on **Save** to save the action.
+16. Click on **Save** to save the action.
 
     ![](./media/image19.png)
 
@@ -155,7 +162,7 @@ Lab duration – 15 minutes
 
     ![](./media/image21.png)
 
-3.  Select **Publish.**
+3.  Select **Publish**.
 
     ![](./media/image22.png)
 
