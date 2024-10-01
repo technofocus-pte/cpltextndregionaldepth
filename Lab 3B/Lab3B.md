@@ -209,17 +209,15 @@ setting.
 10.  Select **Add node** (**+**) under the **Zipcode** question node.
      In the node selection window, select **Call an action**, and then select the flow you created earlier, **Get weather forecast**.
 
-    ![](./media/image35.png)
+     ![](./media/image35.png)
 
-11. Assign the flow inputs to the output variables from the question
-    nodes. **City (text)** gets its value from the variable **city** and
-    **Zipcode (number)** gets its value from the variable **Zipcode**.
+11. Assign the flow inputs to the output variables from the question nodes. **City (text)** gets its value from the variable **city** and **Zipcode (number)** gets its value from the variable **Zipcode**.
 
     ![](./media/image36.png)
 
 12. Under the flow node, add a **Message** node, and then enter a message that uses the flow's outputs as below.
 
-    +++Today's forecast for+++ <Select X and choose location> +++:+++  <Select X and choose day_summary> +++Chance of rain is+++ <Select X and choose chance_of_rain.>+++
+    +++Today's forecast for+++ < Select X and choose location > +++:+++  < Select X and choose day_summar y> +++Chance of rain is+++ < Select X and choose chance_of_rain. >+++
     
    ![](./media/image37.png)
 
@@ -229,9 +227,7 @@ setting.
 
 ## Exercise 5: Test your flow and topic
 
-1.  In **Test your Copilot**, type +++**get weather**+++ and click send.
-    Give the City as +++**Redmond**+++ and **Zipcode** as
-    +++**98004**+++ as per the questions from the copilot.
+1.  In **Test your Copilot**, type +++**get weather**+++ and click send. Give the City as +++**Redmond**+++ and **Zipcode** as +++**98004**+++ as per the questions from the copilot.
 
     ![](./media/image39.png)
 
