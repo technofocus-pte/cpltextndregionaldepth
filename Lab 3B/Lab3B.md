@@ -189,29 +189,37 @@ setting.
 
 7.  Add the question +++**What is your city?**+++
 
-    [TABLE]
+    |  **Property**  |  **Value**  |
+    |:----------|:----------|
+    |  Question  |  +++What is your city?+++  |
+    |  Identify  |   Select **User’s entire response** |
+    |  Save Response as  | Click on **Var1** to open the Variable properties tab and provide the variable name as +++**city**+++   |
 
     ![](./media/image33.png)
 
-8.  Add another question node and provide the following details.
+9.  Add another question node and provide the following details.
 
-    [TABLE]
+    |  **Property**  |  **Value**  |
+    |:----------|:----------|
+    |  Question  |  +++What is your Zipcode?+++  |
+    |  Identify  |   Select **Number** |
+    |  Save Response as  | Click on **Var1** to open the Variable properties tab and provide the variable name as +++**Zipcode**+++   |
 
     ![](./media/image34.png)
 
-9.  Select **Add node** (**+**) under the **Zipcode** question node.
+10.  Select **Add node** (**+**) under the **Zipcode** question node.
 
     In the node selection window, select **Call an action**, and then select the flow you created earlier, **Get weather forecast**.
 
     ![](./media/image35.png)
 
-10. Assign the flow inputs to the output variables from the question
+11. Assign the flow inputs to the output variables from the question
     nodes. **City (text)** gets its value from the variable **city** and
     **Zipcode (number)** gets its value from the variable **Zipcode**.
 
     ![](./media/image36.png)
 
-11. Under the flow node, add a **Message** node, and then enter a
+12. Under the flow node, add a **Message** node, and then enter a
     message that uses the flow's outputs as below.
 
     +++Today's forecast for+++ <Select X and choose location> +++:+++  <Select X and choose day_summary> +++Chance of rain is+++ <Select X and choose chance_of_rain.>+++
@@ -230,7 +238,7 @@ setting.
 
     ![](./media/image39.png)
 
-1.  After sending the Zipcode, your flow will be invoked and the weather
+2.  After sending the Zipcode, your flow will be invoked and the weather
     details of the specific region is provided by the copilot.
 
     ![](./media/image40.png)
