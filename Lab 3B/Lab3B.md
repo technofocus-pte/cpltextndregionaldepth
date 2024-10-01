@@ -121,21 +121,13 @@ flow when a customer asks about the weather.
 
     ![](./media/image23.png)
 
-**Exercise 3: Turn off asynchronous responses in the flow**
+## **Exercise 3: Turn off asynchronous responses in the flow**
 
-    Flows that you want to use in a bot must return values in real time, or synchronously.
-Flows that run in the background, or asynchronously, may cause an error
-when your bot tries to run them. Instead of running the flow, the bot
-will say, "Something unexpected happened. We're looking into it. Error
-code: 3000."
+Flows that you want to use in a bot must return values in real time, or synchronously. Flows that run in the background, or asynchronously, may cause an error when your bot tries to run them. Instead of running the flow, the bot will say, "Something unexpected happened. We're looking into it. Error code: 3000."
 
-    When you create a flow from Microsoft Copilot Studio, **asynchronous
-responses** are turned off by default. If you modified an existing flow
-that has asynchronous responses turned on, you'll need to change the
-setting.
+When you create a flow from Microsoft Copilot Studio, **asynchronous responses** are turned off by default. If you modified an existing flow that has asynchronous responses turned on, you'll need to change the setting.
 
-1.  Select the **Settings** tab in the **Return value(s) to Power
-    Virtual Agents** pane.
+1.  Select the **Settings** tab in the **Return value(s) to Power Virtual Agents** pane.
 
     ![](./media/image24.png)
 
@@ -145,8 +137,7 @@ setting.
 
 ## Exercise 4: Call a flow from a topic
 
-1.  Go back to Microsoft Copilot Studio page, select **Done** on **Save
-    & refresh** pop up.
+1.  Go back to Microsoft Copilot Studio page, select **Done** on **Save & refresh** pop up.
 
     ![](./media/image26.png)
 
@@ -154,8 +145,7 @@ setting.
 
     ![](./media/image27.png)
 
-3.  Name the topic as +++**Get weather**+++. Click on **Edit** under
-    Phrases to add in the Trigger phrases.
+3.  Name the topic as +++**Get weather**+++. Click on **Edit** under Phrases to add in the Trigger phrases.
 
     ![](./media/image28.png)
 
