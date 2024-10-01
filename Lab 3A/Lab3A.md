@@ -9,45 +9,39 @@ testing your first copilot to handle a common customer request.
 
 ### **Task 1: Sign in to create a copilot**
 
-1.  From a browser, open the url -
-     +++https://copilotstudio.microsoft.com/+++.
+1.  From a browser, open the url - +++https://copilotstudio.microsoft.com/+++.
 
-2.  Sign in with the Office 365 Tenant Credentials provided under the
-    **Resources** tab of your Lab VM.
+2.  Sign in with the credentials provided under the **Resources** tab of your Lab VM.
 
-3.  Select Copilots from the left pane. And then click on **+ New
+   ![](./media/image56.png)
+
+4.  Select Copilots from the left pane. And then click on **+ New
     copilot**.
 
      ![](./media/image3.png)
 
-4.  Select **Skip to configure**.
+5.  Select **Skip to configure**.
 
      ![](./media/image4.png)
 
-5.  On the Create a copilot page, enter the **name** as +++**Customer
+6.  On the Create a copilot page, enter the **name** as +++**Customer
     service+++** and click on **Create**.
 
      ![](./media/image5.png)
 
-6.  Click on **Create**.
+7.  Click on **Create**.
 
      ![](./media/image6.png)
 
-7.  Wait for the Copilot to get created.
+8.  Wait for the Copilot to get created.
 
-8.  Click on **Skip** on the Welcome to Copilot Studio dialog.
-
-     ![](./media/image7.png)
-
-9.  Click on **Copilots** from the left pane.
+9.	If you are not on the **CustomerService** copilot page, click on **Copilots** from the left pane.
 
      ![](./media/image8.png)
 
-10. Click on **Customer service**.
+11. Click on **Customer service**.
 
-     >[!Note] **Note:** If the page does not get refreshed automatically, open the url
-+++https://copilotstudio.microsoft.com/+++ again to get the created
-copilot listed in the Copilot Studio.
+    >[!Note] **Note:** If the page does not get refreshed automatically, open the url +++https://copilotstudio.microsoft.com/+++ again to get the created copilot listed in the Copilot Studio.
 
     ![](./media/image9.png)
 
@@ -75,19 +69,17 @@ included when you create a new bot.
     bottom of the Test copilot, type: +++**Hello**+++ and then select
     the **Send** button.
 
-     ![](./media/image13.png)
+    ![](./media/image13.png)
 
-     The copilot offers a greeting in the Test copilot pane.
+    The copilot offers a greeting in the Test copilot pane.
 
-     Additionally, the Topics page opens (no matter which page you were on before) and you can see the greeting topic open in the authoring canvas window, with green outline and a checkmark added for each part of the conversation design when it's used in the test chat. (This is what the Tracking feature does; if you didn't turn this on, you don't see any changes to the page selection and you see the green highlights in the greeting topic only if you already opened it from the Topics page.)
+    Additionally, the Topics page opens (no matter which page you were on before) and you can see the greeting topic open in the authoring canvas window, with green outline and a checkmark added for each part of the conversation design when it's used in the test chat. (This is what the Tracking feature does; if you didn't turn this on, you don't see any changes to the page selection and you see the green highlights in the greeting topic only if you already opened it from the Topics page.)
 
-     ![](./media/image14.png)
+    ![](./media/image14.png)
 
-     >[!Note] **Note:** If there is a prompt which gives you the option to select
-Allow/Block Copilot from seeing the copied text and images, click on
-Allow.
-
-     ![](./media/image15.png)
+   >[!Note] **Note:** If there is a prompt which gives you the option to select Allow/Block Copilot from seeing the copied text and images, click on **Allow**.
+   >
+   >![](./media/image15.png)
 
 4.  In the Test copilot, enter the following message and
     press Send +++**stores near me**+++.
@@ -144,11 +136,7 @@ Lessons as they were written if you want to.
 
      ![](./media/image22.png)
 
-4.  Click on **Save** in the pop up.
-
-     ![](./media/image23.png)
-
-     Let's imagine you opened a new store in Bellevue. To add the store info to your copilot, you need to edit the topic design in the authoring canvas. The authoring canvas contains all the text and logic for the conversation about store locations. At the top, you see a reminder of the trigger phrases, which are added and edited on the **Setup** page.
+4. Let's imagine you opened a new store in Bellevue. To add the store info to your copilot, you need to edit the topic design in the authoring canvas. The authoring canvas contains all the text and logic for the conversation about store locations. At the top, you see a reminder of the trigger phrases, which are added and edited on the **Setup** page.
 
 5.  Scroll down the page to see the conversation design.
 
@@ -157,15 +145,15 @@ Lessons as they were written if you want to.
 6.  Scroll to the Question node that asks "Which location are you
     interested in?" We're going to add another option here.
 
-     >[!Note] **Note:** If the already existing nodes has got **Incompatible type comparison error**, click on the **Object** field and select one location in a node(based on the location in the corresponding Message node), ensuring that all the 3 existing locations are available in one condition node.
-
-     ![](./media/image24.png)
+    >[!Note] **Note:** If the already existing nodes has got **Incompatible type comparison error**, click on the **Object** field and select one location in a node(based on the location in the corresponding Message node), ensuring that all the 3 existing locations are available in one condition node.
+    >
+    >![](./media/image24.png)
 
 7.  Under "Redmond" "Seattle" "Kirkland," select **+ New option**.
 
      ![](./media/image25.png)
 
-A new **Condition** node is added under the Question node.
+     A new **Condition** node is added under the Question node.
 
 8.  In the Question node (**NOT** in the Condition node),
     type +++**Bellevue**+++ in the newly added empty box under **Options
@@ -175,12 +163,9 @@ A new **Condition** node is added under the Question node.
 
      ![](./media/image26.png)
 
-     >[!Note] **Note**
+     >[!Note] **Note:** The **Options for user** section controls what buttons are visible to users in the chat window, and always need to be matched with a condition, or the button won't work. The Conditions, however, can handle the user typing something that is not shown in a button. So for instance if you wereto delete the Bellevue **Options for user** button, it would not delete the Bellevue Condition node, which would be used if the user types "Bellevue" when asked for a location.
      
-     The **Options for user** section controls what buttons are visible to users in the chat window, and always need to be matched with a condition, or the button won't work. The Conditions, however, can handle the user typing something that is not shown in a button. So for instance if you wereto delete the Bellevue **Options for user** button, it would not delete the Bellevue Condition node, which would be used if the user types "Bellevue" when asked for a location.
-
-     Now tell the copilot what message to display if the user
-selects **Bellevue**.
+     Now tell the copilot what message to display if the user selects **Bellevue**.
 
 9.  Select the **+ icon** underneath the Bellevue condition node.
 
@@ -192,16 +177,13 @@ selects **Bellevue**.
 
 This adds a new Message node connected to the Bellevue condition.
 
-11. In the Message node, enter the store location info: +++Our Bellevue
-    store is in 1234 Bellevue Way, Bellevue, WA 98123+++.
+11. In the Message node, enter the store location info: +++Our Bellevue store is in 1234 Bellevue Way, Bellevue, WA 98123+++.
 
      ![](./media/image29.png)
 
-     >[!Note] **Note**
- 
-     You can format the message text using the formatting buttons that appear while you're typing. You can even replace the name of the location with the value of the pva_StoreLocation variable by using the {*x*} control.
-
-     You're now going to end the conversation. Since the conversation ends the same way no matter which location the user chose, we're going to link to a shared **End of conversation** node. This node starts the **End of conversation** system topic.
+    >[!Note] **Note:** You can format the message text using the formatting buttons that appear while you're typing. You can even replace the name of the location with the value of the pva_StoreLocation variable by using the {*x*} control.
+    >
+    >You're now going to end the conversation. Since the conversation ends the same way no matter which location the user chose, we're going to link to a shared **End of conversation** node. This node starts the **End of conversation** system topic.
 
 12. First, zoom out if necessary to see the **End of conversation** node
     on your screen. (**Zoom out** is in the utility bar on the left of
@@ -285,61 +267,71 @@ activate the copilot for your real customers.
 
      ![](./media/image43.png)
 
-4.  Ensure that the option for **No authentication** is selected. If not
-    select it and click on **Save** (confirming that you want to enable
-    access to the copilot for anyone).
+4.  Ensure that the option for **No authentication** is selected. If not select it and click on **Save** (confirming that you want to enable access to the copilot for anyone).
 
      ![](./media/image44.png)
 
-5.  **Close** the Settings pane.
+5.	Select **Save** in the Save this configuration? Dialog.
 
-     ![](./media/image45.png)
+      ![](./media/image57.png)
 
-6.  Click on **Channels**.
+6.  **Close** the Settings pane.
+
+     ![](./media/image58.png)
+
+7.  Click on **Channels**.
 
      ![](./media/image46.png)
 
-7.  At the top of the page, select **Publish**. ![A screenshot of a
-    computer Description automatically (./media/image47.png)
+8.  At the top of the page, select **Publish**.
 
-8.  On the **Publish** page, select **Publish**, and publish your
+    ![](./media/image47.png)
+
+9.  On the **Publish** page, select **Publish**, and publish your
     copilot. Publishing will take a minute or so.
 
      ![](./media/image48.png)
 
      ![](./media/image49.png)
 
-9.  You see a message at the top of the screen when publishing is
+10.  You see a message at the top of the screen when publishing is
     complete.
 
      ![](./media/image50.png)
 
-10. After your copilot has been published, verify the **Publish
+11. After your copilot has been published, verify the **Publish
     status** on the **Channels** page.
 
      ![](./media/image51.png)
 
-11. Select the **Demo website** channel. This is an appropriate channel
+12. Select the **Demo website** channel. This is an appropriate channel
     for users to test your copilot.
 
      ![](./media/image52.png)
 
-12. In the Demo website pane, enter the Welcome message as +++**Ask me
-    about the Stores**+++ Select **Save**.
+13.	Click on the **Start free trial** option.
+
+     ![](./media/image59.png)
+
+14.	Click on the **Demo website** option again.
+
+     ![](./media/image60.png)
+
+16. In the Demo website pane, enter the Welcome message as +++**Ask me about the Stores**+++ Select **Save**.
 
      ![](./media/image53.png)
 
-13. Click on **Copy** to copy the link to your copilot demo website to
+17. Click on **Copy** to copy the link to your copilot demo website to
     the clipboard.
 
      ![](./media/image54.png)
 
-14. In a new browser tab, navigate to the URL you copied to open the
+18. In a new browser tab, navigate to the URL you copied to open the
     demo website, which should look similar to this.
 
      ![](./media/image55.png)
 
-15. You can share the URL of the **demo website** with your team.
+19. You can share the URL of the **demo website** with your team.
 
 **Summary:**
 
