@@ -31,10 +31,10 @@ can generate conversational responses, if there's no matching topic.
     ![](./media/image4.png)
 
 6.  Enter +++**https://www.microsoft.com/en-us/store/**+++ under
-    **Webpage link** and click on **Add**. This will be the website that
+    **Public website link** and click on **Add**. This will be the website that
     the copilot will use for generating answers.
 
-    ![](./media/image5.png)
+    ![](./media/image13.png)
 
 7.  Click on **Add**.
 
