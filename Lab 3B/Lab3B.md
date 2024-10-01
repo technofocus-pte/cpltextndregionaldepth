@@ -207,8 +207,7 @@ setting.
     ![](./media/image34.png)
 
 10.  Select **Add node** (**+**) under the **Zipcode** question node.
-
-    In the node selection window, select **Call an action**, and then select the flow you created earlier, **Get weather forecast**.
+     In the node selection window, select **Call an action**, and then select the flow you created earlier, **Get weather forecast**.
 
     ![](./media/image35.png)
 
@@ -218,8 +217,7 @@ setting.
 
     ![](./media/image36.png)
 
-12. Under the flow node, add a **Message** node, and then enter a
-    message that uses the flow's outputs as below.
+12. Under the flow node, add a **Message** node, and then enter a message that uses the flow's outputs as below.
 
     +++Today's forecast for+++ <Select X and choose location> +++:+++  <Select X and choose day_summary> +++Chance of rain is+++ <Select X and choose chance_of_rain.>+++
     
