@@ -89,7 +89,7 @@ Lab duration – 15 minutes
    	
 11.  Select **Conversational** in the **New action** pane.
 
-    ![](./media/image12.png)
+     ![](./media/image12.png)
 
 12.  Provide the name for the action as +++**Conversational action**+++. Select **Create**.
 
