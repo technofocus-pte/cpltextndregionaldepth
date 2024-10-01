@@ -13,33 +13,32 @@ testing your first copilot to handle a common customer request.
 
 2.  Sign in with the credentials provided under the **Resources** tab of your Lab VM.
 
-   ![](./media/image56.png)
+    ![](./media/image56.png)
 
-4.  Select Copilots from the left pane. And then click on **+ New
-    copilot**.
+3.  Select Copilots from the left pane. And then click on **+ New copilot**.
 
      ![](./media/image3.png)
 
-5.  Select **Skip to configure**.
+4.  Select **Skip to configure**.
 
      ![](./media/image4.png)
 
-6.  On the Create a copilot page, enter the **name** as +++**Customer
+5.  On the Create a copilot page, enter the **name** as +++**Customer
     service+++** and click on **Create**.
 
      ![](./media/image5.png)
 
-7.  Click on **Create**.
+6.  Click on **Create**.
 
      ![](./media/image6.png)
 
-8.  Wait for the Copilot to get created.
+7.  Wait for the Copilot to get created.
 
-9.	If you are not on the **CustomerService** copilot page, click on **Copilots** from the left pane.
+8.	If you are not on the **CustomerService** copilot page, click on **Copilots** from the left pane.
 
      ![](./media/image8.png)
 
-11. Click on **Customer service**.
+9. Click on **Customer service**.
 
     >[!Note] **Note:** If the page does not get refreshed automatically, open the url +++https://copilotstudio.microsoft.com/+++ again to get the created copilot listed in the Copilot Studio.
 
@@ -47,7 +46,7 @@ testing your first copilot to handle a common customer request.
 
 ### **Task 2: Take a quick tour of the user interface**
 
-     ![](./media/image10.png)
+   ![](./media/image10.png)
 
 ### **Task 3: Try out a conversation in the Test Copilot pane (Hello!)**
 
@@ -77,9 +76,9 @@ included when you create a new bot.
 
     ![](./media/image14.png)
 
-   >[!Note] **Note:** If there is a prompt which gives you the option to select Allow/Block Copilot from seeing the copied text and images, click on **Allow**.
-   >
-   >![](./media/image15.png)
+    >[!Note] **Note:** If there is a prompt which gives you the option to select Allow/Block Copilot from seeing the copied text and images, click on **Allow**.
+    >
+    >![](./media/image15.png)
 
 4.  In the Test copilot, enter the following message and
     press Send +++**stores near me**+++.
@@ -175,7 +174,7 @@ Lessons as they were written if you want to.
 
      ![](./media/image28.png)
 
-This adds a new Message node connected to the Bellevue condition.
+    This adds a new Message node connected to the Bellevue condition.
 
 11. In the Message node, enter the store location info: +++Our Bellevue store is in 1234 Bellevue Way, Bellevue, WA 98123+++.
 
