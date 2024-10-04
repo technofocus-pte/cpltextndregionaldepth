@@ -17,7 +17,7 @@ Microsoft 365
 
 1.  If you have a Microsoft 365 tab open in your Edge browser, then
     select it now; otherwise, open a new tab and enter the following
-    URL: +++https://portal.office.com+++
+    URL: +++https://portal.office.com/+++
 
 2.  Use the **Microsoft 365 Credentials** provided under Azure Portal
     section in the **Resources tab** on the right (see screenshot) to
