@@ -2,18 +2,13 @@
 
 ## Log into your Lab Virtual Machine
 
-    On the Log-in screen, select **Admin** account in the lower left
-    corner of the screen to sign-in to the lab virtual machine using the
-    credentials provided under **Win 11 Base23B-22H2** in the **Resources
-    tab** on the right (see screenshot).
+On the Log-in screen, select **Admin** account in the lower left corner of the screen to sign-in to the lab virtual machine using the credentials provided under **Win 11 Base23B-22H2** in the **Resources tab** on the right (see screenshot).
 
-    **Note**: Do not use the **Student** login.
+**Note**: Do not use the **Student** login.
 
-    ![A screenshot of a computer Description automatically
-generated](./media/image1.png)
+![A screenshot of a computer Description automatically generated](./media/image1.png)
 
-    Complete setting up Microsoft 365 subscription and access Copilot for
-    Microsoft 365
+Complete setting up Microsoft 365 subscription and access Copilot for Microsoft 365.
 
 1.  If you have a Microsoft 365 tab open in your Edge browser, then
     select it now; otherwise, open a new tab and enter the following
