@@ -23,14 +23,14 @@ Microsoft 365
     section in the **Resources tab** on the right (see screenshot) to
     sign-in.
 
-> ![A screenshot of a computer Description automatically
-> generated](./media/image2.png)
->
-> ![A screenshot of a computer Description automatically
-> generated](./media/image3.png)
->
-> You will now be able to access all the Microsoft 365 applications and
-> will have access to Copilot for Microsoft 365.
+    [A screenshot of a computer Description automatically
+generated](./media/image2.png)
+
+    ![A screenshot of a computer Description automatically
+generated](./media/image3.png)
+
+    You will now be able to access all the Microsoft 365 applications and
+    will have access to Copilot for Microsoft 365.
 
 ## Access and launch Microsoft 365 applications
 
