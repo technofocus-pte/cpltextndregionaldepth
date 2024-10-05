@@ -224,8 +224,8 @@ create a draft of your presentation:
     URL: **[https://www.office.com](https://www.office.com/)** to go to
     **Microsoft 365** home page.
 
-> **Note**: You need to sign-in (if prompted) using the **Microsoft 365
-> Credentials** provided under the **Resources tab** on the right.
+    **Note**: You need to sign-in (if prompted) using the **Microsoft 365
+    Credentials** provided under the **Resources tab** on the right.
 
 2.  On the **Microsoft 365** navigation pane, select **Word** to open
     the Word file page.
@@ -234,23 +234,20 @@ create a draft of your presentation:
     files and select **Fabrikam 2023 Financial presentation.docx** to
     open it in a new tab in your Microsoft Edge browser.
 
-> <img src="./media/image16.png" style="width:6.26806in;height:2.95486in"
-> alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image16.png)
 
 4.  Copy the URL of the document by selecting the **Share** button in
     the upper-right corner, above the ribbon and selecting **Copy
     Link** from the drop-down menu that appears.
 
-> <img src="./media/image17.png" style="width:6.26806in;height:2.85069in"
-> alt="A screenshot of a computer Description automatically generated" />
->
-> **Note**: You may occasionally come across trouble using the URL from
-> your address bar. Copy the link from the Share tray for best results
+    ![](./media/image17.png)
+
+    **Note**: You may occasionally come across trouble using the URL from
+    your address bar. Copy the link from the Share tray for best results
 
 5.  Close the **Link copied** dialog box that appears in Word.
 
-> <img src="./media/image18.png" style="width:6.26806in;height:3.26042in"
-> alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image18.png)
 
 6.  Close this document tab in your Microsoft Edge browser. This return
     you to the **Word \| Microsoft 365** tab.
@@ -258,51 +255,45 @@ create a draft of your presentation:
 7.  On the Word file page, select the **PowerPoint** icon in the **App
     Launcher** pane on the top left.
 
-> <img src="./media/image19.png"
-> style="width:5.22778in;height:4.43681in" />
+    ![](./media/image19.png)
 
 8.  In **PowerPoint**, open a new blank presentation.
 
 9.  Select the **Copilot** icon (in red highlight as shown in the
     screenshot)
 
-> <img src="./media/image20.png"
-> style="width:4.95585in;height:2.46282in" />
->
-> <img src="./media/image21.png" style="width:4.54803in;height:2.67309in"
-> alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image20.png)
+
+    ![](./media/image21.png)
 
 10. In the **Copilot** pane that appears, several predefined prompts are
     available for you to choose from.
 
 11. Select the **Create presentation from file** prompt.
 
-> **Note**: In the prior exercise, you linked a file into a prompt by
-> selecting the file from the MRU list. In this exercise, you will gain
-> experience linking a file into a prompt using another method.
->
-> <img src="./media/image22.png" style="width:4.94073in;height:2.29027in"
-> alt="A screenshot of a computer Description automatically generated" />
+    **Note**: In the prior exercise, you linked a file into a prompt by
+    selecting the file from the MRU list. In this exercise, you will gain
+    experience linking a file into a prompt using another method.
+
+    ![](./media/image122.png)
 
 12. Above the prompt field at the bottom of the **Copilot** pane,
     a **Suggestions** window will appear that contains the three most
     recently used files.
 
-> Normally, the **Fabrikam 2023 Financial presentation.docx** that you
-> created in the previous exercise will appear in the MRU list. If it
-> did not, you must paste the link (you copied in step 5) to the file
-> into the prompt field.
->
-> <img src="./media/image23.png" style="width:3.23628in;height:2.78029in"
-> alt="A screenshot of a computer Description automatically generated" />
+    Normally, the **Fabrikam 2023 Financial presentation.docx** that you
+    created in the previous exercise will appear in the MRU list. If it
+    did not, you must paste the link (you copied in step 5) to the file
+    into the prompt field.
+
+     ![](./media/image23.png)
 
 13. In the prompt field, Copilot automatically types in **Create
     presentation from file /**. Place your cursor after the forward
     slash and enter **Ctrl+V** to paste the link to this document into
     the prompt.
 
-> <img src="./media/image24.png" style="width:5.60066in;height:3.19373in"
-> alt="A screenshot of a computer Description automatically generated" />
+     ![](./media/image24.png)
 
 14. Select the **Send** icon.
 
@@ -312,32 +303,29 @@ create a draft of your presentation:
     These features may include speaker notes, images, layouts to
     organize slides, and a General sensitivity label.
 
-> <img src="./media/image25.png" style="width:5.53483in;height:2.55953in"
-> alt="A screenshot of a computer Description automatically generated" />
+     ![](./media/image25.png)
 
 16. You're now free to review the slides and make any necessary updates.
     You can use the **Designer** tool to adjust the layouts.
 
-> <img src="./media/image26.png" style="width:5.48768in;height:3.24908in"
-> alt="A screenshot of a computer Description automatically generated" />
+     ![](./media/image26.png)
 
 17. As you review the slides, be on the lookout for references to "the
     speaker" or any other items that you may need to change.
-    <img src="./media/image27.png" style="width:5.39563in;height:2.89748in"
-    alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image27.png)
 
-> Warning: Look out for the reference to "The speaker" along with the
-> second sentence that begins with "The presentation will summarize...".
-> that may be created by Copilot.
->
-> **Example**: The speaker introduces a presentation on Fabrikam's 2023
-> income statement highlights, reporting strong performance and growth
-> despite challenges from the global pandemic and competitive market.
-> The presentation will summarize the main results and explain how they
-> align with the company's strategic vision and goals.
->
-> You should remove these types of references as they're more applicable
-> as speaker notes rather than text intended for audiences.
+    Warning: Look out for the reference to "The speaker" along with the
+    second sentence that begins with "The presentation will summarize...".
+    that may be created by Copilot.
+
+    **Example**: The speaker introduces a presentation on Fabrikam's 2023
+    income statement highlights, reporting strong performance and growth
+    despite challenges from the global pandemic and competitive market.
+    The presentation will summarize the main results and explain how they
+    align with the company's strategic vision and goals.
+
+    You should remove these types of references as they're more applicable
+    as speaker notes rather than text intended for audiences.
 
 18. Review the speaker notes that Copilot added to the presentation.
     Verify they call out the points that you want to make during the
@@ -346,19 +334,18 @@ create a draft of your presentation:
 19. Try using Copilot to update the presentation. For example, enter the
     following prompt:
 
-> **Add a new slide after slide 1. This slide should have an image of a
-> mountain peak in the Alps. Towards the bottom of the slide, add a text
-> box that says: Fabrikam's company motto - "We overcome every
-> obstacle." Add speaker notes to this new slide that talk about how
-> Fabrikam works diligently to solve every customer's request, never
-> letting any obstacle stand in its way of success**.
->
-> <img src="./media/image28.png" style="width:5.31122in;height:2.17898in"
-> alt="A screenshot of a computer Description automatically generated" />
+    +++**Add a new slide after slide 1. This slide should have an image of a
+    mountain peak in the Alps. Towards the bottom of the slide, add a text
+    box that says: Fabrikam's company motto - "We overcome every
+    obstacle." Add speaker notes to this new slide that talk about how
+    Fabrikam works diligently to solve every customer's request, never
+    letting any obstacle stand in its way of success**+++
 
-Review the new slide that was created. While the remaining lab exercises
-don't use this presentation, you can either discard it or save it if you
-want for future reference.
+     ![](./media/image28.png)
+
+    Review the new slide that was created. While the remaining lab exercises
+    don't use this presentation, you can either discard it or save it if you
+    want for future reference.
 
 ## Summary
 
