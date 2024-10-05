@@ -9,8 +9,7 @@ tab** on the right (see screenshot).
 
 **Note**: Do not use the **Student** login.
 
-<img src="./media/image1.png"
-style="width:6.26806in;height:3.26574in" />
+     ![](./media/image1.png)
 
 ## Complete setting up Microsoft 365 subscription and access Copilot for Microsoft 365
 
@@ -22,11 +21,9 @@ style="width:6.26806in;height:3.26574in" />
     section in the **Resources tab** on the right (see screenshot) to
     sign-in.
 
-<img src="./media/image2.png"
-> style="width:6.28648in;height:2.66456in" />
+    ![](./media/image2.png)
 
-<img src="./media/image3.png" style="width:4.55021in;height:4.44391in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image3.png)
 
 You will now be able to access all the Microsoft 365 applications and
 will have access to Copilot for Microsoft 365.
@@ -45,26 +42,24 @@ different than the one mentioned above.**
 
 1.  To launch an application from **View more Apps:**
 
-In the navigation pane on the lower left, select **View more
-Apps** (ellipsis **…** icon) 🡪 Apps to select and open the office
-applications you need to work with.
+    In the navigation pane on the lower left, select **View more
+    Apps** (ellipsis **…** icon) 🡪 Apps to select and open the office
+    applications you need to work with.
 
-<img src="./media/image4.png"
-style="width:5.36736in;height:3.68681in" />
+     ![](./media/image4.png)
 
 2.  To launch an application from **App launcher**:
 
-The Microsoft 365 app launcher is a menu of apps and services that you
-are licensed for, and opens when you select the app launcher icon on
-Microsoft365 page. The App launcher makes opening and switching
-between your apps easy by highlighting your recently used apps, and
-providing quick access to your recent online Office documents.
+    The Microsoft 365 app launcher is a menu of apps and services that you
+    are licensed for, and opens when you select the app launcher icon on
+    Microsoft365 page. The App launcher makes opening and switching
+    between your apps easy by highlighting your recently used apps, and
+    providing quick access to your recent online Office documents.
 
-<img src="./media/image5.png" style="width:5.52239in;height:3.33326in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image5.png)
 
-**Note**: If you do not find an application in the pop-up, then
-select **More apps** icon to select the same.
+    **Note**: If you do not find an application in the pop-up, then
+    select **More apps** icon to select the same.
 
 ## Upload lab assets to OneDrive
 
@@ -80,17 +75,14 @@ account. You can't link to a locally stored file on your PC.
 2.  Browse to the **C:\LabFiles** folder to select and upload a copy of
     the document(s) to OneDrive.
 
-**Note**: You can either choose to upload a copy of all the documents
-or the document(s) related to the particular lab.
+    **Note**: You can either choose to upload a copy of all the documents
+    or the document(s) related to the particular lab.
 
-<img src="./media/image6.png" style="width:4.92863in;height:4.31214in"
-alt="A screenshot of a computer Description automatically generated" />
+     ![](./media/image6.png)
 
-<img src="./media/image7.png" style="width:4.87499in;height:3.46316in"
-alt="A screenshot of a computer Description automatically generated" />
+     ![](./media/image7.png)
 
-<img src="./media/image8.png" style="width:4.53395in;height:2.85469in"
-alt="A screenshot of a computer Description automatically generated" />
+     ![](./media/image8.png)
 
-Now you will have the document(s) in **OneDrive** to work
-with **Copilot for Microsoft 365** labs.
+    Now you will have the document(s) in **OneDrive** to work
+    with **Copilot for Microsoft 365** labs.
