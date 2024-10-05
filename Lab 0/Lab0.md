@@ -2,12 +2,12 @@
 
 ## Log into your Lab Virtual Machine
 
-On the Log-in screen, select **Admin** account in the lower left
-corner of the screen to sign-in to the lab virtual machine using the
-credentials provided under **PL-500T00A-LON-CL1** in the **Resources
-tab** on the right (see screenshot).
+    On the Log-in screen, select **Admin** account in the lower left
+    corner of the screen to sign-in to the lab virtual machine using the
+    credentials provided under **PL-500T00A-LON-CL1** in the **Resources 
+    tab** on the right (see screenshot).
 
-**Note**: Do not use the **Student** login.
+    **Note**: Do not use the **Student** login.
 
     ![](./media/image1.png)
 
