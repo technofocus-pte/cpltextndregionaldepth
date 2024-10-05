@@ -9,7 +9,7 @@ tab** on the right (see screenshot).
 
 **Note**: Do not use the **Student** login.
 
-![](./media/image1.png)
+    ![](./media/image1.png)
 
 ## Complete setting up Microsoft 365 subscription and access Copilot for Microsoft 365
 
