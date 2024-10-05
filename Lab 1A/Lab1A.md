@@ -39,8 +39,7 @@ using one of the following methods:</span>
 <span class="mark">In this exercise, you select the company's Income
 Statement from the MRU file list.</span>
 
-<img src="./media/image1.png" style="width:6.26806in;height:3.02917in"
-alt="A screenshot of a computer Description automatically generated" />
+![](./media/image1.png)
 
 You will perform the following steps to have Copilot in Word create a
 speech for you based on your company's Income Statement:
@@ -56,12 +55,12 @@ speech for you based on your company's Income Statement:
 2.  On the **Microsoft 365** navigation pane, select **OneDrive** to
     open it.
 
-    ![](./media/image1.png)
+    ![](./media/image2.png)
 
 3.  Browse to the **C:\LabFiles** folder to select and upload a copy
     of **Fabrikam 2023 Income Statement document** to **OneDrive**.
 
-    ![](./media/image2.png)
+    ![](./media/image3.png)
 
     **Note**: If you have already uploaded all the lab assets to OneDrive as
     instructed in **Preparing for the lab execution** (**Lab 0**) you can
