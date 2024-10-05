@@ -1,6 +1,6 @@
-Lab 1A: Empowering Executives to do more
+# Lab 1A: Empowering Executives to do more
 
-Objective:
+## Objective:
 
 In this lab, you will
 
@@ -10,7 +10,7 @@ In this lab, you will
 - Use Copilot in PowerPoint to create a PowerPoint presentation based on
   the speech you created.
 
-Exercise \#1: Create a speech using Copilot in Word
+## Exercise #1: Create a speech using Copilot in Word
 
 In this exercise, you direct Copilot in Word to write a speech for you
 based on your company's Income Statement, which is stored as a Word
@@ -216,7 +216,7 @@ style="width:6.26806in;height:3.27348in" />
 16. Close the tab containing this document in your Microsoft Edge
     browser.
 
-Exercise \#2: Create a slide presentation using Copilot in PowerPoint
+## Exercise #2: Create a slide presentation using Copilot in PowerPoint
 
 In this exercise, you will use Copilot in PowerPoint to create a slide
 presentation based on your speech (to the shareholders based on the
@@ -374,7 +374,7 @@ Review the new slide that was created. While the remaining lab exercises
 don't use this presentation, you can either discard it or save it if you
 want for future reference.
 
-Summary
+## Summary
 
 In this lab, you have
 
