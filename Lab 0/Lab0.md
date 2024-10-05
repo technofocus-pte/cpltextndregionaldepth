@@ -2,18 +2,17 @@
 
 ## Log into your Lab Virtual Machine
 
-> On the Log-in screen, select **Admin** account in the lower left
-> corner of the screen to sign-in to the lab virtual machine using the
-> credentials provided under **PL-500T00A-LON-CL1** in the **Resources
-> tab** on the right (see screenshot).
->
-> **Note**: Do not use the **Student** login.
->
-> <img src="./media/image1.png"
-> style="width:6.26806in;height:3.26574in" />
+On the Log-in screen, select **Admin** account in the lower left
+corner of the screen to sign-in to the lab virtual machine using the
+credentials provided under **PL-500T00A-LON-CL1** in the **Resources
+tab** on the right (see screenshot).
 
-## Complete setting up Microsoft 365 subscription and access Copilot for
-Microsoft 365
+**Note**: Do not use the **Student** login.
+
+<img src="./media/image1.png"
+style="width:6.26806in;height:3.26574in" />
+
+## Complete setting up Microsoft 365 subscription and access Copilot for Microsoft 365
 
 1.  If you have a Microsoft 365 tab open in your Edge browser, then
     select it now; otherwise, open a new tab and enter the following
@@ -23,14 +22,14 @@ Microsoft 365
     section in the **Resources tab** on the right (see screenshot) to
     sign-in.
 
-> <img src="./media/image2.png"
+<img src="./media/image2.png"
 > style="width:6.28648in;height:2.66456in" />
->
-> <img src="./media/image3.png" style="width:4.55021in;height:4.44391in"
-> alt="A screenshot of a computer Description automatically generated" />
->
-> You will now be able to access all the Microsoft 365 applications and
-> will have access to Copilot for Microsoft 365.
+
+<img src="./media/image3.png" style="width:4.55021in;height:4.44391in"
+alt="A screenshot of a computer Description automatically generated" />
+
+You will now be able to access all the Microsoft 365 applications and
+will have access to Copilot for Microsoft 365.
 
 ## Access and launch Microsoft 365 applications
 
@@ -41,57 +40,57 @@ You can access and launch the productivity applications from:
 - **App Launcher** (available in the top left just above the left
   navigation pane)
 
-> **Note: Due to product updates, the placement of office icons might be
-> different than the one mentioned above.**
+**Note: Due to product updates, the placement of office icons might be
+different than the one mentioned above.**
 
 1.  To launch an application from **View more Apps:**
 
-> In the navigation pane on the lower left, select **View more
-> Apps** (ellipsis **…** icon) 🡪 Apps to select and open the office
-> applications you need to work with.
->
-> <img src="./media/image4.png"
-> style="width:5.36736in;height:3.68681in" />
+In the navigation pane on the lower left, select **View more
+Apps** (ellipsis **…** icon) 🡪 Apps to select and open the office
+applications you need to work with.
+
+<img src="./media/image4.png"
+style="width:5.36736in;height:3.68681in" />
 
 2.  To launch an application from **App launcher**:
 
-> The Microsoft 365 app launcher is a menu of apps and services that you
-> are licensed for, and opens when you select the app launcher icon on
-> Microsoft365 page. The App launcher makes opening and switching
-> between your apps easy by highlighting your recently used apps, and
-> providing quick access to your recent online Office documents.
->
-> <img src="./media/image5.png" style="width:5.52239in;height:3.33326in"
-> alt="A screenshot of a computer Description automatically generated" />
->
-> **Note**: If you do not find an application in the pop-up, then
-> select **More apps** icon to select the same.
+The Microsoft 365 app launcher is a menu of apps and services that you
+are licensed for, and opens when you select the app launcher icon on
+Microsoft365 page. The App launcher makes opening and switching
+between your apps easy by highlighting your recently used apps, and
+providing quick access to your recent online Office documents.
+
+<img src="./media/image5.png" style="width:5.52239in;height:3.33326in"
+alt="A screenshot of a computer Description automatically generated" />
+
+**Note**: If you do not find an application in the pop-up, then
+select **More apps** icon to select the same.
 
 ## Upload lab assets to OneDrive
 
-> The lab assets (Reference documents) that you will be using in this
-> hands-on lab session are available in **C:\LabFiles.**
->
-> **Note**: When you need to reference a file (a Word document, an Excel
-> file, etc) into a Copilot prompt, the file MUST be saved in a OneDrive
-> account. You can't link to a locally stored file on your PC.
+The lab assets (Reference documents) that you will be using in this
+hands-on lab session are available in **C:\LabFiles.**
+
+**Note**: When you need to reference a file (a Word document, an Excel
+file, etc) into a Copilot prompt, the file MUST be saved in a OneDrive
+account. You can't link to a locally stored file on your PC.
 
 1.  On the Microsoft 365 navigation pane, select OneDrive to open it.
 
 2.  Browse to the **C:\LabFiles** folder to select and upload a copy of
     the document(s) to OneDrive.
 
-> **Note**: You can either choose to upload a copy of all the documents
-> or the document(s) related to the particular lab.
->
-> <img src="./media/image6.png" style="width:4.92863in;height:4.31214in"
-> alt="A screenshot of a computer Description automatically generated" />
->
-> <img src="./media/image7.png" style="width:4.87499in;height:3.46316in"
-> alt="A screenshot of a computer Description automatically generated" />
->
-> <img src="./media/image8.png" style="width:4.53395in;height:2.85469in"
-> alt="A screenshot of a computer Description automatically generated" />
->
-> Now you will have the document(s) in **OneDrive** to work
-> with **Copilot for Microsoft 365** labs.
+**Note**: You can either choose to upload a copy of all the documents
+or the document(s) related to the particular lab.
+
+<img src="./media/image6.png" style="width:4.92863in;height:4.31214in"
+alt="A screenshot of a computer Description automatically generated" />
+
+<img src="./media/image7.png" style="width:4.87499in;height:3.46316in"
+alt="A screenshot of a computer Description automatically generated" />
+
+<img src="./media/image8.png" style="width:4.53395in;height:2.85469in"
+alt="A screenshot of a computer Description automatically generated" />
+
+Now you will have the document(s) in **OneDrive** to work
+with **Copilot for Microsoft 365** labs.
