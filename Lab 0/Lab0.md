@@ -9,7 +9,7 @@ tab** on the right (see screenshot).
 
 **Note**: Do not use the **Student** login.
 
-     ![](./media/image1.png)
+![](./media/image1.png)
 
 ## Complete setting up Microsoft 365 subscription and access Copilot for Microsoft 365
 
@@ -75,8 +75,8 @@ account. You can't link to a locally stored file on your PC.
 2.  Browse to the **C:\LabFiles** folder to select and upload a copy of
     the document(s) to OneDrive.
 
-    >`**Note**: You can either choose to upload a copy of all the documents
-    >or the document(s) related to the particular lab.`
+    >**Note**: You can either choose to upload a copy of all the documents
+    >or the document(s) related to the particular lab.
 
      ![](./media/image6.png)
 
