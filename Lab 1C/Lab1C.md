@@ -351,10 +351,10 @@ the monthly marketing trends.
 In this exercise, you will use Copilot in Excel to analyze a market
 trend spreadsheet that already has an Excel table defined.
 
-> <span class="mark">**Note**: When you use Copilot in Excel, you must
-> have an Excel table that includes data in a worksheet. You can quickly
-> turn a range of cells into an Excel table by following these
-> steps:</span>
+  <span class="mark">**Note**: When you use Copilot in Excel, you must
+  have an Excel table that includes data in a worksheet. You can quickly
+  turn a range of cells into an Excel table by following these
+  steps:</span>
 
 - <span class="mark">Select the cell or the range in the data.</span>
 
@@ -371,22 +371,21 @@ trend spreadsheet that already has an Excel table defined.
     following URL: +++**<https://www.office.com>+++** to go to the
     **Microsoft 365** home page.
 
-> **Note**: You need to sign-in (if prompted) using the **Microsoft 365
-> Credentials** provided under the **Resources tab** on the right.
+    **Note**: You need to sign-in (if prompted) using the **Microsoft 365
+    Credentials** provided under the **Resources tab** on the right.
 
 2.  Browse to the **C:\LabFiles** folder to select and upload a copy of
     **Contoso Chai Tea market trends 2023.xlsx** to **OneDrive.**
 
-> **Note**: You can skip this step, if you have already uploaded a copy
-> of all the documents (that you will be using in this hands-on lab
-> session from **C:\LabFiles** as instructed in **Lab 0**)**.**
+    **Note**: You can skip this step, if you have already uploaded a copy
+    of all the documents (that you will be using in this hands-on lab
+    session from **C:\LabFiles** as instructed in **Lab 0**).
 
 3.  Open and close the file **Contoso Chai Tea market trends 2023.xlsx**
     (which you uploaded to **OneDrive**) to get it in your Most Recently
     Used (MRU) file list.
 
-> <img src="./media/image28.png" style="width:4.61069in;height:2.74772in"
-> alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image28.png)
 
 4.  On the **Microsoft 365** home page, select the **Excel** icon in the
     navigation pane on the left.
@@ -400,11 +399,9 @@ trend spreadsheet that already has an Excel table defined.
     available for you to choose from. Select the **Show data
     insights** button.
 
-> <img src="./media/image29.png" style="width:5.33973in;height:1.85465in"
-> alt="A screenshot of a computer Description automatically generated" />
->
-> <img src="./media/image30.png"
-> style="width:2.99219in;height:2.96791in" />
+    ![](./media/image29.png)
+
+    ![](./media/image30.png)
 
 8.  Note the pivot chart that it generated. When we tested this
     exercise, Copilot always created a line graph of the **Social Media
@@ -412,20 +409,17 @@ trend spreadsheet that already has an Excel table defined.
     for you? Below the chart that Copilot created for you, select
     the **+Add to a new sheet** button.
 
-> <img src="./media/image31.png" style="width:2.67604in;height:2.56115in"
-> alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image31.png)
 
 9.  Though Copilot says it added the chart to Sheet 2, Sheet 2 is not
     visible in the spreadsheet.
 
-> <img src="./media/image32.png" style="width:5.49176in;height:2.53185in"
-> alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image32.png)
 
 10. Try with maximized excel sheet and repeat step 11. The **Add to
     sheet function** worked fine now.
 
-> <img src="./media/image33.png" style="width:5.45178in;height:1.87665in"
-> alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image33.png)
 
 11. Select **Sheet 2**. Review the new data sheet that Copilot created.
     Copilot included both the graph and the column of data from the
@@ -433,8 +427,7 @@ trend spreadsheet that already has an Excel table defined.
     the chart and note the window that appears which indicates the type
     of chart that Copilot generated.
 
-> <img src="./media/image34.png" style="width:4.89912in;height:2.11412in"
-> alt="A graph with a line Description automatically generated" />
+    ![](./media/image34.png)
 
 14. Note how in the Copilot pane, the list of predefined prompts no
     longer appears. This situation occurs because Copilot doesn't work
@@ -442,26 +435,22 @@ trend spreadsheet that already has an Excel table defined.
     Select **Sheet 1**, which returns you back to the Excel table. Note
     how the predefined prompts appear.
 
-> <img src="./media/image35.png" style="width:2.68568in;height:2.56173in"
-> alt="A screenshot of a chat Description automatically generated" />
-
+    ![](./media/image35.png)
 15. In the predefined prompts that appear above the prompt field, select
     the **Show suggestions for formula columns** button.
 
 16. Note the suggestion that Copilot provides. The following image shows
     the suggestion that Copilot provided during our testing.
 
-> <img src="./media/image36.png"
-> style="width:3.02624in;height:2.91475in" />
+    ![](./media/image36.png)
 
 17. In the suggestion that you received, select the **Explain
     formula** drop-down arrow. Review Copilot's explanation that
     describes the calculation. Select the **+Insert Column** button to
     insert this column into your Excel table.
 
-> <img src="./media/image37.png"
-> style="width:4.6763in;height:2.13905in" />
-
+    ![](./media/image37.png)
+    
 18. Note how Copilot added this column of data to the end of your Excel
     table in **Sheet 1**. Is this feature intriguing you? You may want
     to see what other formula suggestions it provides. Select the **Show
@@ -472,26 +461,22 @@ trend spreadsheet that already has an Excel table defined.
 19. In the predefined prompts that appear above the prompt field, select
     the **How can I highlight, filter, and sort data**? button.
 
-> <img src="./media/image38.png"
-> style="width:2.81961in;height:2.40686in" />
+    ![](./media/image38.png)
 
 20. Note the list of actions that you can take.
 
-> <img src="./media/image39.png" style="width:2.92147in;height:2.71202in"
-> alt="A screenshot of a chat Description automatically generated" />
+    ![](./media/image39.png)
 
 21. At this point, the predefined prompts that Copilot displays no
     longer interest you. As such, you want to see a new set of prompts.
     Select the **Refresh** button that appears above the prompt field.
 
-> <img src="./media/image40.png" style="width:0.70069in;height:0.64722in"
-> alt="Screenshot showing the Refresh prompt button." />
+    ![](./media/image40.png)
 
 22. Review the revised list of predefined prompts that now appear. The
     following image shows examples of prompts that was displayed.
 
-> <img src="./media/image41.png" style="width:3.03109in;height:2.62747in"
-> alt="A screenshot of a chat Description automatically generated" />
+    ![](./media/image41.png)
 
 23. The purpose of this exercise is to get a feel for the various types
     of predefined actions that Copilot can perform. Therefore, select
@@ -507,8 +492,7 @@ trend spreadsheet that already has an Excel table defined.
 24. Again select the **Refresh** button that appears above the prompt
     field.
 
-> <img src="./media/image40.png" style="width:0.70069in;height:0.64722in"
-> alt="Screenshot showing the Refresh prompt button." />
+    ![](./media/image40.png)
 
 25. Review the new set of prompts that it displays. Select
     the **Refresh** button several times to see the different types
