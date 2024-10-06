@@ -231,16 +231,15 @@ Credentials** provided under the **Resources tab** on the right.
 
 - **Promotion Plan for Chai Tea in Latin America**
 
-> **Note**: You can skip this step, if you have already uploaded a copy
-> of all the documents (that you will be using in this hands-on lab
-> session from **C:\LabFiles** as instructed in **Lab 0**).
+  **Note**: You can skip this step, if you have already uploaded a copy
+  of all the documents (that you will be using in this hands-on lab
+  session from **C:\LabFiles** as instructed in **Lab 0**).
 
 3.  In this exercise, you access the documents from the Most Recently
     Used file list. To get the files to appear in the MRU list, open
     each of the three document and then close them.
 
-> <img src="./media/image19.png" style="width:5.4728in;height:2.60968in"
-> alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image19.png)
 
 4.  In **Microsoft 365**, open **Microsoft Word**, and then open a new
     blank document.
@@ -250,14 +249,13 @@ Credentials** provided under the **Resources tab** on the right.
     the **Generate** button until after you link the three files to the
     prompt:
 
-> +++**I'm the LATAM Marketing Director for Contoso Beverage. Please
-> create a LATAM Market Analysis report for our Mystic Spice Premium
-> Chai Tea beverage. Combine the three attached files to create a report
-> that describes the product, analyzes the market trend for it, and
-> includes a promotion plan for Latin America**.+++
->
-> <img src="./media/image20.png" style="width:5.54781in;height:2.69646in"
-> alt="A screenshot of a computer Description automatically generated" />
+    +++**I'm the LATAM Marketing Director for Contoso Beverage. Please
+    create a LATAM Market Analysis report for our Mystic Spice Premium
+    Chai Tea beverage. Combine the three attached files to create a report
+    that describes the product, analyzes the market trend for it, and
+    includes a promotion plan for Latin America**.+++
+
+    ![](./media/image20.png)
 
 6.  You now must attach the three documents to the prompt. In
     the **Draft with Copilot** window, select the **Reference your
@@ -268,24 +266,21 @@ Credentials** provided under the **Resources tab** on the right.
     and then select the **Attach** button. Note how the file is
     displayed in the prompt.
 
-> <img src="./media/image21.png" style="width:5.39448in;height:2.5287in"
-> alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image21.png)
 
 7.  Repeat the prior step for both the **Contoso Chai Tea market trends
     2023.docx** file and the **Promotion Plan for Chai Tea in Latin
     America.docx** file. At this point, links to all three files should
     appear in the prompt.
 
-> <img src="./media/image22.png" style="width:5.74913in;height:2.47456in"
-> alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image22.png)
 
 8.  Select **Generate**. Upon doing so, Copilot extracts the pertinent
     information from the three files and drafts a report that combines
     them into a single Market Analysis report for Mystic Spice Premium
     Chai Tea.
 
-> <img src="./media/image23.png" style="width:5.22198in;height:2.56355in"
-> alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image23.png)
 
 9.  After reviewing this first draft of the Market Analysis report, you
     recognize that it's missing some critical information. You would
@@ -294,17 +289,15 @@ Credentials** provided under the **Resources tab** on the right.
     following prompt in the Copilot window at the bottom of the report
     and then select the **Generate** arrow:
 
-> <img src="./media/image24.png" style="width:5.37635in;height:2.41835in"
-> alt="A screenshot of a computer Description automatically generated" />
->
-> **This report looks good. However, please add a section titled
-> Competitive Analysis. Review the beverage companies in Latin America
-> that sell Chai Tea and then provide information in this section on the
-> strengths and weaknesses of these competitors, their market share, and
-> their pricing strategies**.
->
-> <img src="./media/image25.png" style="width:5.23569in;height:2.67991in"
-> alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image24.png)
+
+    **This report looks good. However, please add a section titled
+    Competitive Analysis. Review the beverage companies in Latin America
+    that sell Chai Tea and then provide information in this section on the
+    strengths and weaknesses of these competitors, their market share, and
+    their pricing strategies**.
+
+    ![](./media/image25.png)
 
 10. After reviewing this second draft of the report that contains the
     new Competitive Analysis section, you realize that one last thing is
@@ -314,13 +307,12 @@ Credentials** provided under the **Resources tab** on the right.
     following prompt in the Copilot window at the bottom of the report
     and then select the **Generate** arrow:
 
-> <img src="./media/image26.png" style="width:5.36269in;height:2.16623in"
-> alt="A screenshot of a computer Description automatically generated" />
->
-> **Nice job! One last thing. Please add a section titled Distribution
-> Channels. Review the distribution channels used to sell Chai Tea in
-> Latin America and then provide information in this section on the
-> types of retailers, wholesalers, and distributors used**.
+    ![](./media/image26.png)
+
+    **Nice job! One last thing. Please add a section titled Distribution
+    Channels. Review the distribution channels used to sell Chai Tea in
+    Latin America and then provide information in this section on the
+    types of retailers, wholesalers, and distributors used**.
 
 11. After reviewing this latest draft that contains the new Distribution
     Channels section, you're satisfied with the report and you're ready
@@ -328,8 +320,7 @@ Credentials** provided under the **Resources tab** on the right.
     select the **Keep it** button to convert it from a Copilot draft to
     a Word document.
 
-> <img src="./media/image27.png" style="width:5.41303in;height:2.5374in"
-> alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image27.png)
 
 12. Review the document. If you want to make any manual changes, you can
     do so now. Once you're satisfied with it, feel free to save the
