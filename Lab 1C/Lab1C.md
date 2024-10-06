@@ -1,6 +1,6 @@
-Lab 1C: Improving Sales and Marketing productivity
+# Lab 1C: Improving Sales and Marketing productivity
 
-Objective:
+## Objective:
 
 Marketing and Sales professionals can utilize Copilot for Microsoft 365
 to generate content for their campaigns, improve productivity, get
@@ -17,7 +17,7 @@ In this lab you will use:
 
 - Copilot in Excel to analyze market trends in a spreadsheet.
 
-## Exercise \#1: Conduct market analysis using Microsoft Copilot
+## Exercise #1: Conduct market analysis using Microsoft Copilot
 
 Microsoft Copilot (within Bing) is a generative AI service grounded in
 data from the public web in the Microsoft Bing search index only. It
@@ -213,8 +213,7 @@ that you want to save it for future reference. 
 > you need to manually copy and paste each response in a text editor and
 > save the file.
 
-Exercise \#2: Consolidate multiple marketing reports using Copilot in
-Word
+## Exercise #2: Consolidate multiple marketing reports using Copilot in Word
 
 Copilot in Word, an AI-powered writing assistant, can help you rewrite
 existing content, or even transform selected content into a table.
@@ -357,7 +356,7 @@ Credentials** provided under the **Resources tab** on the right.
 
 13. Close this tab in your Microsoft Edge browser.
 
-Exercise \#3: Analyze a market trend spreadsheet using Copilot in Excel
+## Exercise #3: Analyze a market trend spreadsheet using Copilot in Excel
 
 Copilot in Excel is a powerful tool that can help Marketing
 professionals create, edit, understand, and visualize their data with
@@ -545,7 +544,7 @@ trend spreadsheet that already has an Excel table defined.
 26. Feel free to select any other prompts to see what Copilot does. When
     you're done, close your Microsoft Edge browser tab.
 
-Summary:
+## Summary:
 
 In this lab you used
 
