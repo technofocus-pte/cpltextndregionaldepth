@@ -118,16 +118,14 @@ Creative, More Balanced, or More Precise).
     plan for the upcoming year. To correct this shortcoming, enter the
     following prompt:
 
-> +++**I think all the data is complete. With all the information that
-> you captured, please analyze the data and identify patterns, trends,
-> and insights that can help me determine what Tailspin Toy's business
-> plan should be for the upcoming year**+++
->
-> <img src="./media/image12.png"
-> style="width:5.3955in;height:2.83168in" />
->
-> <img src="./media/image13.png"
-> style="width:5.13826in;height:2.39906in" />
+    +++**I think all the data is complete. With all the information that
+    you captured, please analyze the data and identify patterns, trends,
+    and insights that can help me determine what Tailspin Toy's business
+    plan should be for the upcoming year**+++
+
+    ![](./media/image12.png)
+
+    ![](./media/image13.png)
 
 8.  You really like the information that Copilot provided. However,
     since this project is your first opportunity to provide a market
@@ -136,72 +134,66 @@ Creative, More Balanced, or More Precise).
     have Copilot help you determine if you're missing anything. Enter
     the following prompt:
 
-> +++**Please analyze the data in this market analysis and business
-> plan. Is there any other information that a toy company would
-> typically request for market analysis and business plans that I failed
-> to request? If so, can you please amend your responses to include this
-> information. Thank you**!+++
->
-> <img src="./media/image14.png"
-> style="width:4.94213in;height:2.23041in" />
->
-> <img src="./media/image15.png"
-> style="width:4.89333in;height:2.5297in" />
+    +++**Please analyze the data in this market analysis and business
+    plan. Is there any other information that a toy company would
+    typically request for market analysis and business plans that I failed
+    to request? If so, can you please amend your responses to include this
+    information. Thank you**!+++
+
+    ![](./media/image14.png)
+
+    ![](./media/image15.png)
 
 9.  Based on the information that Copilot provides, you realize that you
     can really maximize the effectiveness of your reports by having
     Copilot include an analysis of these areas. To put the finishing
     touch on your reports, enter the following prompt:
 
-> +++**Please amend the market analysis to include an analysis of each
-> of these areas for the Toy industry. Also update the business plan
-> that you created for Tailspin Toys based on these insights.
-> Thanks**!+++
->
-> <img src="./media/image16.png"
-> style="width:4.72996in;height:2.38168in" />
->
-> <img src="./media/image17.png"
-> style="width:5.00562in;height:2.66729in" />
+    +++**Please amend the market analysis to include an analysis of each
+    of these areas for the Toy industry. Also update the business plan
+    that you created for Tailspin Toys based on these insights.
+    Thanks**!+++
 
+    ![](./media/image16.png)
+
+    ![](./media/image17.png)
 10. The market analysis and business plan that Copilot generated for you
     was based on a predefined conversation style. It's ideal for users
     who want a balance between precision and creativity.
 
-> If you're curious as to how the reports would look using the **More
-> Creative** style (responses that are more imaginative and creative)
-> you can adjust your prompts to manually set the tone or focus,
-> depending on whether you want precise, creative, or balanced outputs:
->
-> **Points to note**:
+    If you're curious as to how the reports would look using the **More
+    Creative** style (responses that are more imaginative and creative)
+    you can adjust your prompts to manually set the tone or focus,
+    depending on whether you want precise, creative, or balanced outputs:
 
-- **For Precise Responses**: Use clear, specific, and detail-oriented
-  prompts. Indicate that you want factual, concise answers with a focus
-  on accuracy.
+    **Points to note**:
 
-- **For Creative Responses**: Use open-ended, exploratory, or
-  imaginative prompts. Encourage brainstorming or suggest solutions
-  where originality is needed.
+    - **For Precise Responses**: Use clear, specific, and detail-oriented
+      prompts. Indicate that you want factual, concise answers with a focus
+      on accuracy.
 
-- **For Balanced Responses:** Use moderately open-ended prompts that
-  request a mix of factual detail with some creativity. You can ask for
-  both analytical and exploratory input.
+    - **For Creative Responses**: Use open-ended, exploratory, or
+  i   maginative prompts. Encourage brainstorming or suggest solutions
+      where originality is needed.
 
-Export a Copilot response
+    - **For Balanced Responses:** Use moderately open-ended prompts that
+      request a mix of factual detail with some creativity. You can ask for
+      both analytical and exploratory input.
 
-When you use Microsoft Copilot in Bing to research different things or
-answer different questions, you may decide that a response is so good
-that you want to save it for future reference. 
+  ## Export a Copilot response
 
-1.  Select **Copy** button at the bottom of a prompt response to copy
-    the response and paste the copied response in a text editor.
+  When you use Microsoft Copilot in Bing to research different things or
+  answer different questions, you may decide that a response is so good
+  that you want to save it for future reference. 
 
-> <img src="./media/image18.png"
-> style="width:5.24434in;height:2.71287in" />
->
-> If you want to consolidate multiple responses into a single document,
-> you need to manually copy and paste each response in a text editor and
-> save the file.
+  1.  Select **Copy** button at the bottom of a prompt response to copy
+      the response and paste the copied response in a text editor.
+
+      ![](./media/image18.png)
+
+      If you want to consolidate multiple responses into a single document,
+      you need to manually copy and paste each response in a text editor and
+      save the file.
 
 ## Exercise #2: Consolidate multiple marketing reports using Copilot in Word
 
