@@ -43,30 +43,25 @@ Creative, More Balanced, or More Precise).
 2.  In **Microsoft Bing**, in the list of tabs across the top of the
     page, select **Copilot**. Doing so opens Microsoft Copilot.
 
-> <img src="./media/image1.png"
-> style="width:4.24478in;height:3.02287in" />
->
-> **Note:** If you don’t see the list of tabs across the top of the
-> page, please follow the steps below to view the list of tabs.
+    ![](./media/image1.png)
+
+    **Note:** If you don’t see the list of tabs across the top of the
+    page, please follow the steps below to view the list of tabs.
 
 - Ensure you have signed-in using the **Microsoft 365 credentials**
   (available under the **Resources** tab).
 
-> <img src="./media/image2.png"
-> style="width:5.14864in;height:1.57919in" />
+    ![](./media/image2.png)
 
 - Enable the option **Show menu bar** (in red highlight)
 
-> <img src="./media/image3.png"
-> style="width:2.18413in;height:2.61283in" />
+    ![](./media/image3.png)
 
-<img src="./media/image4.png"
-style="width:4.41053in;height:2.31873in" />
+    ![](./media/image4.png)
 
 3.  Now select **Copilot**. Doing so opens Microsoft Copilot.
 
-> <img src="./media/image5.png" style="width:4.60041in;height:2.78288in"
-> alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image5.png)
 
 4.  On the **Copilot** page, note the toggle switch at the top of the
     page that allows you to select either **Work** or **Web**. While
@@ -74,26 +69,23 @@ style="width:4.41053in;height:2.31873in" />
     Web to conduct its market analysis of the Toy industry. If
     necessary, select the **Web** toggle switch.
 
-> <img src="./media/image6.png"
-> style="width:4.04086in;height:2.44768in" />
->
-> <img src="./media/image7.png"
-> style="width:3.38548in;height:2.86143in" />
->
-> Note: The conversational tone selector **More Creative -More Balanced-
-> More Precise** present in the previous Copilot version is dropped in
-> the latest version.
+    ![](./media/image6.png)
+
+    ![](./media/image7.png)
+
+    **Note**: The conversational tone selector **More Creative -More Balanced-
+    More Precise** present in the previous Copilot version is dropped in
+    the latest version.
 
 5.  In the prompt field, enter the following prompt and then select
     the **Submit** icon:
 
-> +++**I'm the Director for Market Research for Tailspin Toys, a U.S.
-> based toy manufacturer. Conduct a market analysis of the toy industry
-> to identify sales figures, the latest trends, consumer preferences,
-> and the most popular toys in the market**.+++
->
-> <img src="./media/image8.png"
-> style="width:5.33427in;height:2.19325in" />
+    +++**I'm the Director for Market Research for Tailspin Toys, a U.S.
+    based toy manufacturer. Conduct a market analysis of the toy industry
+    to identify sales figures, the latest trends, consumer preferences,
+    and the most popular toys in the market**.+++
+
+    ![](./media/image8.png)
 
 6.  Review the market analysis that Copilot generated. You realize that
     a general request such as the one you submitted provides basic
@@ -106,18 +98,16 @@ style="width:4.41053in;height:2.31873in" />
     iterate, iterate, iterate. Enter the following prompt to amend the
     market analysis:
 
-> +++**That analysis was great. However, I'm also interested in
-> including data on the toy industry, including market share and
-> consumer feedback. Please amend your prior analysis to include this
-> information. Thanks**!+++
->
-> <img src="./media/image9.png"
-> style="width:5.10146in;height:2.63366in" />
->
-> <img src="./media/image10.png" style="width:4.83737in;height:2.5in" />
->
-> <img src="./media/image11.png"
-> style="width:4.72414in;height:2.4304in" />
+    +++**That analysis was great. However, I'm also interested in
+    including data on the toy industry, including market share and
+    consumer feedback. Please amend your prior analysis to include this
+    information. Thanks**!+++
+
+    ![](./media/image9.png)
+
+    <![](./media/image10.png)
+
+    [](./media/image11.png)
 
 7.  You realize that you're getting closer to your goal, but you're
     still missing some key information. After reviewing your prior
