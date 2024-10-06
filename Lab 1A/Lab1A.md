@@ -274,7 +274,7 @@ create a draft of your presentation:
     selecting the file from the MRU list. In this exercise, you will gain
     experience linking a file into a prompt using another method.
 
-    ![](./media/image122.png)
+    ![](./media/image22.png)
 
 12. Above the prompt field at the bottom of the **Copilot** pane,
     a **Suggestions** window will appear that contains the three most
@@ -313,7 +313,7 @@ create a draft of your presentation:
     speaker" or any other items that you may need to change.
     ![](./media/image27.png)
 
-    Warning: Look out for the reference to "The speaker" along with the
+    **Warning**: Look out for the reference to "The speaker" along with the
     second sentence that begins with "The presentation will summarize...".
     that may be created by Copilot.
 
