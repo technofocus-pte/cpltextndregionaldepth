@@ -18,32 +18,25 @@ Lab duration – 15 minutes
 
 ## **Exercise 1: Setting up your environment**
 
-1.  Login to the VM using the **Username** and **Password** from
-    the **Resources** tab.
+1.  From the VM, right click on the clock at the bottom right corner of the screen.
 
-    ![](./media/image1.png)
-
-2.  After logging into the VM, right click on the clock at the bottom
-    right corner of the screen.
-
-3.  Select **Adjust date and time**.
+2.  Select **Adjust date and time**.
 
     ![](./media/image2.jpeg)
 
-4.  On the Settings screen that opens up, click on the **Sync
+3.  On the Settings screen that opens up, click on the **Sync
     now** under Additional settings.
 
     ![](./media/image3.jpeg)
 
-5.  This takes care of synchronizing the time just in case the automatic
+4.  This takes care of synchronizing the time just in case the automatic
     synchronization does not work.
 
     ![](./media/image4.jpeg)
 
 ## **Exercise 2: Create a Conversational plugin**
 
-1.  Login to +++**https://copilotstudio.microsoft.com/**+++ using your
-    tenant credentials.
+1.  Open a browser and type +++**https://copilotstudio.microsoft.com/**+++ in the address bar.
 
 2.  Sign in with the **Credentials** provided under the **Resources** tab of your Lab VM.
 
@@ -57,65 +50,67 @@ Lab duration – 15 minutes
 
     ![](./media/image25.png)
 
-5.  The Copilot Studio **Home** page opens.
+5. In the Copilot creation page that opens up, click on the 3 dots next to **Create** in the top right and click on **Cancel copilot creation** and click on **Leave** in the confirmation dialog.
+   
+    ![](./media/image29.png)
+    
+    ![](./media/image30.png)
+
+6.  The Copilot Studio **Home** page opens.
 
     ![](./media/image8.png)
-
-    >[!Note] **Note:** If the Copilot creation page opens up automatically, click on the 3 dots next to **Create** in the top right and click on **Cancel copilot creation** and click on **Leave** in the confirmation dialog.
-    >
-    >![](./media/image29.png)
-    >
-    >![](./media/image30.png)
     
-6.	From the Home screen’s left pane, select **Copilots**.
+7.	From the Home screen’s left pane, select **Copilots**.
 
     ![](./media/image26.png)
   	
-7.  Select **Copilot for Microsoft 365**.
+8.  Select **Copilot for Microsoft 365**.
 
     ![](./media/image31.png)
 
-8.  Select **Extensions**.
+9.  Select **Extensions** or **Actions** either of which appears in the UI.
 
     ![](./media/image32.png)
 
-9.  Select **+ Add Extension**.
+10.  Select **+ Add Extension** or **+ Add Action**.
 
     ![](./media/image33.png)
 
-10.	Select **New action**.
+11.	Select **New action**.
     
     ![](./media/image34.png)
    	
-11.  Select **Conversational** in the **New action** pane.
+12.  Select **Conversational** in the **New action** pane.
 
      ![](./media/image12.png)
 
-12.  Provide the name for the action as +++**Conversational action**+++. Select **Create**.
+13.  Provide the name for the action as +++**Conversational action**+++. Select **Create**.
 
      ![](./media/image27.png)
 
-13. Once ready, the created action opens in Authoring canvas. Select **Topics**.
+14. Once ready, the created action opens in Authoring canvas. Select **Topics**.
 
     ![](./media/image35.png)
 
-14. Name the topic as +++Holidaylist+++
+14. Select **Allow** if there is a pop up to allow copying.
+
+16. Name the topic as +++Holidaylist+++
 
     ![](./media/image16.png)
 
-15. In the Trigger node’s description, provide a clear description of
+17. In the Trigger node’s description, provide a clear description of
     how the conversational plugin can help the user and what it can
     do. Let this topic help the user to find the list of holidays in the
     year 2024.
 
-    Type +++**This plugin helps to retrieve the list of holidays for the year 2024.**+++ in the Trigger node’s description.
+    Type +++**This plugin helps to retrieve the list of holidays for the year 2024**.+++ in the Trigger node’s description.
 
     ![](./media/image17.png)
 
     This description has functional purpose and is used by the Microsoft
     Copilot to determine whether to invoke your plugin or not.
 
-16. Add a **message node** with the list of holidays.
+18. Add a **message node** with the list of holidays.
 
     ```
     - New Year's Day - January 1
