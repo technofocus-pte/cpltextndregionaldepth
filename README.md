@@ -1,5 +1,3 @@
-# Build and Extend Copilots to improve Business Productivity
-
 Welcome to the Copilot for Microsoft 365 and Copilot Studio Workshop, designed to showcase the power of AI-driven productivity across multiple roles. This workshop will guide you through hands-on labs that empower executives, project managers, and IT professionals, and boost sales and marketing productivity with Microsoft Copilot.
 By the end of the workshop, you will understand how to leverage Microsoft Copilot for various business functions and streamline workflows using AI.
 
@@ -14,4 +12,3 @@ This workshop covers labs:
 **Lab 3C**: Building a GenAI Copilot with Copilot Studio.
 
 Let’s dive into these labs and explore how to revolutionize your business operations with Microsoft Copilot!
-
