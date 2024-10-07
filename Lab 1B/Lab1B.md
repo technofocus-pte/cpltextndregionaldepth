@@ -405,8 +405,7 @@ transform text into a table.
 1.  If you have a Microsoft 365 tab open in your Microsoft Edge browser,
     then select it now; otherwise, open a new tab and enter the
     following
-    URL: +++https://www.office.com/+++ to
-    go to the Microsoft 365 home page.
+    URL: +++https://www.office.com/+++ to go to the **Microsoft 365** home page.
 
 **Note**: You need to sign-in (if prompted) using the **Microsoft 365
 Credentials** provided under the **Resources tab** on the right.
