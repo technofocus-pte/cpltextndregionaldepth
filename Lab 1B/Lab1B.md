@@ -69,7 +69,7 @@ to your OneDrive account. The next exercise uses this file.
     across the top of the page, select **Copilot**. Doing so
     opens **Microsoft Copilot**.
 
-> <img src="./media/image3.png" style="width:4.3841in;height:3.52667in" />
+    ![](./media/image3.png)
 >
 > **Note:** If you don’t see the list of tabs across the top of the
 > page, please follow the steps below to view the list of tabs.
@@ -77,16 +77,13 @@ to your OneDrive account. The next exercise uses this file.
 - Ensure you have signed-in using the **Microsoft 365 credentials**
   (available under the **Resources** tab).
 
-> <img src="./media/image4.png"
-> style="width:5.14864in;height:1.57919in" />
+  ![](./media/image4.png)
 
 - Enable the option **Show menu bar** (in red highlight)
 
-> <img src="./media/image5.png"
-> style="width:2.18413in;height:2.61283in" />
+  ![](./media/image5.png)
 
-<img src="./media/image6.png"
-style="width:4.41053in;height:2.31873in" />
+  ![](./media/image6.png)
 
 6.  Now select **Copilot**. Doing so opens Microsoft Copilot.
 
@@ -102,33 +99,29 @@ style="width:4.41053in;height:2.31873in" />
     attach files, and an icon of stacked blocks. This latter icon is the
     Plugins icon.
 
-> <img src="./media/image7.png"
-> style="width:4.04972in;height:3.24658in" />
+    ![](./media/image7.png)
 
 9.  Select this **Plugins** icon and enable **Web content** plugin.
 
-> <img src="./media/image8.png"
-> style="width:5.22119in;height:3.82674in" />
->
-> <img src="./media/image9.png" style="width:5.02097in;height:3.2567in" />
+    ![](./media/image8.png)
+  
+    ![](./media/image9.png)
 
 10. You're now ready to use Copilot. Enter the following prompt, which
     directs Copilot to access public web data through the **Web
     content** plugin to Microsoft Copilot, and then select
     the **Submit** arrow in the bottom corner of the prompt field:
 
-> +++**I'm the Director of IT at Adatum Corporation. Create a project
-> plan for installing a new network security product into a corporate
-> network. Base this plan on IT industry guidelines for installing
-> network security products**.+++
->
-> <img src="./media/image10.png" style="width:5.53797in;height:1.67808in"
-> alt="A screenshot of a computer Description automatically generated" />
+    **I'm the Director of IT at Adatum Corporation. Create a project
+    plan for installing a new network security product into a corporate
+    network. Base this plan on IT industry guidelines for installing
+    network security products**.
+
+    ![](./media/image10.png)
 
 11. Review the project plan that Copilot created.
 
-> <img src="./media/image11.png"
-> style="width:5.29691in;height:2.53986in" />
+    ![](./media/image11.png)
 
 12. You aren't satisfied that it encompasses all the areas that it
     should. Enter the following prompt to have it amend its plan by
@@ -137,16 +130,14 @@ style="width:4.41053in;height:2.31873in" />
     then remove them from this prompt so that Copilot doesn't duplicate
     them:
 
-> +++**While that was a good start, I feel like it's missing important
-> areas. Please add the following items to the existing list: testing
-> and QA, training, communication, document and reporting, stakeholder
-> analysis, project timeline, and risk assessment and mitigation.**+++
->
-> <img src="./media/image12.png"
-> style="width:5.2923in;height:1.63377in" />
->
-> <img src="./media/image13.png"
-> style="width:5.2797in;height:2.76307in" />
+    **While that was a good start, I feel like it's missing important
+    areas. Please add the following items to the existing list: testing
+    and QA, training, communication, document and reporting, stakeholder
+    analysis, project timeline, and risk assessment and mitigation.**
+
+    ![](./media/image12.png)
+
+    ![](./media/image13.png)
 
 13. Review the amended project plan. You're happy with the breadth of
     topics covered, so now you want Copilot to update the plan with
@@ -155,13 +146,12 @@ style="width:4.41053in;height:2.31873in" />
     submit it yet as you must first link the file to the prompt in the
     next step:
 
-> +++**This version looks better. Please review the attached file, which
-> is a product specification for the Contoso CipherGuard Sentinel X7
-> security product, and update your project plan with information from
-> this product spec**.+++
->
-> <img src="./media/image14.png"
-> style="width:4.96736in;height:2.88116in" />
+    **This version looks better. Please review the attached file, which
+    is a product specification for the Contoso CipherGuard Sentinel X7
+    security product, and update your project plan with information from
+    this product spec**.
+
+    ![](./media/image14.png)
 
 14. In the prompt field, enter a space after the prompt and then type a
     forward slash (/). You must enter the space before the forward slash
@@ -169,57 +159,51 @@ style="width:4.41053in;height:2.31873in" />
     the prompt. Your next step depends on whether Copilot opens a window
     for you to select the file:
 
-- If Copilot opens a window after you entered the forward slash (/),
-  then select the **Files** tab. Doing so displays the list of MRU
-  files. Select the **Contoso CipherGuard Product Specification** file
-  and then select the **Submit** icon.
+    - If Copilot opens a window after you entered the forward slash (/),
+      then select the **Files** tab. Doing so displays the list of MRU
+      files. Select the **Contoso CipherGuard Product Specification** file
+      and then select the **Submit** icon.
 
-> <img src="./media/image15.png" style="width:4.93368in;height:2.86162in"
-> alt="A screenshot of a chat Description automatically generated" />
+      ![](./media/image15.png)
 
-- If Copilot didn't do anything after you entered the forward slash (/),
-  then you'll have to copy and paste in the link to the **Contoso
-  CipherGuard Product Specification** file. To do so, locate the file in
-  your OneDrive account, open it in **Word**, select
-  the **Share** button that appears above the Word ribbon, select **Copy
-  link** in the drop-down menu that appears, and then back in this
-  prompt field, paste in the link following the forward slash and select
-  the **Submit** icon.
+    - If Copilot didn't do anything after you entered the forward slash (/),
+      then you'll have to copy and paste in the link to the **Contoso
+      CipherGuard Product Specification** file. To do so, locate the file in
+      your OneDrive account, open it in **Word**, select
+      the **Share** button that appears above the Word ribbon, select **Copy
+      link** in the drop-down menu that appears, and then back in this
+      prompt field, paste in the link following the forward slash and select
+      the **Submit** icon.
 
-> <img src="./media/image16.png"
-> style="width:5.4962in;height:1.26892in" />
->
-> <span class="mark">**Note**: If Copilot is not able to directly access
-> or review documents, Sign-out of the logged in user and sign-in once
-> again</span> and then continue from **step 9** once again.
->
-> <img src="./media/image17.png"
-> style="width:4.9422in;height:2.23975in" />
->
-> <span class="mark">**Note**: If you are unable to view and reference
-> **Contoso CipherGuard Product Specification** document, then proceed
-> to the next exercise. The project plan document is made available for
-> you to proceed with the remaining lab activity</span>.
+      ![](./media/image16.png)
+
+      <span class="mark">**Note**: If Copilot is not able to directly access
+      or review documents, Sign-out of the logged in user and sign-in once
+      again</span> and then continue from **step 9** once again.
+    
+      ![](./media/image17.png)
+
+      <span class="mark">**Note**: If you are unable to view and reference
+      **Contoso CipherGuard Product Specification** document, then proceed
+      to the next exercise. The project plan document is made available for
+      you to proceed with the remaining lab activity</span>.
 
 15. Review how Copilot inserted features from the product spec into the
     project plan.
 
-> <img src="./media/image18.png"
-> style="width:4.60359in;height:1.82385in" />
+    ![](./media/image18.png)
 
 16. While this looks good, you feel that the project plan is lacking in
     specific details. To address this issue, enter the following prompt:
 
-> **We're almost there. Please break down each item on the report into
-> multiple detailed steps**.
->
-> <img src="./media/image19.png"
-> style="width:4.77223in;height:2.13421in" />
+    **We're almost there. Please break down each item on the report into
+    multiple detailed steps**.
+
+    ![](./media/image19.png)
 
 17. Review the results.
 
-> <img src="./media/image20.png"
-> style="width:4.42017in;height:1.89493in" />
+    ![](./media/image45.png)
 
 18. Now that the project plan is created, you MUST save it to a Word
     document. **You'll use this project plan document in the next
@@ -227,16 +211,14 @@ style="width:4.41053in;height:2.31873in" />
     **Copy** button to copy and paste the response in a **Word**
     document.
 
-> <img src="./media/image21.png"
-> style="width:4.9051in;height:1.78819in" />
+    ![](./media/image46.png)
 
 19. Save the file as **Contoso CipherGuard project plan.docx** in your
     OneDrive account that contains the product specification document
     that you used in this exercise. You'll use this file in the next
     exercise.
 
-> <img src="./media/image22.png" style="width:3.51388in;height:2.42304in"
-> alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image47.png)
 
 ## Exercise #2: Create a project plan presentation using Copilot in PowerPoint
 
