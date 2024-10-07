@@ -269,27 +269,24 @@ project plan.docx** available in **C:\LabFiles**.</span>
     a **Suggestions** window that displays three of the most recently
     used files.
 
-- If your file appears here, then select it now and proceed to the next
-  step.
+    - If your file appears here, then select it now and proceed to the next step.
 
-- If the file isn't one of the three being displayed, select the right
-  arrow (**\>**) in the upper right corner of the **Suggestions** window
-  to see an expanded MRU file list. If the file appears here, then
-  select it now and proceed to the next step.
+    - If the file isn't one of the three being displayed, select the right
+      arrow (**\>**) in the upper right corner of the **Suggestions** window
+      to see an expanded MRU file list. If the file appears here, then
+      select it now and proceed to the next step.
 
-- If you don't see your file in the expanded MRU list, then you must
-  copy the link to the report and paste it in the prompt field. To do
-  so:
+    - If you don't see your file in the expanded MRU list, then you must copy the link to the report and paste it in the          prompt field. To do so:
 
-  a.  Select the **Microsoft 365** browser tab and select **Word** in the navigation pane.
+      a.  Select the **Microsoft 365** browser tab and select **Word** in the navigation pane.
 
-  b.  In the **Word** home page, in the list of recent files, select the report to open it in Word.
+      b.  In the **Word** home page, in the list of recent files, select the report to open it in Word.
 
-  c.  In the report in Word, on the far-right above the ribbon, select the **Share** button. In the drop-down menu that           appears, select **Copy Link**. Wait for the **Link copied** window to appear, which is your assurance that the link         to the file is copied to your clipboard.
+      c.  In the report in Word, on the far-right above the ribbon, select the **Share** button. In the drop-down menu that           appears, select **Copy Link**. Wait for the **Link copied** window to appear, which is your assurance that the              link to the file is copied to your clipboard.
 
-  d.  Switch to your **PowerPoint** tab, and at the bottom of the **Copilot** pane, the prompt field should still be
-      displaying **Create presentation from file /**. Position your cursor after the forward slash (**/**) and then paste in
-      (**Ctrl+V**) the link to the report.
+      d.  Switch to your **PowerPoint** tab, and at the bottom of the **Copilot** pane, the prompt field should still be
+          displaying **Create presentation from file /**. Position your cursor after the forward slash (**/**) and then    
+          paste in (**Ctrl+V**) the link to the report.
 
 7.  Note how the file appears in the prompt field. Select
     the **Send** icon in the prompt field. This prompt triggered Copilot
@@ -333,28 +330,28 @@ project plan.docx** available in **C:\LabFiles**.</span>
     (remember that Copilot is still a work in progress) like the one
     above.</span>
 
-16. Please try rephrasing the prompt or use the suggested prompts like
+12. Please try rephrasing the prompt or use the suggested prompts like
     the one below.
 
     ![](./media/image28.png)
 
-17. Select the command **Add a slide about** and append the following
+13. Select the command **Add a slide about** and append the following
     +++**Q&A at the very end of the presentation**+++ (as shown in the
     screenshot)
 
     ![](./media/image29.png)
 
-18. Click Send to check what happens. Copilot has added a Q&A slide as
+14. Click Send to check what happens. Copilot has added a Q&A slide as
     instructed.
 
-19. Now try with another prompt:
+15. Now try with another prompt:
 
     **Add a slide about** what the audience may ask about the presentation.
 
-20. Once you are done with final presentation you can save for future
+16. Once you are done with final presentation you can save for future
     reference or discard this presentation
 
-21. Regardless how the last few steps went in dealing with the Q&A
+17. Regardless how the last few steps went in dealing with the Q&A
     slide, you decide to move forward and try one last thing. In
     reviewing the presentation, you decide that you want to change the
     theme of the presentation to something more appropriate due to the
@@ -364,7 +361,7 @@ project plan.docx** available in **C:\LabFiles**.</span>
 
     ![](./media/image30.png)
 
-21. Note Copilot's response.
+18. Note Copilot's response.
 
     ![](./media/image31.png)
 
@@ -375,7 +372,7 @@ project plan.docx** available in **C:\LabFiles**.</span>
     you to an existing PowerPoint feature rather than duplicating what
     that feature does.
 
-22. While the remaining training exercises in this module don't use this
+19. While the remaining training exercises in this module don't use this
     presentation, you can either discard it or save it if you want it
     for future reference.
 
