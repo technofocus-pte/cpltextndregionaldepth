@@ -2,13 +2,13 @@ Welcome to the Copilot for Microsoft 365 and Copilot Studio Workshop, designed t
 By the end of the workshop, you will understand how to leverage Microsoft Copilot for various business functions and streamline workflows using AI.
 
 This workshop covers labs:
-**Lab 1A**: Empowering Executives to do more.
-**Lab 1B**: Empowering Project Managers and IT Workforce.
-**Lab 1C**: Improving Sales and Marketing Productivity.
-**Lab 2A**: Adding a Conversational Action to Copilot for Microsoft 365.
-**Lab 2B**: Adding an AI Action to Copilot for Microsoft 365.
-**Lab 3A**: Building Your First Copilot with Copilot Studio.
-**Lab 3B**: Create a Flow and Invoke It from a Copilot Topic.
-**Lab 3C**: Building a GenAI Copilot with Copilot Studio.
+  - **Lab 1A**: Empowering Executives to do more.
+  - **Lab 1B**: Empowering Project Managers and IT Workforce.
+  - **Lab 1C**: Improving Sales and Marketing Productivity.
+  - **Lab 2A**: Adding a Conversational Action to Copilot for Microsoft 365.
+  - **Lab 2B**: Adding an AI Action to Copilot for Microsoft 365.
+  - **Lab 3A**: Building Your First Copilot with Copilot Studio.
+  - **Lab 3B**: Create a Flow and Invoke It from a Copilot Topic.
+  - **Lab 3C**: Building a GenAI Copilot with Copilot Studio.
 
 Let’s dive into these labs and explore how to revolutionize your business operations with Microsoft Copilot!
