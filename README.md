@@ -1,2 +1,2 @@
-# cpltextndregionaldepth
-Copilot Extensibility regional workshop
+# Build and Extend Copilots to improve Business Productivity - RIO Workshop
+
