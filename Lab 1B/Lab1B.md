@@ -70,20 +70,19 @@ to your OneDrive account. The next exercise uses this file.
     opens **Microsoft Copilot**.
 
     ![](./media/image3.png)
->
-> **Note:** If you don’t see the list of tabs across the top of the
-> page, please follow the steps below to view the list of tabs.
 
-- Ensure you have signed-in using the **Microsoft 365 credentials**
-  (available under the **Resources** tab).
+    **Note:** If you don’t see the list of tabs across the top of the
+    page, please follow the steps below to view the list of tabs.
 
-  ![](./media/image4.png)
+    - Ensure you have signed-in using the **Microsoft 365 credentials** (available under the **Resources** tab).
 
-- Enable the option **Show menu bar** (in red highlight)
+      ![](./media/image4.png)
 
-  ![](./media/image5.png)
+    - Enable the option **Show menu bar** (in red highlight)
 
-  ![](./media/image6.png)
+      ![](./media/image5.png)
+
+      ![](./media/image6.png)
 
 6.  Now select **Copilot**. Doing so opens Microsoft Copilot.
 
@@ -112,10 +111,10 @@ to your OneDrive account. The next exercise uses this file.
     content** plugin to Microsoft Copilot, and then select
     the **Submit** arrow in the bottom corner of the prompt field:
 
-    **I'm the Director of IT at Adatum Corporation. Create a project
+    ++**I'm the Director of IT at Adatum Corporation. Create a project
     plan for installing a new network security product into a corporate
     network. Base this plan on IT industry guidelines for installing
-    network security products**.
+    network security products**.++
 
     ![](./media/image10.png)
 
