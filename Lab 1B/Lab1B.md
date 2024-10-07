@@ -42,8 +42,7 @@ to your OneDrive account. The next exercise uses this file.
 1.  If you have a Microsoft 365 tab open in your Microsoft Edge browser,
     then select it now; otherwise, open a new tab and enter the
     following
-    URL: +++https://www.office.com+++ to
-    go to the Microsoft 365 home page.
+    URL: +++https://www.office.com+++ to go to the Microsoft 365 home page.
 
     **Note**: You need to sign-in (if prompted) using the **Microsoft 365
     Credentials** provided under the **Resources tab** on the right.
@@ -54,7 +53,7 @@ to your OneDrive account. The next exercise uses this file.
 
     **Note**: You can skip this step, if you have already uploaded a copy
     of all the documents (that you will be using in this hands-on lab
-    session from **C:\LabFiles** as instructed in **Lab 0**)**.**
+    session from **C:\LabFiles** as instructed in **Lab 0**).
 
 3.  Open and close the file **Contoso CipherGuard Product Specification
     report.docx** (which you uploaded to **OneDrive**) to get it in your
@@ -63,7 +62,7 @@ to your OneDrive account. The next exercise uses this file.
     ![](./media/image1.png)
 
 4.  In **Microsoft Edge**, navigate to Microsoft Bing by entering the
-    following URL: +++[**https://bing.com**](https://bing.com)+++**.**
+    following URL: +++https://bing.com+++.
 
     ![](./media/image2.png)
 
@@ -97,7 +96,7 @@ to your OneDrive account. The next exercise uses this file.
     +++**I'm the Director of IT at Adatum Corporation. Create a project
     plan for installing a new network security product into a corporate
     network. Base this plan on IT industry guidelines for installing
-    network security products**.+++
+    network security products**+++
 
     ![](./media/image6.png)
 
@@ -115,7 +114,7 @@ to your OneDrive account. The next exercise uses this file.
     +++**While that was a good start, I feel like it's missing important
     areas. Please add the following items to the existing list: testing
     and QA, training, communication, document and reporting, stakeholder
-    analysis, project timeline, and risk assessment and mitigation.**+++
+    analysis, project timeline, and risk assessment and mitigation**+++
 
     ![](./media/image8.png)
 
@@ -141,27 +140,27 @@ to your OneDrive account. The next exercise uses this file.
     the prompt. Your next step depends on whether Copilot opens a window
     for you to select the file:
 
-- If Copilot opens a window after you entered the forward slash (/),
-  then select the **Files** tab. Doing so displays the list of MRU
-  files. Select the **Contoso CipherGuard Product Specification** file
-  and then select the **Submit** icon.
+    -  If Copilot opens a window after you entered the forward slash (/),
+       then select the **Files** tab. Doing so displays the list of MRU
+       files. Select the **Contoso CipherGuard Product Specification** file
+       and then select the **Submit** icon.
 
-- If Copilot didn't do anything after you entered the forward slash (/),
-  then you'll have to copy and paste in the link to the **Contoso
-  CipherGuard Product Specification** file. To do so, locate the file in
-  your OneDrive account, open it in **Word**, select
-  the **Share** button that appears above the Word ribbon, select **Copy
-  link** in the drop-down menu that appears, and then back in this
-  prompt field, paste in the link following the forward slash and select
-  the **Submit** icon.
+    - If Copilot didn't do anything after you entered the forward slash (/),
+      then you'll have to copy and paste in the link to the **Contoso
+      CipherGuard Product Specification** file. To do so, locate the file in
+      your OneDrive account, open it in **Word**, select
+      the **Share** button that appears above the Word ribbon, select **Copy
+      link** in the drop-down menu that appears, and then back in this
+      prompt field, paste in the link following the forward slash and select
+      the **Submit** icon.
 
-    ![](./media/image11.png)
+      ![](./media/image11.png)
 
-  <span class="mark">**Note**: If Copilot is not able to directly access
-  or review documents, Sign-out of the logged in user and sign-in once
-  again</span>.
+      <span class="mark">**Note**: If Copilot is not able to directly access
+      or review documents, Sign-out of the logged in user and sign-in once
+      again</span>.
 
-    ![](./media/image12.png)
+      ![](./media/image12.png)
 
 13. Continue from **step 9** once again.
 
@@ -312,7 +311,7 @@ project plan.docx** available in **C:\LabFiles**.</span>
     prompt:
 
     +++**Add a Q&A slide at the very end of the presentation with an
-    appropriate image**.+++
+    appropriate image**+++
 
     ![](./media/image25.png)
 
@@ -321,7 +320,7 @@ project plan.docx** available in **C:\LabFiles**.</span>
     Copilot to change the image:
 
     +++**I don't like the image you used on the Q&A slide. Please replace it
-    with a different image**.+++
+    with a different image**+++
 
     ![](./media/image26.png)
 
@@ -361,7 +360,7 @@ project plan.docx** available in **C:\LabFiles**.</span>
     theme of the presentation to something more appropriate due to the
     technical nature of the topic. Enter the following prompt:
 
-    **Change the theme of this presentation to something more technical.** 
+    **Change the theme of this presentation to something more technical** 
 
     ![](./media/image30.png)
 
@@ -407,8 +406,8 @@ transform text into a table.
     following
     URL: +++https://www.office.com/+++ to go to the **Microsoft 365** home page.
 
-**Note**: You need to sign-in (if prompted) using the **Microsoft 365
-Credentials** provided under the **Resources tab** on the right.
+    **Note**: You need to sign-in (if prompted) using the **Microsoft 365
+    Credentials** provided under the **Resources tab** on the right.
 
 2.  Browse to the **C:\LabFiles** folder to select and upload a copy of
     **Trey Research - VPN Technical Overview.docx** to **OneDrive**.
@@ -437,7 +436,7 @@ Credentials** provided under the **Resources tab** on the right.
 
     +++**Write a new section for this document about the types of VPNs.
     Discuss the pros and cons of each type. This content is for a technical
-    audience, so please provide specific details**.+++
+    audience, so please provide specific details**+++
 
     ![](./media/image34.png)
 
@@ -490,7 +489,7 @@ Credentials** provided under the **Resources tab** on the right.
     +++**The highlighted content discusses the risks of using VPNs in both
     home and enterprise networks. Remove the content related to home
     networks and focus solely on the risks of VPNs in enterprise
-    networks**.+++
+    networks**+++
 
     ![](./media/image37.png)
 
@@ -508,7 +507,7 @@ Credentials** provided under the **Resources tab** on the right.
     Highlight both sections and then enter the following prompt:
 
     +++**Please rewrite the highlighted content by placing it in a
-    table**.+++
+    table**+++
 
     ![](./media/image39.png)
 
@@ -523,7 +522,7 @@ Credentials** provided under the **Resources tab** on the right.
     prompt:
 
     +++**Place the content from the Pros and Cons of implementing VPNs
-    into a table**.+++
+    into a table**+++
 
     ![](./media/image41.png)
 
@@ -545,7 +544,7 @@ Credentials** provided under the **Resources tab** on the right.
     include any other information. Enter the following prompt:
 
     +++**Is there anything missing in this document that you would recommend
-    adding?**.+++
+    adding?** +++
 
     ![](./media/image43.png)
 
