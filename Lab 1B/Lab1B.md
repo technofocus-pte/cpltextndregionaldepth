@@ -45,16 +45,16 @@ to your OneDrive account. The next exercise uses this file.
     URL: +++[**https://www.office.com**](https://www.office.com)+++ to
     go to the Microsoft 365 home page.
 
-**Note**: You need to sign-in (if prompted) using the **Microsoft 365
-Credentials** provided under the **Resources tab** on the right.
+    **Note**: You need to sign-in (if prompted) using the **Microsoft 365
+    Credentials** provided under the **Resources tab** on the right.
 
 2.  Browse to the **C:\LabFiles** folder to select and upload a copy of
     **Contoso CipherGuard Product Specification report.docx** to
     **OneDrive**.
 
-> **Note**: You can skip this step, if you have already uploaded a copy
-> of all the documents (that you will be using in this hands-on lab
-> session from **C:\LabFiles** as instructed in **Lab 0**)**.**
+    **Note**: You can skip this step, if you have already uploaded a copy
+    of all the documents (that you will be using in this hands-on lab
+    session from **C:\LabFiles** as instructed in **Lab 0**)**.**
 
 3.  Open and close the file **Contoso CipherGuard Product Specification
     report.docx** (which you uploaded to **OneDrive**) to get it in your
@@ -90,7 +90,7 @@ Credentials** provided under the **Resources tab** on the right.
 
 > <img src="./media/image4.png" style="width:5.28057in;height:3.82674in"
 > alt="A screenshot of a computer Description automatically generated" />
->
+
 > <img src="./media/image5.png" style="width:5.02097in;height:3.49231in"
 > alt="A screenshot of a chat Description automatically generated" />
 
@@ -99,11 +99,11 @@ Credentials** provided under the **Resources tab** on the right.
     content** plugin to Microsoft Copilot, and then select
     the **Submit** arrow in the bottom corner of the prompt field:
 
-> +++**I'm the Director of IT at Adatum Corporation. Create a project
-> plan for installing a new network security product into a corporate
-> network. Base this plan on IT industry guidelines for installing
-> network security products**.+++
->
+    +++**I'm the Director of IT at Adatum Corporation. Create a project
+    plan for installing a new network security product into a corporate
+    network. Base this plan on IT industry guidelines for installing
+    network security products**.+++
+
 > <img src="./media/image6.png" style="width:5.53797in;height:1.67808in"
 > alt="A screenshot of a computer Description automatically generated" />
 
@@ -304,22 +304,14 @@ project plan.docx** available in **C:\LabFiles**.</span>
   copy the link to the report and paste it in the prompt field. To do
   so:
 
-  a.  Select the **Microsoft 365** browser tab and select **Word** in
-      the navigation pane.
+  a.  Select the **Microsoft 365** browser tab and select **Word** in the navigation pane.
 
-  b.  In the **Word** home page, in the list of recent files, select the
-      report to open it in Word.
+  b.  In the **Word** home page, in the list of recent files, select the report to open it in Word.
 
-  c.  In the report in Word, on the far-right above the ribbon, select
-      the **Share** button. In the drop-down menu that appears,
-      select **Copy Link**. Wait for the **Link copied** window to
-      appear, which is your assurance that the link to the file is
-      copied to your clipboard.
+  c.  In the report in Word, on the far-right above the ribbon, select the **Share** button. In the drop-down menu that           appears, select **Copy Link**. Wait for the **Link copied** window to appear, which is your assurance that the link         to the file is copied to your clipboard.
 
-  d.  Switch to your **PowerPoint** tab, and at the bottom of
-      the **Copilot** pane, the prompt field should still be
-      displaying **Create presentation from file /**. Position your
-      cursor after the forward slash (**/**) and then paste in
+  d.  Switch to your **PowerPoint** tab, and at the bottom of the **Copilot** pane, the prompt field should still be
+      displaying **Create presentation from file /**. Position your cursor after the forward slash (**/**) and then paste in
       (**Ctrl+V**) the link to the report.
 
 7.  Note how the file appears in the prompt field. Select
@@ -343,8 +335,8 @@ project plan.docx** available in **C:\LabFiles**.</span>
     Answer (Q&A) session. To correct this oversight, enter the following
     prompt:
 
-**Add a Q&A slide at the very end of the presentation with an
-appropriate image**.
++++**Add a Q&A slide at the very end of the presentation with an
+appropriate image**.+++
 
 > <img src="./media/image25.png" style="width:5.24154in;height:1.87862in"
 > alt="A group of black question marks Description automatically generated" />
@@ -353,8 +345,8 @@ appropriate image**.
     Copilot used for this slide, so enter the following prompt asking
     Copilot to change the image:
 
-> **I don't like the image you used on the Q&A slide. Please replace it
-> with a different image**.
+> +++**I don't like the image you used on the Q&A slide. Please replace it
+> with a different image**.+++
 >
 > <img src="./media/image26.png" style="width:4.43751in;height:2.07127in"
 > alt="A screenshot of a computer Description automatically generated" />
@@ -376,7 +368,7 @@ appropriate image**.
 > alt="A screenshot of a phone Description automatically generated" />
 
 17. Select the command **Add a slide about** and append the following
-    **Q&A at the very end of the presentation** (as shown in the
+    +++**Q&A at the very end of the presentation**+++ (as shown in the
     screenshot)
 
 > <img src="./media/image29.png" style="width:2.43316in;height:3.93048in"
