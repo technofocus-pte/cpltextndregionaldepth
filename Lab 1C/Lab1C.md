@@ -80,10 +80,10 @@ Creative, More Balanced, or More Precise).
 5.  In the prompt field, enter the following prompt and then select
     the **Submit** icon:
 
-    +++**I'm the Director for Market Research for Tailspin Toys, a U.S.
+    ++**I'm the Director for Market Research for Tailspin Toys, a U.S.
     based toy manufacturer. Conduct a market analysis of the toy industry
     to identify sales figures, the latest trends, consumer preferences,
-    and the most popular toys in the market**.+++
+    and the most popular toys in the market**.++
 
     ![](./media/image8.png)
 
@@ -98,10 +98,10 @@ Creative, More Balanced, or More Precise).
     iterate, iterate, iterate. Enter the following prompt to amend the
     market analysis:
 
-    +++**That analysis was great. However, I'm also interested in
+    ++**That analysis was great. However, I'm also interested in
     including data on the toy industry, including market share and
     consumer feedback. Please amend your prior analysis to include this
-    information. Thanks**!+++
+    information. Thanks**!++
 
     ![](./media/image9.png)
 
@@ -118,10 +118,10 @@ Creative, More Balanced, or More Precise).
     plan for the upcoming year. To correct this shortcoming, enter the
     following prompt:
 
-    +++**I think all the data is complete. With all the information that
+    ++**I think all the data is complete. With all the information that
     you captured, please analyze the data and identify patterns, trends,
     and insights that can help me determine what Tailspin Toy's business
-    plan should be for the upcoming year**+++
+    plan should be for the upcoming year**++
 
     ![](./media/image12.png)
 
@@ -134,11 +134,11 @@ Creative, More Balanced, or More Precise).
     have Copilot help you determine if you're missing anything. Enter
     the following prompt:
 
-    +++**Please analyze the data in this market analysis and business
+    ++**Please analyze the data in this market analysis and business
     plan. Is there any other information that a toy company would
     typically request for market analysis and business plans that I failed
     to request? If so, can you please amend your responses to include this
-    information. Thank you**!+++
+    information. Thank you**!++
 
     ![](./media/image14.png)
 
@@ -149,10 +149,10 @@ Creative, More Balanced, or More Precise).
     Copilot include an analysis of these areas. To put the finishing
     touch on your reports, enter the following prompt:
 
-    +++**Please amend the market analysis to include an analysis of each
+    ++**Please amend the market analysis to include an analysis of each
     of these areas for the Toy industry. Also update the business plan
     that you created for Tailspin Toys based on these insights.
-    Thanks**!+++
+    Thanks**!++
 
     ![](./media/image16.png)
 
@@ -216,20 +216,19 @@ Latin America.
 1.  If you have a **Microsoft 365** tab open in your Microsoft Edge
     browser, then select it now; otherwise, open a new tab and enter the
     following
-    URL: +++[**https://www.office.com**](https://www.office.com)+++to go
-    to the **Microsoft 365** home page.
+    URL: +++https://www.office.com+++ to go to the **Microsoft 365** home page.
 
-**Note**: You need to sign-in (if prompted) using the **Microsoft 365
-Credentials** provided under the **Resources tab** on the right.
+    **Note**: You need to sign-in (if prompted) using the **Microsoft 365
+    Credentials** provided under the **Resources tab** on the right.
 
 2.  Browse to the **C:\LabFiles** folder to select and upload a copy of
     the following documents to **OneDrive**.
 
-- **Mystic Spice Premium Chai Tea product description**
+  - **Mystic Spice Premium Chai Tea product description**
 
-- **Contoso Chai Tea market trends 2023**
+  - **Contoso Chai Tea market trends 2023**
 
-- **Promotion Plan for Chai Tea in Latin America**
+  - **Promotion Plan for Chai Tea in Latin America**
 
   **Note**: You can skip this step, if you have already uploaded a copy
   of all the documents (that you will be using in this hands-on lab
@@ -249,11 +248,11 @@ Credentials** provided under the **Resources tab** on the right.
     the **Generate** button until after you link the three files to the
     prompt:
 
-    +++**I'm the LATAM Marketing Director for Contoso Beverage. Please
+    ++**I'm the LATAM Marketing Director for Contoso Beverage. Please
     create a LATAM Market Analysis report for our Mystic Spice Premium
     Chai Tea beverage. Combine the three attached files to create a report
     that describes the product, analyzes the market trend for it, and
-    includes a promotion plan for Latin America**.+++
+    includes a promotion plan for Latin America**.++
 
     ![](./media/image20.png)
 
@@ -291,11 +290,11 @@ Credentials** provided under the **Resources tab** on the right.
 
     ![](./media/image24.png)
 
-    **This report looks good. However, please add a section titled
+    ++**This report looks good. However, please add a section titled
     Competitive Analysis. Review the beverage companies in Latin America
     that sell Chai Tea and then provide information in this section on the
     strengths and weaknesses of these competitors, their market share, and
-    their pricing strategies**.
+    their pricing strategies**++
 
     ![](./media/image25.png)
 
@@ -309,10 +308,10 @@ Credentials** provided under the **Resources tab** on the right.
 
     ![](./media/image26.png)
 
-    **Nice job! One last thing. Please add a section titled Distribution
+    ++**Nice job! One last thing. Please add a section titled Distribution
     Channels. Review the distribution channels used to sell Chai Tea in
     Latin America and then provide information in this section on the
-    types of retailers, wholesalers, and distributors used**.
+    types of retailers, wholesalers, and distributors used**++
 
 11. After reviewing this latest draft that contains the new Distribution
     Channels section, you're satisfied with the report and you're ready
