@@ -255,16 +255,13 @@ project plan.docx** available in **C:\LabFiles**.</span>
     screenshot). In the **Copilot** pane that appears, several
     predefined prompts are available for you to choose from.
 
-> <img src="./media/image20.png" style="width:4.95585in;height:2.46282in"
-> alt="A screenshot of a computer Description automatically generated" />
->
-> <img src="./media/image21.png" style="width:4.54803in;height:2.67309in"
-> alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image20.png)
+
+    ![](./media/image21.png)
 
 5.  Select the **Create presentation from file** prompt.
 
-> <img src="./media/image22.png" style="width:2.33273in;height:3.07522in"
-> alt="Screens screenshot of a phone Description automatically generated" />
+    ![](./media/image22.png)
 
 6.  In the prompt field at the bottom of the **Copilot** pane, Copilot
     automatically enters the text: **Create presentation from file /**.
@@ -302,65 +299,58 @@ project plan.docx** available in **C:\LabFiles**.</span>
     displayed a separate window showing a bulleted list of some of the
     changes that it made to the presentation based on the document.
 
-> <img src="./media/image23.png" style="width:4.89456in;height:2.25911in"
-> alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image23.png)
 
 8.  You're now free to review the slides and make any necessary updates.
     Pay special attention to the changes the Copilot made based on the
     document. You can use the **Designer** tool to adjust the layouts
 
-> <img src="./media/image24.png" style="width:4.98117in;height:2.30792in"
-> alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image24.png)
 
 9.  You notice that there isn't a slide at the end for a Question and
     Answer (Q&A) session. To correct this oversight, enter the following
     prompt:
 
-+++**Add a Q&A slide at the very end of the presentation with an
-appropriate image**.+++
+    +++**Add a Q&A slide at the very end of the presentation with an
+    appropriate image**.+++
 
-> <img src="./media/image25.png" style="width:5.24154in;height:1.87862in"
-> alt="A group of black question marks Description automatically generated" />
+    ![](./media/image25.png)
 
 10. Review the new slide that was created. You don't like the image that
     Copilot used for this slide, so enter the following prompt asking
     Copilot to change the image:
 
-> +++**I don't like the image you used on the Q&A slide. Please replace it
-> with a different image**.+++
->
-> <img src="./media/image26.png" style="width:4.43751in;height:2.07127in"
-> alt="A screenshot of a computer Description automatically generated" />
+    +++**I don't like the image you used on the Q&A slide. Please replace it
+    with a different image**.+++
+
+    ![](./media/image26.png)
 
 11. What response did you receive? Sometimes Copilot didn't replace the
     image and it returned the following message.
 
-> <img src="./media/image27.png" style="width:4.4561in;height:2.07945in"
-> alt="A screenshot of a computer Description automatically generated" />
->
-> <span class="mark">**Note:** Copilot may display some exception
-> (remember that Copilot is still a work in progress) like the one
-> above.</span>
+    ![](./media/image27.png)
+
+    <span class="mark">**Note:** Copilot may display some exception
+    (remember that Copilot is still a work in progress) like the one
+    above.</span>
 
 16. Please try rephrasing the prompt or use the suggested prompts like
     the one below.
 
-> <img src="./media/image28.png" style="width:2.40049in;height:4.20321in"
-> alt="A screenshot of a phone Description automatically generated" />
+    ![](./media/image28.png)
 
 17. Select the command **Add a slide about** and append the following
     +++**Q&A at the very end of the presentation**+++ (as shown in the
     screenshot)
 
-> <img src="./media/image29.png" style="width:2.43316in;height:3.93048in"
-> alt="A screenshot of a phone Description automatically generated" />
+    ![](./media/image29.png)
 
 18. Click Send to check what happens. Copilot has added a Q&A slide as
     instructed.
 
 19. Now try with another prompt:
 
-**Add a slide about** what the audience may ask about the presentation.
+    **Add a slide about** what the audience may ask about the presentation.
 
 20. Once you are done with final presentation you can save for future
     reference or discard this presentation
@@ -371,29 +361,26 @@ appropriate image**.+++
     theme of the presentation to something more appropriate due to the
     technical nature of the topic. Enter the following prompt:
 
-> **Change the theme of this presentation to something more
-> technical.** 
->
-> <img src="./media/image30.png" style="width:4.34144in;height:2.26933in"
-> alt="A screenshot of a chat Description automatically generated" />
+    **Change the theme of this presentation to something more technical.** 
+
+    ![](./media/image30.png)
 
 21. Note Copilot's response.
 
-> <img src="./media/image31.png" style="width:3.07361in;height:2.88681in"
-> alt="Screenshot showing the prompt to change the theme and Copilot&#39;s response" />
->
-> This scenario is one of those situations to remember the prompting
-> best practice: **Understand Copilot's limitations**. In this case, it
-> isn't an understanding of a limitation as much as it's an
-> understanding as to how Copilot works. In this case, Copilot points
-> you to an existing PowerPoint feature rather than duplicating what
-> that feature does.
+    ![](./media/image31.png)
+
+    This scenario is one of those situations to remember the prompting
+    best practice: **Understand Copilot's limitations**. In this case, it
+    isn't an understanding of a limitation as much as it's an
+    understanding as to how Copilot works. In this case, Copilot points
+    you to an existing PowerPoint feature rather than duplicating what
+    that feature does.
 
 22. While the remaining training exercises in this module don't use this
     presentation, you can either discard it or save it if you want it
     for future reference.
 
-Exercise \#3: Update a technical report using Copilot in Word
+## Exercise #3: Update a technical report using Copilot in Word
 
 Copilot in Word can help IT professionals save time and effort when
 creating documents. It can help you generate content, rewrite text, and
