@@ -545,8 +545,8 @@ Credentials** provided under the **Resources tab** on the right.
     it safe, you decide to ask Copilot if it feels the document should
     include any other information. Enter the following prompt:
 
-    **Is there anything missing in this document that you would recommend
-    adding?**
+    +++**Is there anything missing in this document that you would recommend
+    adding?**.+++
 
     ![](./media/image43.png)
 
