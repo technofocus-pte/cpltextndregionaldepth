@@ -11,4 +11,4 @@ This workshop covers the following labs:
   - **Lab 3B**: Create a Flow and Invoke It from a Copilot Topic.
   - **Lab 3C**: Building a GenAI Copilot with Copilot Studio.
 
-Let’s dive into these labs and explore how to revolutionize your business operations with Microsoft Copilot!
+Let’s dive into these labs and explore how to improve your business productivity with Microsoft Copilot!
