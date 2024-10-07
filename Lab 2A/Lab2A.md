@@ -26,7 +26,7 @@ Lab duration – 15 minutes
 2.  After logging into the VM, right click on the clock at the bottom
     right corner of the screen.
 
-3.  Select **Adjust date and time.**
+3.  Select **Adjust date and time**.
 
     ![](./media/image2.jpeg)
 
