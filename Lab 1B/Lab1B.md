@@ -405,7 +405,7 @@ transform text into a table.
 1.  If you have a Microsoft 365 tab open in your Microsoft Edge browser,
     then select it now; otherwise, open a new tab and enter the
     following
-    URL: [**<u>https://www.office.com</u>**](https://www.office.com/) to
+    URL: +++https://www.office.com/+++ to
     go to the Microsoft 365 home page.
 
 **Note**: You need to sign-in (if prompted) using the **Microsoft 365
@@ -414,9 +414,9 @@ Credentials** provided under the **Resources tab** on the right.
 2.  Browse to the **C:\LabFiles** folder to select and upload a copy of
     **Trey Research - VPN Technical Overview.docx** to **OneDrive**.
 
-> **Note**: You can skip this step, if you have already uploaded a copy
-> of all the documents (that you will be using in this hands-on lab
-> session from **C:\LabFiles** as instructed in **Lab 0**)**.**
+    **Note**: You can skip this step, if you have already uploaded a copy
+    of all the documents (that you will be using in this hands-on lab
+    session from **C:\LabFiles** as instructed in **Lab 0**).
 
 3.  Open and close the file **Trey Research - VPN Technical
     Overview.docx** (which you uploaded to **OneDrive**) to get it in
@@ -426,24 +426,21 @@ Credentials** provided under the **Resources tab** on the right.
 
 5.  Open the **Trey Research - VPN Technical Overview.docx** file.
 
-> <img src="./media/image32.png" style="width:5.44458in;height:2.45628in"
-> alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image32.png)
 
 6.  On the **Word** ribbon, select the **Copilot** button to open the
     Copilot pane.
 
-> <img src="./media/image33.png" style="width:5.15508in;height:2.39726in"
-> alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image33.png)
 
 7.  In the **Copilot** pane, enter the following prompt and then select
     the arrow (**Send**) icon:
 
-+++**Write a new section for this document about the types of VPNs.
-Discuss the pros and cons of each type. This content is for a technical
-audience, so please provide specific details.**+++
+    +++**Write a new section for this document about the types of VPNs.
+    Discuss the pros and cons of each type. This content is for a technical
+    audience, so please provide specific details**.+++
 
-> <img src="./media/image34.png" style="width:4.92364in;height:1.77068in"
-> alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image34.png)
 
 8.  Copilot doesn't add new content directly into a document. It
     displays the content in a response window in the Copilot pane.
@@ -452,32 +449,30 @@ audience, so please provide specific details.**+++
     to your clipboard. In looking at the document, you decide to paste
     the contents below the opening paragraph. Paste the contents in now.
 
-> **Tip**: When you select the **Copy** button for a response window, it
-> copies ALL the content, including Copilot's comments that are intended
-> for you. These types of comments are typically at the start and end of
-> the response. Make sure you remove these comments once you paste the
-> response into your document. Chances are, the font and font size of
-> the new content won't match the existing font and size used throughout
-> the document. As such, you must change them to match.
+    **Tip**: When you select the **Copy** button for a response window, it
+    copies ALL the content, including Copilot's comments that are intended
+    for you. These types of comments are typically at the start and end of
+    the response. Make sure you remove these comments once you paste the
+    response into your document. Chances are, the font and font size of
+    the new content won't match the existing font and size used throughout
+    the document. As such, you must change them to match.
 
 9.  Upon further review, you notice that there's no mention of security
     policies related to VPN usage. This topic is a key area that you
     want included, so enter the following prompt:
 
-+++**Please write a new section for this document about security
-policies related to VPN usage. This content is for a technical audience,
-so please provide specific details.**+++
+    +++**Please write a new section for this document about security
+    policies related to VPN usage. This content is for a technical audience,
+    so please provide specific details**.+++
 
-> <img src="./media/image35.png" style="width:5.37818in;height:2.32205in"
-> alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image35.png)
 
 10. Copy and paste the content from this response into the document.
     Place it just before the **Risks and mitigations** section, and then
     edit the content as needed. If necessary, add a heading for this
     section titled **Security policies related to VPN usage**.
 
-> <img src="./media/image36.png" style="width:5.41085in;height:2.53218in"
-> alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image36.png)
 
 11. When you reviewed the report, you also identified one area of
     content that you felt needed to be rewritten. In the section
@@ -487,27 +482,25 @@ so please provide specific details.**+++
     appear to be an easy fix. You decide to have Copilot rewrite the
     content for you.
 
-> **Tip**: To have Copilot rewrite content, you must first highlight the
-> content that you want Copilot to rewrite.
+    **Tip**: To have Copilot rewrite content, you must first highlight the
+    content that you want Copilot to rewrite.
 
 12. Highlight the content in the first bullet of the **Risks and
     mitigation** section, and then enter the following prompt:
 
-> +++**The highlighted content discusses the risks of using VPNs in both
-> home and enterprise networks. Remove the content related to home
-> networks and focus solely on the risks of VPNs in enterprise
-> networks.**+++
->
-> <img src="./media/image37.png" style="width:5.3961in;height:2.28375in"
-> alt="A screenshot of a computer Description automatically generated" />
+    +++**The highlighted content discusses the risks of using VPNs in both
+    home and enterprise networks. Remove the content related to home
+    networks and focus solely on the risks of VPNs in enterprise
+    networks**.+++
+
+    ![](./media/image37.png)
 
 13. Check Copilot's response. Sometimes this rewrite functionality
     didn't work. When it didn't work, Copilot returned the following
     response. If this situation occurs, copy and paste in your prompt
     and try it again (remember, iterate, iterate, iterate).
 
-> <img src="./media/image38.png" style="width:5.38806in;height:2.31317in"
-> alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image38.png)
 
 14. After you make a final review of the document, you decide that the
     sections on the Pros and Cons of implementing VPNs would look better
@@ -515,16 +508,14 @@ so please provide specific details.**+++
     section to be rewritten, you decide to highlight these two sections.
     Highlight both sections and then enter the following prompt:
 
-+++**Please rewrite the highlighted content by placing it in a
-table**.+++
+    +++**Please rewrite the highlighted content by placing it in a
+    table**.+++
 
-> .<img src="./media/image39.png" style="width:5.67978in;height:2.62468in"
-> alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image39.png)
 
 15. Note the Copilot response.
 
-> <img src="./media/image40.png" style="width:5.53447in;height:2.04492in"
-> alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image40.png)
 
 16. Reformatting content into a table is different than rewriting
     content. Instead of highlighting the content that you want placed in
@@ -532,11 +523,10 @@ table**.+++
     you want included in the table. This time, enter the following
     prompt:
 
-> +++**Place the content from the Pros and Cons of implementing VPNs
-> into a table**+++
->
-> <img src="./media/image41.png" style="width:5.36838in;height:2.50576in"
-> alt="A screenshot of a computer Description automatically generated" />
+    +++**Place the content from the Pros and Cons of implementing VPNs
+    into a table**.+++
+
+    ![](./media/image41.png)
 
 17. Note the Copilot response. Instead of rewriting or replacing the
     existing content in the document with a table, it displays the table
@@ -549,25 +539,22 @@ table**.+++
     font and font size of the table content to match the existing font
     and size used throughout the document.
 
-> <img src="./media/image42.png" style="width:5.50314in;height:2.27296in"
-> alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image42.png)
 
 18. At this point, you feel the document is complete. However, to play
     it safe, you decide to ask Copilot if it feels the document should
     include any other information. Enter the following prompt:
 
-**Is there anything missing in this document that you would recommend
-adding?**
+    **Is there anything missing in this document that you would recommend
+    adding?**
 
-> <img src="./media/image43.png" style="width:2.7918in;height:2.84654in"
-> alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image43.png)
 
 19. Note the Copilot response. In our testing, it told us that nothing
     was missing. Try again to see if Copilot provides a different
     response.
 
-> <img src="./media/image44.png" style="width:2.72225in;height:3.01829in"
-> alt="A screenshot of a chat Description automatically generated" />
+    ![](./media/image44.png)
 
 20. If Copilot recommended that you add more content to your document,
     create a prompt that asks it to do so. You can then copy and paste
