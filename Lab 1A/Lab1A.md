@@ -88,9 +88,9 @@ speech for you based on your company's Income Statement:
 6.  In the **Draft with Copilot** window that appears at the top of the
     blank document, enter the following prompt:
 
-    +++**Write a speech for the Fabrikam stakeholders that summarizes the
+    ++**Write a speech for the Fabrikam stakeholders that summarizes the
     results of the company's 2023 income statement found in the attached
-    file**+++
+    file**++
 
 7.  In the **Draft with Copilot** window, select the **Reference your
     content** button. In the pop-up window that appears, select the
@@ -333,12 +333,12 @@ create a draft of your presentation:
 19. Try using Copilot to update the presentation. For example, enter the
     following prompt:
 
-    +++**Add a new slide after slide 1. This slide should have an image of a
+    ++**Add a new slide after slide 1. This slide should have an image of a
     mountain peak in the Alps. Towards the bottom of the slide, add a text
     box that says: Fabrikam's company motto - "We overcome every
     obstacle." Add speaker notes to this new slide that talk about how
     Fabrikam works diligently to solve every customer's request, never
-    letting any obstacle stand in its way of success**+++
+    letting any obstacle stand in its way of success**++
 
      ![](./media/image28.png)
 
