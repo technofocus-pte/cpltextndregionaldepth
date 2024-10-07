@@ -1,6 +1,6 @@
-Lab 1B: Empowering Project managers and IT workforce
+# Lab 1B: Empowering Project managers and IT workforce
 
-Objective:
+## Objective:
 
 Copilot for Microsoft 365 serves as an AI-powered writing assistant
 understands context, suggests phrases, and helps generate content, all
@@ -15,7 +15,7 @@ use:
 
 - Copilot in Word to modify a technical specification report.
 
-Exercise \#1: Create a project plan using Microsoft Copilot
+## Exercise #1: Create a project plan using Microsoft Copilot
 
 With Microsoft Copilot seamlessly integrates into Microsoft 365 and
 offers a robust platform for IT professionals to enhance teamwork, share
@@ -225,8 +225,7 @@ Credentials** provided under the **Resources tab** on the right.
 > <img src="./media/image19.png" style="width:3.51388in;height:2.42304in"
 > alt="A screenshot of a computer Description automatically generated" />
 
-Exercise \#2: Create a project plan presentation using Copilot in
-PowerPoint
+## Exercise #2: Create a project plan presentation using Copilot in PowerPoint
 
 Copilot in PowerPoint serves as an intelligent collaborator, offering
 real-time suggestions and enhancements as IT professionals craft their
@@ -305,19 +304,19 @@ project plan.docx** available in **C:\LabFiles**.</span>
   copy the link to the report and paste it in the prompt field. To do
   so:
 
-  1.  Select the **Microsoft 365** browser tab and select **Word** in
+  a.  Select the **Microsoft 365** browser tab and select **Word** in
       the navigation pane.
 
-  2.  In the **Word** home page, in the list of recent files, select the
+  b.  In the **Word** home page, in the list of recent files, select the
       report to open it in Word.
 
-  3.  In the report in Word, on the far-right above the ribbon, select
+  c.  In the report in Word, on the far-right above the ribbon, select
       the **Share** button. In the drop-down menu that appears,
       select **Copy Link**. Wait for the **Link copied** window to
       appear, which is your assurance that the link to the file is
       copied to your clipboard.
 
-  4.  Switch to your **PowerPoint** tab, and at the bottom of
+  d.  Switch to your **PowerPoint** tab, and at the bottom of
       the **Copilot** pane, the prompt field should still be
       displaying **Create presentation from file /**. Position your
       cursor after the forward slash (**/**) and then paste in
@@ -405,7 +404,7 @@ appropriate image**.
 > <img src="./media/image30.png" style="width:4.34144in;height:2.26933in"
 > alt="A screenshot of a chat Description automatically generated" />
 
-19\. Note Copilot's response.
+21. Note Copilot's response.
 
 > <img src="./media/image31.png" style="width:3.07361in;height:2.88681in"
 > alt="Screenshot showing the prompt to change the theme and Copilot&#39;s response" />
@@ -417,7 +416,7 @@ appropriate image**.
 > you to an existing PowerPoint feature rather than duplicating what
 > that feature does.
 
-20. While the remaining training exercises in this module don't use this
+22. While the remaining training exercises in this module don't use this
     presentation, you can either discard it or save it if you want it
     for future reference.
 
@@ -614,7 +613,7 @@ adding?**
     create a prompt that asks it to do so. You can then copy and paste
     the new content into your document.
 
-Summary:
+## Summary:
 
 In this lab, you explored how Copilot for Microsoft 365 enhances the
 quality of your work by
