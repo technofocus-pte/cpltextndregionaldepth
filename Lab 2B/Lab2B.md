@@ -15,7 +15,7 @@ Lab duration – 15 minutes
 
 ### Task 1: Navigate to the Add a prompt action wizard
 
-1.  Sign into Copilot Studio at +++https://copilotstudio.microsoft.com+++ using your admin tenant credentials.
+1.  Sign into Copilot Studio at +++https://copilotstudio.microsoft.com+++ using your tenant credentials under the Resources tab.
 
 2.  Select **Library** from the side navigation pane.
 
