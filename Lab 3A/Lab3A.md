@@ -28,11 +28,7 @@ testing your first copilot to handle a common customer request.
 
      ![](./media/image5.png)
 
-6.  Click on **Create**.
-
-     ![](./media/image6.png)
-
-7.  Wait for the Copilot to get created.
+6.  Wait for the Copilot to get created.
 
 8.	If you are not on the **CustomerService** copilot page, click on **Copilots** from the left pane.
 
