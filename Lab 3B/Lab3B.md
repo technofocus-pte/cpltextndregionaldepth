@@ -1,96 +1,103 @@
-# **Lab 3B_Create a flow and invoke it from a copilot topic**
+# Laboratorio 3B_Crear un flujo e invocarlo desde un tema Copilot
 
-**Objective**
+**Objetivo**
 
-In this lab, you will learn how to create a flow that fetches a weather
-forecast and use a Call an action node in a copilot topic to invoke the
-flow when a customer asks about the weather.
+En este laboratorio, aprenderá a crear un flujo que obtenga una
+previsión meteorológica y a utilizar un nodo Llamar a una acción en un
+tema del Copilot para invocar el flujo cuando un cliente pregunte por el
+tiempo.
 
-**Duration:** 30 minutes
+**Duración:** 30 minutos
 
-## Exercise 1: Create a flow to use with a copilot
+## Ejercicio 1: Crear un flujo para utilizarlo con un Copilot
 
-1.  Login to +++**https://copilotstudio.microsoft.com/**+++ using your
-    user credentials if not logged in already.
+1.  Inicie sesión en
+    +++**https://copilotstudio.microsoft.com/**+++    con sus credenciales de usuario si aún no lo ha hecho.
 
-2.  Open the **Customer service** copilot.
+2.  Abra el Copilot **de Customer Service**.
 
     ![](./media/image1.png)
 
-3.  Click on **Topics**, open the topic – **Get store locations**.
+3.  Haga clic en **Topics**, abra el tema – **Get store locations**.
 
     ![](./media/image2.png)
 
-4.  Click on + symbol to add a node after any existing node, select
-    **call an action** and then **Create a flow**.
+4.  Haga clic en el símbolo + para añadir un nodo después de cualquier
+    nodo existente, seleccione **call an action** y luego **Create a
+    flow**.
 
-    >[!Note] **Note:** This action will not add anything here but will only open the flow creation page on Power Automate with the proper template.
+    >[!Note]**\[Nota:** Esta acción no añadirá nada aquí, sólo abrirá la página de
+creación de flujo en Power Automate con la plantilla adecuada.
 
     ![](./media/image3.png)
 
-5.  The Power Automate is opened with the basic template required for a
+5.  El Power Automate se abre con la plantilla básica necesaria para un
     Copilot.
 
     ![](./media/image4.png)
 
-## Exercise 2: Author the flow on the Power Automate portal
+## Ejercicio 2: Crear el flujo en el portal de Power Automate
 
-1.  Name the flow that just got opened as, +++**Get weather
-    forecast**+++
+1.  Nombra el flujo que se acaba de abrir como, +++ **Get weather
+    forecast +++**
 
     ![](./media/image5.png)
 
-2.  Click on the node, **When Copilot Studio calls a flow**. In the node
-    details pane that opens, click on **+ Add an input**.
+2.  Haga clic en el nodo **When Copilot Studio calls a flow**. En el
+    panel de detalles del nodo que se abre, haga clic en **+ Add an
+    input**.
 
     ![](./media/image6.png)
 
-3.  Choose a **Text** input and name it as +++**City**+++.
+3.  Elija una entrada de **Text** y nómbrela como **+++City+++**.
 
     ![](./media/image7.png)
 
-4.  Click on **+ Add an input** to add another input field.
+4.  Haga clic en **+ Add an input** para añadir otro campo de entrada.
 
     ![](./media/image8.png)
 
-5.  Select a **Number** input and name it as +++**Zipcode**+++. Click on
-    the **back(<<)** symbol on the right corner to come out of the node
-    details pane.
+5.  Seleccione una entrada **numérica** y nómbrela como
+    **+++Zipcode+++**. Haga clic en el símbolo **de retroceso (\<\<)**
+    de la esquina derecha para salir del panel de detalles del nodo.
 
     ![](./media/image9.png)
 
-6.  Click on **Add an action** to a add node after the **When Copilot
-    Studio calls a flow** node.
+6.  Haga clic en **Add an action**  a un nodo de adición después de
+    **When Copilot Studio calls a flow** nodo.
 
     ![](./media/image10.png)
 
-7.  Search for +++**msn weather**+++ and select **Get forecast for
-    today** under **MSN Weather**.
+7.  Busca +++**msn** **weather+++** y selecciona **Get forecast for
+    today** en **MSN Weather**.
 
     ![](./media/image11.png)
 
-    >[!Note] **Note:** If asked to create a new connection, select **Create New**.
+>[!Note] **\[Nota:** Si se le pide que cree una nueva conexión, seleccione **Create new**.
 
     ![](./media/image12.png)
 
-8.  In the **Get forecast for today** action, in the **Location** box,
-    select **Add dynamic content**, and then
-    select **City** and **Zipcode**.
+8.  En la acción **Get forecast for today**, en el cuadro **Location**,
+    seleccione **Add dynamic content** y, a continuación, seleccione
+    **City** y **Zipcode**.
 
     ![](./media/image13.png)
 
     ![](./media/image14.png)
 
-9.  **City** and **Zipcode** will be passed on to this node as input.
+9.  **City** y el **Zipcode** se pasarán a este nodo como entrada.
 
     ![](./media/image15.png)
 
-10. Click on **Return value(s) to Power Virtual Agents** node. In the
-    node details pane that opens, click on **+ Add an output**.
+10. Haga clic en **Return value(s) to Power Virtual Agents**. En el
+    panel de detalles del nodo que se abre, haga clic en **+ Add an
+    output**.
 
     ![](./media/image16.png)
 
-11. In the Return value(s) to Microsoft Copilot Studio **Parameters** tab, add the following output parameters and variables.
+11. En la pestaña Return value(s) to Microsoft Copilot
+    Studio **Parameters**, añada los siguientes parámetros y variables
+    de salida.
 
     |    |    |    |
     |:-----|:----|:------|
@@ -98,8 +105,10 @@ flow when a customer asks about the weather.
     | +++day_summary+++   |  Text  |    Day Summary|
     | +++Location+++   |  Text  | Location|
     |  +++chance_of_rain+++  |  Text  | Day Rain Chance|
-    
-    >[!Note] **Note:** Select **Add dynamic content**, click on **See more** next to **Get forecast for today** to see the above variable options
+
+    **\[Nota:** Seleccione **Add dynamic content**, haga clic en **See
+    more** junto a **Get forecast for today** para ver las opciones
+    variables anteriores.
 
     ![](./media/image17.png)
 
@@ -107,76 +116,87 @@ flow when a customer asks about the weather.
 
     ![](./media/image19.png)
 
-12. Click on **Save Draft** to save the flow.
+13. Haga clic en **Save draft** para guardar el flujo.
 
     ![](./media/image20.png)
 
-13. Look for a success message as in the screenshot below.
+14. Busque un mensaje de éxito como en la siguiente captura de pantalla.
 
     ![](./media/image21.png)
 
-14. Click on **Publish** and look for a success message.
+15. Haga clic en **Publish** y busque un mensaje de éxito.
 
     ![](./media/image22.png)
 
     ![](./media/image23.png)
 
-## **Exercise 3: Turn off asynchronous responses in the flow**
+## Ejercicio 3: Desactivar las respuestas asíncronas en el flujo
 
-Flows that you want to use in a bot must return values in real time, or synchronously. Flows that run in the background, or asynchronously, may cause an error when your bot tries to run them. Instead of running the flow, the bot will say, "Something unexpected happened. We're looking into it. Error code: 3000."
+Los flujos que quiera utilizar en un bot deben devolver valores en
+tiempo real, o de forma sincrónica. Los flujos que se ejecutan en
+segundo plano, o de forma asíncrona, pueden provocar un error cuando su
+bot intente ejecutarlos. En lugar de ejecutar el flujo, el bot dirá: "
+Something unexpected happened. We're looking into it. Error code: 3000."
 
-When you create a flow from Microsoft Copilot Studio, **asynchronous responses** are turned off by default. If you modified an existing flow that has asynchronous responses turned on, you'll need to change the setting.
+Al crear un flujo desde Microsoft Copilot Studio, **las respuestas
+asíncronas** están desactivadas por defecto. Si ha modificado un flujo
+existente que tiene activadas las respuestas asíncronas, deberá cambiar
+la configuración.
 
-1.  Select the **Settings** tab in the **Return value(s) to Power Virtual Agents** pane.
+1.  Seleccione la pestaña **Settings** en el panel **Return value(s) to
+    Power Virtual Agents**.
 
     ![](./media/image24.png)
 
-2.  Ensure that Asynchronous response is set to **Off**.
+2.  Asegúrese de que la respuesta asíncrona está **desactivada**.
 
     ![](./media/image25.png)
 
-## Exercise 4: Call a flow from a topic
+## Ejercicio 4: Llamar a un flujo desde un tema
 
-1.  Go back to Microsoft Copilot Studio page, select **Done** on **Save & refresh** pop up.
+1.  Vuelva a la página de Microsoft Copilot Studio, seleccione **Done**
+    en la ventana emergente **Save and refresh**.
 
     ![](./media/image26.png)
 
-2.  Select **Topics**. Click on **+ Add -\> Topic -\> From blank**.
+2.  Seleccione **Topics**. Haga clic en **+ Add -\> Topic -\> From
+    blank**.
 
     ![](./media/image27.png)
 
-3.  Name the topic as +++**Get weather**+++. Click on **Edit** under Phrases to add in the Trigger phrases.
+3.  Nombre el tema como +++**Get weather+++**. Haga clic en **Edit**
+    bajo Phrases para añadir las frases desencadenantes.
 
     ![](./media/image28.png)
 
-4.  Add the following **trigger phrases**:
+4.  Añade las siguientes **frases desencadenantes**:
 
     - +++**will it rain**+++
-    
+
     - +++**today's forecast**+++
-    
+
     - +++**get weather**+++
-    
+
     - +++**what's the weather**+++
 
-    Enter the phrase and then click on **+** symbol to add it.
+    Introduzca la frase y haga clic en el símbolo **+** para añadirla.
 
     ![](./media/image29.png)
 
-    Similarly, add the other phrases as well.
+    Del mismo modo, añada también las demás frases.
 
     ![](./media/image30.png)
 
-5.  After the Trigger node, add a **Message** node and enter the message
-    as +++**I can help you with that**+++.
+5.  Después del nodo Trigger, añade un nodo **Message** e introduce el
+    mensaje como **+++I can help you with that+++**.
 
     ![](./media/image31.png)
 
-6.  Next, add an **Ask a question** node.
+6.  A continuación, añada un nodo **Add a question**.
 
     ![](./media/image32.png)
 
-7.  Add the question +++**What is your city?**+++
+7.  Añade la pregunta +++ **What is your city?**+++
 
     |  **Property**  |  **Value**  |
     |:----------|:----------|
@@ -184,9 +204,10 @@ When you create a flow from Microsoft Copilot Studio, **asynchronous responses**
     |  Identify  |   Select **User’s entire response** |
     |  Save Response as  | Click on **Var1** to open the Variable properties tab and provide the variable name as +++**city**+++   |
 
+
     ![](./media/image33.png)
 
-9.  Add another question node and provide the following details.
+8.  Añade otro nodo de pregunta y proporciona los siguientes detalles.
 
     |  **Property**  |  **Value**  |
     |:----------|:----------|
@@ -194,38 +215,49 @@ When you create a flow from Microsoft Copilot Studio, **asynchronous responses**
     |  Identify  |   Select **Number** |
     |  Save Response as  | Click on **Var1** to open the Variable properties tab and provide the variable name as +++**Zipcode**+++   |
 
+
     ![](./media/image34.png)
 
-10.  Select **Add node** (**+**) under the **Zipcode** question node.
-     In the node selection window, select **Call an action**, and then select the flow you created earlier, **Get weather forecast**.
+9.  Seleccione **Add node** (**+**) bajo el nodo de pregunta
+    **Zipcode**. En la ventana de selección de nodos, seleccione **Call
+    an action** y, a continuación, seleccione el flujo que creó
+    anteriormente, **Get weather forecast**.
 
-     ![](./media/image35.png)
+    ![](./media/image35.png)
 
-11. Assign the flow inputs to the output variables from the question nodes. **City (text)** gets its value from the variable **city** and **Zipcode (number)** gets its value from the variable **Zipcode**.
+10. Asigne las entradas de flujo a las variables de salida de los nodos
+    de la pregunta. **City (text)** obtiene su valor de la variable
+    **city** y **Zipcode (número)** obtiene su valor de la variable
+    **Zipcode**.
 
     ![](./media/image36.png)
 
-12. Under the flow node, add a **Message** node, and then enter a message that uses the flow's outputs as below.
+11. Debajo del nodo de flujo, añada un nodo de **Message** y, a
+    continuación, introduzca un mensaje que utilice las salidas del
+    flujo como se indica a continuación.
 
     +++Today's forecast for+++ < Select X and choose location > +++:+++  < Select X and choose day_summar y> +++Chance of rain is+++ < Select X and choose chance_of_rain. >+++
-    
-   ![](./media/image37.png)
 
-13. Click on **Save** to save the topic.
+    ![](./media/image37.png)
+
+13. Haga clic en **Save** para guardar el tema.
 
     ![](./media/image38.png)
 
-## Exercise 5: Test your flow and topic
+## Ejercicio 5: Ponga a prueba la fluidez y el tema
 
-1.  In **Test your Copilot**, type +++**get weather**+++ and click send. Give the City as +++**Redmond**+++ and **Zipcode** as +++**98004**+++ as per the questions from the copilot.
+1.  En **Test your Copilot**, type +++**get weather**+++ y haga clic en
+    enviar. Introduce la ciudad **+++Redmond+++** y **el código postal
+    +++98004+++** según las preguntas del Copilot.
 
     ![](./media/image39.png)
 
-2.  After sending the Zipcode, your flow will be invoked and the weather
-    details of the specific region is provided by the copilot.
+2.  Tras enviar el código postal, se invocará su flujo y el copiloto le
+    proporcionará los detalles meteorológicos de la región específica.
 
     ![](./media/image40.png)
 
-**Summary:**
+**Resumen:**
 
-In this lab, we have learnt to create a flow and invoke it from a topic.
+En este laboratorio, hemos aprendido a crear un flujo e invocarlo desde
+un tema.
