@@ -1,64 +1,68 @@
-# **Lab 2B: Adding an AI action to Copilot for Microsoft 365**
+# Laboratorio 2B: Adición de una acción de IA a Copilot para Microsoft 365
 
-**Objective**
+**Objetivo**
 
-AI Plugins can be used to extend Microsoft Copilot, or used within a
-custom copilot as a plugin action. In this lab, we will learn about
-creating different types of AI Plugins.
+Los AI Plugins se pueden utilizar para ampliar Microsoft Copilot o
+dentro de un copiloto personalizado como una acción de plugin. En este
+laboratorio, aprenderemos a crear diferentes tipos de AI Plugins.
 
-The Plugins will be available in the Microsoft Copilot in production, if
-the organization has valid license for the same.
+Los Plugins estarán disponibles en Microsoft Copilot en producción, si
+la organización tiene licencia válida para los mismos.
 
-Lab duration – 15 minutes
+Duración del laboratorio - 15 minutos
 
-## **Exercise 1: Generate content or extract insights with AI Builder dynamic prompts**
+## Ejercicio 1: Generar contenidos o extraer información con las preguntas dinámicas del AI Builder
 
-### Task 1: Navigate to the Add a prompt action wizard
+### Tarea 1: Vaya al Asistente para añadir una acción de aviso
 
-1.  Sign into Copilot Studio at +++https://copilotstudio.microsoft.com+++ using your tenant credentials under the Resources tab.
+1.  Inicie sesión en Copilot Studio en
+    +++https://copilotstudio.microsoft.com+++ utilizando sus
+    credenciales de inquilino en la pestaña Resources.
 
-2.  Select **Library** from the side navigation pane.
+2.  Seleccione **Library** en el panel de navegación lateral.
 
     ![](./media/image1.png)
 
-3.  Select **+ Add an item**.     
+3.  Seleccione **+ Add an item**.
 
     ![](./media/image2.png)
 
-4.  Select **Copilot for Microsoft 365**.
+4.  Seleccione **Copilot for Microsoft 365**.
 
     ![](./media/image3.png)
 
-5.	Select **New action**.
-   
-    ![](./media/image32.png)
-  	
-7.  A **New action** menu appears. Select **Prompt**.
+5.  Seleccione **New action**.
 
     ![](./media/image4.png)
 
-8.  The **Add a prompt action** wizard opens.
-
-### Task 2: Generate content or extract insights with AI Builder dynamic prompts
-
-1.  Provide the below details and click on **Next**.
-
-    - Name - +++**Dynamic promptXX**+++ (Replace **XX** with a random number to ensure uniqueness)
-    
-    - Description - +++**Dynamic prompt to summarize text**+++
+6.  Aparece el menú **New action**. Seleccione **Prompt**.
 
     ![](./media/image5.png)
 
-2.  Select **Summarize text**.
+7.  Se abre el asistente **Add a prompt action**.
+
+### Tarea 2: Generar contenidos o extraer información con las preguntas dinámicas del AI Builder
+
+1.  Proporcione los siguientes datos y haga clic en **Next**.
+
+    - Nombre - +++Dynamic **promptXX+++** (Sustituya **XX** por un
+      número aleatorio para garantizar la unicidad)
+
+    - Descripción - **++ Dynamic prompt to summarize text** +++
 
     ![](./media/image6.png)
 
-3.  It will add a prompt with a dynamic value **text**.
+2.  Seleccione **Summarize text**.
 
     ![](./media/image7.png)
 
-4.  Click on the **Input** under Prompt Settings add the below content
-    in the **Sample data**.
+3.  Añadirá un prompt con un **texto** de valor dinámico.
+
+![
+](./media/image8.png)
+
+4.  Haga clic en **Input** en Prompt Settings y añada el siguiente
+    contenido en **Sample data**.
 
     ```
     Meet comfortably and confidently with customizable meeting views
@@ -68,43 +72,42 @@ Lab duration – 15 minutes
     Next, let’s look at the controls that help you customize every meeting view to suit your needs.
     
     While the default gallery size for meetings will be 16 participants, you can customize the number of participants visible on your screen to best fit your preference. You can choose from 4, 9, 16, and 49 participants visible on the screen for gallery size.
-    
     There are still a few default configurations that AI will optimize for to improve engagement and efficiency. For virtual participants, these are prioritizing those that have a raised hand and prioritizing the active speaker, enhancing their visibility so comments are not missed.
-
+ 
     ```
-    
-    ![](./media/image8.png)
-
-5.  Click on **Test prompt**.
-
     ![](./media/image9.png)
 
-6.  Notice that the Prompt response, summarizing the text is generated.
+5.  Haga clic en **Test prompt**.
 
     ![](./media/image10.png)
 
-7.  Click on **Save custom prompt**.
+6.  Observe que se genera la respuesta Prompt, que resume el texto.
 
     ![](./media/image11.png)
 
-8.  Click on **Next**.
+7.  Haga clic en **Save custom prompt**.
 
     ![](./media/image12.png)
 
-9.  Click on **Publish**.
+8.  Haga clic en **Next**.
 
     ![](./media/image13.png)
 
-10. Once published, click on **Go to details page** to view the details.
+9.  Haga clic en **Publish**.
 
     ![](./media/image14.png)
 
-    ![](./media/image33.png)
+10. Una vez publicado, haga clic en **Go to details page** para ver los
+    detalles.
 
-    Your prompt action is now published to **Copilot for Microsoft 365**. It
-will show up in copilot experiences only if you have a valid Copilot
-license.
+    ![](./media/image15.png)
 
-**Summary:**
+    ![](./media/image16.png)
 
-In this lab, we have learnt to create **AI actions**.
+Su acción rápida ya está publicada en **Copilot para Microsoft 365**.
+Aparecerá en las experiencias de Copilot solo si dispone de una licencia
+de Copilot válida.
+
+**Resumen:**
+
+En este laboratorio, hemos aprendido a crear **acciones de IA**.
