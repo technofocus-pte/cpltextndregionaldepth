@@ -38,8 +38,7 @@ creación de flujo en Power Automate con la plantilla adecuada.
 
 ## Ejercicio 2: Crear el flujo en el portal de Power Automate
 
-1.  Nombra el flujo que se acaba de abrir como, +++ **Get weather
-    forecast +++**
+1.  Nombra el flujo que se acaba de abrir como, +++ **Get weather forecast +++**
 
     ![](./media/image5.png)
 
@@ -63,12 +62,14 @@ creación de flujo en Power Automate con la plantilla adecuada.
 
     ![](./media/image9.png)
 
-6.  Haga clic en **Add an action**  a un nodo de adición después de
+    ![](./media/image41.png)
+
+7.  Haga clic en **Add an action**  a un nodo de adición después de
     **When Copilot Studio calls a flow** nodo.
 
     ![](./media/image10.png)
 
-7.  Busca +++**msn** **weather+++** y selecciona **Get forecast for
+8.  Busca +++**msn** **weather+++** y selecciona **Get forecast for
     today** en **MSN Weather**.
 
     ![](./media/image11.png)
@@ -104,7 +105,7 @@ creación de flujo en Power Automate con la plantilla adecuada.
     |  Output Parameter Name  |   Type | Variable   |
     | +++day_summary+++   |  Text  |    Day Summary|
     | +++Location+++   |  Text  | Location|
-    |  +++chance_of_rain+++  |  Text  | Day Rain Chance|
+    |  +++chance_of_rain+++  |  Number  | Day Rain Chance|
 
     **\[Nota:** Seleccione **Add dynamic content**, haga clic en **See
     more** junto a **Get forecast for today** para ver las opciones
