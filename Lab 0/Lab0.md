@@ -11,7 +11,7 @@ En la pantalla de inicio de sesión, seleccione **Admin** account en la esquina 
 ## Complete la configuración de la suscripción a Microsoft 365 y acceda a Copilot para Microsoft 365
 
 1.  Si tiene una pestaña de Microsoft 365 abierta en el navegador Edge, selecciónela ahora; de lo contrario, abra una nueva pestaña e introduzca la     
-    siguiente URL:+++**https://portal.office.com**+++
+    siguiente URL:+++https://portal.office.com+++
 
 2.  Utilice las **credenciales de Microsoft 365** proporcionadas en la sección Azure Portal de la **pestaña Resources** de la derecha (consulte la captura       de pantalla) para iniciar sesión.
 
