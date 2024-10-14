@@ -19,8 +19,7 @@ En la pantalla de inicio de sesión, seleccione **Admin** account en la esquina 
 
     ![](./media/image3.png)
 
-You will now be able to access all the Microsoft 365 applications and
-will have access to Copilot for Microsoft 365.
+    Ahora podrá acceder a todas las aplicaciones de Microsoft 365 y tendrá acceso a **Copilot para Microsoft 365**.
 
 ## Access and launch Microsoft 365 applications
 
