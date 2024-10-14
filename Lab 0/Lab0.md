@@ -21,38 +21,31 @@ En la pantalla de inicio de sesión, seleccione **Admin** account en la esquina 
 
     Ahora podrá acceder a todas las aplicaciones de Microsoft 365 y tendrá acceso a **Copilot para Microsoft 365**.
 
-## Access and launch Microsoft 365 applications
+## Acceder e iniciar aplicaciones de Microsoft 365
 
-You can access and launch the productivity applications from:
+Puedes acceder e iniciar las aplicaciones de productividad desde:
 
-- **View more Apps** link (in the navigation pane on the left)
+- El enlace **View more Apps**(en el panel de navegación de la izquierda)
 
-- **App Launcher** (available in the top left just above the left
-  navigation pane)
+- **App Launcher**(disponible en la parte superior izquierda, justo encima del panel de navegación izquierdo)
 
-**Note: Due to product updates, the placement of office icons might be
-different than the one mentioned above.**
+**Nota: Debido a las actualizaciones del producto, la colocación de los iconos de office puede ser diferente a la mencionada anteriormente**
 
-1.  To launch an application from **View more Apps:**
+1.  Para lanzar una aplicación desde **View more Apps:**
 
-    In the navigation pane on the lower left, select **View more
-    Apps** (ellipsis **…** icon) 🡪 Apps to select and open the office
-    applications you need to work with.
+    En el panel de navegación de la parte inferior izquierda, seleccione **View more Apps** (icono de elipsis ...) Aplicaciones para seleccionar y abrir        las aplicaciones ofimáticas con las que necesite trabajar.
 
      ![](./media/image4.png)
 
-2.  To launch an application from **App launcher**:
+2.   Para lanzar una aplicación desde **App launcher**:
 
-    The Microsoft 365 app launcher is a menu of apps and services that you
-    are licensed for, and opens when you select the app launcher icon on
-    Microsoft365 page. The App launcher makes opening and switching
-    between your apps easy by highlighting your recently used apps, and
-    providing quick access to your recent online Office documents.
+    El iniciador de aplicaciones de **Microsoft 365** es un menú de aplicaciones y servicios para los que tienes licencia, y se abre cuando seleccionas el 
+    icono del iniciador de aplicaciones en la página de Microsoft365. El App launcher facilita la apertura y el cambio entre aplicaciones, ya que resalta 
+    las aplicaciones utilizadas recientemente y proporciona acceso rápido a los documentos recientes de Office en línea.
 
     ![](./media/image5.png)
 
-    **Note**: If you do not find an application in the pop-up, then
-    select **More apps** icon to select the same.
+    **Note**: Si no encuentra una aplicación en la ventana emergente, seleccione el icono **More Apps** para seleccionarla.
 
 ## Upload lab assets to OneDrive
 
