@@ -35,8 +35,7 @@ flow when a customer asks about the weather.
 
 ## Exercise 2: Author the flow on the Power Automate portal
 
-1.  Name the flow that just got opened as, +++**Get weather
-    forecast**+++
+1.  Name the flow that just got opened as, +++**Get weather forecast**+++
 
     ![](./media/image5.png)
 
@@ -59,12 +58,14 @@ flow when a customer asks about the weather.
 
     ![](./media/image9.png)
 
-6.  Click on **Add an action** to a add node after the **When Copilot
+    ![](./media/image41.png)
+
+7.  Click on **Add an action** to a add node after the **When Copilot
     Studio calls a flow** node.
 
     ![](./media/image10.png)
 
-7.  Search for +++**msn weather**+++ and select **Get forecast for
+8.  Search for +++**msn weather**+++ and select **Get forecast for
     today** under **MSN Weather**.
 
     ![](./media/image11.png)
@@ -73,7 +74,7 @@ flow when a customer asks about the weather.
 
     ![](./media/image12.png)
 
-8.  In the **Get forecast for today** action, in the **Location** box,
+9.  In the **Get forecast for today** action, in the **Location** box,
     select **Add dynamic content**, and then
     select **City** and **Zipcode**.
 
@@ -81,23 +82,23 @@ flow when a customer asks about the weather.
 
     ![](./media/image14.png)
 
-9.  **City** and **Zipcode** will be passed on to this node as input.
+10.  **City** and **Zipcode** will be passed on to this node as input.
 
     ![](./media/image15.png)
 
-10. Click on **Return value(s) to Power Virtual Agents** node. In the
+11. Click on **Return value(s) to Power Virtual Agents** node. In the
     node details pane that opens, click on **+ Add an output**.
 
     ![](./media/image16.png)
 
-11. In the Return value(s) to Microsoft Copilot Studio **Parameters** tab, add the following output parameters and variables.
+12. In the Return value(s) to Microsoft Copilot Studio **Parameters** tab, add the following output parameters and variables.
 
     |    |    |    |
     |:-----|:----|:------|
     |  Output Parameter Name  |   Type | Variable   |
     | +++day_summary+++   |  Text  |    Day Summary|
     | +++Location+++   |  Text  | Location|
-    |  +++chance_of_rain+++  |  Text  | Day Rain Chance|
+    |  +++chance_of_rain+++  |  Number  | Day Rain Chance|
     
     >[!Note] **Note:** Select **Add dynamic content**, click on **See more** next to **Get forecast for today** to see the above variable options
 
@@ -107,15 +108,15 @@ flow when a customer asks about the weather.
 
     ![](./media/image19.png)
 
-12. Click on **Save Draft** to save the flow.
+13. Click on **Save Draft** to save the flow.
 
     ![](./media/image20.png)
 
-13. Look for a success message as in the screenshot below.
+14. Look for a success message as in the screenshot below.
 
     ![](./media/image21.png)
 
-14. Click on **Publish** and look for a success message.
+15. Click on **Publish** and look for a success message.
 
     ![](./media/image22.png)
 
