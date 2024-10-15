@@ -1,6 +1,6 @@
-Laboratorio 1C: Mejorar la productividad de ventas y marketing
+# Laboratorio 1C: Mejorar la productividad de ventas y marketing
 
-Objetivo:
+## Objetivo:
 
 Los profesionales de marketing y ventas pueden utilizar Copilot for
 Microsoft 365 para generar contenido para sus campañas, mejorar la
@@ -205,7 +205,7 @@ equilibrados:
   creatividad. Puede pedir tanto información analítica como
   exploratoria.
 
-Exportar una respuesta Copilot
+## Exportar una respuesta Copilot
 
 Cuando utilices Microsoft Copilot en Bing para investigar diferentes
 cosas o responder a diferentes preguntas, puede que decidas que una
@@ -223,8 +223,7 @@ Si desea consolidar varias respuestas en un único documento, deberá
 copiar y pegar manualmente cada respuesta en un editor de texto y
 guardar el archivo.
 
-Ejercicio nº 2: Consolidar varios informes de marketing utilizando
-Copilot en Word
+## Ejercicio nº 2: Consolidar varios informes de marketing utilizando Copilot en Word
 
 Copilot en Word, un asistente de escritura impulsado por AI, puede
 ayudarle a reescribir el contenido existente, o incluso a transformar el
@@ -370,7 +369,7 @@ alt="A screenshot of a computer Description automatically generated" />
 
 13. Cierre esta pestaña en su navegador Microsoft Edge.
 
-Ejercicio nº 3: Analizar una hoja de cálculo de tendencias de mercado
+## Ejercicio nº 3: Analizar una hoja de cálculo de tendencias de mercado
 utilizando Copilot en Excel
 
 Copilot en Excel es una potente herramienta que puede ayudar a los
@@ -573,7 +572,7 @@ alt="Screenshot showing the Refresh prompt button." />
     Copilot. Cuando haya terminado, cierre la pestaña del navegador
     Microsoft Edge.
 
-Resumen:
+## Resumen:
 
 En este laboratorio has utilizado
 
