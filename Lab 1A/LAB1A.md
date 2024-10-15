@@ -1,6 +1,6 @@
-Laboratorio 1A: Capacitar a los ejecutivos para hacer más
+# Laboratorio 1A: Capacitar a los ejecutivos para hacer más
 
-Objetivo:
+## Objetivo:
 
 En este laboratorio
 
@@ -52,47 +52,46 @@ para usted basado en la Income Statement de su empresa:
     [**https://www.office.com**](https://www.office.com/) para ir a la
     página de inicio **de Microsoft 365**.
 
-> **Nota**: Debe iniciar sesión (si se le solicita) utilizando las
-> **credenciales de Microsoft 365** que se proporcionan en la **pestaña
-> Resources de** la derecha.
+    **Nota**: Debe iniciar sesión (si se le solicita) utilizando las
+    **credenciales de Microsoft 365** que se proporcionan en la **pestaña
+    Resources de** la derecha.
 
 2.  En el panel de navegación de **Microsoft 365**, seleccione
     **OneDrive** para abrirlo.
 
-> <img src="./media/image2.png" style="width:5.07948in;height:4.44379in"
-> alt="A screenshot of a computer Description automatically generated" />
+    <img src="./media/image2.png" style="width:5.07948in;height:4.44379in"
+    alt="A screenshot of a computer Description automatically generated" />
 
 3.  Vaya a la carpeta **C:\LabFiles** para seleccionar y cargar una
     copia del **documento** **Fabrikam 2023 Income Statement** en
     **OneDrive**.
 
-<img src="./media/image3.png" style="width:4.41654in;height:2.77806in"
-alt="A screenshot of a computer Description automatically generated" />
+    <img src="./media/image3.png" style="width:4.41654in;height:2.77806in"
+    alt="A screenshot of a computer Description automatically generated" />
 
-**Nota**: Si ya ha cargado todos los recursos del laboratorio en
-OneDrive como se indica en **Preparación para la ejecución del
-laboratorio** (**Laboratorio 0**), puede omitir este paso.
+    **Nota**: Si ya ha cargado todos los recursos del laboratorio en
+    OneDrive como se indica en **Preparación para la ejecución del
+    laboratorio** (**Laboratorio 0**), puede omitir este paso.
 
 4.  Abre y cierra el **documento Fabrikam 2023 Income Statement** (que
     has subido a **OneDrive**) para que aparezca en tu lista de archivos
     utilizados más recientemente (MRU).
 
-**Nota**: Si el documento abierto recientemente no aparece en la lista
-MRU, cierre la sesión de **Microsoft 365** y vuelva a iniciarla.
+    **Nota**: Si el documento abierto recientemente no aparece en la lista
+    MRU, cierre la sesión de **Microsoft 365** y vuelva a iniciarla.
 
 5.  En **Microsoft 365**, abra **Microsoft Word** y, a continuación,
     abra un nuevo documento en blanco. Haga clic en el icono Copilot que
     aparece como se muestra en la captura de pantalla.
 
-<img src="./media/image4.png"
-style="width:6.26806in;height:3.27348in" />
+    <img src="./media/image4.png"style="width:6.26806in;height:3.27348in" />
 
-> Si pasa el ratón por encima del icono Copilot, verá **la tooltip Draft
-> with Copilot**. Haga clic en el icono para mostrar la ventana **Draft
-> with Copilot**.
->
-> <img src="./media/image5.png"
-> style="width:5.58171in;height:2.49083in" />
+    Si pasa el ratón por encima del icono Copilot, verá **la tooltip Draft
+    with Copilot**. Haga clic en el icono para mostrar la ventana **Draft
+    with Copilot**.
+
+    <img src="./media/image5.png"
+    style="width:5.58171in;height:2.49083in" />
 
 6.  En la ventana **Draft with Copilot** que aparece en la parte
     superior del documento en blanco, introduzca el siguiente prompt:
