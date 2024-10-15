@@ -1,7 +1,6 @@
-Laboratorio 1B: Capacitar a los gestores de proyectos y al personal
-informático
+# Laboratorio 1B: Capacitar a los gestores de proyectos y al personal informático
 
-Objetivo:
+## Objetivo:
 
 Copilot para Microsoft 365 funciona como un asistente de escritura
 impulsado por AI que comprende el contexto, sugiere frases y ayuda a
@@ -261,8 +260,7 @@ style="width:4.71232in;height:1.78869in" />
 <img src="./media/image23.png" style="width:3.51388in;height:2.42304in"
 alt="A screenshot of a computer Description automatically generated" />
 
-Ejercicio nº 2: Crear una presentación del plan del proyecto utilizando
-Copilot en PowerPoint
+## Ejercicio nº 2: Crear una presentación del plan del proyecto utilizando Copilot en PowerPoint
 
 Copilot en PowerPoint actúa como un colaborador inteligente, ofreciendo
 sugerencias y mejoras en tiempo real a medida que los profesionales de
@@ -465,7 +463,7 @@ duplicar lo que hace esa función.
     utiliza esta presentación, puede descartarla o guardarla si la desea
     para futuras consultas.
 
-Ejercicio nº 3: Actualizar un informe técnico con Copilot en Word
+## Ejercicio nº 3: Actualizar un informe técnico con Copilot en Word
 
 Copilot en Word puede ayudar a los profesionales de TI a ahorrar tiempo
 y esfuerzo al crear documentos. Puede ayudarle a generar contenido,
@@ -666,7 +664,7 @@ alt="A screenshot of a chat Description automatically generated" />
     cree un prompt que se lo pida. A continuación, puede copiar y pegar
     el nuevo contenido en el documento.
 
-Resumen:
+## Resumen:
 
 En este laboratorio, exploró cómo Copilot para Microsoft 365 mejora la
 calidad de su trabajo al
