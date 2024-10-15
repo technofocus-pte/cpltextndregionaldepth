@@ -1,6 +1,6 @@
-Laboratorio 1A: Capacitar a los ejecutivos para hacer más
+# Laboratorio 1A: Capacitar a los ejecutivos para hacer más
 
-Objetivo:
+## Objetivo:
 
 En este laboratorio
 
@@ -10,7 +10,7 @@ En este laboratorio
 - Utilice Copilot en PowerPoint para crear una presentación en
   PowerPoint basada en el discurso que ha creado.
 
-Ejercicio nº 1: Crear un discurso utilizando Copilot en Word
+##  Ejercicio nº 1: Crear un discurso utilizando Copilot en Word
 
 En este ejercicio, usted le indica a Copilot en Word que escriba un
 discurso para usted basado en el Estado de Resultados de su empresa, el
@@ -226,7 +226,7 @@ pueda acceder a él.
 16. Cierre la pestaña que contiene este documento en su navegador
     Microsoft Edge.
 
-Ejercicio nº 2: Crear una presentación de diapositivas con Copilot en
+## Ejercicio nº 2: Crear una presentación de diapositivas con Copilot en
 PowerPoint
 
 En este ejercicio, utilizará Copilot en PowerPoint para crear una
@@ -396,7 +396,7 @@ Revise la nueva diapositiva creada. Aunque en los ejercicios de
 laboratorio restantes no se utiliza esta presentación, puede descartarla
 o guardarla si lo desea para futuras consultas.
 
-Resumen
+## Resumen
 
 En este laboratorio, ha visto
 
