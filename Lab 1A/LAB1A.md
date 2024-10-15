@@ -10,7 +10,7 @@ En este laboratorio
 - Utilice Copilot en PowerPoint para crear una presentación en
   PowerPoint basada en el discurso que ha creado.
 
-Ejercicio nº 1: Crear un discurso utilizando Copilot en Word
+## Ejercicio nº 1: Crear un discurso utilizando Copilot en Word
 
 En este ejercicio, usted le indica a Copilot en Word que escriba un
 discurso para usted basado en el Estado de Resultados de su empresa, el
@@ -40,8 +40,7 @@ indicador de Copilot utilizando uno de los siguientes métodos:</span>
 <span class="mark">En este ejercicio, se selecciona Income Statement de
 la empresa de la lista de ficheros MRU.</span>
 
-<img src="./media/image1.png" style="width:6.26806in;height:3.02917in"
-alt="A screenshot of a computer Description automatically generated" />
+![](./media/image1.png)
 
 Realizará los siguientes pasos para que Copilot en Word cree un discurso
 para usted basado en la Income Statement de su empresa:
@@ -59,15 +58,13 @@ para usted basado en la Income Statement de su empresa:
 2.  En el panel de navegación de **Microsoft 365**, seleccione
     **OneDrive** para abrirlo.
 
-    <img src="./media/image2.png" style="width:5.07948in;height:4.44379in"
-    alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image2.png)
 
 3.  Vaya a la carpeta **C:\LabFiles** para seleccionar y cargar una
     copia del **documento** **Fabrikam 2023 Income Statement** en
     **OneDrive**.
 
-    <img src="./media/image3.png" style="width:4.41654in;height:2.77806in"
-    alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image3.png)
 
     **Nota**: Si ya ha cargado todos los recursos del laboratorio en
     OneDrive como se indica en **Preparación para la ejecución del
@@ -84,21 +81,20 @@ para usted basado en la Income Statement de su empresa:
     abra un nuevo documento en blanco. Haga clic en el icono Copilot que
     aparece como se muestra en la captura de pantalla.
 
-    <img src="./media/image4.png"style="width:6.26806in;height:3.27348in" />
+    ![](./media/image4.png)
 
     Si pasa el ratón por encima del icono Copilot, verá **la tooltip Draft
     with Copilot**. Haga clic en el icono para mostrar la ventana **Draft
     with Copilot**.
 
-    <img src="./media/image5.png"
-    style="width:5.58171in;height:2.49083in" />
+    ![](./media/image5.png)
 
 6.  En la ventana **Draft with Copilot** que aparece en la parte
     superior del documento en blanco, introduzca el siguiente prompt:
 
-> <span class="mark">**Redacta un discurso para los grupos de interés de
-> Fabrikam que resuma los resultados de la cuenta de resultados de la
-> empresa de 2023 que se encuentra en el archivo adjunto**.</span>
+    <span class="mark">**Redacta un discurso para los grupos de interés de
+    Fabrikam que resuma los resultados de la cuenta de resultados de la
+    empresa de 2023 que se encuentra en el archivo adjunto**.</span>
 
 7.  En la ventana **Draft with Copilot**, seleccione el botón
     **Reference your content**. En la ventana emergente que aparece,
@@ -114,8 +110,7 @@ para usted basado en la Income Statement de su empresa:
     **reciente**, seleccione el archivo **Fabrikam 2023 Income
     Statement.docx** y, a continuación, seleccione el botón **Attach**.
 
-> <img src="./media/image7.png" style="width:5.55643in;height:2.6003in"
-> alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image7.png)
 
 9.  Observe cómo aparece el archivo en la pantalla. Seleccione
     **Generate**.
