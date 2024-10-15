@@ -1,7 +1,6 @@
-Laboratorio 1B: Capacitar a los gestores de proyectos y al personal
-informático
+# Laboratorio 1B: Capacitar a los gestores de proyectos y al personal informático
 
-Objetivo:
+## Objetivo:
 
 Copilot para Microsoft 365 funciona como un asistente de escritura
 impulsado por AI que comprende el contexto, sugiere frases y ayuda a
@@ -17,7 +16,7 @@ En este laboratorio, utilizará:
 - Copilot en Word para modificar un informe de especificaciones
   técnicas.
 
-Ejercicio nº 1: Crear un plan de proyecto con Microsoft Copilot
+## Ejercicio nº 1: Crear un plan de proyecto con Microsoft Copilot
 
 Con Microsoft Copilot se integra perfectamente en Microsoft 365 y ofrece
 una sólida plataforma para que los profesionales de TI mejoren el
@@ -49,17 +48,17 @@ en su cuenta de OneDrive. El siguiente ejercicio utiliza este archivo.
     **+++https://www.office.com+++** para ir a la página de inicio de
     Microsoft 365.
 
-**Nota**: Debe iniciar sesión (si se le solicita) con las **credenciales
-de Microsoft 365** que se proporcionan en la **pestaña Recursos de** la
-derecha.
+    **Nota**: Debe iniciar sesión (si se le solicita) con las **credenciales
+    de Microsoft 365** que se proporcionan en la **pestaña Recursos de** la
+    derecha.
 
 2.  Vaya a la carpeta **C:\LabFiles** para seleccionar y cargar una
     copia de **Contoso CipherGuard Product Specification report.docx**
     en **OneDrive**.
 
-**Nota**: Puede omitir este paso si ya ha cargado una copia de todos
-los documentos (que utilizará en esta sesión práctica de laboratorio
-desde **C:\LabFiles** como se indica en el **Laboratorio 0**)**.**
+    **Nota**: Puede omitir este paso si ya ha cargado una copia de todos
+    los documentos (que utilizará en esta sesión práctica de laboratorio
+    desde **C:\LabFiles** como se indica en el **Laboratorio 0**)**.**
 
 3.  Abra y cierre el archivo **Contoso CipherGuard Product Specification
     report.docx** (que cargó en **OneDrive**) para incluirlo en la lista
@@ -156,10 +155,10 @@ style="width:5.29691in;height:2.55553in" />
 areas. Please add the following items to the existing list: testing
 and QA, training, communication, document and reporting, stakeholder
 analysis, project timeline, and risk assessment and mitigation.**
->
+
 <img src="./media/image12.png" style="width:5.2923in;height:1.63377in"
 alt="A screenshot of a chat Description automatically generated" />
->
+
 <img src="./media/image13.png" style="width:5.2797in;height:2.76307in"
 alt="A screenshot of a chat Description automatically generated" />
 
@@ -174,7 +173,7 @@ alt="A screenshot of a chat Description automatically generated" />
 a product specification for the Contoso CipherGuard Sentinel X7
 security product, and update your project plan with information from
 this product spec.**
->
+
 <img src="./media/image14.png"
 style="width:4.96736in;height:2.89155in" />
 
@@ -261,8 +260,7 @@ style="width:4.71232in;height:1.78869in" />
 <img src="./media/image23.png" style="width:3.51388in;height:2.42304in"
 alt="A screenshot of a computer Description automatically generated" />
 
-Ejercicio nº 2: Crear una presentación del plan del proyecto utilizando
-Copilot en PowerPoint
+## Ejercicio nº 2: Crear una presentación del plan del proyecto utilizando Copilot en PowerPoint
 
 Copilot en PowerPoint actúa como un colaborador inteligente, ofreciendo
 sugerencias y mejoras en tiempo real a medida que los profesionales de
@@ -453,7 +451,7 @@ alt="A screenshot of a chat Description automatically generated" />
 
 <img src="./media/image35.png" style="width:3.07361in;height:2.88681in"
 alt="Screenshot showing the prompt to change the theme and Copilot&#39;s response" />
->
+
 Este escenario es una de esas situaciones en las que hay que recordar
 la práctica recomendada de avisar: **Comprender las limitaciones de
 Copilot**. En este caso, no se trata tanto de comprender una
@@ -465,7 +463,7 @@ duplicar lo que hace esa función.
     utiliza esta presentación, puede descartarla o guardarla si la desea
     para futuras consultas.
 
-Ejercicio nº 3: Actualizar un informe técnico con Copilot en Word
+## Ejercicio nº 3: Actualizar un informe técnico con Copilot en Word
 
 Copilot en Word puede ayudar a los profesionales de TI a ahorrar tiempo
 y esfuerzo al crear documentos. Puede ayudarle a generar contenido,
@@ -666,7 +664,7 @@ alt="A screenshot of a chat Description automatically generated" />
     cree un prompt que se lo pida. A continuación, puede copiar y pegar
     el nuevo contenido en el documento.
 
-Resumen:
+## Resumen:
 
 En este laboratorio, exploró cómo Copilot para Microsoft 365 mejora la
 calidad de su trabajo al
