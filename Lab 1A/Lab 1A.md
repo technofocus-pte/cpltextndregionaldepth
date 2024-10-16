@@ -209,8 +209,7 @@ para usted basado en la Income Statement de su empresa:
 16. Cierre la pestaña que contiene este documento en su navegador
     Microsoft Edge.
 
-## Ejercicio nº 2: Crear una presentación de diapositivas con Copilot en
-PowerPoint
+## Ejercicio nº 2: Crear una presentación de diapositivas con Copilot en PowerPoint
 
 En este ejercicio, utilizará Copilot en PowerPoint para crear una
 presentación de diapositivas basada en su discurso (a los accionistas
