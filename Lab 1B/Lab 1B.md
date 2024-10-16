@@ -16,7 +16,7 @@ En este laboratorio, utilizará:
 - Copilot en Word para modificar un informe de especificaciones
   técnicas.
 
-Ejercicio nº 1: Crear un plan de proyecto con Microsoft Copilot
+## Ejercicio nº 1: Crear un plan de proyecto con Microsoft Copilot
 
 Con Microsoft Copilot se integra perfectamente en Microsoft 365 y ofrece
 una sólida plataforma para que los profesionales de TI mejoren el
@@ -48,55 +48,49 @@ en su cuenta de OneDrive. El siguiente ejercicio utiliza este archivo.
     **+++https://www.office.com+++** para ir a la página de inicio de
     Microsoft 365.
 
-**Nota**: Debe iniciar sesión (si se le solicita) con las **credenciales
-de Microsoft 365** que se proporcionan en la **pestaña Recursos de** la
-derecha.
+    **Nota**: Debe iniciar sesión (si se le solicita) con las **credenciales
+    de Microsoft 365** que se proporcionan en la **pestaña Recursos de** la
+    derecha.
 
 2.  Vaya a la carpeta **C:\LabFiles** para seleccionar y cargar una
     copia de **Contoso CipherGuard Product Specification report.docx**
     en **OneDrive**.
 
-**Nota**: Puede omitir este paso si ya ha cargado una copia de todos
-los documentos (que utilizará en esta sesión práctica de laboratorio
-desde **C:\LabFiles** como se indica en el **Laboratorio 0**)**.**
+    **Nota**: Puede omitir este paso si ya ha cargado una copia de todos
+    los documentos (que utilizará en esta sesión práctica de laboratorio
+    desde **C:\LabFiles** como se indica en el **Laboratorio 0**)**.**
 
 3.  Abra y cierre el archivo **Contoso CipherGuard Product Specification
     report.docx** (que cargó en **OneDrive**) para incluirlo en la lista
     de archivos Most Recently Used (MRU).
 
-<img src="./media/image1.png" style="width:5.24059in;height:1.87558in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image1.png)>
 
 4.  En **Microsoft Edge**, navegue hasta Microsoft Bing introduciendo la
     siguiente URL: **+++https://bing.com+++.**
 
-<img src="./media/image2.png" style="width:4.90148in;height:2.68371in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image2.png)
 
 5.  **En la página de inicio de Microsoft Bing**, en la lista de
     pestañas que aparecen en la parte superior de la página, seleccione
     **Copilot**. Al hacerlo, se abrirá **Microsoft Copilot**.
 
-<img src="./media/image3.png"
-style="width:4.38022in;height:3.52667in" />
->
-**Nota:** Si no ve la lista de pestañas en la parte superior de la
-página, siga los pasos que se indican a continuación para ver la lista
-de pestañas.
+    ![](./media/image3.png)
 
-- Asegúrese de haber iniciado sesión con las **credenciales de Microsoft
-  365** (disponibles en la pestaña **Resources**).
+    **Nota:** Si no ve la lista de pestañas en la parte superior de la
+    página, siga los pasos que se indican a continuación para ver la lista
+    de pestañas.
 
-<img src="./media/image4.png" style="width:5.14864in;height:1.57919in"
-alt="A screenshot of a computer Description automatically generated" />
+    - Asegúrese de haber iniciado sesión con las **credenciales de Microsoft
+      365** (disponibles en la pestaña **Resources**).
 
-- Activar la opción **Show menu bar** (en rojo resaltado)
+      ![](./media/image4.png)
 
-<img src="./media/image5.png" style="width:2.18413in;height:2.61283in"
-alt="A screenshot of a computer Description automatically generated" />
+  - Activar la opción **Show menu bar** (en rojo resaltado)
 
-<img src="./media/image6.png" style="width:4.41053in;height:2.31873in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image5.png)
+
+    ![](./media/image6.png)
 
 6.  Ahora seleccione **Copilot**. Al hacerlo, se abrirá Microsoft
     Copilot.
@@ -114,17 +108,14 @@ alt="A screenshot of a computer Description automatically generated" />
     archivos, y un icono de bloques apilados. Este último icono es el
     icono Plugins. Seleccione este icono **Plugins**.
 
-<img src="./media/image7.png" style="width:4.04972in;height:3.24658in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image7.png)
 
 9.  Seleccione el icono **Plugins** y active el plugin de **Web
     content**.
 
-<img src="./media/image8.png" style="width:5.22119in;height:3.82674in"
-alt="A screenshot of a computer Description automatically generated" />
->
-<img src="./media/image9.png" style="width:5.02097in;height:3.2567in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image8.png)
+
+    ![](./media/image9.png)
 
 10. Ya está listo para utilizar Copilot. Introduzca el siguiente prompt,
     que indica a Copilot que acceda a datos web públicos a través del
@@ -132,17 +123,16 @@ alt="A screenshot of a computer Description automatically generated" />
     seleccione la flecha **Submit** situada en la esquina inferior del
     campo de prompt:
 
-**I'm the Director of IT at Adatum Corporation. Create a project plan
-for installing a new network security product into a corporate
-network. Base this plan on IT industry guidelines for installing
-network security
-products.**<img src="./media/image10.png" style="width:5.53797in;height:1.67808in"
-alt="A screenshot of a computer Description automatically generated" />
+    ++I'm the Director of IT at Adatum Corporation. Create a project plan
+    for installing a new network security product into a corporate
+    network. Base this plan on IT industry guidelines for installing
+    network security products.++
+
+    ![](./media/image10.png)
 
 11. Revise el plan de proyecto creado por Copilot.
 
-<img src="./media/image11.png"
-style="width:5.29691in;height:2.55553in" />
+    ![](./media/image11.png)
 
 12. No está satisfecho de que abarque todas las áreas que debería.
     Introduzca la siguiente pregunta para que Copilot modifique su plan
@@ -151,16 +141,14 @@ style="width:5.29691in;height:2.55553in" />
     anterior de Copilot, elimínela de esta pregunta para que Copilot no
     la duplique:
 
-**While that was a good start, I feel like it's missing important
-areas. Please add the following items to the existing list: testing
-and QA, training, communication, document and reporting, stakeholder
-analysis, project timeline, and risk assessment and mitigation.**
->
-<img src="./media/image12.png" style="width:5.2923in;height:1.63377in"
-alt="A screenshot of a chat Description automatically generated" />
->
-<img src="./media/image13.png" style="width:5.2797in;height:2.76307in"
-alt="A screenshot of a chat Description automatically generated" />
+    ++While that was a good start, I feel like it's missing important
+    areas. Please add the following items to the existing list: testing
+    and QA, training, communication, document and reporting, stakeholder
+    analysis, project timeline, and risk assessment and mitigation.++
+
+    ![](./media/image12.png)
+
+    ![](./media/image13.png)
 
 13. Revise el plan de proyecto modificado. Está satisfecho con la
     amplitud de los temas tratados, así que ahora quiere que Copilot
@@ -169,13 +157,12 @@ alt="A screenshot of a chat Description automatically generated" />
     siguiente prompt, pero no la envíe todavía, ya que primero debe
     vincular el archivo al prompt en el siguiente paso:
 
-**This version looks better. Please review the attached file, which is
-a product specification for the Contoso CipherGuard Sentinel X7
-security product, and update your project plan with information from
-this product spec.**
->
-<img src="./media/image14.png"
-style="width:4.96736in;height:2.89155in" />
+    ++This version looks better. Please review the attached file, which is
+    a product specification for the Contoso CipherGuard Sentinel X7
+    security product, and update your project plan with information from
+    this product spec.++
+
+    ![](./media/image14.png)
 
 14. En el campo de prompt, introduzca un espacio después de la consulta
     y, a continuación, escriba una barra inclinada (/). Debe introducir
@@ -184,27 +171,25 @@ style="width:4.96736in;height:2.89155in" />
     depende de si Copilot abre una ventana para que seleccione el
     archivo:
 
-- Si Copilot abre una ventana después de introducir la barra diagonal
-  (/), seleccione la pestaña **Archivos**. Al hacerlo, aparecerá la
-  lista de archivos MRU. Seleccione el archivo **Contoso CipherGuard
-  Product Specification** y, a continuación, seleccione el icono
-  **Submit**.
+    - Si Copilot abre una ventana después de introducir la barra diagonal
+      (/), seleccione la pestaña **Archivos**. Al hacerlo, aparecerá la
+      lista de archivos MRU. Seleccione el archivo **Contoso CipherGuard
+      Product Specification** y, a continuación, seleccione el icono
+      **Submit**.
 
-<img src="./media/image15.png" style="width:4.93368in;height:2.86162in"
-alt="A screenshot of a chat Description automatically generated" />
+      ![](./media/image15.png)
 
-- Si Copilot no ha hecho nada después de introducir la barra diagonal
-  (/), tendrá que copiar y pegar el enlace al archivo de **Contoso
-  CipherGuard Product Specification**. Para ello, localice el archivo en
-  su cuenta de OneDrive, ábralo en **Word**, seleccione el botón
-  **Share** que aparece encima de la cinta de Word, seleccione **Copy
-  link** en el menú desplegable que aparece y, de nuevo en este campo,
-  pegue el enlace después de la barra diagonal y seleccione el icono
-  **Submit**.
+    - Si Copilot no ha hecho nada después de introducir la barra diagonal
+      (/), tendrá que copiar y pegar el enlace al archivo de **Contoso
+      CipherGuard Product Specification**. Para ello, localice el archivo en
+      su cuenta de OneDrive, ábralo en **Word**, seleccione el botón
+      **Share** que aparece encima de la cinta de Word, seleccione **Copy
+      link** en el menú desplegable que aparece y, de nuevo en este campo,
+      pegue el enlace después de la barra diagonal y seleccione el icono
+      **Submit**.
 
-<img src="./media/image16.png"
-style="width:4.93368in;height:1.15596in" />
->
+      ![](./media/image16.png)
+
 <span class="mark">**Nota**: Si Copilot no puede acceder directamente
 a los documentos o revisarlos, cierre la sesión del usuario que ha
 iniciado sesión y vuelva a iniciarla para continuar desde el paso
