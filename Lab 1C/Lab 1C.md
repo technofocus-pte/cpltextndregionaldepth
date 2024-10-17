@@ -46,32 +46,27 @@ Más equilibrado o Más preciso).
     de la página, seleccione **Copilot**. Al hacerlo, se abrirá
     Microsoft Copilot.
 
-<img src="./media/image1.png"
-style="width:4.24478in;height:3.02287in" />
->
-**Nota:** Si no ve la lista de pestañas en la parte superior de la
-página, siga los pasos que se indican a continuación para ver la lista
-de pestañas.
+    ![](./media/image1.png)
 
-- Asegúrese de haber iniciado sesión con las **credenciales de Microsoft
-  365** (disponibles en la pestaña **Resources**).
+    **Nota:** Si no ve la lista de pestañas en la parte superior de la
+    página, siga los pasos que se indican a continuación para ver la lista
+    de pestañas.
 
-<img src="./media/image2.png"
-style="width:5.14864in;height:1.57919in" />
+  - Asegúrese de haber iniciado sesión con las **credenciales de Microsoft 365**
+    (disponibles en la pestaña **Resources**).
 
-- Activar la opción **Show menú bar** (en rojo resaltado)
+    ![](./media/image2.png)
 
-<img src="./media/image3.png"
-style="width:2.18413in;height:2.61283in" />
+  - Activar la opción **Show menú bar** (en rojo resaltado)
 
-<img src="./media/image4.png"
-style="width:4.41053in;height:2.31873in" />
+    ![](./media/image3.png)
+
+    ![](./media/image4.png)
 
 3.  Ahora seleccione **Copilot**. Al hacerlo, se abrirá Microsoft
     Copilot.
 
-<img src="./media/image5.png" style="width:4.60041in;height:2.78288in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image5.png)
 
 4.  En la página de **Copilot**, fíjese en el interruptor de la parte
     superior de la página que le permite seleccionar **Work** o **Web**.
@@ -79,26 +74,22 @@ alt="A screenshot of a computer Description automatically generated" />
     necesita que Copilot acceda a la Web para realizar su análisis de
     mercado del sector del juguete. Si es necesario, seleccione **Web**.
 
-<img src="./media/image6.png"
-style="width:4.04086in;height:2.44768in" />
->
-<img src="./media/image7.png"
-style="width:3.38548in;height:2.86143in" />
->
-Nota: El selector de tono conversacional **More Creative -More
-Balanced- More Precise** presente en la versión anterior de Copilot se
-ha suprimido en la última versión.
+    ![](./media/image6.png)
+
+    ![](./media/image7.png)
+
+    **Nota**: El selector de tono conversacional **More Creative -More Balanced- More Precise** presente 
+    en la versión anterior de Copilot se ha suprimido en la última versión.
 
 5.  En el campo de consulta, introduzca la siguiente consulta y, a
     continuación, seleccione el icono **Enviar**:
 
-**I'm the Director for Market Research for Tailspin Toys, a U.S. based
-toy manufacturer. Conduct a market analysis of the toy industry to
-identify sales figures, the latest trends, consumer preferences, and
-the most popular toys in the market**.
->
-<img src="./media/image8.png"
-style="width:5.33427in;height:2.19325in" />
+    **I'm the Director for Market Research for Tailspin Toys, a U.S. based
+    toy manufacturer. Conduct a market analysis of the toy industry to
+    identify sales figures, the latest trends, consumer preferences, and
+    the most popular toys in the market**.
+
+    ![](./media/image8.png)
 
 6.  Revise el análisis de mercado generado por Copilot. Se da cuenta de
     que una solicitud general como la que ha enviado proporciona
@@ -112,18 +103,16 @@ style="width:5.33427in;height:2.19325in" />
     anterior: sea educado e itere, itere, itere. Introduzca el siguiente
     mensaje para modificar el análisis de mercado:
 
-**That analysis was great. However, I'm also interested in including
-data on the toy industry, including market share and consumer
-feedback. Please amend your prior analysis to include this
-information. Thanks**.
->
-<img src="./media/image9.png"
-style="width:5.10146in;height:2.63366in" />
->
-<img src="./media/image10.png" style="width:4.83737in;height:2.5in" />
->
-<img src="./media/image11.png"
-style="width:4.72414in;height:2.4304in" />
+    **That analysis was great. However, I'm also interested in including
+    data on the toy industry, including market share and consumer
+    feedback. Please amend your prior analysis to include this
+    information. Thanks**.
+
+    ![](./media/image9.png)
+
+    ![](./media/image10.png)
+
+    ![](./media/image11.png)
 
 7.  Se da cuenta de que se está acercando a su objetivo, pero aún le
     falta información clave. Tras revisar sus prompts anteriores, se ha
