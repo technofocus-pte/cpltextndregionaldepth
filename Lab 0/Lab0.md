@@ -33,33 +33,34 @@ Puedes acceder e iniciar las aplicaciones de productividad desde:
 
 1.  Para lanzar una aplicación desde **View more Apps:**
 
-    En el panel de navegación de la parte inferior izquierda, seleccione **View more Apps** (icono de elipsis ...) Aplicaciones para seleccionar y abrir        las aplicaciones ofimáticas con las que necesite trabajar.
+    En el panel de navegación de la parte inferior izquierda, seleccione **View more Apps** (icono de     
+    elipsis ...) Aplicaciones para seleccionar y abrir        las aplicaciones ofimáticas con las que 
+    necesite trabajar.
 
-     ![](./media/image4.png)
+    ![](./media/image4.png)
 
-2.   Para lanzar una aplicación desde **App launcher**:
+2.  Para lanzar una aplicación desde **App launcher**:
 
-    El iniciador de aplicaciones de **Microsoft 365** es un menú de aplicaciones y servicios para los que tienes licencia, y se abre cuando seleccionas el 
-    icono del iniciador de aplicaciones en la página de Microsoft365. El App launcher facilita la apertura y el cambio entre aplicaciones, ya que resalta 
-    las aplicaciones utilizadas recientemente y proporciona acceso rápido a los documentos recientes de Office en línea.
+    El iniciador de aplicaciones de **Microsoft 365** es un menú de aplicaciones y servicios para los que 
+    tienes licencia, y se abre cuando seleccionas el icono del iniciador de aplicaciones en la página de 
+    Microsoft365. El App launcher facilita la apertura y el cambio entre aplicaciones, ya que resalta 
+    las aplicaciones utilizadas recientemente y proporciona acceso rápido a los documentos recientes de 
+    Office en línea.
 
     ![](./media/image5.png)
 
-    **Note**: Si no encuentra una aplicación en la ventana emergente, seleccione el icono **More Apps** para seleccionarla.
+    **Note**: Si no encuentra una aplicación en la ventana emergente, seleccione el icono **More Apps** 
+    para seleccionarla.
 
-## Upload lab assets to OneDrive
+## Cargar activos de laboratorio en OneDrive
 
-The lab assets (Reference documents) that you will be using in this
-hands-on lab session are available in **C:\LabFiles.**
+Los activos de laboratorio (documentos de referencia) que utilizará en esta sesión práctica de laboratorio están disponibles en **C:\LabFiles.**
 
-**Note**: When you need to reference a file (a Word document, an Excel
-file, etc) into a Copilot prompt, the file MUST be saved in a OneDrive
-account. You can't link to a locally stored file on your PC.
+**Nota**: Cuando necesite hacer referencia a un archivo (un documento de Word, un archivo de Excel, etc.) en una consulta de Copilot, el archivo DEBE estar guardado en una cuenta de OneDrive. No puedes enlazar a un archivo almacenado localmente en tu PC.
 
-1.  On the Microsoft 365 navigation pane, select OneDrive to open it.
+1.  En el panel de navegación de **Microsoft 365**, seleccione **OneDrive** para abrirlo.
 
-2.  Browse to the **C:\LabFiles** folder to select and upload a copy of
-    the document(s) to OneDrive.
+2.  Vaya a la carpeta C:\LabFiles para seleccionar y cargar una copia de los documentos en **OneDrive**.
 
     >**Note**: You can either choose to upload a copy of all the documents
     >or the document(s) related to the particular lab.
