@@ -123,16 +123,14 @@ Más equilibrado o Más preciso).
     Tailspin Toys para el próximo año. Para corregir esta deficiencia,
     introduzca la siguiente prompt:
 
-**I think all the data is complete. With all the information that you
-captured, please analyze the data and identify patterns, trends, and
-insights that can help me determine what Tailspin Toy's business plan
-should be for the upcoming year**.
->
-<img src="./media/image12.png"
-style="width:5.3955in;height:2.83168in" />
->
-<img src="./media/image13.png"
-style="width:5.13826in;height:2.39906in" />
+    **I think all the data is complete. With all the information that you
+    captured, please analyze the data and identify patterns, trends, and
+    insights that can help me determine what Tailspin Toy's business plan
+    should be for the upcoming year**.
+
+    ![](./media/image12.png)
+
+    ![](./media/image13.png)
 
 8.  Le gusta mucho la información que le ha proporcionado Copilot. Sin
     embargo, como este proyecto es su primera oportunidad de
@@ -141,58 +139,54 @@ style="width:5.13826in;height:2.39906in" />
     Decide que Copilot le ayude a determinar si le falta algo.
     Introduzca el siguiente prompt:
 
-**Please analyze the data in this market analysis and business plan.
-Is there any other information that a toy company would typically
-request for market analysis and business plans that I failed to
-request? If so, can you please amend your responses to include this
-information. Thank you**.
->
-<img src="./media/image14.png"
-style="width:4.94213in;height:2.23041in" />
->
-<img src="./media/image15.png"
-style="width:4.89333in;height:2.5297in" />
+    **Please analyze the data in this market analysis and business plan.
+    Is there any other information that a toy company would typically
+    request for market analysis and business plans that I failed to
+    request? If so, can you please amend your responses to include this
+    information. Thank you**.
+
+    ![](./media/image14.png)
+
+    ![](./media/image15.png)
 
 9.  Basándose en la información que Copilot le proporciona, se da cuenta
     de que puede maximizar realmente la eficacia de sus informes
     haciendo que Copilot incluya un análisis de estas áreas. Para dar el
     toque final a sus informes, introduzca la siguiente consulta:
 
-**Please amend the market analysis to include an analysis of each of
-these areas for the Toy industry. Also update the business plan that
-you created for Tailspin Toys based on these insights. Thanks!**.
->
-<img src="./media/image16.png"
-style="width:4.72996in;height:2.38168in" />
->
-<img src="./media/image17.png"
-style="width:5.00562in;height:2.66729in" />
+    **Please amend the market analysis to include an analysis of each of
+    these areas for the Toy industry. Also update the business plan that
+    you created for Tailspin Toys based on these insights. Thanks!**.
+
+    ![](./media/image16.png)
+
+    ![](./media/image17.png)
 
 10. El análisis de mercado y el plan de negocio que Copilot generó para
     usted se basaron en un estilo de conversación predefinido. Es ideal
     para usuarios que buscan un equilibrio entre precisión y
     creatividad.
 
-Si tiene curiosidad por saber cómo quedarían los informes con el
-estilo **More Creative** (respuestas más imaginativas y creativas),
-puedes ajustar manualmente los prompts para establecer el tono o el
-enfoque, en función de si quieres resultados precisos, creativos o
-equilibrados:
->
-**Puntos para tener en cuenta**:
+    Si tiene curiosidad por saber cómo quedarían los informes con el
+    estilo **More Creative** (respuestas más imaginativas y creativas),
+    puedes ajustar manualmente los prompts para establecer el tono o el
+    enfoque, en función de si quieres resultados precisos, creativos o
+    equilibrados:
 
-- **Para respuestas precisas**: Utilice consultas claras, específicas y
-  detalladas. Indique que desea respuestas objetivas, concisas y
-  centradas en la precisión.
+    **Puntos para tener en cuenta**:
 
-- **Para respuestas creativas**: Utilice preguntas abiertas,
-  exploratorias o imaginativas. Fomente la lluvia de ideas o sugiera
-  soluciones cuando se requiera originalidad.
+    - **Para respuestas precisas**: Utilice consultas claras, específicas y
+      detalladas. Indique que desea respuestas objetivas, concisas y
+      centradas en la precisión.
 
-- **Para respuestas equilibradas:** Utilice preguntas moderadamente
-  abiertas que requieran una combinación de detalles objetivos y algo de
-  creatividad. Puede pedir tanto información analítica como
-  exploratoria.
+    - **Para respuestas creativas**: Utilice preguntas abiertas,
+      exploratorias o imaginativas. Fomente la lluvia de ideas o sugiera
+      soluciones cuando se requiera originalidad.
+
+    - **Para respuestas equilibradas:** Utilice preguntas moderadamente
+      abiertas que requieran una combinación de detalles objetivos y algo de
+      creatividad. Puede pedir tanto información analítica como
+      exploratoria.
 
 ## Exportar una respuesta Copilot
 
