@@ -64,7 +64,7 @@ en su cuenta de OneDrive. El siguiente ejercicio utiliza este archivo.
     report.docx** (que cargó en **OneDrive**) para incluirlo en la lista
     de archivos Most Recently Used (MRU).
 
-    ![](./media/image1.png)>
+    ![](./media/image1.png)
 
 4.  En **Microsoft Edge**, navegue hasta Microsoft Bing introduciendo la
     siguiente URL: **+++https://bing.com+++.**
@@ -86,7 +86,7 @@ en su cuenta de OneDrive. El siguiente ejercicio utiliza este archivo.
 
       ![](./media/image4.png)
 
-  - Activar la opción **Show menu bar** (en rojo resaltado)
+    - Activar la opción **Show menu bar** (en rojo resaltado)
 
     ![](./media/image5.png)
 
@@ -190,16 +190,14 @@ en su cuenta de OneDrive. El siguiente ejercicio utiliza este archivo.
 
       ![](./media/image16.png)
 
-<span class="mark">**Nota**: Si Copilot no puede acceder directamente
-a los documentos o revisarlos, cierre la sesión del usuario que ha
-iniciado sesión y vuelva a iniciarla para continuar desde el paso
-9.</span>
->
-<img src="./media/image17.png"
-style="width:5.07609in;height:2.3166in" />
->
-<img src="./media/image18.png" style="width:4.9422in;height:2.23975in"
-alt="A screenshot of a computer Description automatically generated" />
+    <span class="mark">**Nota**: Si Copilot no puede acceder directamente
+    a los documentos o revisarlos, cierre la sesión del usuario que ha
+    iniciado sesión y vuelva a iniciarla para continuar desde el paso
+    9.</span>
+
+    ![](./media/image17.png)
+
+    ![](./media/image18.png)
 >
 <span class="mark">**Nota**: Si usted no puede ver y referenciar el
 documento de **Contoso CipherGuard Product Specification**, entonces
