@@ -88,9 +88,9 @@ en su cuenta de OneDrive. El siguiente ejercicio utiliza este archivo.
 
     - Activar la opción **Show menu bar** (en rojo resaltado)
 
-    ![](./media/image5.png)
+      ![](./media/image5.png)
 
-    ![](./media/image6.png)
+      ![](./media/image6.png)
 
 6.  Ahora seleccione **Copilot**. Al hacerlo, se abrirá Microsoft
     Copilot.
