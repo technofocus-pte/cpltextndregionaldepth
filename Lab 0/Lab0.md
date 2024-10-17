@@ -34,7 +34,7 @@ Puedes acceder e iniciar las aplicaciones de productividad desde:
 1.  Para lanzar una aplicación desde **View more Apps:**
 
     En el panel de navegación de la parte inferior izquierda, seleccione **View more Apps** (icono de     
-    elipsis ...) Aplicaciones para seleccionar y abrir        las aplicaciones ofimáticas con las que 
+    elipsis ...) Aplicaciones para seleccionar y abrir        las aplicaciones ofimáticas con las que 
     necesite trabajar.
 
     ![](./media/image4.png)
@@ -62,8 +62,8 @@ Los activos de laboratorio (documentos de referencia) que utilizará en esta ses
 
 2.  Vaya a la carpeta C:\LabFiles para seleccionar y cargar una copia de los documentos en **OneDrive**.
 
-    >**Note**: You can either choose to upload a copy of all the documents
-    >or the document(s) related to the particular lab.
+    **Nota**: Puede optar por cargar una copia de todos los documentos o los documentos relacionados con el 
+    laboratorio en cuestión.
 
      ![](./media/image6.png)
 
@@ -71,5 +71,5 @@ Los activos de laboratorio (documentos de referencia) que utilizará en esta ses
 
      ![](./media/image8.png)
 
-    Now you will have the document(s) in **OneDrive** to work
-    with **Copilot for Microsoft 365** labs.
+    Ahora tendrá los documentos en **OneDrive** para trabajar con Copilot para laboratorios de
+    **Microsoft 365**.
