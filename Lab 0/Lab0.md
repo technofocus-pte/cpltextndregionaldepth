@@ -19,7 +19,7 @@ En la pantalla de inicio de sesión, seleccione **Admin** account en la esquina 
 
     ![](./media/image3.png)
 
-    Ahora podrá acceder a todas las aplicaciones de Microsoft 365 y tendrá acceso a **Copilot para Microsoft 365**.
+    Ahora podrá acceder a todas las aplicaciones de **Microsoft 365** y tendrá acceso a **Copilot para Microsoft 365**.
 
 ## Acceder e iniciar aplicaciones de Microsoft 365
 
@@ -34,7 +34,7 @@ Puedes acceder e iniciar las aplicaciones de productividad desde:
 1.  Para lanzar una aplicación desde **View more Apps:**
 
     En el panel de navegación de la parte inferior izquierda, seleccione **View more Apps** (icono de     
-    elipsis ...) Aplicaciones para seleccionar y abrir        las aplicaciones ofimáticas con las que 
+    elipsis ...) Aplicaciones para seleccionar y abrir las aplicaciones ofimáticas con las que 
     necesite trabajar.
 
     ![](./media/image4.png)
@@ -60,7 +60,7 @@ Los activos de laboratorio (documentos de referencia) que utilizará en esta ses
 
 1.  En el panel de navegación de **Microsoft 365**, seleccione **OneDrive** para abrirlo.
 
-2.  Vaya a la carpeta C:\LabFiles para seleccionar y cargar una copia de los documentos en **OneDrive**.
+2.  Vaya a la carpeta **C:\LabFiles** para seleccionar y cargar una copia de los documentos en **OneDrive**.
 
     **Nota**: Puede optar por cargar una copia de todos los documentos o los documentos relacionados con el 
     laboratorio en cuestión.
