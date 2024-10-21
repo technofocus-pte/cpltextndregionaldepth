@@ -44,9 +44,8 @@ en su cuenta de OneDrive. El siguiente ejercicio utiliza este archivo.
 
 1.  Si tiene una pestaña de Microsoft 365 abierta en el navegador
     Microsoft Edge, selecciónela ahora; de lo contrario, abra una nueva
-    pestaña e introduzca la siguiente URL:
-    **+++https://www.office.com+++** para ir a la página de inicio de
-    Microsoft 365.
+    pestaña e introduzca la siguiente URL:+++https://www.office.com+++ para ir a la página de inicio de
+    **Microsoft 365**.
 
     **Nota**: Debe iniciar sesión (si se le solicita) con las **credenciales
     de Microsoft 365** que se proporcionan en la **pestaña Recursos de** la
@@ -67,7 +66,7 @@ en su cuenta de OneDrive. El siguiente ejercicio utiliza este archivo.
     ![](./media/image1.png)
 
 4.  En **Microsoft Edge**, navegue hasta Microsoft Bing introduciendo la
-    siguiente URL: **+++https://bing.com+++.**
+    siguiente URL: +++https://bing.com+++
 
     ![](./media/image2.png)
 
@@ -355,8 +354,8 @@ CipherGuard project plan.docx** disponible en **C:\LabFiles**.</span>
     preguntas y respuestas. Para corregir este error, introduzca el
     siguiente prompt:
 
-    **Add a Q&A slide at the very end of the presentation with an
-    appropriate image**.
+    ++Add a Q&A slide at the very end of the presentation with an
+    appropriate image.++
 
     ![](./media/image29.png)
 
@@ -364,8 +363,8 @@ CipherGuard project plan.docx** disponible en **C:\LabFiles**.</span>
     Copilot ha utilizado para esta diapositiva, así que introduzca el
     siguiente mensaje solicitando a Copilot que cambie la imagen:
 
-    **I don't like the image you used on the Q&A slide. Please replace it
-    with a different image**.
+    ++I don't like the image you used on the Q&A slide. Please replace it
+    with a different image.++
 
     ![](./media/image30.png)
 
@@ -374,9 +373,9 @@ CipherGuard project plan.docx** disponible en **C:\LabFiles**.</span>
 
     ![](./media/image31.png)
 
-    <span class="mark">**Nota:** Copilot puede mostrar alguna excepción
+    **Nota:** Copilot puede mostrar alguna excepción
     (recuerde que Copilot es todavía un trabajo en curso) como la de
-    arriba.</span>
+    arriba.
 
 16. Intente reformular la pregunta o utilice las preguntas sugeridas,
     como la siguiente.
@@ -407,7 +406,7 @@ CipherGuard project plan.docx** disponible en **C:\LabFiles**.</span>
     debido a la naturaleza técnica del tema. Introduce el siguiente
     mensaje:
 
-    **Change the theme of this presentation to something more technical**.
+    ++Change the theme of this presentation to something more technical.++
 
     ![](./media/image34.png)
 
@@ -451,9 +450,8 @@ existente y transformará el texto en una tabla.
 
 1.  Si tiene una pestaña de Microsoft 365 abierta en el navegador
     Microsoft Edge, selecciónela ahora; de lo contrario, abra una nueva
-    pestaña e introduzca la siguiente URL:
-    [**<u>https://www.office.com</u>**](https://www.office.com/) para ir
-    a la página de inicio de Microsoft 365.
+    pestaña e introduzca la siguiente URL: +++https://www.office.com/+++ para ir
+    a la página de inicio de **Microsoft 365**.
 
     **Nota**: Debe iniciar sesión (si se le solicita) con las **credenciales
     de Microsoft 365** que se proporcionan en la **pestaña Resources de** la
@@ -485,9 +483,9 @@ existente y transformará el texto en una tabla.
 7.  En el panel **Copilot**, introduzca la siguiente instrucción y, a
     continuación, seleccione el icono de flecha (**Enviar**):
 
-    **Write a new section for this document about the types of VPNs. Discuss
+    ++Write a new section for this document about the types of VPNs. Discuss
     the pros and cons of each type. This content is for a technical
-    audience, so please provide specific details.**
+    audience, so please provide specific details.++
 
     ![](./media/image38.png)
 
@@ -513,9 +511,9 @@ existente y transformará el texto en una tabla.
     seguridad relacionadas con el uso de VPN. Este tema es un área clave
     que desea incluir, así que introduzca la siguiente solicitud:
 
-    **Please write a new section for this document about security policies
+    ++Please write a new section for this document about security policies
     related to VPN usage. This content is for a technical audience, so
-    please provide specific details.**
+    please provide specific details.++
 
     ![](./media/image39.png)
 
@@ -541,10 +539,10 @@ existente y transformará el texto en una tabla.
 12. Resalte el contenido de la primera viñeta de la sección **Risks and
     mitigations** y, a continuación, introduzca la siguiente solicitud:
 
-    **The highlighted content discusses the risks of using VPNs in both
+    ++The highlighted content discusses the risks of using VPNs in both
     home and enterprise networks. Remove the content related to home
     networks and focus solely on the risks of VPNs in enterprise
-    networks.**
+    networks.++
 
     ![](./media/image41.png)
 
@@ -562,7 +560,7 @@ existente y transformará el texto en una tabla.
     secciones. Resalte ambas secciones y luego ingrese el siguiente
     mensaje:
 
-    **Please rewrite the highlighted content by placing it in a table**.
+    ++Please rewrite the highlighted content by placing it in a table.++
 
     ![](./media/image43.png)
 
@@ -575,7 +573,7 @@ existente y transformará el texto en una tabla.
     una tabla, debe describir en su consulta qué secciones de contenido
     desea incluir en la tabla. Esta vez, ingrese el siguiente prompt:
 
-    **Place the content from the Pros and Cons of implementing VPNs into a table**
+    ++Place the content from the Pros and Cons of implementing VPNs into a table.++
 
     ![](./media/image45.png)
 
@@ -598,7 +596,7 @@ existente y transformará el texto en una tabla.
     debería incluir alguna otra información. Introduzca la siguiente
     pregunta:
 
-    **¿Is there anything missing in this document that you would recommend adding?**
+    ++¿Is there anything missing in this document that you would recommend adding?++
 
     ![](./media/image47.png)
 
