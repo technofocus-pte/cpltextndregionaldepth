@@ -212,8 +212,8 @@ en su cuenta de OneDrive. El siguiente ejercicio utiliza este archivo.
     carece de detalles específicos. Para resolver este problema,
     introduzca el siguiente prompt:
 
-    **We're almost there. Please break down each item on the report into
-    multiple detailed steps**.
+    ++We're almost there. Please break down each item on the report into
+    multiple detailed steps.++
 
     ![](./media/image20.png)
 
