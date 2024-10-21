@@ -84,10 +84,10 @@ Más equilibrado o Más preciso).
 5.  En el campo de consulta, introduzca la siguiente consulta y, a
     continuación, seleccione el icono **Enviar**:
 
-    **I'm the Director for Market Research for Tailspin Toys, a U.S. based
+    ++I'm the Director for Market Research for Tailspin Toys, a U.S. based
     toy manufacturer. Conduct a market analysis of the toy industry to
     identify sales figures, the latest trends, consumer preferences, and
-    the most popular toys in the market**.
+    the most popular toys in the market.++
 
     ![](./media/image8.png)
 
@@ -103,10 +103,10 @@ Más equilibrado o Más preciso).
     anterior: sea educado e itere, itere, itere. Introduzca el siguiente
     mensaje para modificar el análisis de mercado:
 
-    **That analysis was great. However, I'm also interested in including
+    ++That analysis was great. However, I'm also interested in including
     data on the toy industry, including market share and consumer
     feedback. Please amend your prior analysis to include this
-    information. Thanks**.
+    information. Thanks.++
 
     ![](./media/image9.png)
 
@@ -123,10 +123,10 @@ Más equilibrado o Más preciso).
     Tailspin Toys para el próximo año. Para corregir esta deficiencia,
     introduzca la siguiente prompt:
 
-    **I think all the data is complete. With all the information that you
+    ++I think all the data is complete. With all the information that you
     captured, please analyze the data and identify patterns, trends, and
     insights that can help me determine what Tailspin Toy's business plan
-    should be for the upcoming year**.
+    should be for the upcoming year.++
 
     ![](./media/image12.png)
 
@@ -139,11 +139,11 @@ Más equilibrado o Más preciso).
     Decide que Copilot le ayude a determinar si le falta algo.
     Introduzca el siguiente prompt:
 
-    **Please analyze the data in this market analysis and business plan.
+    ++Please analyze the data in this market analysis and business plan.
     Is there any other information that a toy company would typically
     request for market analysis and business plans that I failed to
     request? If so, can you please amend your responses to include this
-    information. Thank you**.
+    information. Thank you.++
 
     ![](./media/image14.png)
 
@@ -154,9 +154,9 @@ Más equilibrado o Más preciso).
     haciendo que Copilot incluya un análisis de estas áreas. Para dar el
     toque final a sus informes, introduzca la siguiente consulta:
 
-    **Please amend the market analysis to include an analysis of each of
+    ++Please amend the market analysis to include an analysis of each of
     these areas for the Toy industry. Also update the business plan that
-    you created for Tailspin Toys based on these insights. Thanks!**.
+    you created for Tailspin Toys based on these insights. Thanks!.++
 
     ![](./media/image16.png)
 
@@ -199,12 +199,11 @@ futuro.
     rápida para copiar la respuesta y pegar la respuesta copiada en un
     editor de texto.
 
-<img src="./media/image18.png"
-style="width:5.24434in;height:2.71287in" />
->
-Si desea consolidar varias respuestas en un único documento, deberá
-copiar y pegar manualmente cada respuesta en un editor de texto y
-guardar el archivo.
+    ![](./media/image18.png)
+
+    Si desea consolidar varias respuestas en un único documento, deberá
+    copiar y pegar manualmente cada respuesta en un editor de texto y
+    guardar el archivo.
 
 ## Ejercicio nº 2: Consolidar varios informes de marketing utilizando Copilot en Word
 
@@ -226,34 +225,32 @@ mercado del Chai Tea en Latinoamérica.
 
 1.  Si tiene una pestaña de **Microsoft 365** abierta en el navegador
     Microsoft Edge, selecciónela ahora; de lo contrario, abra una nueva
-    pestaña e introduzca la siguiente URL:
-    [**<u>https://www.office.com</u>**](https://www.office.com/) para ir
+    pestaña e introduzca la siguiente URL: +++https://www.office.com/+++ para ir
     a la página de inicio **de Microsoft 365**.
 
-**Nota**: Debe iniciar sesión (si se le solicita) con las **credenciales
-de Microsoft 365** que se proporcionan en la **pestaña Resources de** la
-derecha.
+    **Nota**: Debe iniciar sesión (si se le solicita) con las **credenciales
+    de Microsoft 365** que se proporcionan en la **pestaña Resources de** la
+    derecha.
 
 2.  Vaya a la carpeta **C:\LabFiles** para seleccionar y cargar una
     copia de los siguientes documentos en **OneDrive**.
 
-- **Descripción del producto Mystic Spice Premium Chai Tea**
+    - **Descripción del producto Mystic Spice Premium Chai Tea**
 
-- **Tendencias del mercado del Chai Tea Contoso 2023**
+    - **Tendencias del mercado del Chai Tea Contoso 2023**
 
-- **Plan de promoción del Chai Tea en América Latina**
+    - **Plan de promoción del Chai Tea en América Latina**
 
-**Nota**: Puede omitir este paso si ya ha cargado una copia de todos
-los documentos (que utilizará en esta sesión práctica de laboratorio
-desde **C:\LabFiles** como se indica en el **Laboratorio 0**).
+    **Nota**: Puede omitir este paso si ya ha cargado una copia de todos
+    los documentos (que utilizará en esta sesión práctica de laboratorio
+    desde **C:\LabFiles** como se indica en el **Laboratorio 0**).
 
 3.  En este ejercicio, se accede a los documentos desde la lista de
     archivos utilizados más recientemente. Para que los archivos
     aparezcan en la lista MRU, abra cada uno de los tres documentos y
     luego ciérrelos.
 
-<img src="./media/image19.png" style="width:5.4728in;height:2.60968in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image19.png)
 
 4.  En **Microsoft 365**, abra **Microsoft Word** y, a continuación,
     abra un nuevo documento en blanco.
@@ -263,14 +260,13 @@ alt="A screenshot of a computer Description automatically generated" />
     pero no seleccione el botón **Generate** hasta después de vincular
     los tres archivos a la consulta:
 
-**I'm the LATAM Marketing Director for Contoso Beverage. Please create
-a LATAM Market Analysis report for our Mystic Spice Premium Chai Tea
-beverage. Combine the three attached files to create a report that
-describes the product, analyzes the market trend for it, and includes
-a promotion plan for Latin America**.
->
-<img src="./media/image20.png" style="width:5.54781in;height:2.69646in"
-alt="A screenshot of a computer Description automatically generated" />
+    ++I'm the LATAM Marketing Director for Contoso Beverage. Please create
+    a LATAM Market Analysis report for our Mystic Spice Premium Chai Tea
+    beverage. Combine the three attached files to create a report that
+    describes the product, analyzes the market trend for it, and includes
+    a promotion plan for Latin America.++
+
+    ![](./media/image20.png)
 
 6.  Ahora debe adjuntar los tres documentos a la solicitud. En la
     ventana **Draft with Copilot**, seleccione el botón R**eference your
@@ -281,24 +277,21 @@ alt="A screenshot of a computer Description automatically generated" />
     archivos **Recent** y, a continuación, seleccione el botón
     **Attach**. Observe cómo aparece el archivo en el prompt.
 
-<img src="./media/image21.png" style="width:5.39448in;height:2.5287in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image21.png)
 
 7.  Repita el paso anterior tanto para el archivo **Contoso Chai Tea
     market trends 2023.docx** como para el archivo **Plan for Chai Tea
     in Latin America.docx**. En este punto, los enlaces a los tres
     archivos deberían aparecer en la pantalla.
 
-<img src="./media/image22.png" style="width:5.74913in;height:2.47456in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image22.png)
 
 8.  Seleccione **Generate**. Una vez hecho esto, Copilot extrae la
     información pertinente de los tres archivos y redacta un informe que
     los combina en un único informe de Análisis de Mercado para Mystic
     Spice Premium Chai Tea.
 
-<img src="./media/image23.png" style="width:5.22198in;height:2.56355in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image23.png)
 
 9.  Tras revisar este primer borrador del informe de Análisis de
     Mercado, reconoces que le falta información fundamental. Le gustaría
@@ -307,17 +300,15 @@ alt="A screenshot of a computer Description automatically generated" />
     en la ventana de Copilot situada en la parte inferior del informe y,
     a continuación, seleccione la flecha **Generate**:
 
-<img src="./media/image24.png" style="width:5.37635in;height:2.41835in"
-alt="A screenshot of a computer Description automatically generated" />
->
-**This report looks good. However, please add a section titled
-Competitive Analysis. Review the beverage companies in Latin America
-that sell Chai Tea and then provide information in this section on the
-strengths and weaknesses of these competitors, their market share, and
-their pricing strategies**.
->
-<img src="./media/image25.png" style="width:5.23569in;height:2.67991in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image24.png)
+
+    ++This report looks good. However, please add a section titled
+    Competitive Analysis. Review the beverage companies in Latin America
+    that sell Chai Tea and then provide information in this section on the
+    strengths and weaknesses of these competitors, their market share, and
+    their pricing strategies.++
+
+    ![](./media/image25.png)
 
 10. Tras revisar este segundo borrador del informe que contiene la nueva
     sección Análisis de la competencia, se da cuenta de que falta una
@@ -328,13 +319,12 @@ alt="A screenshot of a computer Description automatically generated" />
     parte inferior del informe y, a continuación, seleccione la flecha
     **Generate**:
 
-<img src="./media/image26.png" style="width:5.36269in;height:2.16623in"
-alt="A screenshot of a computer Description automatically generated" />
->
-**Nice job! One last thing. Please add a section titled Distribution
-Channels. Review the distribution channels used to sell Chai Tea in
-Latin America and then provide information in this section on the
-types of retailers, wholesalers, and distributors used**.
+    ![](./media/image26.png)
+
+    ++Nice job! One last thing. Please add a section titled Distribution
+    Channels. Review the distribution channels used to sell Chai Tea in
+    Latin America and then provide information in this section on the
+    types of retailers, wholesalers, and distributors used++.
 
 11. Después de revisar este último borrador que contiene la nueva
     sección Distribution channels, está satisfecho con el informe y está
@@ -342,8 +332,7 @@ types of retailers, wholesalers, and distributors used**.
     inferior del documento, seleccione el botón **Keep it** para
     convertirlo de borrador de Copilot a documento de Word.
 
-<img src="./media/image27.png" style="width:5.41303in;height:2.5374in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image27.png)
 
 12. Revise el documento. Si quiere hacer algún cambio manual, puede
     hacerlo ahora. Una vez que esté satisfecho con él, no dude en
@@ -397,28 +386,26 @@ siguiendo estos pasos:</span>
 
 1.  Si tiene una pestaña de **Microsoft 365** abierta en el navegador
     Microsoft Edge, selecciónela ahora; de lo contrario, abra una nueva
-    pestaña e introduzca la siguiente URL:
-    [**<u>https://www.office.com</u>**](https://www.office.com/) para ir
+    pestaña e introduzca la siguiente URL:+++https://www.office.com/+++ para ir
     a la página de inicio **de Microsoft 365**.
 
-**Nota**: Debe iniciar sesión (si se le solicita) con las
-**credenciales de Microsoft 365** que se proporcionan en la **pestaña
-Resources de** la derecha.
+    **Nota**: Debe iniciar sesión (si se le solicita) con las
+    **credenciales de Microsoft 365** que se proporcionan en la **pestaña
+    Resources de** la derecha.
 
 2.  Vaya a la carpeta **C:\LabFiles** para seleccionar y cargar una
     copia de **Contoso Chai Tea market trends 2023.xlsx** en
     **OneDrive.**
 
-**Nota**: Puede omitir este paso si ya ha cargado una copia de todos
-los documentos (que utilizará en esta sesión práctica de laboratorio
-desde **C:\LabFiles** como se indica en el **Laboratorio 0**)**.**
+    **Nota**: Puede omitir este paso si ya ha cargado una copia de todos
+    los documentos (que utilizará en esta sesión práctica de laboratorio
+    desde **C:\LabFiles** como se indica en el **Laboratorio 0**)**.**
 
 3.  Abre y cierra el archivo **Contoso Chai Tea market trends
     2023.xlsx** (que subiste a **OneDrive**) para que aparezca en su
     lista de archivos utilizados más recientemente (MRU).
 
-<img src="./media/image28.png" style="width:4.61069in;height:2.74772in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image28.png)
 
 4.  En la página de inicio de **Microsoft 365**, seleccione el icono de
     **Excel** en el panel de navegación de la izquierda.
@@ -432,11 +419,9 @@ alt="A screenshot of a computer Description automatically generated" />
     preguntas predefinidas. Seleccione el botón **Mostrar información
     sobre los datos**.
 
-<img src="./media/image29.png" style="width:5.33973in;height:1.85465in"
-alt="A screenshot of a computer Description automatically generated" />
->
-<img src="./media/image30.png"
-style="width:2.99219in;height:2.96791in" />
+    ![](./media/image29.png)
+
+    ![](./media/image30.png)
 
 8.  Observe el gráfico pivotante que generó. Cuando probamos este
     ejercicio, Copilot siempre creó un gráfico de líneas de la **Social
@@ -444,20 +429,17 @@ style="width:2.99219in;height:2.96791in" />
     Copilot para usted? Debajo del gráfico que Copilot creó para usted,
     seleccione el botón **+ Add to a new sheet**.
 
-<img src="./media/image31.png" style="width:2.67604in;height:2.56115in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image31.png)
 
 9.  Aunque Copilot dice que ha añadido el gráfico a la Hoja 2, la Hoja 2
     no es visible en la hoja de cálculo.
 
-<img src="./media/image32.png" style="width:5.49176in;height:2.53185in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image32.png)
 
 10. Pruebe con la hoja de Excel maximizada y repita el paso 11. La **Add
     to sheet function** funcionó bien ahora.
 
-<img src="./media/image33.png" style="width:5.45178in;height:1.87665in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image33.png)
 
 11. Seleccione **Sheet 2**. Revise la nueva hoja de datos creada por
     Copilot. Copilot incluyó tanto el gráfico como la columna de datos
@@ -465,8 +447,7 @@ alt="A screenshot of a computer Description automatically generated" />
     cursor sobre el gráfico y observe la ventana que aparece y que
     indica el tipo de gráfico que ha generado Copilot.
 
-<img src="./media/image34.png" style="width:4.89912in;height:2.11412in"
-alt="A graph with a line Description automatically generated" />
+    ![](./media/image34.png)
 
 14. Observe cómo en el panel Copilot ya no aparece la lista de avisos
     predefinidos. Esta situación se debe a que Copilot aún no funciona
@@ -474,8 +455,7 @@ alt="A graph with a line Description automatically generated" />
     Seleccione **la Sheet 1**, que le devuelve a la tabla Excel. Observe
     cómo aparecen las preguntas predefinidas.
 
-<img src="./media/image35.png" style="width:2.68568in;height:2.56173in"
-alt="A screenshot of a chat Description automatically generated" />
+    ![](./media/image35.png)
 
 15. En las sugerencias predefinidas que aparecen sobre el campo de
     sugerencias, seleccione el botón **Show suggestions for formula
@@ -484,16 +464,14 @@ alt="A screenshot of a chat Description automatically generated" />
 16. Observe la sugerencia de Copilot. La siguiente imagen muestra la
     sugerencia que Copilot proporcionó durante nuestras pruebas.
 
-<img src="./media/image36.png"
-style="width:3.02624in;height:2.91475in" />
+    ![](./media/image36.png)
 
 17. En la sugerencia que ha recibido, seleccione la flecha desplegable
     **Explain formula**. Revise la explicación de Copilot que describe
     el cálculo. Seleccione el botón **+Insert column** para insertar
     esta columna en su tabla de Excel.
 
-<img src="./media/image37.png"
-style="width:4.6763in;height:2.13905in" />
+    ![](./media/image37.png)
 
 18. Observe cómo Copilot ha añadido esta columna de datos al final de su
     tabla Excel en **la Sheet 1**. ¿Le intriga esta función? Puede que
@@ -506,28 +484,24 @@ style="width:4.6763in;height:2.13905in" />
     pregunta, seleccione el botón **How can I highlight, filter, and
     sort data?**
 
-<img src="./media/image38.png"
-style="width:2.81961in;height:2.40686in" />
+    ![](./media/image38.png)
 
 20. Observa la lista de acciones que puedes emprender.
 
-<img src="./media/image39.png" style="width:2.92147in;height:2.71202in"
-alt="A screenshot of a chat Description automatically generated" />
+    ![](./media/image39.png)
 
 21. En este punto, las indicaciones predefinidas que muestra Copilot ya
     no le interesan. Por lo tanto, desea ver un nuevo conjunto de
     prompt. Seleccione el botón **Refresh** que aparece encima del campo
     de prompt.
 
-<img src="./media/image40.png" style="width:0.70069in;height:0.64722in"
-alt="Screenshot showing the Refresh prompt button." />
+    ![](./media/image40.png)
 
 22. Revise la lista revisada de avisos predefinidos que aparecen ahora.
     La siguiente imagen muestra ejemplos de los prompts que se
     mostraron.
 
-<img src="./media/image41.png" style="width:3.03109in;height:2.62747in"
-alt="A screenshot of a chat Description automatically generated" />
+    ![](./media/image41.png)
 
 23. El objetivo de este ejercicio es familiarizarse con los distintos
     tipos de acciones predefinidas que puede realizar Copilot. Por lo
@@ -544,8 +518,7 @@ alt="A screenshot of a chat Description automatically generated" />
 24. Seleccione de nuevo el botón **Actualizar** que aparece encima del
     campo de consulta.
 
-<img src="./media/image40.png" style="width:0.70069in;height:0.64722in"
-alt="Screenshot showing the Refresh prompt button." />
+    ![](./media/image40.png)
 
 25. Revise el nuevo conjunto de indicaciones que muestra. Seleccione el
     botón **Refresh** varias veces para ver los distintos tipos de
