@@ -90,9 +90,9 @@ para usted basado en la Income Statement de su empresa:
 6.  En la ventana **Draft with Copilot** que aparece en la parte
     superior del documento en blanco, introduzca el siguiente prompt:
 
-    <span class="mark">**Redacta un discurso para los grupos de interés de
+    ++Redacta un discurso para los grupos de interés de
     Fabrikam que resuma los resultados de la cuenta de resultados de la
-    empresa de 2023 que se encuentra en el archivo adjunto**.</span>
+    empresa de 2023 que se encuentra en el archivo adjunto.++
 
 7.  En la ventana **Draft with Copilot**, seleccione el botón
     **Reference your content**. En la ventana emergente que aparece,
@@ -101,7 +101,7 @@ para usted basado en la Income Statement de su empresa:
     Si, por alguna razón, el archivo no se muestra, haga clic en **Browse
     files from cloud** en la ventana emergente.
 
-    ![](./media/imag6e.png)>
+    ![](./media/imag6e.png)
 
 8.  En la ventana **Pick a file** que aparece, en la lista Archivo
     **reciente**, seleccione el archivo **Fabrikam 2023 Income
@@ -112,7 +112,7 @@ para usted basado en la Income Statement de su empresa:
 9.  Observe cómo aparece el archivo en la pantalla. Seleccione
     **Generate**.
 
-    ![](./media/image8.png)>
+    ![](./media/image8.png)
 
     **Nota**: Si, por alguna razón, sigue apareciendo el error **Something
     went wrong** al pulsar el botón **Generate** después de adjuntar el
@@ -229,8 +229,7 @@ borrador de su presentación:
 
 1.  Si tiene una pestaña de Microsoft 365 abierta en el navegador Edge,
     selecciónela ahora; de lo contrario, abra una nueva pestaña e
-    introduzca la siguiente URL:
-    [**https://www.office.com**](https://www.office.com/) para ir a la
+    introduzca la siguiente URL:+++https://www.office.com/+++ para ir a la
     página de inicio **de Microsoft 365**.
 
     **Nota**: Debe iniciar sesión (si se le solicita) con las
@@ -351,14 +350,14 @@ borrador de su presentación:
 19. Pruebe a utilizar Copilot para actualizar la presentación. Por
     ejemplo, introduzca la siguiente solicitud:
 
-    **Añada una nueva diapositiva después de la diapositiva 1. Esta
+    ++Añada una nueva diapositiva después de la diapositiva 1. Esta
     diapositiva debería tener una imagen de un pico de montaña en los
     Alpes. Hacia la parte inferior de la diapositiva, añada un cuadro de
     texto que diga: El lema de la empresa Fabrikam: " We overcome every
     obstacle ". Añade notas del orador a esta nueva diapositiva que hablen
     de cómo Fabrikam trabaja diligentemente para resolver las peticiones
     de cada cliente, sin dejar nunca que ningún obstáculo se interponga en
-    su camino hacia el éxito**.
+    su camino hacia el éxito.++
 
     ![](./media/image27.png)
 
