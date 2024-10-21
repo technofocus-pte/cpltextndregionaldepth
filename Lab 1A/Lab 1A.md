@@ -101,7 +101,7 @@ para usted basado en la Income Statement de su empresa:
     Si, por alguna razón, el archivo no se muestra, haga clic en **Browse
     files from cloud** en la ventana emergente.
 
-    ![](./media/imag6e.png)
+    ![](./media/image6.png)
 
 8.  En la ventana **Pick a file** que aparece, en la lista Archivo
     **reciente**, seleccione el archivo **Fabrikam 2023 Income
@@ -326,8 +326,8 @@ borrador de su presentación:
 
 17. Cuando revise las diapositivas, esté atento a las referencias a "the
     speaker" o a cualquier otro elemento que deba cambiar.
-    <img src="./media/image27.png" style="width:5.39563in;height:2.89748in"
-    alt="A screenshot of a computer Description automatically generated" />
+
+    ![](./media/image27.png)
 
     Atención: Preste atención a la referencia a "The speaker" junto con la
     segunda frase que comienza con "La presentación resumirá...". que
@@ -359,7 +359,7 @@ borrador de su presentación:
     de cada cliente, sin dejar nunca que ningún obstáculo se interponga en
     su camino hacia el éxito.++
 
-    ![](./media/image27.png)
+    ![](./media/image28.png)
 
     Revise la nueva diapositiva creada. Aunque en los ejercicios de
     laboratorio restantes no se utiliza esta presentación, puede descartarla
