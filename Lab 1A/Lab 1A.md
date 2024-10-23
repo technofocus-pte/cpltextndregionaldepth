@@ -59,7 +59,7 @@ para usted basado en la Income Statement de su empresa:
     ![](./media/image2.png)
 
 3.  Vaya a la carpeta **C:\LabFiles** para seleccionar y cargar una
-    copia del **documento** **Fabrikam 2023 Income Statement** en
+    copia del documento **Fabrikam 2023 Income Statement** en
     **OneDrive**.
 
     ![](./media/image3.png)
@@ -68,7 +68,7 @@ para usted basado en la Income Statement de su empresa:
     OneDrive como se indica en **Preparación para la ejecución del
     laboratorio** (**Laboratorio 0**), puede omitir este paso.
 
-4.  Abre y cierra el **documento Fabrikam 2023 Income Statement** (que
+4.  Abre y cierra el **Fabrikam 2023 Income Statement** (que
     has subido a **OneDrive**) para que aparezca en tu lista de archivos
     utilizados más recientemente (MRU).
 
@@ -81,7 +81,7 @@ para usted basado en la Income Statement de su empresa:
 
     ![](./media/image4.png)
 
-    Si pasa el ratón por encima del icono Copilot, verá **la tooltip Draft
+    Si pasa el ratón por encima del icono Copilot, verá la tooltip **Draft
     with Copilot**. Haga clic en el icono para mostrar la ventana **Draft
     with Copilot**.
 
@@ -230,7 +230,7 @@ borrador de su presentación:
 1.  Si tiene una pestaña de Microsoft 365 abierta en el navegador Edge,
     selecciónela ahora; de lo contrario, abra una nueva pestaña e
     introduzca la siguiente URL:+++https://www.office.com/+++ para ir a la
-    página de inicio **de Microsoft 365**.
+    página de inicio de **Microsoft 365**.
 
     **Nota**: Debe iniciar sesión (si se le solicita) con las
     **credenciales de Microsoft 365** que se proporcionan en la **pestaña
@@ -293,7 +293,7 @@ borrador de su presentación:
     **Copilot**, aparecerá una ventana de **Suggestions** que contiene
     los tres archivos utilizados más recientemente.
 
-    Normalmente, el **archivo Fabrikam 2023 Financial presentation.docx**
+    Normalmente, el archivo **Fabrikam 2023 Financial presentation.docx**
     que creó en el ejercicio anterior aparecerá en la lista MRU. Si no es
     así, debe pegar el enlace (que copió en el paso 5) al archivo en el
     campo de prompt.
