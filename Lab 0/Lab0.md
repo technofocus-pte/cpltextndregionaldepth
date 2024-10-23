@@ -10,16 +10,18 @@ En la pantalla de inicio de sesión, seleccione **Admin** account en la esquina 
 
 ## Complete la configuración de la suscripción a Microsoft 365 y acceda a Copilot para Microsoft 365
 
-1.  Si tiene una pestaña de Microsoft 365 abierta en el navegador Edge, selecciónela ahora; de lo contrario, abra una nueva pestaña e introduzca la     
-    siguiente URL:+++https://portal.office.com+++
+1.  Si tiene una pestaña de **Microsoft 365** abierta en el navegador Edge, selecciónela ahora; de lo 
+    contrario, abra una nueva pestaña e introduzca la siguiente URL:+++https://portal.office.com+++
 
-2.  Utilice las **credenciales de Microsoft 365** proporcionadas en la sección Azure Portal de la **pestaña Resources** de la derecha (consulte la captura       de pantalla) para iniciar sesión.
+2.  Utilice las **Microsoft 365 Credentials** proporcionadas en la sección Azure Portal de la pestaña 
+    **Resources** de la derecha (consulte la captura de pantalla) para iniciar sesión.
 
     ![](./media/image2.png)
 
     ![](./media/image3.png)
 
-    Ahora podrá acceder a todas las aplicaciones de **Microsoft 365** y tendrá acceso a **Copilot para Microsoft 365**.
+    Ahora podrá acceder a todas las aplicaciones de **Microsoft 365** y tendrá acceso a **Copilot for 
+    Microsoft 365**.
 
 ## Acceder e iniciar aplicaciones de Microsoft 365
 
@@ -27,9 +29,11 @@ Puedes acceder e iniciar las aplicaciones de productividad desde:
 
 - El enlace **View more Apps**(en el panel de navegación de la izquierda)
 
-- **App Launcher**(disponible en la parte superior izquierda, justo encima del panel de navegación izquierdo)
+- **App Launcher**(disponible en la parte superior izquierda, justo encima del panel de navegación 
+  izquierdo)
 
-**Nota: Debido a las actualizaciones del producto, la colocación de los iconos de office puede ser diferente a la mencionada anteriormente**
+ **Nota: Debido a las actualizaciones del producto, la colocación de los iconos de office puede ser 
+ diferente a la mencionada anteriormente**
 
 1.  Para lanzar una aplicación desde **View more Apps:**
 
