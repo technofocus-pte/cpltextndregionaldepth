@@ -27,8 +27,8 @@ puede enlazar a un archivo almacenado localmente en su PC.</span>
 <span class="mark">Puede hacer referencia/vincular un archivo en el
 indicador de Copilot utilizando uno de los siguientes métodos:</span>
 
-- <span class="mark">Seleccione el archivo de la lista de archivos Most
-  Recently Used (MRU).</span>
+- <span class="mark">Seleccione el archivo de la lista de archivos **Most
+  Recently Used** (MRU).</span>
 
 - <span class="mark">Abra el archivo y copie su ruta utilizando la
   opción **Share**, luego pegue la ruta en el prompt siguiendo la barra
@@ -46,12 +46,12 @@ para usted basado en la Income Statement de su empresa:
 
 1.  Si tiene una pestaña de Microsoft 365 abierta en el navegador Edge,
     selecciónela ahora; de lo contrario, abra una nueva pestaña e
-    introduzca la siguiente URL:+++https://www.office.com/+++ para ir a la página de inicio **de      
-    Microsoft 365**.
+    introduzca la siguiente URL:+++https://www.office.com/+++ para ir a la página de inicio de      
+    **Microsoft 365**.
 
     **Nota**: Debe iniciar sesión (si se le solicita) utilizando las
-    **credenciales de Microsoft 365** que se proporcionan en la **pestaña
-    Resources de** la derecha.
+    **Microsoft 365 Credentials** que se proporcionan en la pestaña
+    **Resources** de la derecha.
 
 2.  En el panel de navegación de **Microsoft 365**, seleccione
     **OneDrive** para abrirlo.
@@ -90,9 +90,8 @@ para usted basado en la Income Statement de su empresa:
 6.  En la ventana **Draft with Copilot** que aparece en la parte
     superior del documento en blanco, introduzca el siguiente prompt:
 
-    ++Redacta un discurso para los grupos de interés de
-    Fabrikam que resuma los resultados de la cuenta de resultados de la
-    empresa de 2023 que se encuentra en el archivo adjunto.++
+    ++Write a speech for the Fabrikam stakeholders that summarizes the results of the company's 2023   
+    income statement found in the attached file.++
 
 7.  En la ventana **Draft with Copilot**, seleccione el botón
     **Reference your content**. En la ventana emergente que aparece,
@@ -104,7 +103,7 @@ para usted basado en la Income Statement de su empresa:
     ![](./media/image6.png)
 
 8.  En la ventana **Pick a file** que aparece, en la lista Archivo
-    **reciente**, seleccione el archivo **Fabrikam 2023 Income
+    **Recent**, seleccione el archivo **Fabrikam 2023 Income
     Statement.docx** y, a continuación, seleccione el botón **Attach**.
 
     ![](./media/image7.png)
@@ -233,8 +232,8 @@ borrador de su presentación:
     página de inicio de **Microsoft 365**.
 
     **Nota**: Debe iniciar sesión (si se le solicita) con las
-    **credenciales de Microsoft 365** que se proporcionan en la **pestaña
-    Resources de** la derecha.
+    **credenciales de Microsoft 365** que se proporcionan en la pestaña
+    **Resources** de la derecha.
 
 2.  En el panel de navegación de **Microsoft 365**, seleccione **Word**
     para abrir la página de archivos de Word.
@@ -246,7 +245,7 @@ borrador de su presentación:
 
     ![](./media/image16.png)
 
-4.  Copie la URL del documento seleccionando el botón **Compartir** en
+4.  Copie la URL del documento seleccionando el botón **Share** en
     la esquina superior derecha, encima de la cinta y seleccionando
     **Copy link** en el menú desplegable que aparece.
 
@@ -261,7 +260,7 @@ borrador de su presentación:
     ![](./media/image18.png)
 
 6.  Cierre la pestaña de este documento en tu navegador Microsoft Edge.
-    Volverá a la pestaña **Word \| Microsoft 365**.
+    Volverá a la pestaña **Word | Microsoft 365**.
 
 7.  En la página del archivo Word, seleccione el icono **PowerPoint** en
     el panel **App Launcher** de la parte superior izquierda
