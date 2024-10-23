@@ -52,7 +52,7 @@ Más equilibrado o Más preciso).
     página, siga los pasos que se indican a continuación para ver la lista
     de pestañas.
 
-  - Asegúrese de haber iniciado sesión con las **credenciales de Microsoft 365**
+  - Asegúrese de haber iniciado sesión con las **Microsoft 365 credentials**
     (disponibles en la pestaña **Resources**).
 
     ![](./media/image2.png)
@@ -226,11 +226,10 @@ mercado del Chai Tea en Latinoamérica.
 1.  Si tiene una pestaña de **Microsoft 365** abierta en el navegador
     Microsoft Edge, selecciónela ahora; de lo contrario, abra una nueva
     pestaña e introduzca la siguiente URL: +++https://www.office.com/+++ para ir
-    a la página de inicio **de Microsoft 365**.
+    a la página de inicio de **Microsoft 365**.
 
-    **Nota**: Debe iniciar sesión (si se le solicita) con las **credenciales
-    de Microsoft 365** que se proporcionan en la **pestaña Resources de** la
-    derecha.
+    **Nota**: Debe iniciar sesión (si se le solicita) con las **Microsoft 365 credentials** que se 
+    proporcionan en la pestaña **Resources** de la derecha.
 
 2.  Vaya a la carpeta **C:\LabFiles** para seleccionar y cargar una
     copia de los siguientes documentos en **OneDrive**.
@@ -269,7 +268,7 @@ mercado del Chai Tea en Latinoamérica.
     ![](./media/image20.png)
 
 6.  Ahora debe adjuntar los tres documentos a la solicitud. En la
-    ventana **Draft with Copilot**, seleccione el botón R**eference your
+    ventana **Draft with Copilot**, seleccione el botón **Reference your
     content**. En el menú desplegable que aparece, si el archivo
     **Mystic Spice Premium Chai Tea product description.docx** aparece
     en la lista de archivos, selecciónelo. De lo contrario, seleccione
@@ -374,8 +373,7 @@ siguiendo estos pasos:</span>
 
 - <span class="mark">Seleccione la celda o el rango en los datos.</span>
 
-- <span class="mark">Seleccione **Home** \> **Format como
-  tabla**.</span>
+- <span class="mark">Seleccione **Home** > **Format as Table**.</span>
 
 - <span class="mark">En el cuadro de diálogo **Format as Table**,
   seleccione la casilla de verificación situada junto a **My table has
@@ -387,11 +385,11 @@ siguiendo estos pasos:</span>
 1.  Si tiene una pestaña de **Microsoft 365** abierta en el navegador
     Microsoft Edge, selecciónela ahora; de lo contrario, abra una nueva
     pestaña e introduzca la siguiente URL:+++https://www.office.com/+++ para ir
-    a la página de inicio **de Microsoft 365**.
+    a la página de inicio de **Microsoft 365**.
 
     **Nota**: Debe iniciar sesión (si se le solicita) con las
-    **credenciales de Microsoft 365** que se proporcionan en la **pestaña
-    Resources de** la derecha.
+    **Microsoft 365 credentials** que se proporcionan en la pestaña
+    **Resources** de la derecha.
 
 2.  Vaya a la carpeta **C:\LabFiles** para seleccionar y cargar una
     copia de **Contoso Chai Tea market trends 2023.xlsx** en
@@ -399,7 +397,7 @@ siguiendo estos pasos:</span>
 
     **Nota**: Puede omitir este paso si ya ha cargado una copia de todos
     los documentos (que utilizará en esta sesión práctica de laboratorio
-    desde **C:\LabFiles** como se indica en el **Laboratorio 0**)**.**
+    desde **C:\LabFiles** como se indica en el **Laboratorio 0**).
 
 3.  Abre y cierra el archivo **Contoso Chai Tea market trends
     2023.xlsx** (que subiste a **OneDrive**) para que aparezca en su
@@ -410,14 +408,13 @@ siguiendo estos pasos:</span>
 4.  En la página de inicio de **Microsoft 365**, seleccione el icono de
     **Excel** en el panel de navegación de la izquierda.
 
-5.  En **Excel**, en la página **Archivo**, seleccione **Contoso Chai
+5.  En **Excel**, en la página **File**, seleccione **Contoso Chai
     Tea market trends 2023.xlsx** de la lista de archivos.
 
 6.  Seleccione la opción **Copilot** en la parte derecha de la cinta.
 
 7.  En el panel **Copilot** que aparece, puede elegir entre varias
-    preguntas predefinidas. Seleccione el botón **Mostrar información
-    sobre los datos**.
+    preguntas predefinidas. Seleccione el botón **Show data insights**.
 
     ![](./media/image29.png)
 
@@ -508,14 +505,14 @@ siguiendo estos pasos:</span>
     tanto, seleccione diferentes indicaciones para ver qué ocurre. Por
     ejemplo
 
-    - Si aparece el mensaje **Ordenar**, selecciónelo ahora. Observe
+    - Si aparece el mensaje **Sort**, selecciónelo ahora. Observe
       cómo Copilot ha ordenado los datos.
 
-    - Si aparece la indicación **Negrita**, selecciónela ahora. Observe
+    - Si aparece la indicación **Bold**, selecciónela ahora. Observe
       cómo Copilot pone en negrita los elementos de la columna que
       menciona y deja los demás sin negrita.
 
-24. Seleccione de nuevo el botón **Actualizar** que aparece encima del
+24. Seleccione de nuevo el botón **Refresh** que aparece encima del
     campo de consulta.
 
     ![](./media/image40.png)
