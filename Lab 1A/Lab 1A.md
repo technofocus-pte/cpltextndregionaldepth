@@ -45,9 +45,8 @@ Realizará los siguientes pasos para que Copilot en Word cree un discurso
 para usted basado en la Income Statement de su empresa:
 
 1.  Si tiene una pestaña de Microsoft 365 abierta en el navegador Edge,
-    selecciónela ahora; de lo contrario, abra una nueva pestaña e
-    introduzca la siguiente URL:+++https://www.office.com/+++ para ir a la página de inicio de      
-    **Microsoft 365**.
+    selecciónela ahora; de lo contrario, abra una nueva pestaña e introduzca la siguiente 
+    URL:+++https://www.office.com/+++ para ir a la página de inicio de **Microsoft 365**.
 
     **Nota**: Debe iniciar sesión (si se le solicita) utilizando las
     **Microsoft 365 Credentials** que se proporcionan en la pestaña
