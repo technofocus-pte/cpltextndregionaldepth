@@ -2,7 +2,7 @@
 
 ## Objetivo:
 
-Copilot para Microsoft 365 funciona como un asistente de escritura
+Copilot for Microsoft 365 funciona como un asistente de escritura
 impulsado por AI que comprende el contexto, sugiere frases y ayuda a
 generar contenido, todo lo cual puede mejorar la calidad de su trabajo.
 En este laboratorio, utilizará:
@@ -18,7 +18,7 @@ En este laboratorio, utilizará:
 
 ## Ejercicio nº 1: Crear un plan de proyecto con Microsoft Copilot
 
-Con Microsoft Copilot se integra perfectamente en Microsoft 365 y ofrece
+Con Microsoft Copilot se integra perfectamente en **Microsoft 365** y ofrece
 una sólida plataforma para que los profesionales de TI mejoren el
 trabajo en equipo, compartan información y aceleren la resolución de
 problemas dentro del ecosistema de TI. Permite a los profesionales de TI
@@ -42,13 +42,13 @@ En este ejercicio utilizará Microsoft Copilot en Bing
 **Nota**: Al final de este ejercicio, debe guardar su plan de proyecto
 en su cuenta de OneDrive. El siguiente ejercicio utiliza este archivo.
 
-1.  Si tiene una pestaña de Microsoft 365 abierta en el navegador
+1.  Si tiene una pestaña de **Microsoft 365** abierta en el navegador
     Microsoft Edge, selecciónela ahora; de lo contrario, abra una nueva
     pestaña e introduzca la siguiente URL:+++https://www.office.com+++ para ir a la página de inicio de
     **Microsoft 365**.
 
     **Nota**: Debe iniciar sesión (si se le solicita) con las **credenciales
-    de Microsoft 365** que se proporcionan en la **pestaña Recursos de** la
+    de Microsoft 365** que se proporcionan en la pestaña **Resources** de la
     derecha.
 
 2.  Vaya a la carpeta **C:\LabFiles** para seleccionar y cargar una
@@ -70,7 +70,7 @@ en su cuenta de OneDrive. El siguiente ejercicio utiliza este archivo.
 
     ![](./media/image2.png)
 
-5.  **En la página de inicio de Microsoft Bing**, en la lista de
+5.  En la página de inicio de **Microsoft Bing**, en la lista de
     pestañas que aparecen en la parte superior de la página, seleccione
     **Copilot**. Al hacerlo, se abrirá **Microsoft Copilot**.
 
@@ -80,8 +80,8 @@ en su cuenta de OneDrive. El siguiente ejercicio utiliza este archivo.
     página, siga los pasos que se indican a continuación para ver la lista
     de pestañas.
 
-    - Asegúrese de haber iniciado sesión con las **credenciales de Microsoft
-      365** (disponibles en la pestaña **Resources**).
+    - Asegúrese de haber iniciado sesión con las **Microsoft 365 Credentials** (disponibles en la pestaña 
+      **Resources**).
 
       ![](./media/image4.png)
 
@@ -118,7 +118,7 @@ en su cuenta de OneDrive. El siguiente ejercicio utiliza este archivo.
 
 10. Ya está listo para utilizar Copilot. Introduzca el siguiente prompt,
     que indica a Copilot que acceda a datos web públicos a través del
-    plugin de **contenido web** de Microsoft Copilot y, a continuación,
+    plugin de ****Web content** de Microsoft Copilot y, a continuación,
     seleccione la flecha **Submit** situada en la esquina inferior del
     campo de prompt:
 
@@ -171,7 +171,7 @@ en su cuenta de OneDrive. El siguiente ejercicio utiliza este archivo.
     archivo:
 
     - Si Copilot abre una ventana después de introducir la barra diagonal
-      (/), seleccione la pestaña **Archivos**. Al hacerlo, aparecerá la
+      (/), seleccione la pestaña **Files**. Al hacerlo, aparecerá la
       lista de archivos MRU. Seleccione el archivo **Contoso CipherGuard
       Product Specification** y, a continuación, seleccione el icono
       **Submit**.
@@ -225,7 +225,7 @@ en su cuenta de OneDrive. El siguiente ejercicio utiliza este archivo.
     documento de Word. **Utilizará este documento de plan de proyecto en
     el siguiente ejercicio**. En la parte inferior de la respuesta final
     de Copilot, seleccione el botón **Copy** para copiar y pegar la
-    respuesta en un documento de Word.
+    respuesta en un documento de **Word**.
 
     ![](./media/image22.png)
 
@@ -300,7 +300,7 @@ CipherGuard project plan.docx** disponible en **C:\LabFiles**.</span>
     situado en la parte inferior del panel **Copilot**: **Create
     presentation from file /**. La barra inclinada es el indicador
     universal de Copilot para introducir un enlace a un archivo. En este
-    caso, hace que Copilot abra una ventana **de Sugerencias** que
+    caso, hace que Copilot abra una ventana de **Suggestions** que
     muestra tres de los archivos utilizados más recientemente.
 
     - Si su archivo aparece aquí, selecciónelo ahora y continúe con el
@@ -454,7 +454,7 @@ existente y transformará el texto en una tabla.
     a la página de inicio de **Microsoft 365**.
 
     **Nota**: Debe iniciar sesión (si se le solicita) con las **credenciales
-    de Microsoft 365** que se proporcionan en la **pestaña Resources de** la
+    de Microsoft 365** que se proporcionan en la pestaña **Resources** de la
     derecha.
 
 2.  Vaya a la carpeta **C:\LabFiles** para seleccionar y cargar una
@@ -481,7 +481,7 @@ existente y transformará el texto en una tabla.
     ![](./media/image37.png)
 
 7.  En el panel **Copilot**, introduzca la siguiente instrucción y, a
-    continuación, seleccione el icono de flecha (**Enviar**):
+    continuación, seleccione el icono de flecha (**Send**):
 
     ++Write a new section for this document about the types of VPNs. Discuss
     the pros and cons of each type. This content is for a technical
