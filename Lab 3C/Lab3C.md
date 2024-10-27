@@ -67,7 +67,7 @@ tema que coincida.
 3.  Intente preguntar al Copilot sobre algo que no esté en su página web
     de reserva.
 
-Por ejemplo, escribe +++ **Why is the sky blue?**+++. Como el Copilot no
+Por ejemplo, escribe +++**Why is the sky blue?**+++. Como el Copilot no
 puede encontrar un tema o respuesta relevante, responde con un tema
 alternativo del sistema y le pide que reformule la pregunta.
 
