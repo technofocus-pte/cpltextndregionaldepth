@@ -237,7 +237,7 @@ la configuración.
     continuación, introduzca un mensaje que utilice las salidas del
     flujo como se indica a continuación.
 
-    +++Today's forecast for+++ < Select X and choose location > +++:+++  < Select X and choose day_summar y> +++Chance of rain is+++ < Select X and choose chance_of_rain. >+++
+    +++Today's forecast for+++ < Select X and choose location > +++:+++  < Select X and choose day_summar y> +++Chance of rain is+++ < Select X and choose chance_of_rain. >
 
     ![](./media/image37.png)
 
