@@ -41,15 +41,13 @@ primer Copilot para gestionar una solicitud habitual de un cliente.
 8.  Haga clic en **Customer service**.
 
     >[!Note] **Nota:** Si la página no se actualiza automáticamente, vuelva a abrir
-la URL +++https://copilotstudio.microsoft.com/+++ para que [el Copilot
-creado aparezca en Copilot
-Studio.](https://copilotstudio.microsoft.com/+++)
+la URL +++https://copilotstudio.microsoft.com/+++ 
 
     ![](./media/image6.png)
 
 ### Tarea 2: Visita rápida a la interfaz de usuario
 
-    ![](./media/image7.png)
+![](./media/image7.png)
 
 ### Tarea 3: Probar una conversación en el panel Test Copilot (¡Hola!)
 
