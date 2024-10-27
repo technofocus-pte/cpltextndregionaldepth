@@ -26,8 +26,7 @@ primer Copilot para gestionar una solicitud habitual de un cliente.
 
     ![](./media/image3.png)
 
-5.  En la página Create a Copilot, introduzca el **nombre** como **+++
-    Customer service +++** y haga clic en **Create**.
+5.  En la página Create a Copilot, introduzca el **nombre** como **+++Customer service+++** y haga clic en **Create**.
 
     ![](./media/image4.png)
 
@@ -71,31 +70,31 @@ preconstruidas que se incluyen al crear un nuevo bot.
 
     ![](./media/image10.png)
 
-El Copilot ofrece un saludo en el panel Test copilot.
-
-Además, se abre la página Topics (independientemente de la página en la
-que estuviera antes) y puede ver el tema del saludo abierto en la
-ventana del lienzo de creación, con el contorno verde y una marca de
-verificación añadida para cada parte del diseño de la conversación
-cuando se utiliza en el chat de prueba. (Esto es lo que hace la función
-de seguimiento; si no la activó, no verá ningún cambio en la selección
-de páginas y verá el resaltado verde en el tema de saludo sólo si ya lo
-había abierto desde la página Temas).
+    El Copilot ofrece un saludo en el panel Test copilot.
+    
+    Además, se abre la página Topics (independientemente de la página en la
+    que estuviera antes) y puede ver el tema del saludo abierto en la
+    ventana del lienzo de creación, con el contorno verde y una marca de
+    verificación añadida para cada parte del diseño de la conversación
+    cuando se utiliza en el chat de prueba. (Esto es lo que hace la función
+    de seguimiento; si no la activó, no verá ningún cambio en la selección
+    de páginas y verá el resaltado verde en el tema de saludo sólo si ya lo
+    había abierto desde la página Temas).
 
    ![](./media/image11.png)
 
->[!Note] **Nota:** Si aparece un prompt que le da la opción de seleccionar
-Allow/Block que Copilot vea el texto y las imágenes copiadas, haga clic
-en **Allow**.
+    >[!Note] **Nota:** Si aparece un prompt que le da la opción de seleccionar
+    Allow/Block que Copilot vea el texto y las imágenes copiadas, haga clic
+    en **Allow**.
 
     ![](./media/image12.png)
 
 4.  En el Copilot de prueba, introduce el siguiente mensaje y pulsa Send
-    +++ **stores near me+++**.
+    +++**stores near me**+++.
 
-Seleccione **Redmond**.
-
-Observe que se abre un nuevo tema en el lienzo de creación. Ha activado uno de los temas predefinidos (Lección 2).
+    Seleccione **Redmond**.
+    
+    Observe que se abre un nuevo tema en el lienzo de creación. Ha activado uno de los temas predefinidos (Lección 2).
 
     ![](./media/image13.png)
 
@@ -139,7 +138,7 @@ puedas volver a las Lecciones tal y como fueron escritas si quieres.
     sus clientes) y **Trigger phrases**.
 
 2.  Seleccione el texto actual en el campo **Name**, bórrelo y escriba
-    para renombrar el tema a +++ **Get store locations +++**.
+    para renombrar el tema a +++**Get store locations**+++.
 
 3.  Seleccione **Save** en la esquina superior derecha de la página.
 
@@ -211,8 +210,7 @@ Esto añade un nuevo nodo de Mensaje conectado a la condición de
 Bellevue.
 
 11. En el nodo Message, introduce la información sobre la ubicación de
-    la tienda: +++ Our Bellevue store is in 1234 Bellevue Way, Bellevue,
-    WA 98123+++.
+    la tienda: +++Our Bellevue store is in 1234 Bellevue Way, Bellevue, WA 98123+++.
 
     ![](./media/image25.png)
 
@@ -221,11 +219,11 @@ botones de formato que aparecen mientras escribe. Incluso puede
 sustituir el nombre de la ubicación por el valor de la variable
 pva_StoreLocation utilizando el control *{x}*.
 
-Ahora vas a terminar la conversación. Dado que la conversación termina
-de la misma manera independientemente de la ubicación que el usuario
-haya elegido, vamos a enlazar con un nodo compartido de **End of
-conversation**. Este nodo inicia el tema del sistema Fin de la
-conversación.
+    Ahora vas a terminar la conversación. Dado que la conversación termina
+    de la misma manera independientemente de la ubicación que el usuario
+    haya elegido, vamos a enlazar con un nodo compartido de **End of
+    conversation**. Este nodo inicia el tema del sistema Fin de la
+    conversación.
 
 12. Primero, aleja el zoom si es necesario para ver el nodo **End of
     conversation** en su pantalla. (**Zoom out** está en la barra de
@@ -272,7 +270,7 @@ el tema editado.
 
     ![](./media/image33.png)
 
-5.  En el Test copilot, introduzca +++**Is there a store near me?**+++ y
+5.  En el Test copilot, introduzca **+++Is there a store near me?+++** y
     seleccione el botón **Enviar**.
 
     ![](./media/image34.png)
@@ -283,7 +281,7 @@ desencadenar el tema porque Microsoft Copilot Studio entiende que
 significa lo mismo que las frases desencadenantes.
 
 6.  Cuando se le pida que seleccione una ubicación, seleccione la
-    ubicación de Bellevue en el chat de prueba. (Es posible que tenga
+    ubicación de **Bellevue** en el chat de prueba. (Es posible que tenga
     que utilizar la flecha de la derecha en pantalla para ver la opción
     de Bellevue).
 
@@ -373,7 +371,7 @@ clientes reales.
     ![](./media/image51.png)
 
 15. En el panel Sitio web de demostración, introduzca el mensaje de
-    bienvenida como +++ **Ask me about the Stores +++** Seleccione
+    bienvenida como +++**Ask me about the Stores**+++ Seleccione
     **Save**.
 
     ![](./media/image52.png)
