@@ -38,7 +38,7 @@ creación de flujo en Power Automate con la plantilla adecuada.
 
 ## Ejercicio 2: Crear el flujo en el portal de Power Automate
 
-1.  Nombra el flujo que se acaba de abrir como, +++ **Get weather forecast +++**
+1.  Nombra el flujo que se acaba de abrir como, +++**Get weather forecast**+++
 
     ![](./media/image5.png)
 
@@ -60,9 +60,9 @@ creación de flujo en Power Automate con la plantilla adecuada.
     **+++Zipcode+++**. Haga clic en el símbolo **de retroceso (\<\<)**
     de la esquina derecha para salir del panel de detalles del nodo.
 
-    ![](./media/image9.png)
-
     ![](./media/image41.png)
+    
+    ![](./media/image9.png)
 
 7.  Haga clic en **Add an action**  a un nodo de adición después de
     **When Copilot Studio calls a flow** nodo.
@@ -74,7 +74,7 @@ creación de flujo en Power Automate con la plantilla adecuada.
 
     ![](./media/image11.png)
 
->[!Note] **\[Nota:** Si se le pide que cree una nueva conexión, seleccione **Create new**.
+    >[!Note] **\[Nota:** Si se le pide que cree una nueva conexión, seleccione **Create new**.
 
     ![](./media/image12.png)
 
@@ -197,7 +197,7 @@ la configuración.
 
     ![](./media/image32.png)
 
-7.  Añade la pregunta +++ **What is your city?**+++
+7.  Añade la pregunta +++**What is your city?**+++
 
     |  **Property**  |  **Value**  |
     |:----------|:----------|
