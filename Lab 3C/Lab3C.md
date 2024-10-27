@@ -64,16 +64,7 @@ tema que coincida.
 
     ![](./media/image10.png)
 
-3.  Intente preguntar al Copilot sobre algo que no esté en su página web
-    de reserva.
-
-Por ejemplo, escribe +++**Why is the sky blue?**+++. Como el Copilot no
-puede encontrar un tema o respuesta relevante, responde con un tema
-alternativo del sistema y le pide que reformule la pregunta.
-
-    ![](./media/image11.png)
-
-4.  Pulse en **Home** para volver a la página de inicio.
+3.  Pulse en **Home** para volver a la página de inicio.
 
     ![](./media/image12.png)
 
