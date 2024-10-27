@@ -208,7 +208,7 @@ When you create a flow from Microsoft Copilot Studio, **asynchronous responses**
 
 12. Under the flow node, add a **Message** node, and then enter a message that uses the flow's outputs as below.
 
-    +++Today's forecast for+++ < Select X and choose location > +++:+++  < Select X and choose day_summar y> +++Chance of rain is+++ < Select X and choose chance_of_rain. >+++
+    +++Today's forecast for+++ < Select X and choose location > +++:+++  < Select X and choose day_summar y> +++Chance of rain is+++ < Select X and choose chance_of_rain. >
     
    ![](./media/image37.png)
 
