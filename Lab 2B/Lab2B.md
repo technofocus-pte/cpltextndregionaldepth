@@ -48,7 +48,7 @@ Duración del laboratorio - 15 minutos
     - Nombre - +++Dynamic **promptXX+++** (Sustituya **XX** por un
       número aleatorio para garantizar la unicidad)
 
-    - Descripción - **++ Dynamic prompt to summarize text** +++
+    - Descripción - +++**Dynamic prompt to summarize text**+++
 
     ![](./media/image6.png)
 
@@ -58,8 +58,7 @@ Duración del laboratorio - 15 minutos
 
 3.  Añadirá un prompt con un **texto** de valor dinámico.
 
-![
-](./media/image8.png)
+    ![](./media/image8.png)
 
 4.  Haga clic en **Input** en Prompt Settings y añada el siguiente
     contenido en **Sample data**.
