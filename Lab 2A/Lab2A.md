@@ -94,8 +94,7 @@ Duración del laboratorio - 15 minutos
 
     ![](./media/image15.png)
 
-13. Escriba el nombre de la acción como **+++ Conversational
-    action+++**. Seleccione **Create**.
+13. Escriba el nombre de la acción como **+++Conversational action+++**. Seleccione **Create**.
 
     ![](./media/image16.png)
 
@@ -116,12 +115,14 @@ Duración del laboratorio - 15 minutos
     puede hacer. Que este tema ayude al usuario a encontrar la lista de
     días festivos del año 2024.
 
-    Escriba +++ **This plugin helps to retrieve the list of holidays for the year 2024**.+++ en la descripción del nodo Trigger.
+    Escriba +++**This plugin helps to retrieve the list of holidays for the year 2024**.+++ en la descripción del nodo Trigger.
 
     ![](./media/image19.png)
 
     Esta descripción tiene un propósito funcional y es utilizada por el
 Microsoft Copilot para determinar si invocar su plugin o no.
+
+18. Agregue un **nodo de mensaje** con la lista de días festivos.
 
     ```
     
@@ -153,7 +154,7 @@ Microsoft Copilot para determinar si invocar su plugin o no.
 
     ![](./media/image20.png)
 
-18. Haga clic en **Save** para guardar la acción.
+19. Haga clic en **Save** para guardar la acción.
 
     ![](./media/image21.png)
 
