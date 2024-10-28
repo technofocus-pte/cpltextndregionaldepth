@@ -122,7 +122,7 @@ Duración del laboratorio - 15 minutos
     Esta descripción tiene un propósito funcional y es utilizada por el
 Microsoft Copilot para determinar si invocar su plugin o no.
 
-18. Agregue un **nodo de mensaje** con la lista de días festivos.
+18. Añada un **mensaje de nodo** con una lista de vacaciones/ días festivos.
 
     ```
     
