@@ -1,79 +1,87 @@
-# **Lab 3C: Building a GenAI copilot with Copilot Studio**
+# Laboratorio 3C: Costruzione di un copilot GenAI con Copilot Studio
 
-**Objective**
+**Obiettivo**
 
-In this lab, you will learn to create and boost a copilot with expanded
-natural language understanding (NLU) capabilities. With intelligent
-authoring of AI-powered copilots, create a new topic or edit an existing
-one. You can describe what you want the copilot to do. Or, your copilot
-can generate conversational responses, if there's no matching topic.
+In questo laboratorio imparerete a creare e potenziare un Copilot con
+capacità estese di comprensione del linguaggio naturale (NLU - natural
+language understanding). Con l'authoring intelligente dei Copilot
+AI-powered, è possibile creare un nuovo argomento o modificarne uno
+esistente. È possibile descrivere ciò che si desidera che il copilot
+faccia. In alternativa, il copilot può generare risposte
+conversazionali, se non c'è un argomento corrispondente.
 
-## **Exercise 1: Enable generative answers and add a public website**
+## Esercizio 1: Abilitare le risposte generative e aggiungere un sito web pubblico
 
-1.  Login to
-    +++**https://copilotstudio.microsoft.com/**+++
-    using your tenant credentials if not already logged in.
+1.  Accedere a
+    [+++\*\*https://copilotstudio.microsoft.com/\*\*+++](https://copilotstudio.microsoft.com/**+++)
+    utilizzando le credenziali dell'inquilino, se non si è già
+    effettuato l'accesso.
 
-2.  Select **Copilots** and then click on **+ New copilot.**
+2.  Selezionare **Copilots** e fare clic su **+ New copilot.**
 
-    ![](./media/image1.png)
+![](./media/image1.png)
 
-3.  If prompted, select **Skip to configure**.
+3.  Se richiesto, selezionare **Skip to configure**.
 
-    ![](./media/image2.png)
+![](./media/image2.png)
 
-4.  Type +++**Copilotforknowledge**+++. Select **+ Add knowledge**.
+4.  Digitare **+++Copilotforknowledge+++**. Selezionare **+ Add
+    knowledge**.
 
-    ![](./media/image3.png)
+![](./media/image3.png)
 
-5.  Select **Public websites**.
+5.  Selezionare **Public websites**.
 
-    ![](./media/image4.png)
+![](./media/image4.png)
 
-6.  Enter +++**https://www.microsoft.com/en-us/store/**+++ under
-    **Public website link** and click on **Add**. This will be the website that
-    the copilot will use for generating answers.
+6.  Inserire
+    [+++\*\*https://www.microsoft.com/en-us/store/\*\*+++](https://www.microsoft.com/en-us/store/**+++)
+    in **Public website link** e fare clic su **Add**. Questo sarà il
+    sito web che Copilot utilizzerà per generare le risposte.
 
-    ![](./media/image13.png)
+![](./media/image5.png)
 
-7.  Click on **Add**.
+7.  Fare clic su **Add**.
 
-    ![](./media/image6.png)
+![](./media/image6.png)
 
-8.  Click on **Create**.
+8.  Fare clic su **Create**.
 
-    ![](./media/image7.png)
+![](./media/image7.png)
 
-9.  Ensure that the copilot is created and ready to use.
+9.  Assicurarsi che il Copilot sia creato e pronto all'uso.
 
-    ![](./media/image8.png)
+![](./media/image8.png)
 
-## **Exercise 2: Test your copilot**
+## Esercizio 2: prova del Copilot
 
-1.  Click on **Test** to open the **Test your copilot** pane. Type
-    +++**What is your return policy?**+++
+1.  Fare clic su **Test** per aprire il riquadro **Test your copilot**.
+    Digitare +++**What is your return policy?**+++
 
-    ![](./media/image9.png)
+![](./media/image9.png)
 
-2.  The copilot retrieves information from the website and returns a
-    response. The response provides a link to where it found that
-    information and allows you to provide feedback.
+2.  Copilot recupera le informazioni dal sito web e restituisce una
+    risposta. La risposta fornisce un link al sito in cui sono state
+    trovate le informazioni e consente all'utente di fornire un
+    feedback.
 
-    ![](./media/image10.png)
+![](./media/image10.png)
 
-3.  Try asking the copilot about something not on your fallback website.
+3.  Provate a chiedere al Copilot informazioni su qualcosa che non è
+    presente sul vostro sito web di riserva.
 
-    For example, type +++**Why is the sky blue?**+++. Since the copilot
-can't find a relevant copilot topic or answer, it replies with a system
-fallback topic and asks you to rephrase the question.
+Ad esempio, digitare +++**Why is the sky blue?**+++. Poiché il Copilot
+non riesce a trovare un argomento o una risposta pertinenti, risponde
+con un argomento di riserva del sistema e chiede di riformulare la
+domanda.
 
-    ![](./media/image11.png)
+![](./media/image11.png)
 
-4.  Click on **Home** to navigate back to the Home page.
+4.  Fare clic su **Home** per tornare alla pagina iniziale.
 
-    ![](./media/image12.png)
+![](./media/image12.png)
 
-**Summary:**
+**Sintesi:**
 
-In this lab, we have learnt to enable generative AI answering for a
-copilot.
+In questo laboratorio abbiamo imparato ad abilitare la risposta dell'AI
+generativa per un Copilot.
