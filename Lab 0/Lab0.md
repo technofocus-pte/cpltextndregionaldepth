@@ -70,4 +70,4 @@ file DEVE essere salvato in un account OneDrive. Non è possibile collegarsi a u
 
      ![](./media/image8.png)
 
-     Ora i documenti sono disponibili in **Microsoft OneDrive** per lavorare con **Copilot per Microsoft 365 Lab**.
+     Ora i documenti sono disponibili in **Microsoft OneDrive** per lavorare con **Microsoft 365 Copliot** Lab.
