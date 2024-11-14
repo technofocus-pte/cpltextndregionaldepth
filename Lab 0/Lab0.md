@@ -2,28 +2,23 @@
 
 ## Accedere alla macchina virtuale del laboratorio
 
-Nella schermata di accesso, selezionare l'account **Admin** nell'angolo in basso a sinistra dello schermo per accedere alla macchina virtuale del laboratorio utilizzando le credenziali fornite sotto **PL-500T00A-LON-CL1 nella scheda Resources** a destra (vedere schermata).
+Nella schermata di accesso, selezionare l'account **Admin** nell'angolo in basso a sinistra dello schermo per accedere alla macchina virtuale del laboratorio utilizzando le credenziali fornite sotto **PL-500T00A-LON-CL1** nella scheda **Resources** a destra (vedere schermata).
 
 **Nota**: non utilizzare il login **Studente**.
 
 ![](./media/image1.png)
 
-## Complete setting up Microsoft 365 subscription and access Copilot for Microsoft 365
+## Completare la configurazione dell'abbonamento a Microsoft 365 e accedere a Copilot per Microsoft 365
 
-1.  If you have a Microsoft 365 tab open in your Edge browser, then
-    select it now; otherwise, open a new tab and enter the following
-    URL:+++**https://portal.office.com**+++
+1.  Se nel browser Microsoft Edge è aperta una scheda di Microsoft 365, selezionatela subito; altrimenti, aprite una nuova       scheda e inserite il seguente URL:+++**https://portal.office.com**+++
 
-2.  Use the **Microsoft 365 Credentials** provided under Azure Portal
-    section in the **Resources tab** on the right (see screenshot) to
-    sign-in.
+2.  Per effettuare l'accesso, utilizzare le **credenziali di Microsoft 365** fornite nella sezione Azure Portal nella            **scheda Resources** a destra (vedere schermata).
 
     ![](./media/image2.png)
 
     ![](./media/image3.png)
 
-You will now be able to access all the Microsoft 365 applications and
-will have access to Copilot for Microsoft 365.
+    Ora potrete accedere a tutte le applicazioni di Microsoft 365 e avrete accesso a **Copilot per Microsoft 365**.
 
 ## Access and launch Microsoft 365 applications
 
