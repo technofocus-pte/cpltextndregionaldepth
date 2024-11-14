@@ -1,190 +1,209 @@
-# **Lab 2A: Adding a conversational action for Copilot for Microsoft 365**
+# Laboratorio 2A: Aggiunta di un'azione conversazionale a Copilot per Microsoft 365
 
-**Objective**
+**Obiettivo**
 
-Microsoft Copilot provides out of the box experiences to engage with
-content and resources from across your organization. In some situations,
-answers and interaction with external systems are required. With
-Microsoft Copilot Studio, you can author a conversational topic that can
-be published as a Copilot Plugin. Once your Tenant Admin approves the
-Plugin, it can be added to your organization's M365 Chat experiences.
+Microsoft Copilot offre un'esperienza di utilizzo dei contenuti e delle
+risorse di tutta l'organizzazione. In alcune situazioni, sono necessarie
+risposte e interazioni con sistemi esterni. Con Microsoft Copilot
+Studio, è possibile creare un argomento di conversazione che può essere
+pubblicato come Plugin Copilot. Una volta che il Tenant Admin ha
+approvato il Plugin, questo può essere aggiunto alle esperienze di chat
+M365 dell'organizzazione.
 
-The Plugins will be available in the Microsoft Copilot in production, if
-the organization has valid license for the same.
+I plugin saranno disponibili in Microsoft Copilot in produzione, se
+l'organizzazione dispone di una licenza valida per gli stessi.
 
-In this lab, we will learn how to create a Conversational action.
+In questo laboratorio impareremo a creare un'azione conversazionale.
 
-Lab duration – 15 minutes
+Durata del laboratorio - 15 minuti
 
-## **Exercise 1: Setting up your environment**
+## Esercizio 1: Impostazione dell'ambiente
 
-1.  From the VM, right click on the clock at the bottom right corner of the screen.
+1.  Dalla macchina virtuale, fare clic con il pulsante destro del mouse
+    sull'orologio nell'angolo inferiore destro dello schermo.
 
-2.  Select **Adjust date and time**.
+2.  Selezionare **Adjust date and time**.
+
+    ![](./media/image1.jpeg)
+
+3.  Nella schermata delle impostazioni che si apre, fare clic su **Sync
+    now** sotto Impostazioni aggiuntive.
 
     ![](./media/image2.jpeg)
 
-3.  On the Settings screen that opens up, click on the **Sync
-    now** under Additional settings.
+4.  Si occupa di sincronizzare l'ora nel caso in cui la sincronizzazione
+    automatica non funzioni.
 
     ![](./media/image3.jpeg)
 
-4.  This takes care of synchronizing the time just in case the automatic
-    synchronization does not work.
+## Esercizio 2: Creare un plugin conversazionale
 
-    ![](./media/image4.jpeg)
+1.  Aprite un browser e digitate
+    [+++https://copilotstudio.microsoft.com/+++](https://copilotstudio.microsoft.com/+++)
+    nella barra degli indirizzi.
 
-## **Exercise 2: Create a Conversational plugin**
+2.  Accedere con le **credenziali** fornite nella scheda **Resources**
+    della VM del laboratorio.
 
-1.  Open a browser and type +++**https://copilotstudio.microsoft.com/**+++ in the address bar.
+    ![](./media/image4.png)
 
-2.  Sign in with the **Credentials** provided under the **Resources** tab of your Lab VM.
+3.  Una volta effettuato l'accesso, nella pagina Welcome to Microsoft
+    Copilot Studio, lasciare il paese come **United States** e fare clic
+    su **Get Started**.
 
-    ![](./media/image28.png)
+    ![](./media/image5.png)
 
-3.  Once logged in, the Welcome to Microsoft Copilot Studio page, leave the country as **United States** and click on **Get Started**.
+4.  Selezionare **Skip** nella schermata di **Welcome**.
+
+    ![](./media/image6.png)
+
+5.  Nella pagina di creazione del Copilot che si apre, fare clic sui 3
+    punti accanto a **Create** in alto a destra e fare clic su **Cancel
+    copilot creation** e su **Leave** nella finestra di dialogo di
+    conferma.
 
     ![](./media/image7.png)
-
-4.	Select **Skip** in the **Welcome** screen.
-
-    ![](./media/image25.png)
-
-5. In the Copilot creation page that opens up, click on the 3 dots next to **Create** in the top right and click on **Cancel copilot creation** and click on **Leave** in the confirmation dialog.
-   
-    ![](./media/image29.png)
     
-    ![](./media/image30.png)
-
-6.  The Copilot Studio **Home** page opens.
-
     ![](./media/image8.png)
-    
-7.	From the Home screen’s left pane, select **Copilots**.
 
-    ![](./media/image26.png)
-  	
-8.  Select **Copilot for Microsoft 365**.
+6.  Si apre la pagina **Home** di Copilot Studio.
 
-    ![](./media/image31.png)
+    ![](./media/image9.png)
 
-9.  Select **Extensions** or **Actions** either of which appears in the UI.
+7.  Nel riquadro sinistro della schermata principale, selezionare
+    **Copilot**.
 
-    ![](./media/image32.png)
+    ![](./media/image10.png)
 
-10.  Select **+ Add Extension** or **+ Add Action**.
+8.  Selezionare **Copilot for Microsoft 365**.
 
-    ![](./media/image33.png)
+    ![](./media/image11.png)
 
-11.	Select **New action**.
-    
-    ![](./media/image34.png)
-   	
-12.  Select **Conversational** in the **New action** pane.
+9.  Selezionare **Extensions** o **Actions**, entrambe visualizzate
+    nell'interfaccia utente.
 
-     ![](./media/image12.png)
+    ![](./media/image12.png)
 
-13.  Provide the name for the action as +++**Conversational action**+++. Select **Create**.
+10. Selezionare **+ Add Extension** o **+ Add Action**.
 
-     ![](./media/image27.png)
+    ![](./media/image13.png)
 
-14. Once ready, the created action opens in Authoring canvas. Select **Topics**.
+11. Selezionare **New action**.
 
-    ![](./media/image35.png)
+    ![](./media/image14.png)
 
-14. Select **Allow** if there is a pop up to allow copying.
+12. Selezionate **Conversational** nel riquadro **New action**.
 
-16. Name the topic as +++Holidaylist+++
+    ![](./media/image15.png)
+
+13. Indicare il nome dell'azione come **+++** **Conversational action
+    +++**. Selezionare **Create**.
 
     ![](./media/image16.png)
 
-17. In the Trigger node’s description, provide a clear description of
-    how the conversational plugin can help the user and what it can
-    do. Let this topic help the user to find the list of holidays in the
-    year 2024.
-
-    Type +++**This plugin helps to retrieve the list of holidays for the year 2024**.+++ in the Trigger node’s description.
+14. Una volta pronta, l'azione creata si apre nell'area di disegno
+    Authoring. Selezionare **Topics**.
 
     ![](./media/image17.png)
 
-    This description has functional purpose and is used by the Microsoft
-    Copilot to determine whether to invoke your plugin or not.
+15. Selezionare **Allow** se appare un pop-up per consentire la copia.
 
-18. Add a **message node** with the list of holidays.
+16. Nominare l'argomento come +++ Holidaylist +++
 
-    ```
-    - New Year's Day - January 1
-
-    - Martin Luther King, Jr.'s Birthday (Third Monday of January) -
-      January 15, 2024
-
-    - Washington's Birthday or Presidents' Day (third Monday of
-      February) - February 19
-
-    - Memorial Day (last Monday of May) - May 27
-
-    - Juneteenth Day - June 19
-
-    - Independence Day - July 4
-
-    - Labor Day (first Monday of September) - September 2
-
-    - Columbus Day (Second Monday of October) - October 14
-
-    - Veterans Day or Veterans Day - November 11
-
-    - Thanksgiving Day (fourth Thursday of November): November 28
-
-    - Christmas Day - December 25
-    
-    ```
     ![](./media/image18.png)
 
-16. Click on **Save** to save the action.
+17. Nella descrizione del nodo Trigger, fornire una descrizione chiara
+    di come il plugin conversazionale può aiutare l'utente e di cosa può
+    fare. Che questo argomento aiuti l'utente a trovare l'elenco delle
+    festività dell'anno 2024.
 
+    Digitare +++**This plugin helps to retrieve the list of holidays for
+    the year 2024.**+++ nella descrizione del nodo Trigger.
+    
     ![](./media/image19.png)
+
+    Questa descrizione ha uno scopo funzionale e viene utilizzata da
+    Microsoft Copilot per determinare se richiamare o meno il plugin.
+    
+    ```
+    
+    - Capodanno - 1 gennaio
+    
+    - Compleanno di Martin Luther King, Jr. (terzo lunedì di gennaio) - 15
+      gennaio 2024
+    
+    - Compleanno di Washington o Presidents' Day (terzo lunedì di
+      febbraio) - 19 febbraio
+    
+    - Giorno della Memoria (ultimo lunedì di maggio) - 27 maggio
+    
+    - Giornata del Juneteenth - 19 giugno
+    
+    - Giorno dell'Indipendenza - 4 luglio
+    
+    - Festa del lavoro (primo lunedì di settembre) - 2 settembre
+    
+    - Columbus Day (secondo lunedì di ottobre) - 14 ottobre
+    
+    - Giorno dei Veterani o Giornata dei Veterani - 11 novembre
+    
+    - Giorno del Ringraziamento (quarto giovedì di novembre): 28 novembre
+    
+    - Giorno di Natale - 25 dicembre
+    
+    ```
 
     ![](./media/image20.png)
 
-## **Exercise 3: Publishing your conversational action to Microsoft Copilot**
-
-1.  Publishing your conversational plugin creates a new plugin in the
-    Dataverse registry for your Tenant. Once available there, your
-    tenant admin needs to approve your plugin to be available to users
-    in the Microsoft Copilot plugins catalog.
-
-2.  Click on **Publish**.
+18. Fare clic su **Save** per salvare l'azione.
 
     ![](./media/image21.png)
-
-3.  Select **Publish**.
-
+    
     ![](./media/image22.png)
 
-4.  Select **Publish** on **Publish latest content** dialog.
+## Esercizio 3: pubblicazione dell'azione conversazionale su Microsoft Copilot
+
+1.  La pubblicazione del plugin conversazionale crea un nuovo plugin nel
+    registro Dataverse per il tenant. Una volta disponibile,
+    l'amministratore del tenant deve approvare il plugin per renderlo
+    disponibile agli utenti nel catalogo dei plugin di Microsoft
+    Copilot.
+
+2.  Fare clic su **Publish**.
 
     ![](./media/image23.png)
 
-5.  The publish status is shown on the screen.
+3.  Selezionare **Publish**.
 
     ![](./media/image24.png)
 
-    >[!Note] **Note:** The publishing should be completed quickly. The actual
-availability in the Microsoft Admin Center can take up to 4 hours.
+4.  Selezionare **Publish** nella finestra di dialogo **Publish latest
+    content**.
 
-6.  Your Admin can find the **Dataverse and Microsoft Copilot
-    Studio** integrated app in the Microsoft Admin Center
-    under **Settings**, then **Integrations to be reviewed and
-    approved**.
+    ![](./media/image25.png)
 
-    >[!Alert] **Important:** For the admin to get it listed in the admin center,
-the company will have to hold a valid Copilot license.
+5.  Lo stato di pubblicazione viene visualizzato sullo schermo.
 
-7.  Once your Tenant admin approves the Dataverse and Microsoft Copilot
-    Studio integrated app, it should appear in the user's list of
-    plugins in their Microsoft Copilot UI.
+    ![](./media/image26.png)
 
-**Summary:**
+    >[!Note] **Nota:** la pubblicazione deve essere completata rapidamente. La
+disponibilità effettiva nel Microsoft Admin Center può richiedere fino a
+4 ore.
 
-In this lab, we have learnt how to create a conversational action and to
-publish it.
+6.  L'amministratore può trovare l'applicazione integrata **Dataverse
+    and Microsoft Copilot Studio** nel Microsoft Admin Center alla voce
+    **Settings**, quindi **Integrations to be reviewed and approved**.
+
+    >[!Alert] **Importante:** Affinché l'amministratore possa essere elencato nel
+centro di amministrazione, l'azienda deve essere in possesso di una
+licenza Copilot valida.
+
+7.  Una volta che l'amministratore del tenant ha approvato
+    l'applicazione integrata Dataverse e Microsoft Copilot Studio,
+    questa dovrebbe comparire nell'elenco dei plugin dell'utente
+    nell'interfaccia utente di Microsoft Copilot.
+
+**Sintesi:**
+
+In questo laboratorio abbiamo imparato a creare un'azione
+conversazionale e a pubblicarla.
