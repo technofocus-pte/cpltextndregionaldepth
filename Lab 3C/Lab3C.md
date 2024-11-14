@@ -19,53 +19,53 @@ conversazionali, se non c'è un argomento corrispondente.
 
 2.  Selezionare **Copilots** e fare clic su **+ New copilot.**
 
-![](./media/image1.png)
+    ![](./media/image1.png)
 
 3.  Se richiesto, selezionare **Skip to configure**.
 
-![](./media/image2.png)
+    ![](./media/image2.png)
 
 4.  Digitare **+++Copilotforknowledge+++**. Selezionare **+ Add
     knowledge**.
 
-![](./media/image3.png)
+    ![](./media/image3.png)
 
 5.  Selezionare **Public websites**.
 
-![](./media/image4.png)
+    ![](./media/image4.png)
 
 6.  Inserire
     [+++\*\*https://www.microsoft.com/en-us/store/\*\*+++](https://www.microsoft.com/en-us/store/**+++)
     in **Public website link** e fare clic su **Add**. Questo sarà il
     sito web che Copilot utilizzerà per generare le risposte.
 
-![](./media/image5.png)
+    ![](./media/image5.png)
 
 7.  Fare clic su **Add**.
 
-![](./media/image6.png)
+    ![](./media/image6.png)
 
 8.  Fare clic su **Create**.
 
-![](./media/image7.png)
+    ![](./media/image7.png)
 
 9.  Assicurarsi che il Copilot sia creato e pronto all'uso.
 
-![](./media/image8.png)
+    ![](./media/image8.png)
 
 ## Esercizio 2: prova del Copilot
 
 1.  Fare clic su **Test** per aprire il riquadro **Test your copilot**.
     Digitare +++**What is your return policy?**+++
 
-![](./media/image9.png)
+    ![](./media/image9.png)
 
 2.  Copilot recupera le informazioni dal sito web e restituisce una
     risposta. La risposta fornisce un link al sito in cui sono state
     trovate le informazioni e consente all'utente di fornire un
     feedback.
 
-![](./media/image10.png)
+    ![](./media/image10.png)
 
 3.  Provate a chiedere al Copilot informazioni su qualcosa che non è
     presente sul vostro sito web di riserva.
@@ -75,11 +75,11 @@ non riesce a trovare un argomento o una risposta pertinenti, risponde
 con un argomento di riserva del sistema e chiede di riformulare la
 domanda.
 
-![](./media/image11.png)
+    ![](./media/image11.png)
 
 4.  Fare clic su **Home** per tornare alla pagina iniziale.
 
-![](./media/image12.png)
+    ![](./media/image12.png)
 
 **Sintesi:**
 
