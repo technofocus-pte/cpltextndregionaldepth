@@ -1,333 +1,401 @@
-# **Lab 3A: Building your first copilot with Copilot Studio**
+# Laboratorio 3A: costruzione del primo copilota con Copilot Studio
 
-**Objective:**
+**Obiettivo:**
 
-In this lab, you go through the steps of creating, deploying, and
-testing your first copilot to handle a common customer request.
+In questo laboratorio, si procede alla creazione, al deployment e al
+test del primo Copilot per gestire una richiesta comune dei clienti.
 
-## **Exercise 1: Build your first copilot**
+## Esercizio 1: costruire il primo Copilot
 
-### **Task 1: Sign in to create a copilot**
+### Attività 1: accedere per creare un Copilot
 
-1.  From a browser, open the url - +++https://copilotstudio.microsoft.com/+++.
+1.  Da un browser, aprire l'url -
+    +++https://copilotstudio.microsoft.com/+++[.](https://copilotstudio.microsoft.com/+++)
 
-2.  Sign in with the credentials provided under the **Resources** tab of your Lab VM.
+2.  Accedere con le credenziali fornite nella scheda **Resources** della
+    VM del laboratorio.
 
-    ![](./media/image56.png)
+![](./media/image1.png)
 
-3.  Select Copilots from the left pane. And then click on **+ New copilot**.
+3.  Selezionare Copilot dal pannello di sinistra. Quindi fare clic su
+    **+ New copilot**.
 
-     ![](./media/image3.png)
+![](./media/image2.png)
 
-4.  Select **Skip to configure**.
+4.  Selezionare **Skip to configure**.
 
-     ![](./media/image4.png)
+![](./media/image3.png)
 
-5.  On the Create a copilot page, enter the **name** as +++**Customer
-    service+++** and click on **Create**.
+5.  Nella pagina Creare un Copilot, inserire il **nome +++** **Customer
+    service +++** e fare clic su **Create**.
 
-     ![](./media/image5.png)
+![](./media/image4.png)
 
-6.  Wait for the Copilot to get created.
+6.  Attendere la creazione del Copilot.
 
-8.	If you are not on the **CustomerService** copilot page, click on **Copilots** from the left pane.
+7.  Se non ci si trova nella pagina del copilot **del CustomerService**,
+    fare clic su **Copilots** dal pannello di sinistra.
 
-     ![](./media/image8.png)
+![](./media/image5.png)
 
-9. Click on **Customer service**.
+8.  Cliccare su **Customer service**.
 
-    >[!Note] **Note:** If the page does not get refreshed automatically, open the url +++https://copilotstudio.microsoft.com/+++ again to get the created copilot listed in the Copilot Studio.
+>[!Note] **Nota:** se la pagina non viene aggiornata automaticamente, aprire
+nuovamente l'url +++*https://copilotstudio.microsoft.com/*+++ per
+ottenere [l'elenco dei copilot creati in Microsoft Copilot
+Studio.](https://copilotstudio.microsoft.com/+++)
 
-    ![](./media/image9.png)
+![](./media/image6.png)
 
-### **Task 2: Take a quick tour of the user interface**
+### Attività 2: fare un rapido giro dell'interfaccia utente
 
-   ![](./media/image10.png)
+![](./media/image7.png)
 
-### **Task 3: Try out a conversation in the Test Copilot pane (Hello!)**
+### Attività 3: provare una conversazione nel riquadro Test Copilot (Ciao!)
 
-Now let's try out the bot using one of the four pre-built lessons
-included when you create a new bot.
+Ora proviamo il bot utilizzando una delle quattro lezioni precostituite
+incluse quando si crea un nuovo bot.
 
-1.  Click on **Test** to open the **Test your copilot** pane if it’s not
-    open already.
+1.  Fare clic su **Test** per aprire il riquadro **Test your copilot**,
+    se non è già aperto.
 
-     ![](./media/image11.png)
+![](./media/image8.png)
 
-2.  Select the three dots in the **Test your copilot** dialog available
-    at the right side. Toggle the **Track between topics** to switch it
-    **on**.
+2.  Selezionare i tre punti nella finestra di dialogo **Test your
+    copilot** disponibile sul lato destro. **Attivare** la **Track
+    between topics**.
 
-     ![](./media/image12.png)
+![](./media/image9.png)
 
-3.  At the **Ask your question or describe what you need** prompt at the
-    bottom of the Test copilot, type: +++**Hello**+++ and then select
-    the **Send** button.
+3.  Al prompt **Ask your question or describe what you need** nella
+    parte inferiore del Copilot di prova, digitare: **+++Hello+++** e
+    selezionare il pulsante **Send**.
 
-    ![](./media/image13.png)
+![](./media/image10.png)
 
-    The copilot offers a greeting in the Test copilot pane.
+Il Copilot offre un saluto nel riquadro Test copilot.
 
-    Additionally, the Topics page opens (no matter which page you were on before) and you can see the greeting topic open in the authoring canvas window, with green outline and a checkmark added for each part of the conversation design when it's used in the test chat. (This is what the Tracking feature does; if you didn't turn this on, you don't see any changes to the page selection and you see the green highlights in the greeting topic only if you already opened it from the Topics page.)
+Inoltre, si apre la pagina Argomenti (indipendentemente dalla pagina in
+cui ci si trovava prima) e si può vedere l'argomento di saluto aperto
+nell'area di disegno, con un contorno verde e un segno di spunta
+aggiunto per ogni parte del progetto di conversazione quando viene
+utilizzato nella chat di prova. (Questo è ciò che fa la funzione di
+tracciamento; se non è stata attivata, non si vedranno le modifiche alla
+selezione della pagina e si vedranno le evidenziazioni verdi
+nell'argomento di saluto solo se lo si è già aperto dalla pagina
+Argomenti).
 
-    ![](./media/image14.png)
+![](./media/image11.png)
 
-    >[!Note] **Note:** If there is a prompt which gives you the option to select Allow/Block Copilot from seeing the copied text and images, click on **Allow**.
-    >
-    >![](./media/image15.png)
+>[!Note] **Nota:** se viene richiesto di selezionare l'opzione Consenti/blocca
+a Copilot di vedere il testo e le immagini copiate, fare clic su
+**Allow**.
 
-4.  In the Test copilot, enter the following message and
-    press Send +++**stores near me**+++.
+![](./media/image12.png)
 
-    Select **Redmond**.
-    
-     Notice that a new topic opens in the authoring canvas. You have triggered one of the prebuilt topics (Lesson 2).
+4.  Nel Copilot di prova, inserite il seguente messaggio e premete Invia
+    +++**stores near me+++**.
 
-     ![](./media/image16.png)
+Selezionare **Redmond**.
 
-5.  Observe that the copilot answers with a store address in the Redmond
-    location.
+Si noti che si apre un nuovo argomento nell'area di disegno. È stato
+attivato uno degli argomenti precostituiti (Lezione 2).
 
-     ![](./media/image17.png)
+![](./media/image13.png)
 
-## **Exercise 2: Edit your conversation**
+5.  Osservate che il Copilot risponde con l'indirizzo del negozio di
+    Redmond.
 
-Now, let's make a change to that conversation by adding another store
-location. We make a copy first so that later you can go back to the
-Lessons as they were written if you want to.
+![](./media/image14.png)
 
-### **Task 1: Make a copy of the topic**
+## Esercizio 2: Modificare la conversazione
 
-1.  Click on **Test** at the top right corner to put the Test copilot
-    out of your way for now.
+Ora, modifichiamo questa conversazione aggiungendo un'altra posizione
+del negozio. Facciamo prima una copia, in modo da poter tornare alle
+Lezioni come sono state scritte, se lo si desidera.
 
-     ![](./media/image18.png)
+### Attività 1: Fare una copia del tema
 
-2.  Select **Topics** from the menu items at the top to open
-    the **Topics** list.
+1.  Fare clic su **Test** nell'angolo in alto a destra per togliere di
+    mezzo il Copilot di prova per il momento.
 
-     ![](./media/image19.png)
+![](./media/image15.png)
 
-3.  Hover your mouse over the row for the prebuilt topic **Lesson 2 - A
-    simple topic with a condition and variable**. Select the **More
-    actions** icon, then **Make a copy**.
+2.  Selezionare **Topics** dal menu in alto per aprire l'elenco
+    **Topics.**
 
-     ![](./media/image20.png)
+![](./media/image16.png)
 
-     The Topics page opens with the copied version of the lesson.
+3.  Passare il mouse sulla riga dell'argomento precostruito **Lesson 2 -
+    A simple topic with a condition and variable**. Selezionare l'icona
+    **More actions**, quindi **Make a copy**.
 
-     ![](./media/image21.png)
+![](./media/image17.png)
 
-### **Task 2: Edit the copy of the topic**
+La pagina degli argomenti si apre con la versione copiata della lezione.
 
-1.  You're now looking at the **Setup** page for the copied topic. This
-    page is where you enter the topic **Name** (which appears to your
-    customers) and the **Trigger phrases**.
+![](./media/image18.png)
 
-2.  Select the current text in the **Name** field, delete it, and type
-    to rename the topic to +++**Get store locations**+++.
+### Attività 2: modificare la copia dell'argomento
 
-3.  Select **Save** in the upper right corner of the page.
+1.  Ora si trova la pagina di **Setup** dell'argomento copiato. In
+    questa pagina si inserisce il **nome** dell'argomento (che appare ai
+    clienti) e le **Trigger phrases**.
 
-     ![](./media/image22.png)
+2.  Selezionate il testo corrente nel campo **Nome**, cancellatelo e
+    digitate per rinominare l'argomento in +++**Get store
+    locations+++**.
 
-4. Let's imagine you opened a new store in Bellevue. To add the store info to your copilot, you need to edit the topic design in the authoring canvas. The authoring canvas contains all the text and logic for the conversation about store locations. At the top, you see a reminder of the trigger phrases, which are added and edited on the **Setup** page.
+3.  Selezionare **Save** nell'angolo superiore destro della pagina.
 
-5.  Scroll down the page to see the conversation design.
+![](./media/image19.png)
 
-     Each of the connected boxes you see is called a "node." You can see that the copilot displays a message in a **Message** node that it's happy to help find a store location and then asks in a **Question** node which location the user is interested in. (You can reopen the test copilot to see that this is the same as the conversation you had in Exercise 1. Then close the test copilot again.)
+4.  Immaginiamo di aver aperto un nuovo negozio a Bellevue. Per
+    aggiungere le informazioni sul negozio al Copilot, è necessario
+    modificare il progetto dell'argomento nell'area di disegno. L'area
+    di disegno contiene tutto il testo e la logica della conversazione
+    sulle sedi dei negozi. In alto, è presente un promemoria delle frasi
+    di attivazione, che vengono aggiunte e modificate nella pagina
+    **Setup**.
 
-6.  Scroll to the Question node that asks "Which location are you
-    interested in?" We're going to add another option here.
+5.  Scorrete la pagina per vedere il design della conversazione.
 
-    >[!Note] **Note:** If the already existing nodes has got **Incompatible type comparison error**, click on the **Object** field and select one location in a node(based on the location in the corresponding Message node), ensuring that all the 3 existing locations are available in one condition node.
-    >
-    >![](./media/image24.png)
+Ciascuna delle caselle collegate si chiama "nodo". Si può notare che il
+Copilot visualizza un messaggio in un nodo **Message**, in cui afferma
+di essere felice di aiutare a trovare un punto vendita, e poi chiede in
+un nodo **Question** quale sia il punto vendita a cui l'utente è
+interessato. (Si può riaprire il copilot di prova per vedere che la
+conversazione è identica a quella dell'Esercizio 1). Quindi chiudere
+nuovamente il copilot di prova).
 
-7.  Under "Redmond" "Seattle" "Kirkland," select **+ New option**.
+6.  Scorrete fino al nodo Domanda che chiede "A quale località siete
+    interessati?". Qui aggiungeremo un'altra opzione.
 
-     ![](./media/image25.png)
+>[!Note] **Nota:** se i nodi già esistenti presentano un **errore di confronto
+di tipo incompatibile**, fare clic sul campo **Object** e selezionare
+una posizione in un nodo (in base alla posizione nel nodo Messaggio
+corrispondente), assicurandosi che tutte e 3 le posizioni esistenti
+siano disponibili in un nodo condizione.
 
-     A new **Condition** node is added under the Question node.
+![](./media/image20.png)
 
-8.  In the Question node (**NOT** in the Condition node),
-    type +++**Bellevue**+++ in the newly added empty box under **Options
-    for user**.
+7.  Sotto "Redmond" "Seattle" "Kirkland", selezionare **+ New option**.
 
-     **Bellevue** is automatically added for you in the Condition node too.
+![](./media/image21.png)
 
-     ![](./media/image26.png)
+Sotto il nodo Domanda viene aggiunto un nuovo nodo **Condition**.
 
-     >[!Note] **Note:** The **Options for user** section controls what buttons are visible to users in the chat window, and always need to be matched with a condition, or the button won't work. The Conditions, however, can handle the user typing something that is not shown in a button. So for instance if you wereto delete the Bellevue **Options for user** button, it would not delete the Bellevue Condition node, which would be used if the user types "Bellevue" when asked for a location.
-     
-     Now tell the copilot what message to display if the user selects **Bellevue**.
+8.  Nel nodo Domanda (**NON** nel nodo Condizione), digitate
+    **+++Bellevue+++** nella casella vuota appena aggiunta sotto
+    **Options for user**.
 
-9.  Select the **+ icon** underneath the Bellevue condition node.
+**Bellevue** viene aggiunto automaticamente anche nel nodo Condizioni.
 
-     ![](./media/image27.png)
+![](./media/image22.png)
 
-10. From the options that appear, select **Send a message**.
+\[**Nota:** la sezione **Options for user** controlla quali pulsanti
+sono visibili agli utenti nella finestra di chat e deve sempre essere
+abbinata a una condizione, altrimenti il pulsante non funziona. Le
+Condizioni, invece, possono gestire la digitazione da parte dell'utente
+di qualcosa che non è mostrato in un pulsante. Per esempio, se si
+dovesse eliminare il pulsante Bellevue **Options for user**, non si
+eliminerebbe il nodo Condizione Bellevue, che verrebbe utilizzato se
+l'utente digitasse "Bellevue" quando gli viene chiesto un luogo.
 
-     ![](./media/image28.png)
+Ora si indica al Copilot il messaggio da visualizzare se l'utente
+seleziona **Bellevue**.
 
-    This adds a new Message node connected to the Bellevue condition.
+9.  Selezionare l'**icona +** sotto il nodo delle condizioni di
+    Bellevue.
 
-11. In the Message node, enter the store location info: +++Our Bellevue store is in 1234 Bellevue Way, Bellevue, WA 98123+++.
+![](./media/image23.png)
 
-     ![](./media/image29.png)
+10. Tra le opzioni visualizzate, selezionare **Send a message**.
 
-    >[!Note] **Note:** You can format the message text using the formatting buttons that appear while you're typing. You can even replace the name of the location with the value of the pva_StoreLocation variable by using the {*x*} control.
-    >
-    >You're now going to end the conversation. Since the conversation ends the same way no matter which location the user chose, we're going to link to a shared **End of conversation** node. This node starts the **End of conversation** system topic.
+![](./media/image24.png)
 
-12. First, zoom out if necessary to see the **End of conversation** node
-    on your screen. (**Zoom out** is in the utility bar on the left of
-    the authoring canvas.)
+Questo aggiunge un nuovo nodo Messaggio collegato alla condizione
+Bellevue.
 
-     ![](./media/image30.png)
+11. Nel nodo Messaggio, inserire le informazioni sulla posizione del
+    negozio: +++ Our Bellevue store is in 1234 Bellevue Way, Bellevue,
+    WA 98123+++.
 
-     ![](./media/image31.png)
+![](./media/image25.png)
 
-11. At the top right of the page, select **Save** to save the changes
-    you made.
+>[!Note] **Nota:** è possibile formattare il testo del messaggio utilizzando i
+pulsanti di formattazione che appaiono durante la digitazione. È anche
+possibile sostituire il nome della posizione con il valore della
+variabile *pva_StoreLocation* utilizzando il controllo *{x}*.
 
-     ![](./media/image32.png)
+A questo punto, la conversazione verrà conclusa. Poiché la conversazione
+termina allo stesso modo, indipendentemente dalla posizione scelta
+dall'utente, ci collegheremo a un nodo condiviso **End of
+conversation**. Questo nodo avvia l'argomento di sistema **End of
+conversation**.
 
-### **Task 3: Turn on your topic and test your changes**
+12. Per prima cosa, se necessario, ridurre lo zoom per vedere il nodo
+    **End of conversation** sullo schermo. (Lo **zoom out** si trova
+    nella barra delle utilità a sinistra dell'area di disegno).
 
-You might recall that when we made a copy of the Lesson 2 topic, the
-copy was created in an Off state. This means you can't trigger the topic
-in the test copilot (and if you published your copilot, your users
-couldn't trigger it either). We're ready to turn on the edited topic
-now.
+![](./media/image26.png)
 
-1.  Select the **Topics** from the top menu list to return to the Topics
-    list.
+![](./media/image27.png)
 
-     ![](./media/image33.png)
+13. In alto a destra della pagina, selezionare **Save** per salvare le
+    modifiche apportate.
 
-2.  Select the **Status** toggle from On to **Off** for **Lesson 2 - A
-    simple topic with a condition and variable** and select
-    the **Status** toggle from Off to **On** for **Get store
-    locations**. Now, you can test the conversation you edited.
+![](./media/image28.png)
 
-     ![](./media/image34.png)
-     
-     ![](./media/image35.png)
+### Attività 3: Attivare l'argomento e testare le modifiche apportate
 
-3.  Click on **Test** from the top right.
+Si potrebbe ricordare che quando abbiamo creato una copia dell'argomento
+della Lezione 2, la copia è stata creata in uno stato Off. Ciò significa
+che non è possibile attivare l'argomento nel copilot di prova (e se si
+pubblica il copilot, nemmeno gli utenti possono attivarlo). Ora siamo
+pronti ad attivare l'argomento modificato.
 
-     ![](./media/image36.png)
+1.  Selezionare la voce **Topics** dal menu in alto per tornare
+    all'elenco degli argomenti.
 
-4.  Make sure the **Track between topics** toggle is set to
-    the **On** position.
+![](./media/image29.png)
 
-     ![](./media/image37.png)
+2.  Selezionate la levetta **Status** da On a **Off** per la **Lesson
+    2 - A simple topic with a condition and variable** e selezionate la
+    levetta **Status** da Off a **On** per **Get store locations**. Ora
+    è possibile testare la conversazione modificata.
 
-5.  In the Test copilot, enter +++**Is there a store near me?**+++ and
-    select the **Send** button.
+![](./media/image30.png)
 
-     ![](./media/image38.png)
+![](./media/image31.png)
 
-     Notice that even though it isn't exactly the same as the trigger phrases in the topic, "Is there a store near me?" works to trigger the topic because Microsoft Copilot Studio understands that it means the same thing as the trigger phrases.
+3.  Fare clic su **Test** in alto a destra.
 
-6.  When asked to select a location, select the **Bellevue** location in
-    the test chat. (You might need to use the onscreen right arrow to
-    see the Bellevue option.)
+![](./media/image32.png)
 
-     ![](./media/image39.png)
+4.  Assicurarsi che la levetta **Track between topics** sia impostata su
+    **On**.
 
-     The copilot replies with location info for Bellevue store. Notice that the conversation continues in the **End of conversation** system topic. Feel free to keep chatting with the test copilot.
+![](./media/image33.png)
 
-     ![](./media/image40.png)
+5.  Nel Copilot di prova, inserite +++**Is there a store near me?**+++ e
+    selezionate il pulsante **Send.**
 
-## **Exercise 3: Publish your copilot to the demo site for testing**
+![](./media/image34.png)
 
-Microsoft Copilot Studio provides a demo website so that you can invite
-anyone to test your copilot by sending them the URL. This demo website
-is useful to gather feedback to improve the copilot content before you
-activate the copilot for your real customers.
+Si noti che, anche se non è esattamente uguale alle frasi di attivazione
+dell'argomento, "C'è un negozio vicino a me?" funziona per attivare
+l'argomento perché Microsoft Copilot Studio capisce che ha lo stesso
+significato delle frasi di attivazione.
 
-1.  Close the Test your Copilot by selecting the **Test** icon on the
-    top right.
+6.  Quando viene chiesto di selezionare una località, selezionare la
+    località di **Bellevue** nella chat di prova. (Potrebbe essere
+    necessario utilizzare la freccia destra sullo schermo per
+    visualizzare l'opzione Bellevue).
 
-     ![](./media/image41.png)
+![](./media/image35.png)
 
-2.  Select **Settings**.
+Il Copilot risponde con le informazioni sulla posizione del negozio di
+Bellevue. Si noti che la conversazione continua nell'argomento di
+sistema **End of conversation**. Sentitevi liberi di continuare a
+chattare con il copilot di prova.
 
-     ![](./media/image42.png)
+![](./media/image36.png)
 
-3.  In the Settings pane, on the **Security** page, select
+## Esercizio 3: pubblicare il copilot sul sito demo per testarlo
+
+Microsoft Copilot Studio fornisce un sito web dimostrativo che consente
+di invitare chiunque a testare il copilot inviandogli l'URL. Questo sito
+web dimostrativo è utile per raccogliere feedback e migliorare il
+contenuto di Copilot prima di attivarlo per i clienti reali.
+
+1.  Chiudere la sezione Test your Copilot selezionando l'icona **Test**
+    in alto a destra.
+
+![](./media/image37.png)
+
+2.  Selezionare **Settings**.
+
+![](./media/image38.png)
+
+3.  Nel riquadro Impostazioni, nella pagina **Security**, selezionare
     **Authentication**.
 
-     ![](./media/image43.png)
+![](./media/image39.png)
 
-4.  Ensure that the option for **No authentication** is selected. If not select it and click on **Save** (confirming that you want to enable access to the copilot for anyone).
+4.  Assicurarsi che sia selezionata l'opzione **No authentication**. In
+    caso contrario, selezionarla e fare clic su **Save** (confermando di
+    voler abilitare l'accesso al Copilot per chiunque).
 
-     ![](./media/image44.png)
+![](./media/image40.png)
 
-5.	Select **Save** in the Save this configuration? Dialog.
+5.  Selezionare **Save** nella finestra di dialogo Salva questa
+    configurazione? dialogo.
 
-      ![](./media/image57.png)
+![](./media/image41.png)
 
-6.  **Close** the Settings pane.
+6.  **Chiudere** il riquadro Impostazioni.
 
-     ![](./media/image58.png)
+![](./media/image42.png)
 
-7.  Click on **Channels**.
+7.  Fare clic su **Channels**.
 
-     ![](./media/image46.png)
+![](./media/image43.png)
 
-8.  At the top of the page, select **Publish**.
+8.  Nella parte superiore della pagina, selezionare **Publish**.
 
-    ![](./media/image47.png)
+![](./media/image44.png)
 
-9.  On the **Publish** page, select **Publish**, and publish your
-    copilot. Publishing will take a minute or so.
+9.  Nella pagina **Publish**, selezionare **Publish** e pubblicare il
+    Copilot. La pubblicazione richiederà circa un minuto.
 
-     ![](./media/image48.png)
+![](./media/image45.png)
 
-     ![](./media/image49.png)
+![](./media/image46.png)
 
-10.  You see a message at the top of the screen when publishing is
-    complete.
+10. Al termine della pubblicazione viene visualizzato un messaggio nella
+    parte superiore dello schermo.
 
-     ![](./media/image50.png)
+![](./media/image47.png)
 
-11. After your copilot has been published, verify the **Publish
-    status** on the **Channels** page.
+11. Dopo che il copilot è stato pubblicato, verificare **Publish
+    status** nella pagina **Channels**.
 
-     ![](./media/image51.png)
+![](./media/image48.png)
 
-12. Select the **Demo website** channel. This is an appropriate channel
-    for users to test your copilot.
+12. Selezionare il canale **Demo website**. Si tratta di un canale
+    appropriato per consentire agli utenti di testare il Copilot.
 
-     ![](./media/image52.png)
+![](./media/image49.png)
 
-13.	Click on the **Start free trial** option.
+13. Fare clic sull'opzione **Start free trial**.
 
-     ![](./media/image59.png)
+![](./media/image50.png)
 
-14.	Click on the **Demo website** option again.
+14. Fare nuovamente clic sull'opzione **Demo website**.
 
-     ![](./media/image60.png)
+![](./media/image51.png)
 
-16. In the Demo website pane, enter the Welcome message as +++**Ask me about the Stores**+++ Select **Save**.
+15. Nel riquadro del sito web demo, inserire il messaggio di benvenuto
+    come **+++Ask me about the Stores+++** Selezionare **Save**.
 
-     ![](./media/image53.png)
+![](./media/image52.png)
 
-17. Click on **Copy** to copy the link to your copilot demo website to
-    the clipboard.
+16. Fare clic su **Copy** per copiare negli appunti il link al sito web
+    demo di Copilot.
 
-     ![](./media/image54.png)
+![](./media/image53.png)
 
-18. In a new browser tab, navigate to the URL you copied to open the
-    demo website, which should look similar to this.
+17. In una nuova scheda del browser, navigare all'URL copiato per aprire
+    il sito web dimostrativo, che dovrebbe avere un aspetto simile a
+    questo.
 
-     ![](./media/image55.png)
+![](./media/image54.png)
 
-19. You can share the URL of the **demo website** with your team.
+18. È possibile condividere l'URL del **demo website** con il proprio
+    team.
 
-**Summary:**
+**Sintesi:**
 
-In this lab, you have learnt to build, test and publish a copilot.
+In questo laboratorio avete imparato a costruire, testare e pubblicare
+un Copilot.
