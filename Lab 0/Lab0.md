@@ -20,55 +20,49 @@ Nella schermata di accesso, selezionare l'account **Admin** nell'angolo in basso
 
     Ora potrete accedere a tutte le applicazioni di Microsoft 365 e avrete accesso a **Copilot per Microsoft 365**.
 
-## Access and launch Microsoft 365 applications
+## Accedere e lanciare le applicazioni Microsoft 365
 
-You can access and launch the productivity applications from:
+È possibile accedere e lanciare le applicazioni di produttività da:
 
-- **View more Apps** link (in the navigation pane on the left)
+- Link **View more Apps** (nel riquadro di navigazione a sinistra)
 
-- **App Launcher** (available in the top left just above the left
-  navigation pane)
+- **App Launcher** (disponibile in alto a sinistra appena sopra il riquadro di navigazione sinistro)
 
-**Note: Due to product updates, the placement of office icons might be
-different than the one mentioned above.**
+**Nota: a causa degli aggiornamenti del prodotto, il posizionamento delle icone di Office potrebbe essere diverso da quello 
+indicato sopra.**
 
-1.  To launch an application from **View more Apps:**
+1.  Per avviare un'applicazione da **View more Apps:**
 
-    In the navigation pane on the lower left, select **View more
-    Apps** (ellipsis **…** icon) 🡪 Apps to select and open the office
-    applications you need to work with.
+    Nel riquadro di navigazione in basso a sinistra, selezionare **View more Apps** (icona a forma di ellisse...) Apps per
+    selezionare e aprire le applicazioni per ufficio con cui si desidera lavorare.
 
      ![](./media/image4.png)
 
-2.  To launch an application from **App launcher**:
+3.  2.	Per lanciare un'applicazione da **App launcher**:
 
-    The Microsoft 365 app launcher is a menu of apps and services that you
-    are licensed for, and opens when you select the app launcher icon on
-    Microsoft365 page. The App launcher makes opening and switching
-    between your apps easy by highlighting your recently used apps, and
-    providing quick access to your recent online Office documents.
+    Il programma di avvio delle applicazioni di Microsoft 365 è un menu di applicazioni e servizi per i quali si dispone di 
+    una licenza e si apre quando si seleziona l'icona del programma di avvio delle applicazioni sulla pagina Microsoft 365. 
+    Il programma di avvio delle app semplifica l'apertura e il passaggio da un'app all'altra, evidenziando le app utilizzate 
+    di recente e fornendo un accesso rapido ai documenti Office online più recenti.
 
     ![](./media/image5.png)
 
-    **Note**: If you do not find an application in the pop-up, then
-    select **More apps** icon to select the same.
+    **Nota**: se non si trova un'applicazione nel pop-up, selezionare l'icona **More apps** per selezionarla.
 
-## Upload lab assets to OneDrive
+## Caricare le risorse del laboratorio su OneDrive
 
-The lab assets (Reference documents) that you will be using in this
-hands-on lab session are available in **C:\LabFiles.**
+Gli asset del laboratorio (documenti di riferimento) che verranno utilizzati in questa sessione di laboratorio pratico sono 
+disponibili in **C:\LabFiles.**
 
-**Note**: When you need to reference a file (a Word document, an Excel
-file, etc) into a Copilot prompt, the file MUST be saved in a OneDrive
-account. You can't link to a locally stored file on your PC.
+**Nota**: quando si deve fare riferimento a un file (un documento Word, un file Excel, ecc.) in un prompt di Copilot, il 
+file DEVE essere salvato in un account OneDrive. Non è possibile collegarsi a un file memorizzato localmente sul PC.
 
-1.  On the Microsoft 365 navigation pane, select OneDrive to open it.
+1.  Nel riquadro di navigazione di Microsoft 365, selezionare OneDrive per aprirlo.
 
-2.  Browse to the **C:\LabFiles** folder to select and upload a copy of
-    the document(s) to OneDrive.
+2.  Sfogliare la cartella **C:\LabFiles** per selezionare e caricare una copia dei documenti su OneDrive.
 
-    >**Note**: You can either choose to upload a copy of all the documents
-    >or the document(s) related to the particular lab.
+    **Nota**: è possibile scegliere di caricare una copia di tutti i documenti o i documenti relativi a un particolare 
+    laboratorio.
 
      ![](./media/image6.png)
 
@@ -76,5 +70,4 @@ account. You can't link to a locally stored file on your PC.
 
      ![](./media/image8.png)
 
-    Now you will have the document(s) in **OneDrive** to work
-    with **Copilot for Microsoft 365** labs.
+     Ora i documenti sono disponibili in **Microsoft OneDrive** per lavorare con **Copilot per Microsoft 365 Lab**.
