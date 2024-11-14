@@ -1,13 +1,10 @@
-# Lab 0: Preparing for the lab execution
+# Laboratorio 0: Preparazione all'esecuzione del laboratorio
 
-## Log into your Lab Virtual Machine
+## Accedere alla macchina virtuale del laboratorio
 
-On the Log-in screen, select **Admin** account in the lower left
-corner of the screen to sign-in to the lab virtual machine using the
-credentials provided under **PL-500T00A-LON-CL1** in the **Resources 
-tab** on the right (see screenshot).
+Nella schermata di accesso, selezionare l'account **Admin** nell'angolo in basso a sinistra dello schermo per accedere alla macchina virtuale del laboratorio utilizzando le credenziali fornite sotto **PL-500T00A-LON-CL1 nella scheda Resources** a destra (vedere schermata).
 
-**Note**: Do not use the **Student** login.
+**Nota**: non utilizzare il login **Studente**.
 
 ![](./media/image1.png)
 
