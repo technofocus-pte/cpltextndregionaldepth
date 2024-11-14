@@ -1,110 +1,116 @@
-# **Lab 2B: Adding an AI action to Copilot for Microsoft 365**
+# Laboratorio 2B: Aggiunta di un'azione AI a Copilot per Microsoft 365
 
-**Objective**
+**Obiettivo**
 
-AI Plugins can be used to extend Microsoft Copilot, or used within a
-custom copilot as a plugin action. In this lab, we will learn about
-creating different types of AI Plugins.
+I plugin AI possono essere utilizzati per estendere Microsoft Copilot o
+per essere utilizzati all'interno di un copilot personalizzato come
+azione plugin. In questo laboratorio impareremo a creare diversi tipi di
+plugin AI.
 
-The Plugins will be available in the Microsoft Copilot in production, if
-the organization has valid license for the same.
+I plugin saranno disponibili in Microsoft Copilot in produzione, se
+l'organizzazione dispone di una licenza valida per gli stessi.
 
-Lab duration – 15 minutes
+Durata del laboratorio - 15 minuti
 
-## **Exercise 1: Generate content or extract insights with AI Builder dynamic prompts**
+## Esercizio 1: Generare contenuti o estrarre insight con i prompt dinamici di AI Builder
 
-### Task 1: Navigate to the Add a prompt action wizard
+### Attività 1: Passare alla procedura guidata Aggiungi un'azione immediata
 
-1.  Sign into Copilot Studio at +++https://copilotstudio.microsoft.com+++ using your tenant credentials under the Resources tab.
+1.  Accedere a Microsoft Copilot Studio all'indirizzo
+    [+++https://copilotstudio.microsoft.com+++]() utilizzando le
+    credenziali dell'inquilino nella scheda Risorse.
 
-2.  Select **Library** from the side navigation pane.
+2.  Selezionate **Library** dal pannello di navigazione laterale.
 
-    ![](./media/image1.png)
+![](./media/image1.png)
 
-3.  Select **+ Add an item**.     
+3.  Selezionare **+ Add an item**.
 
-    ![](./media/image2.png)
+![](./media/image2.png)
 
-4.  Select **Copilot for Microsoft 365**.
+4.  Selezionare **Copilot for Microsoft 365**.
 
-    ![](./media/image3.png)
+![](./media/image3.png)
 
-5.	Select **New action**.
-   
-    ![](./media/image32.png)
-  	
-7.  A **New action** menu appears. Select **Prompt**.
+5.  Selezionare **New action**.
 
-    ![](./media/image4.png)
+![](./media/image4.png)
 
-8.  The **Add a prompt action** wizard opens.
+6.  Viene visualizzato il menu **New action**. Selezionare **Prompt**.
 
-### Task 2: Generate content or extract insights with AI Builder dynamic prompts
+![](./media/image5.png)
 
-1.  Provide the below details and click on **Next**.
+7.  Si apre la procedura guidata **Add a prompt action.**
 
-    - Name - +++**Dynamic promptXX**+++ (Replace **XX** with a random number to ensure uniqueness)
-    
-    - Description - +++**Dynamic prompt to summarize text**+++
+### Attività 2: Generare contenuti o estrarre informazioni con i suggerimenti dinamici di AI Builder
 
-    ![](./media/image5.png)
+1.  Fornite i dati sotto riportati e cliccate su **Next**.
 
-2.  Select **Summarize text**.
+    - Nome - +++ **Dynamic promptXX** **+++** (sostituire **XX** con un
+      numero casuale per garantire l'unicità)
 
-    ![](./media/image6.png)
+    - Descrizione - **+++Dynamic prompt to summarize text**+++
 
-3.  It will add a prompt with a dynamic value **text**.
+![](./media/image6.png)
 
-    ![](./media/image7.png)
+2.  Selezionare **Summarize text**.
 
-4.  Click on the **Input** under Prompt Settings add the below content
-    in the **Sample data**.
+![](./media/image7.png)
 
-    ```
-    Meet comfortably and confidently with customizable meeting views
-    The meeting stage, or gallery, is at the core of the virtual meeting experience and can either hinder or enhance meeting efficiency depending on your needs. We’re excited to share how we’re evolving the default gallery experience in Teams meetings to give you a simpler, more predictable meeting presence—while enabling more controls that let you personalize the view to suit your preferences.
-    First, let’s look at the new default gallery experience that will be applicable to all. The new gallery will place everyone in tiles of equal size (16:9 ratio) whether their video is turned on or off. Additionally, the new default gallery layout will be more consistent and predictable for all meetings, regardless of size and content shared.
-    And when a Teams Room joins the meeting, the video of the room automatically enlarges, bridging the gap between remote and in-room participants. Remote attendees enjoy a clearer view and better connection, easily spotting who is speaking. Want a custom view? Simply tweak the tile size to your preference from the more options (...) menu by hovering on the room name. It's seamless, inclusive, and ensures everyone can be seen, no matter where they are.
-    Next, let’s look at the controls that help you customize every meeting view to suit your needs.
-    
-    While the default gallery size for meetings will be 16 participants, you can customize the number of participants visible on your screen to best fit your preference. You can choose from 4, 9, 16, and 49 participants visible on the screen for gallery size.
-    
-    There are still a few default configurations that AI will optimize for to improve engagement and efficiency. For virtual participants, these are prioritizing those that have a raised hand and prioritizing the active speaker, enhancing their visibility so comments are not missed.
+3.  Aggiungerà un prompt con un **text** valore dinamico.
 
-    ```
-    
-    ![](./media/image8.png)
+![](./media/image8.png)
 
-5.  Click on **Test prompt**.
+4.  Fare clic su **Input** sotto Prompt Settings e aggiungere il
+    contenuto seguente nei **Sample data**.
 
-    ![](./media/image9.png)
+```
+Meet comfortably and confidently with customizable meeting views
+The meeting stage, or gallery, is at the core of the virtual meeting experience and can either hinder or enhance meeting efficiency depending on your needs. We’re excited to share how we’re evolving the default gallery experience in Teams meetings to give you a simpler, more predictable meeting presence—while enabling more controls that let you personalize the view to suit your preferences.
+First, let’s look at the new default gallery experience that will be applicable to all. The new gallery will place everyone in tiles of equal size (16:9 ratio) whether their video is turned on or off. Additionally, the new default gallery layout will be more consistent and predictable for all meetings, regardless of size and content shared.
+And when a Teams Room joins the meeting, the video of the room automatically enlarges, bridging the gap between remote and in-room participants. Remote attendees enjoy a clearer view and better connection, easily spotting who is speaking. Want a custom view? Simply tweak the tile size to your preference from the more options (...) menu by hovering on the room name. It's seamless, inclusive, and ensures everyone can be seen, no matter where they are.
+Next, let’s look at the controls that help you customize every meeting view to suit your needs.
+ 
+While the default gallery size for meetings will be 16 participants, you can customize the number of participants visible on your screen to best fit your preference. You can choose from 4, 9, 16, and 49 participants visible on the screen for gallery size.
+There are still a few default configurations that AI will optimize for to improve engagement and efficiency. For virtual participants, these are prioritizing those that have a raised hand and prioritizing the active speaker, enhancing their visibility so comments are not missed.
 
-6.  Notice that the Prompt response, summarizing the text is generated.
+```
 
-    ![](./media/image10.png)
+![](./media/image9.png)
 
-7.  Click on **Save custom prompt**.
+5.  Fare clic su **Test prompt**.
 
-    ![](./media/image11.png)
+![](./media/image10.png)
 
-8.  Click on **Next**.
+6.  Si noti che viene generata la risposta del prompt, che riassume il
+    testo.
 
-    ![](./media/image12.png)
+![](./media/image11.png)
 
-9.  Click on **Publish**.
+7.  Fare clic su **Save custom prompt**.
 
-    ![](./media/image13.png)
+![](./media/image12.png)
 
-10. Once published, click on **Go to details page** to view the details.
+8.  Fare clic su **Next**.
 
-    ![](./media/image14.png)
+![](./media/image13.png)
 
-    ![](./media/image33.png)
+9.  Fare clic su **Publish**.
 
-    Your prompt action is now published to **Copilot for Microsoft 365**. It
-will show up in copilot experiences only if you have a valid Copilot
-license.
+![](./media/image14.png)
 
-**Summary:**
+10. Una volta pubblicato, fare clic su **Go to details page** per
+    visualizzare i dettagli.
 
-In this lab, we have learnt to create **AI actions**.
+![](./media/image15.png)
+
+![](./media/image16.png)
+
+La vostra azione immediata è ora pubblicata su **Copilot for Microsoft
+365**. Verrà visualizzata nelle esperienze Copilot solo se si dispone di
+una licenza Copilot valida.
+
+**Sintesi:**
+
+In questo laboratorio abbiamo imparato a creare **azioni di intelligenza
+artificiale**.
