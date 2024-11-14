@@ -38,7 +38,7 @@ indicato sopra.**
 
      ![](./media/image4.png)
 
-3.  2.	Per lanciare un'applicazione da **App launcher**:
+2.  Per lanciare un'applicazione da **App launcher**:
 
     Il programma di avvio delle applicazioni di Microsoft 365 è un menu di applicazioni e servizi per i quali si dispone di 
     una licenza e si apre quando si seleziona l'icona del programma di avvio delle applicazioni sulla pagina Microsoft 365. 
