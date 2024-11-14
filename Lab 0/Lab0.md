@@ -2,7 +2,7 @@
 
 ## Accedere alla macchina virtuale del laboratorio
 
-Nella schermata di accesso, selezionare l'account **Admin** nell'angolo in basso a sinistra dello schermo per accedere alla macchina virtuale del laboratorio utilizzando le credenziali fornite sotto **PL-500T00A-LON-CL1** nella scheda **Resources** a destra (vedere schermata).
+Nella schermata di accesso, selezionare l'account **Admin** nell'angolo in basso a sinistra dello schermo per accedere alla macchina virtuale del laboratorio utilizzando le credenziali fornite sotto **PL-500T00A-LON-CL1** nella **scheda Resources** a destra (vedere schermata).
 
 **Nota**: non utilizzare il login **Studente**.
 
