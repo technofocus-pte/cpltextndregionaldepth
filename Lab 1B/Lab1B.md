@@ -56,48 +56,41 @@ sulla destra.
     copia di **Contoso CipherGuard Product Specification report.docx**
     su **OneDrive**.
 
-> **Nota**: potete saltare questo passaggio se avete già caricato una
-> copia di tutti i documenti (che userete in questa sessione di
-> laboratorio pratico da **C:\LabFiles** come indicato nel **Laboratorio
-> 0**)**.**
+ **Nota**: potete saltare questo passaggio se avete già caricato una
+ copia di tutti i documenti (che userete in questa sessione di
+ laboratorio pratico da **C:\LabFiles** come indicato nel **Laboratorio
+ 0**)**.**
 
 3.  Aprire e chiudere il file **Contoso CipherGuard Product
     Specification report.docx** (caricato su **OneDrive**) per inserirlo
     nell'elenco dei file utilizzati più di recente (MRU - Most Recently
     Used).
 
-> <img src="./media/image1.png" style="width:5.24059in;height:1.87558in"
-> alt="A screenshot of a computer Description automatically generated" />
+ ![](./media/image1.png)
 
 4.  In **Microsoft Edge**, accedere a Microsoft Bing inserendo il
     seguente URL: **+++https://bing.com+++.**
 
-> <img src="./media/image2.png" style="width:4.90148in;height:2.68371in"
-> alt="A screenshot of a computer Description automatically generated" />
+ ![](./media/image2.png)
 
 5.  Nella **home page** di **Microsoft Bing**, nell'elenco delle schede
     visualizzate nella parte superiore della pagina, selezionare
     **Copilot**. In questo modo si apre **Microsoft Copilot**.
 
-> <img src="./media/image3.png"
-> style="width:4.38022in;height:3.52667in" />
->
-> **Nota:** se non si vede l'elenco delle schede nella parte superiore
-> della pagina, seguire i passaggi seguenti per visualizzarlo.
+ ![](./media/image3.png)
+
+ **Nota:** se non si vede l'elenco delle schede nella parte superiore
+ della pagina, seguire i passaggi seguenti per visualizzarlo.
 
 - Assicurarsi di aver effettuato l'accesso utilizzando le **credenziali
   di Microsoft 365** (disponibili nella scheda **Resources**).
 
-> <img src="./media/image4.png" style="width:5.14864in;height:1.57919in"
-> alt="A screenshot of a computer Description automatically generated" />
-
+ ![](./media/image4.png)
 - Abilitare l'opzione **Show menu bar** (evidenziata in rosso)
 
-> <img src="./media/image5.png" style="width:2.18413in;height:2.61283in"
-> alt="A screenshot of a computer Description automatically generated" />
+ ![](./media/image5.png)
 
-<img src="./media/image6.png" style="width:4.41053in;height:2.31873in"
-alt="A screenshot of a computer Description automatically generated" />
+![](./media/image6.png)
 
 6.  Selezionare ora **Copilot**. In questo modo si apre Microsoft
     Copilot.
@@ -117,16 +110,13 @@ alt="A screenshot of a computer Description automatically generated" />
     file, e un'icona di blocchi impilati. Quest'ultima icona è l'icona
     Plugin. Selezionare l'icona **Plugin**.
 
-> <img src="./media/image7.png" style="width:4.04972in;height:3.24658in"
-> alt="A screenshot of a computer Description automatically generated" />
+ ![](./media/image7.png)
 
 9.  Selezionare l'icona **Plugin** e attivare il plugin **Web content**.
 
-> <img src="./media/image8.png" style="width:5.22119in;height:3.82674in"
-> alt="A screenshot of a computer Description automatically generated" />
->
-> <img src="./media/image9.png" style="width:5.02097in;height:3.2567in"
-> alt="A screenshot of a computer Description automatically generated" />
+ ![](./media/image8.png)
+
+ ![](./media/image9.png)
 
 10. Ora si è pronti a utilizzare Copilot. Inserite la seguente
     richiesta, che indica a Copilot di accedere ai dati Web pubblici
@@ -134,18 +124,16 @@ alt="A screenshot of a computer Description automatically generated" />
     selezionate la freccia **Submit** nell'angolo inferiore del campo
     della prompt:
 
-> **I'm the Director of IT at Adatum Corporation. Create a project plan
-> for installing a new network security product into a corporate
-> network. Base this plan on IT industry guidelines for installing
-> network security products**.
->
-> <img src="./media/image10.png" style="width:5.53797in;height:1.67808in"
-> alt="A screenshot of a computer Description automatically generated" />
+ **I'm the Director of IT at Adatum Corporation. Create a project plan
+ for installing a new network security product into a corporate
+ network. Base this plan on IT industry guidelines for installing
+ network security products**.
+
+ ![](./media/image10.png)
 
 11. Esaminare il piano di progetto creato da Copilot.
 
-> <img src="./media/image11.png"
-> style="width:5.29691in;height:2.55553in" />
+ ![](./media/image11.png)
 
 12. Non siete soddisfatti che il piano comprenda tutte le aree che
     dovrebbe includere. Inserite la seguente richiesta per far sì che
@@ -154,16 +142,14 @@ alt="A screenshot of a computer Description automatically generated" />
     richiesta sono già presenti nella risposta precedente di Copilot,
     rimuovetele da questa prompt per evitare che Copilot le duplichi:
 
-> **While that was a good start, I feel like it's missing important
-> areas. Please add the following items to the existing list: testing
-> and QA, training, communication, document and reporting, stakeholder
-> analysis, project timeline, and risk assessment and mitigation.**
->
-> <img src="./media/image12.png" style="width:5.2923in;height:1.63377in"
-> alt="A screenshot of a chat Description automatically generated" />
->
-> <img src="./media/image13.png" style="width:5.2797in;height:2.76307in"
-> alt="A screenshot of a chat Description automatically generated" />
+ **While that was a good start, I feel like it's missing important
+ areas. Please add the following items to the existing list: testing
+ and QA, training, communication, document and reporting, stakeholder
+ analysis, project timeline, and risk assessment and mitigation.**
+
+ ![](./media/image12.png)
+
+ ![](./media/image13.png)
 
 13. Rivedete il piano di progetto modificato. Siete soddisfatti
     dell'ampiezza degli argomenti trattati, quindi volete che Copilot
@@ -172,13 +158,12 @@ alt="A screenshot of a computer Description automatically generated" />
     seguente prompt, ma non inviatelo ancora, perché dovete prima
     collegare il file al prompt nel passaggio successivo:
 
-> **This version looks better. Please review the attached file, which is
-> a product specification for the Contoso CipherGuard Sentinel X7
-> security product, and update your project plan with information from
-> this product spec.**
->
-> <img src="./media/image14.png"
-> style="width:4.96736in;height:2.89155in" />
+ **This version looks better. Please review the attached file, which is
+ a product specification for the Contoso CipherGuard Sentinel X7
+ security product, and update your project plan with information from
+ this product spec.**
+
+ ![](./media/image14.png)
 
 14. Nel campo del prompt, inserire uno spazio dopo il prompt e poi
     digitare una barra in avanti (/). È necessario inserire lo spazio
@@ -193,8 +178,7 @@ alt="A screenshot of a computer Description automatically generated" />
   CipherGuard Product Specification** e poi selezionare l'icona
   **Submit**.
 
-> <img src="./media/image15.png" style="width:4.93368in;height:2.86162in"
-> alt="A screenshot of a chat Description automatically generated" />
+ ![](./media/image15.png)
 
 - Se Copilot non ha fatto nulla dopo l'inserimento della barra in avanti
   (/), è necessario copiare e incollare il link al file **Contoso
@@ -205,46 +189,40 @@ alt="A screenshot of a computer Description automatically generated" />
   campo di richiesta, incollare il collegamento dopo la barra in avanti
   e selezionare l'icona **Submit**.
 
-> <img src="./media/image16.png"
-> style="width:4.93368in;height:1.15596in" />
->
-> <span class="mark">**Nota**: se Copilot non è in grado di accedere
-> direttamente ai documenti o di rivederli, uscire dall'utente connesso
-> e accedere nuovamente, quindi proseguire nuovamente dal punto
-> 9.</span>
->
-> <img src="./media/image17.png"
-> style="width:5.07609in;height:2.3166in" />
->
-> <img src="./media/image18.png" style="width:4.9422in;height:2.23975in"
-> alt="A screenshot of a computer Description automatically generated" />
->
-> <span class="mark">**Nota**: se non è possibile visualizzare e
-> consultare il documento **Contoso CipherGuard Product Specification**,
-> passare all'esercizio successivo. Il documento del piano di progetto è
-> disponibile per procedere con la restante attività di
-> laboratorio</span>.
+ ![](./media/image16.png)
+
+ <span class="mark">**Nota**: se Copilot non è in grado di accedere
+ direttamente ai documenti o di rivederli, uscire dall'utente connesso
+ e accedere nuovamente, quindi proseguire nuovamente dal punto
+ 9.</span>
+
+ ![](./media/image17.png)
+
+ ![](./media/image18.png)
+
+ <span class="mark">**Nota**: se non è possibile visualizzare e
+ consultare il documento **Contoso CipherGuard Product Specification**,
+ passare all'esercizio successivo. Il documento del piano di progetto è
+ disponibile per procedere con la restante attività di
+ laboratorio</span>.
 
 15. Esaminare il modo in cui Copilot ha inserito le caratteristiche
     della specifica di prodotto nel piano di progetto.
 
-> <img src="./media/image19.png" style="width:4.89822in;height:1.95929in"
-> alt="A screenshot of a computer Description automatically generated" />
+ ![](./media/image19.png)
 
 16. Anche se sembra buono, si ritiene che il piano di progetto manchi di
     dettagli specifici. Per risolvere questo problema, inserite il
     seguente prompt:
 
-> **We're almost there. Please break down each item on the report into
-> multiple detailed steps**.
->
-> <img src="./media/image20.png"
-> style="width:4.77223in;height:2.1475in" />
+ **We're almost there. Please break down each item on the report into
+ multiple detailed steps**.
+
+ ![](./media/image20.png)
 
 17. Esaminare i risultati.
 
-> <img src="./media/image21.png"
-> style="width:4.42017in;height:1.90856in" />
+ ![](./media/image21.png)
 
 18. Ora che il piano di progetto è stato creato, è necessario salvarlo
     in un documento Word. **Il documento del piano di progetto verrà
@@ -252,19 +230,16 @@ alt="A screenshot of a computer Description automatically generated" />
     di Copilot, selezionare il pulsante **Copy** per copiare e incollare
     la risposta in un documento **Word**.
 
-> <img src="./media/image22.png"
-> style="width:4.71232in;height:1.78869in" />
+ ![](./media/image22.png)
 
 19. Salvate il file **Contoso CipherGuard project plan.docx** nel vostro
     account OneDrive che contiene il documento delle specifiche del
     prodotto utilizzato in questo esercizio. Questo file verrà
     utilizzato nel prossimo esercizio.
 
-> <img src="./media/image23.png" style="width:3.51388in;height:2.42304in"
-> alt="A screenshot of a computer Description automatically generated" />
+ ![](./media/image23.png)
 
-## Esercizio 2: Creare una presentazione del piano di progetto utilizzando
-Copilot in PowerPoint.
+## Esercizio 2: Creare una presentazione del piano di progetto utilizzando Copilot in PowerPoint.
 
 Copilot in PowerPoint funge da collaboratore intelligente, offrendo
 suggerimenti e miglioramenti in tempo reale mentre i professionisti IT
@@ -318,16 +293,13 @@ del documento **Contoso CipherGuard project plan.docx** disponibile in
     nella schermata). Nel riquadro **Copilot** che appare, sono
     disponibili diversi prompt predefiniti tra cui scegliere.
 
-> <img src="./media/image24.png" style="width:4.95585in;height:2.46282in"
-> alt="A screenshot of a computer Description automatically generated" />
->
-> <img src="./media/image25.png" style="width:4.54803in;height:2.67309in"
-> alt="A screenshot of a computer Description automatically generated" />
+ ![](./media/image24.png)
+
+ ![](./media/image25.png)
 
 5.  Selezionate la richiesta **Create presentation from file**.
 
-> <img src="./media/image26.png" style="width:2.33273in;height:3.07522in"
-> alt="Screens screenshot of a phone Description automatically generated" />
+ ![](./media/image26.png)
 
 6.  Nel campo di richiesta in fondo al riquadro **Copilot** inserisce
     automaticamente il testo: **Create presentation from file /.** La
@@ -374,16 +346,14 @@ del documento **Contoso CipherGuard project plan.docx** disponibile in
     alcune delle modifiche apportate alla presentazione in base al
     documento.
 
-> <img src="./media/image27.png" style="width:4.89456in;height:2.25911in"
-> alt="A screenshot of a computer Description automatically generated" />
+ ![](./media/image27.png)
 
 8.  Ora siete liberi di rivedere le diapositive e di apportare gli
     aggiornamenti necessari. Prestate particolare attenzione alle
     modifiche apportate da Copilot in base al documento. È possibile
     utilizzare lo strumento **Designer** per regolare i layout.
 
-> <img src="./media/image28.png" style="width:4.98117in;height:2.30792in"
-> alt="A screenshot of a computer Description automatically generated" />
+ ![](./media/image28.png)
 
 9.  Si nota che non c'è una diapositiva alla fine per una sessione di
     domande e risposte (Q&A). Per correggere questa svista, inserite il
@@ -392,41 +362,36 @@ del documento **Contoso CipherGuard project plan.docx** disponibile in
 **Add a Q&A slide at the very end of the presentation with an
 appropriate image**.
 
-> <img src="./media/image29.png" style="width:5.24154in;height:1.87862in"
-> alt="A group of black question marks Description automatically generated" />
+ ![](./media/image29.png)
 
 10. Esaminate la nuova diapositiva creata. Non vi piace l'immagine
     utilizzata da Copilot per questa diapositiva, quindi inserite la
     seguente prompt chiedendo a Copilot di cambiare l'immagine:
 
-> **I don't like the image you used on the Q&A slide. Please replace it
-> with a different image**.
->
-> <img src="./media/image30.png" style="width:4.43751in;height:2.07127in"
-> alt="A screenshot of a computer Description automatically generated" />
+ **I don't like the image you used on the Q&A slide. Please replace it
+ with a different image**.
+
+ ![](./media/image30.png)
 
 11. Quale risposta ha ricevuto? A volte Copilot non ha sostituito
     l'immagine e ha restituito il seguente messaggio.
 
-> <img src="./media/image31.png" style="width:4.4561in;height:2.07945in"
-> alt="A screenshot of a computer Description automatically generated" />
->
-> <span class="mark">**Nota:** Copilot potrebbe visualizzare alcune
-> eccezioni (ricordate che Copilot è ancora in fase di sviluppo) come
-> quella riportata sopra.</span>
+ ![](./media/image31.png)
+
+ <span class="mark">**Nota:** Copilot potrebbe visualizzare alcune
+ eccezioni (ricordate che Copilot è ancora in fase di sviluppo) come
+ quella riportata sopra.</span>
 
 16. Provate a riformulare la prompt o a usare i suggerimenti suggeriti,
     come quello qui sotto.
 
-> <img src="./media/image32.png" style="width:2.40049in;height:4.20321in"
-> alt="A screenshot of a phone Description automatically generated" />
+ ![](./media/image32.png)
 
 17. Selezionate il comando **Add a slide about** e aggiungete la
     seguente **domanda e risposta proprio alla fine della
     presentazione** (come mostrato nella schermata)
 
-> <img src="./media/image33.png" style="width:2.43316in;height:3.93048in"
-> alt="A screenshot of a phone Description automatically generated" />
+ ![](./media/image33.png)
 
 18. Fare clic su Invia per verificare cosa succede. Copilot ha aggiunto
     una diapositiva Q&A come da istruzioni.
@@ -445,23 +410,21 @@ fare sulla presentazione.
     tema della presentazione con qualcosa di più appropriato, data la
     natura tecnica dell'argomento. Inserite il seguente prompt:
 
-> **Change the theme of this presentation to something more
-> technical.** 
->
-> <img src="./media/image34.png" style="width:4.34144in;height:2.26933in"
-> alt="A screenshot of a chat Description automatically generated" />
+ **Change the theme of this presentation to something more
+ technical.** 
+
+ ![](./media/image34.png)
 
 22. Nota la risposta di Copilot.
 
-> <img src="./media/image35.png" style="width:3.07361in;height:2.88681in"
-> alt="Screenshot showing the prompt to change the theme and Copilot&#39;s response" />
->
-> Questo scenario è una delle situazioni in cui è necessario ricordare
-> le migliori pratiche di prompting: **Comprendere i limiti di
-> Copilot**. In questo caso, non si tratta di comprendere una
-> limitazione, ma di capire come funziona Copilot. In questo caso,
-> Copilot indirizza l'utente verso una funzione esistente di PowerPoint
-> piuttosto che duplicare ciò che fa quella funzione.
+ ![](./media/image35.png)
+
+ Questo scenario è una delle situazioni in cui è necessario ricordare
+ le migliori pratiche di prompting: **Comprendere i limiti di
+ Copilot**. In questo caso, non si tratta di comprendere una
+ limitazione, ma di capire come funziona Copilot. In questo caso,
+ Copilot indirizza l'utente verso una funzione esistente di PowerPoint
+ piuttosto che duplicare ciò che fa quella funzione.
 
 23. Sebbene i restanti esercizi di formazione di questo modulo non
     utilizzino questa presentazione, è possibile scartarla o salvarla
@@ -505,10 +468,10 @@ sulla destra.
     **OneDrive** una copia di **Trey Research - VPN Technical
     Overview.docx**.
 
-> **Nota**: potete saltare questo passaggio se avete già caricato una
-> copia di tutti i documenti (che userete in questa sessione di
-> laboratorio pratico da **C:\LabFiles** come indicato nel **Laboratorio
-> 0**)**.**
+ **Nota**: potete saltare questo passaggio se avete già caricato una
+ copia di tutti i documenti (che userete in questa sessione di
+ laboratorio pratico da **C:\LabFiles** come indicato nel **Laboratorio
+ 0**)**.**
 
 3.  Aprire e chiudere il file **Trey Research - VPN Technical
     Overview.docx** (caricato su **OneDrive**) per inserirlo nell'elenco
@@ -518,14 +481,12 @@ sulla destra.
 
 5.  Aprire il file **Trey Research - VPN Technical Overview.docx.**
 
-> <img src="./media/image36.png" style="width:5.44458in;height:2.45628in"
-> alt="A screenshot of a computer Description automatically generated" />
+ ![](./media/image36.png)
 
 6.  Sulla barra multifunzione di **Word**, selezionare il pulsante
     **Copilot** per aprire il pannello Copilot.
 
-> <img src="./media/image37.png" style="width:5.15508in;height:2.39726in"
-> alt="A screenshot of a computer Description automatically generated" />
+ ![](./media/image37.png)
 
 7.  Nel riquadro **Copilot**, inserire la seguente richiesta e
     selezionare l'icona della freccia (**Send**):
@@ -534,8 +495,7 @@ sulla destra.
 the pros and cons of each type. This content is for a technical
 audience, so please provide specific details.**
 
-> <img src="./media/image38.png" style="width:4.92364in;height:1.77068in"
-> alt="A screenshot of a computer Description automatically generated" />
+ ![](./media/image38.png)
 
 8.  Copilot non aggiunge nuovi contenuti direttamente al documento.
     Visualizza il contenuto in una finestra di risposta nel riquadro
@@ -545,14 +505,14 @@ audience, so please provide specific details.**
     incollare il contenuto sotto il paragrafo di apertura. Incollare ora
     il contenuto.
 
-> **Suggerimento**: quando si seleziona il pulsante **Copy** per una
-> finestra di risposta, si copia TUTTO il contenuto, compresi i commenti
-> di Copilot destinati all'utente. Questi commenti si trovano in genere
-> all'inizio e alla fine della risposta. Assicuratevi di rimuovere
-> questi commenti una volta incollata la risposta nel vostro documento.
-> È probabile che il carattere e la dimensione dei caratteri del nuovo
-> contenuto non corrispondano a quelli già utilizzati nel documento. È
-> quindi necessario modificarli.
+ **Suggerimento**: quando si seleziona il pulsante **Copy** per una
+ finestra di risposta, si copia TUTTO il contenuto, compresi i commenti
+ di Copilot destinati all'utente. Questi commenti si trovano in genere
+ all'inizio e alla fine della risposta. Assicuratevi di rimuovere
+ questi commenti una volta incollata la risposta nel vostro documento.
+ È probabile che il carattere e la dimensione dei caratteri del nuovo
+ contenuto non corrispondano a quelli già utilizzati nel documento. È
+ quindi necessario modificarli.
 
 9.  Dopo un'ulteriore verifica, si nota che non si fa cenno alle
     politiche di sicurezza relative all'uso delle VPN. Questo argomento
@@ -563,8 +523,7 @@ audience, so please provide specific details.**
 related to VPN usage. This content is for a technical audience, so
 please provide specific details.**
 
-> <img src="./media/image39.png" style="width:5.37818in;height:2.32205in"
-> alt="A screenshot of a computer Description automatically generated" />
+ ![](./media/image39.png)
 
 10. Copiate e incollate il contenuto di questa risposta nel documento.
     Inseritelo subito prima della sezione **Risks and mitigations** e
@@ -572,8 +531,7 @@ please provide specific details.**
     un'intestazione per questa sezione intitolata **Security policies
     related to VPN usage**.
 
-> <img src="./media/image40.png" style="width:5.41085in;height:2.53218in"
-> alt="A screenshot of a computer Description automatically generated" />
+ ![](./media/image40.png)
 
 11. Durante la revisione del rapporto, avete anche identificato un'area
     di contenuto che secondo voi doveva essere riscritta. Nella sezione
@@ -583,20 +541,19 @@ please provide specific details.**
     essere una soluzione facile. Decidete di chiedere a Copilot di
     riscrivere il contenuto per voi.
 
-> **Suggerimento**: per fare in modo che Copilot riscriva il contenuto,
-> è necessario prima evidenziare il contenuto che si desidera far
-> riscrivere a Copilot.
+ **Suggerimento**: per fare in modo che Copilot riscriva il contenuto,
+ è necessario prima evidenziare il contenuto che si desidera far
+ riscrivere a Copilot.
 
 12. Evidenziate il contenuto del primo punto della sezione **Risks and
     mitigations**, quindi inserite il seguente prompt:
 
-> **The highlighted content discusses the risks of using VPNs in both
-> home and enterprise networks. Remove the content related to home
-> networks and focus solely on the risks of VPNs in enterprise
-> networks.**
->
-> <img src="./media/image41.png" style="width:5.3961in;height:2.28375in"
-> alt="A screenshot of a computer Description automatically generated" />
+ **The highlighted content discusses the risks of using VPNs in both
+ home and enterprise networks. Remove the content related to home
+ networks and focus solely on the risks of VPNs in enterprise
+ networks.**
+
+ ![](./media/image41.png)
 
 13. Controllare la risposta di Copilot. A volte questa funzionalità di
     riscrittura non ha funzionato. Quando non funzionava, Copilot
@@ -604,8 +561,7 @@ please provide specific details.**
     copiare e incollare il prompt e riprovare (ricordarsi di iterare,
     iterare, iterare).
 
-> <img src="./media/image42.png" style="width:5.38806in;height:2.31317in"
-> alt="A screenshot of a computer Description automatically generated" />
+ ![](./media/image42.png)
 
 14. Dopo aver effettuato una revisione finale del documento, decidete
     che le sezioni sui pro e i contro dell'implementazione delle VPN
@@ -616,13 +572,11 @@ please provide specific details.**
 
 **Please rewrite the highlighted content by placing it in a table**.
 
-> .<img src="./media/image43.png" style="width:5.67978in;height:2.62468in"
-> alt="A screenshot of a computer Description automatically generated" />
+ .![](./media/image43.png)
 
 15. Si noti la risposta di Copilot.
 
-> <img src="./media/image44.png" style="width:5.53447in;height:2.04492in"
-> alt="A screenshot of a computer Description automatically generated" />
+ ![](./media/image44.png)
 
 16. La riformattazione del contenuto in una tabella è diversa dalla
     riscrittura del contenuto. Invece di evidenziare il contenuto che si
@@ -630,11 +584,10 @@ please provide specific details.**
     quali sezioni di contenuto si desidera includere nella tabella.
     Questa volta, inserite il seguente prompt:
 
-> **Place the content from the Pros and Cons of implementing VPNs into a
-> table**
->
-> <img src="./media/image45.png" style="width:5.36838in;height:2.50576in"
-> alt="A screenshot of a computer Description automatically generated" />
+ **Place the content from the Pros and Cons of implementing VPNs into a
+ table**
+
+ ![](./media/image45.png)
 
 17. Si noti la risposta di Copilot. Invece di riscrivere o sostituire il
     contenuto esistente nel documento con una tabella, visualizza la
@@ -648,8 +601,7 @@ please provide specific details.**
     caratteri del contenuto della tabella, in modo che corrispondano al
     carattere e alla dimensione utilizzati in tutto il documento.
 
-> <img src="./media/image46.png" style="width:5.50314in;height:2.27296in"
-> alt="A screenshot of a computer Description automatically generated" />
+ ![](./media/image46.png)
 
 18. A questo punto si ritiene che il documento sia completo. Tuttavia,
     per sicurezza, si decide di chiedere a Copilot se ritiene che il
@@ -659,15 +611,13 @@ please provide specific details.**
 **Is there anything missing in this document that you would recommend
 adding?**
 
-> <img src="./media/image47.png" style="width:2.7918in;height:2.84654in"
-> alt="A screenshot of a computer Description automatically generated" />
+ ![](./media/image47.png)
 
 19. Si noti la risposta di Copilot. Nel nostro test, ci ha detto che non
     mancava nulla. Riprovare per vedere se Copilot fornisce una risposta
     diversa.
 
-> <img src="./media/image48.png" style="width:2.72225in;height:3.01829in"
-> alt="A screenshot of a chat Description automatically generated" />
+ ![](./media/image48.png)
 
 20. Se Copilot consiglia di aggiungere altro contenuto al documento,
     creare un prompt che chieda di farlo. È quindi possibile copiare e
