@@ -10,349 +10,399 @@ In questo laboratorio
 
 ## Esercizio n. 1: Creare un discorso utilizzando Copilot in Word
 
-In this exercise, you direct Copilot in Word to write a speech for you
-based on your company's Income Statement, which is stored as a Word
-document. This exercise walks you through a series of prompts that you
-can use to have Copilot in Word generate your speech and then update it
-based on your suggested changes.
+In questo esercizio, si chiede a Copilot in Word di scrivere un discorso
+basato sul conto economico dell'azienda, memorizzato in un documento
+Word. L'esercizio illustra una serie di suggerimenti che possono essere
+utilizzati per far sì che Copilot in Word generi il discorso e lo
+aggiorni in base alle modifiche suggerite.
 
-<span class="mark">**Note**: When you need to reference a file (such as
-your company's Income Statement) into a Copilot prompt, the file MUST be
-saved in a OneDrive account. You can't link to a locally stored file on
-your PC.</span>
+<span class="mark">**Nota**: quando si deve fare riferimento a un file
+(ad esempio il conto economico della società) in un prompt di Copilot,
+il file DEVE essere salvato in un account OneDrive. Non è possibile
+collegarsi a un file salvato localmente sul PC.</span>
 
-<span class="mark">You can reference/link a file into the Copilot prompt
-using one of the following methods:</span>
-
-- <span class="mark">Select the file from the Most Recently Used (MRU)
-  file list.</span>
-
-- <span class="mark">Open the file and copy its path using
-  the **Share** option, then paste the path into the prompt following
-  the forward slash (/).</span>
-
-- <span class="mark">Copy the file's path from File Explorer and paste
-  it into the prompt following the forward slash (/).</span>
-
-<span class="mark">In this exercise, you select the company's Income
-Statement from the MRU file list.</span>
-
-![](./media/image1.png)
-
-You will perform the following steps to have Copilot in Word create a
-speech for you based on your company's Income Statement:
-
-1.  If you have a Microsoft 365 tab open in your Edge browser, then
-    select it now; otherwise, open a new tab and enter the following
-    URL:+++https://www.office.com/+++ to go to
-    the **Microsoft 365** home page.
-
-    **Note**: You need to sign-in (if prompted) using the **Microsoft 365
-    Credentials** provided under the **Resources tab** on the right.
-
-2.  On the **Microsoft 365** navigation pane, select **OneDrive** to
-    open it.
-
-    ![](./media/image2.png)
-
-3.  Browse to the **C:\LabFiles** folder to select and upload a copy
-    of **Fabrikam 2023 Income Statement document** to **OneDrive**.
-
-    ![](./media/image3.png)
-
-    **Note**: If you have already uploaded all the lab assets to OneDrive as
-    instructed in **Preparing for the lab execution** (**Lab 0**) you can
-    skip this step.
-
-4.  Open and close the file **Fabrikam 2023 Income Statement document**
-    (which you uploaded to **OneDrive**) to get it in your Most Recently
-    Used (MRU) file list.
-
-    **Note**: If the recently opened document is not appearing in the MRU
-    list, log out of **Microsoft 365** and sign-in again.
-
-5.  In **Microsoft 365**, open **Microsoft Word**, and then open a new
-    blank document. Click the Copilot icon that appears as shown in the
-    screenshot.
-
-    ![](./media/image4.png)
-
-    If you hover the mouse over the Copilot icon, you will see **Draft
-    with Copilot tooltip**. Click the icon to display the Draft with
-    Copilot window.
-
-    ![](./media/image5.png)
-
-6.  In the **Draft with Copilot** window that appears at the top of the
-    blank document, enter the following prompt:
-
-    ++**Write a speech for the Fabrikam stakeholders that summarizes the
-    results of the company's 2023 income statement found in the attached
-    file**++
-
-7.  In the **Draft with Copilot** window, select the **Reference your
-    content** button. In the pop-up window that appears, select the
-    file.
-
-    If, for some reasons the file is not displayed, click **Browse files
-    from cloud** in the pop-up window.
-
-    ![](./media/image6.png)
-
-8.  In the **Pick a file** window that appears, under
-    the **Recent** file list, select the **Fabrikam 2023 Income
-    Statement.docx** file and then select the **Attach** button.
-
-    ![](./media/image7.png)
-
-9.  Note how the file is displayed in the prompt. Select **Generate**.
-
-    ![](./media/image8.png)
-
-    **Note**: If, for some reasons, you keep getting **Something went
-    wrong** error when clicking the **Generate** button after attaching
-    the referenced document dismiss the error and proceed with the next
-    step.
-
-    ![](./media/image9.png)
-
-    Open the file in a browser and copy its path using the Share option,
-    then paste the path into the prompt following the forward slash (/).
-
-    ![](./media/image10.png)
-
-    ![](./media/image11.png)
-
-    <span class="mark">**Important**: Even after trying with the alternate
-    option, if you see the same “something went wrong” exception, then
-    instead of using the web client of Word try using the desktop version
-    of Word.</span>
-
-    <span class="mark">If it works when using the desktop version of Word,
-    please follow the same in the upcoming labs, if you see the “something
-    went wrong” exception when clicking **Generate** button.</span>
-
-10. At this point, Copilot extracts the financial results from the
-    Income Statement and drafts a speech.
-
-    ![](./media/image12.png)
-
-11. After reviewing the speech, you decide that it's a good starting
-    point, although there are a few areas that you want to modify. In
-    the Copilot window at the end of the speech, select the **Keep
-    it** button.
-
-12. You want to begin by reviewing any changes suggested by the Copilot
-    Editor. Select the **Editor** icon that appears in the menu bar at
-    the top of the page.
-
-    <span class="mark">**Note**: You will be able to see the **Editor**
-    icon, in the Classic Ribbon and not in the Single line ribbon.</span>
-
-    ![](./media/image13.png)
-
-13. In the **Editor** pane that appears, note the categories that appear
-    under the **Corrections** or **Refinements** sections that display a
-    number (indicating the number of issues for that category). These
-    issues are often linked to the tone of the writing style used in the
-    document.
-
-    Below the **Editor Score** is a field that allows you to select the
-    tone used when writing the speech. It currently displays **Formal
-    writing**, which is the default tone that Copilot used when writing
-    this speech. When you don't indicate what writing style to use in your
-    prompt, **Formal writing** is the default tone that Copilot uses.
-    Select this field to see your options. You prefer a professional
-    sounding tone, so select **Professional** from the drop-down menu.
-    Note whether the **Editor Score** changes.
-
-14. In the categories that appear under
-    the **Corrections** or **Refinements** sections, you can review the
-    changes that occurred in the categories based on changing the
-    writing style from Formal to Professional. Select each category that
-    displays a number (indicating the number of issues for that
-    category). Doing so enables you to review the suggestions throughout
-    the document for that category. For each suggestion, select either
-    the suggested change or select **Ignore**. Repeat this process until
-    all categories display a check mark.
-
-    Change the writing style to **Casual** and check whether the **Editor
-    Score** changes. If any categories display a number, review the
-    category and see what the Editor has flagged. You want to keep the
-    writing style as Professional, so select **Ignore** any suggested
-    changes. Review all the suggested changes to see the differences that
-    were flagged between Professional and Casual styles.
-
-    ![](./media/image14.png)
-
-15. Save the file to your OneDrive account with the following file
-    name: **Fabrikam 2023 Financial presentation.docx**. The next
-    exercise uses this document.
-
-    ![](./media/image15.png)
-
-    **Important**: Ensure that you save the file to your **OneDrive**
-    rather than your local PC. In the next exercise, you use Copilot in
-    PowerPoint to create a slide presentation based on this document. The
-    document must be in **OneDrive** for Copilot to access it.
-
-16. Close the tab containing this document in your Microsoft Edge
-    browser.
-
-## Exercise #2: Create a slide presentation using Copilot in PowerPoint
-
-In this exercise, you will use Copilot in PowerPoint to create a slide
-presentation based on your speech (to the shareholders based on the
-Income Statement) that you created using Copilot in Word to write your
-speech.
-
-In the prior exercise, you accessed the company's Income Statement in
-Copilot by accessing the file from the Most Recently Used (MRU) file
-list. In this exercise, you're going to gain experience accessing a file
-using a different process. Instead of using the MRU list, you plan to
-access the speech by copying the link to the **Fabrikam 2023 Financial
-presentation.docx** file that you created in the prior exercise.
-
-You will perform the following steps to have Copilot in PowerPoint
-create a draft of your presentation:
-
-1.  If you have a Microsoft 365 tab open in your Edge browser, then
-    select it now; otherwise, open a new tab and enter the following
-    URL: +++https://www.office.com/+++ to go to
-    **Microsoft 365** home page.
-
-    **Note**: You need to sign-in (if prompted) using the **Microsoft 365
-    Credentials** provided under the **Resources tab** on the right.
-
-2.  On the **Microsoft 365** navigation pane, select **Word** to open
-    the Word file page.
-
-3.  On the file page in **Word**, scroll down to the list of recent
-    files and select **Fabrikam 2023 Financial presentation.docx** to
-    open it in a new tab in your Microsoft Edge browser.
-
-    ![](./media/image16.png)
-
-4.  Copy the URL of the document by selecting the **Share** button in
-    the upper-right corner, above the ribbon and selecting **Copy
-    Link** from the drop-down menu that appears.
-
-    ![](./media/image17.png)
-
-    **Note**: You may occasionally come across trouble using the URL from
-    your address bar. Copy the link from the Share tray for best results
-
-5.  Close the **Link copied** dialog box that appears in Word.
-
-    ![](./media/image18.png)
-
-6.  Close this document tab in your Microsoft Edge browser. This return
-    you to the **Word \| Microsoft 365** tab.
-
-7.  On the Word file page, select the **PowerPoint** icon in the **App
-    Launcher** pane on the top left.
-
-    ![](./media/image19.png)
-
-8.  In **PowerPoint**, open a new blank presentation.
-
-9.  Select the **Copilot** icon (in red highlight as shown in the
-    screenshot)
-
-    ![](./media/image20.png)
-
-    ![](./media/image21.png)
-
-10. In the **Copilot** pane that appears, several predefined prompts are
-    available for you to choose from.
-
-11. Select the **Create presentation from file** prompt.
-
-    **Note**: In the prior exercise, you linked a file into a prompt by
-    selecting the file from the MRU list. In this exercise, you will gain
-    experience linking a file into a prompt using another method.
-
-    ![](./media/image22.png)
-
-12. Above the prompt field at the bottom of the **Copilot** pane,
-    a **Suggestions** window will appear that contains the three most
-    recently used files.
-
-    Normally, the **Fabrikam 2023 Financial presentation.docx** that you
-    created in the previous exercise will appear in the MRU list. If it
-    did not, you must paste the link (you copied in step 5) to the file
-    into the prompt field.
-
-     ![](./media/image23.png)
-
-13. In the prompt field, Copilot automatically types in **Create
-    presentation from file /**. Place your cursor after the forward
-    slash and enter **Ctrl+V** to paste the link to this document into
-    the prompt.
-
-     ![](./media/image24.png)
-
-14. Select the **Send** icon.
-
-15. This prompt triggers Copilot to create a slide presentation based on
-    the document. In doing so, it displays the outline of the
-    presentation and a list of features included in the presentation.
-    These features may include speaker notes, images, layouts to
-    organize slides, and a General sensitivity label.
-
-     ![](./media/image25.png)
-
-16. You're now free to review the slides and make any necessary updates.
-    You can use the **Designer** tool to adjust the layouts.
-
-     ![](./media/image26.png)
-
-17. As you review the slides, be on the lookout for references to "the
-    speaker" or any other items that you may need to change.
-    ![](./media/image27.png)
-
-    **Warning**: Look out for the reference to "The speaker" along with the
-    second sentence that begins with "The presentation will summarize...".
-    that may be created by Copilot.
-
-    **Example**: The speaker introduces a presentation on Fabrikam's 2023
-    income statement highlights, reporting strong performance and growth
-    despite challenges from the global pandemic and competitive market.
-    The presentation will summarize the main results and explain how they
-    align with the company's strategic vision and goals.
-
-    You should remove these types of references as they're more applicable
-    as speaker notes rather than text intended for audiences.
-
-18. Review the speaker notes that Copilot added to the presentation.
-    Verify they call out the points that you want to make during the
-    presentation.
-
-19. Try using Copilot to update the presentation. For example, enter the
-    following prompt:
-
-    ++**Add a new slide after slide 1. This slide should have an image of a
-    mountain peak in the Alps. Towards the bottom of the slide, add a text
-    box that says: Fabrikam's company motto - "We overcome every
-    obstacle." Add speaker notes to this new slide that talk about how
-    Fabrikam works diligently to solve every customer's request, never
-    letting any obstacle stand in its way of success**++
-
-     ![](./media/image28.png)
-
-    Review the new slide that was created. While the remaining lab exercises
-    don't use this presentation, you can either discard it or save it if you
-    want for future reference.
-
-## Summary
-
-In this lab, you have
-
-- Utilized Microsoft Copilot's capabilities in Word to draft a
-  comprehensive speech that includes generating content that effectively
-  communicates key messages and company updates.
-
-- Leveraged Microsoft Copilot in PowerPoint to transform the speech
-  created in Word into a visually engaging and informative presentation,
-  creating slides that highlight the main points of the speech, using
-  Copilot to ensure consistency and clarity in the presentation format.
+<span class="mark">È possibile fare riferimento/link a un file nel
+prompt di Copilot utilizzando uno dei seguenti metodi:</span>
+
+- <span class="mark">Selezionare il file dall'elenco dei file utilizzati
+  più di recente (MRU).</span>
+
+- <span class="mark">Aprite il file e copiate il suo percorso usando
+  l'opzione **Share**, quindi incollate il percorso nel prompt dopo la
+  barra in avanti (/).</span>
+
+- <span class="mark">Copiate il percorso del file da Esplora file e
+  incollatelo nel prompt dopo la barra in avanti (/).</span>
+
+<span class="mark">In questo esercizio, si seleziona il conto economico
+della società dall'elenco dei file MRU.</span>
+
+<img src="./media/image1.png" style="width:6.26806in;height:3.02917in"
+alt="A screenshot of a computer Description automatically generated" />
+
+Per far sì che Copilot in Word crei per voi un discorso basato sul conto
+economico della vostra azienda, dovrete eseguire i seguenti passaggi:
+
+1.  Se nel browser Microsoft Edge è aperta una scheda di Microsoft 365,
+    selezionatela ora; altrimenti, aprite una nuova scheda e inserite il
+    seguente URL: [**https://www.office.com**](https://www.office.com/)
+    per accedere alla home page di **Microsoft 365**.
+
+> **Nota**: è necessario effettuare l'accesso (se richiesto) utilizzando
+> le **credenziali Microsoft 365** fornite nella **scheda Resources**
+> sulla destra .
+
+2.  Nel riquadro di navigazione di **Microsoft 365**, selezionare
+    **OneDrive** per aprirlo.
+
+> <img src="./media/image2.png" style="width:5.07948in;height:4.44379in"
+> alt="A screenshot of a computer Description automatically generated" />
+
+3.  Passare alla cartella **C:\LabFiles** per selezionare e caricare su
+    **OneDrive** una copia del **documento** **Fabrikam 2023 Income
+    Statement** .
+
+<img src="./media/image3.png" style="width:4.41654in;height:2.77806in"
+alt="A screenshot of a computer Description automatically generated" />
+
+**Nota**: se avete già caricato tutti gli asset del laboratorio su
+OneDrive come indicato in **Preparazione all'esecuzione del
+laboratorio** (**Lab 0**), potete saltare questo passaggio.
+
+4.  Aprite e chiudete il file **Fabrikam 2023 Income Statement**
+    (caricato su **OneDrive**) per inserirlo nell'elenco dei file
+    utilizzati più di recente (MRU).
+
+**Nota**: se il documento aperto di recente non compare nell'elenco MRU,
+uscire da **Microsoft 365** e accedere nuovamente.
+
+5.  In **Microsoft 365**, aprire **Microsoft Word** e aprire un nuovo
+    documento vuoto. Fare clic sull'icona di Copilot che appare come
+    mostrato nell'immagine.
+
+<img src="./media/image4.png"
+style="width:6.26806in;height:3.27348in" />
+
+> Se si passa il mouse sull'icona Copilot, viene visualizzata **Draft
+> with Copilot tooltip**. Fare clic sull'icona per visualizzare la
+> finestra Bozza con Copilot.
+>
+> <img src="./media/image5.png"
+> style="width:5.58171in;height:2.49083in" />
+
+6.  Nella finestra **Draft with Copilot** che appare nella parte
+    superiore del documento vuoto, inserire la seguente prompt:
+
+> <span class="mark">**Write a speech for the Fabrikam stakeholders that
+> summarizes the results of the company's 2023 income statement found in
+> the attached file**.</span>
+
+7.  Nella finestra **Draft with Copilot**, selezionare il pulsante
+    **Reference your content**. Nella finestra a comparsa che appare,
+    selezionare il file.
+
+> Se per qualche motivo il file non viene visualizzato, fare clic su
+> **Browse files from cloud** nella finestra pop-up.
+>
+> <img src="./media/image6.png" style="width:5.60425in;height:2.54445in"
+> alt="A screenshot of a computer Description automatically generated" />
+
+8.  Nella finestra **Pick a file**, nell'elenco File **Recent**,
+    selezionare il file **Fabrikam 2023 Income Statement.docx** e poi
+    selezionare il pulsante **Attach**.
+
+> <img src="./media/image7.png" style="width:5.55643in;height:2.6003in"
+> alt="A screenshot of a computer Description automatically generated" />
+
+9.  Notate come il file viene visualizzato nel prompt. Selezionare
+    **Generate**.
+
+> <img src="./media/image8.png" style="width:5.72754in;height:2.06359in"
+> alt="A screenshot of a computer screen Description automatically generated" />
+>
+> **Nota**: se, per qualche motivo, si continua a ricevere l'errore
+> **Something went wrong (Qualcosa è andato storto**) quando si fa clic
+> sul pulsante **Generate** dopo aver allegato il documento di
+> riferimento, eliminare l'errore e procedere con il passaggio
+> successivo.
+>
+> <img src="./media/image9.png" style="width:6.26806in;height:2.06111in"
+> alt="A screenshot of a computer screen Description automatically generated" />
+>
+> Aprite il file in un browser e copiate il suo percorso utilizzando
+> l'opzione Condividi, quindi incollate il percorso nel prompt dopo la
+> barra in avanti (/).
+>
+> <img src="./media/image10.png" style="width:5.00602in;height:2.64111in"
+> alt="A screenshot of a computer Description automatically generated" />
+>
+> <img src="./media/image11.png" style="width:6.26806in;height:1.9875in"
+> alt="A screenshot of a computer Description automatically generated" />
+>
+> <span class="mark">**Importante**: anche dopo aver provato con
+> l'opzione alternativa, se si verifica la stessa eccezione "qualcosa è
+> andato storto", invece di utilizzare il client Web di Word provare a
+> utilizzare la versione desktop di Word.</span>
+>
+> <span class="mark">Se funziona con la versione desktop di Word,
+> seguite la stessa procedura nei prossimi laboratori, se vedete
+> l'eccezione "qualcosa è andato storto" quando fate clic sul pulsante
+> **Generate**.</span>
+
+10. A questo punto, Copilot estrae i risultati finanziari dal conto
+    economico e redige un discorso.
+
+> <img src="./media/image12.png" style="width:5.55797in;height:3.08071in"
+> alt="A screenshot of a computer Description automatically generated" />
+
+11. Dopo aver esaminato il discorso, si decide che è un buon punto di
+    partenza, anche se ci sono alcune aree che si desidera modificare.
+    Nella finestra Copilot for Windows, alla fine del discorso,
+    selezionate il pulsante **Keep it**.
+
+12. Per cominciare, è opportuno rivedere le modifiche suggerite
+    dall'Editor di Copilot. Selezionare l'icona **Editor** che appare
+    nella barra dei menu in alto nella pagina.
+
+> <span class="mark">**Nota**: l'icona **Editor** sarà visibile nella
+> barra multifunzione classica e non in quella a riga singola.</span>
+>
+> <img src="./media/image13.png" style="width:5.79439in;height:2.84712in"
+> alt="A screenshot of a computer Description automatically generated" />
+
+13. Nel riquadro dell'**editor** che appare, notare le categorie che
+    appaiono sotto le sezioni **Corrections** o **Refinements** e che
+    mostrano un numero (che indica il numero di problemi per quella
+    categoria). Questi problemi sono spesso legati al tono dello stile
+    di scrittura utilizzato nel documento.
+
+> Sotto il **Editor Score** si trova un campo che consente di
+> selezionare il tono utilizzato per scrivere il discorso. Attualmente
+> viene visualizzato **Formal writing**, che è il tono predefinito
+> utilizzato da Copilot per scrivere questo discorso. Quando non si
+> indica lo stile di scrittura da utilizzare nel prompt, il tono di
+> **Formal writing** è il tono predefinito di Copilot. Selezionare
+> questo campo per visualizzare le opzioni disponibili. Se si preferisce
+> un tono professionale, selezionare **Professional** dal menu a
+> discesa. Notate se il **Editor Score** cambia.
+
+14. Nelle categorie che appaiono sotto le sezioni **Corrections** o
+    **Refinements**, è possibile esaminare le modifiche apportate alle
+    categorie in base alla modifica dello stile di scrittura da Formale
+    a Professionale. Selezionare ogni categoria che mostra un numero
+    (che indica il numero di problemi per quella categoria). In questo
+    modo è possibile rivedere i suggerimenti presenti nel documento per
+    quella categoria. Per ogni suggerimento, selezionare la modifica
+    suggerita o selezionare **Ignore**. Ripetere questa procedura fino a
+    quando tutte le categorie visualizzano un segno di spunta.
+
+> Cambiare lo stile di scrittura in **Casual** e verificare se il
+> **Editor Score** cambia. Se alcune categorie visualizzano un numero,
+> rivedete la categoria e verificate cosa ha segnalato l'Editor. Se si
+> desidera mantenere lo stile di scrittura Professionale, selezionare
+> **Ignore** le modifiche suggerite. Rivedere tutte le modifiche
+> suggerite per vedere le differenze segnalate tra gli stili
+> Professionale e Casual.
+>
+> <img src="./media/image14.png" style="width:5.42799in;height:2.68573in"
+> alt="A screenshot of a computer Description automatically generated" />
+
+15. Salvate il file nel vostro account OneDrive con il seguente nome:
+    **Fabrikam 2023 Financial presentation.docx**. Il prossimo esercizio
+    utilizza questo documento.
+
+> <img src="./media/image15.png" style="width:5.63671in;height:2.91765in"
+> alt="A screenshot of a computer Description automatically generated" />
+>
+> **Importante**: assicurarsi di salvare il file su **OneDrive** e non
+> sul PC locale. Nell'esercizio successivo, si utilizza Copilot in
+> PowerPoint per creare una presentazione basata su questo documento. Il
+> documento deve trovarsi in **OneDrive** perché Copilot possa
+> accedervi.
+
+16. Chiudere la scheda contenente questo documento nel browser Microsoft
+    Edge.
+
+Esercizio n. 2: Creare una presentazione di diapositive utilizzando
+Copilot in PowerPoint
+
+In questo esercizio, utilizzerete Copilot in PowerPoint per creare una
+presentazione di diapositive basata sul vostro discorso (agli azionisti
+sulla base del Conto economico) che avete creato utilizzando Copilot in
+Word per scrivere il vostro discorso.
+
+Nell'esercizio precedente, si è acceduto al conto economico dell'azienda
+in Copilot accedendo al file dall'elenco dei file utilizzati più di
+recente (MRU). In questa esercitazione, si farà esperienza nell'accesso
+a un file utilizzando un processo diverso. Invece di utilizzare l'elenco
+MRU, si intende accedere al discorso copiando il link al file **Fabrikam
+2023 Financial presentation.docx** creato nell'esercizio precedente.
+
+Per far sì che Copilot in PowerPoint crei una bozza della presentazione,
+è necessario eseguire le seguenti operazioni:
+
+1.  Se nel browser Microsoft Edge è aperta una scheda di Microsoft 365,
+    selezionatela subito; altrimenti, aprite una nuova scheda e inserite
+    il seguente URL:
+    [**https://www.office.com**](https://www.office.com/) per accedere
+    alla pagina iniziale di **Microsoft 365**.
+
+> **Nota**: è necessario effettuare l'accesso (se richiesto) utilizzando
+> le **credenziali Microsoft 365** fornite nella **scheda Resources**
+> sulla destra.
+
+2.  Nel riquadro di navigazione **di Microsoft 365**, selezionare
+    **Word** per aprire la pagina del file Word.
+
+3.  Nella pagina del file in **Word**, scorrere l'elenco dei file
+    recenti e selezionare **Fabrikam 2023 Financial presentation.docx**
+    per aprirlo in una nuova scheda del browser Microsoft Edge.
+
+> <img src="./media/image16.png" style="width:6.26806in;height:2.95486in"
+> alt="A screenshot of a computer Description automatically generated" />
+
+4.  Copiare l'URL del documento selezionando il pulsante **Share**
+    nell'angolo in alto a destra, sopra la barra multifunzione, e
+    selezionando **Copy Link** dal menu a discesa che appare.
+
+> <img src="./media/image17.png" style="width:6.26806in;height:2.85069in"
+> alt="A screenshot of a computer Description automatically generated" />
+>
+> **Nota**: a volte si possono riscontrare problemi nell'utilizzo
+> dell'URL dalla barra degli indirizzi. Per ottenere risultati migliori,
+> copiate il link dalla barra delle condivisioni.
+
+5.  Chiudere la finestra di dialogo **Link copied** visualizzata in
+    Word.
+
+> <img src="./media/image18.png" style="width:6.26806in;height:3.26042in"
+> alt="A screenshot of a computer Description automatically generated" />
+
+6.  Chiudere la scheda del documento nel browser Microsoft Edge. In
+    questo modo si ritorna alla scheda **Word \| Microsoft 365**.
+
+7.  Nella pagina del file Word, selezionare l'icona **PowerPoint** nel
+    riquadro **App Launcher** in alto a sinistra.
+
+> <img src="./media/image19.png"
+> style="width:5.22778in;height:4.43681in" />
+
+8.  In **PowerPoint**, aprite una nuova presentazione vuota.
+
+9.  Selezionate l'icona **Copilot** (evidenziata in rosso, come mostrato
+    nella schermata).
+
+> <img src="./media/image20.png"
+> style="width:4.95585in;height:2.46282in" />
+>
+> <img src="./media/image21.png" style="width:4.54803in;height:2.67309in"
+> alt="A screenshot of a computer Description automatically generated" />
+
+10. Nel riquadro **Copilot** che appare, sono disponibili diversi prompt
+    predefiniti tra cui scegliere.
+
+11. Selezionate la prompt **Create presentation from file**.
+
+> **Nota**: nell'esercizio precedente si è collegato un file a un prompt
+> selezionandolo dall'elenco MRU. In questa esercitazione si farà
+> esperienza nel collegare un file a un prompt utilizzando un altro
+> metodo.
+>
+> <img src="./media/image22.png" style="width:4.94073in;height:2.29027in"
+> alt="A screenshot of a computer Description automatically generated" />
+
+12. Sopra il campo di richiesta nella parte inferiore del riquadro
+    **Copilot**, apparirà una finestra **Suggestions** che contiene i
+    tre file utilizzati più di recente.
+
+> Normalmente, il file **Fabrikam 2023 Financial presentation.docx**
+> creato nell'esercizio precedente apparirà nell'elenco MRU. In caso
+> contrario, è necessario incollare il link (copiato al punto 5) al file
+> nel campo di richiesta.
+>
+> <img src="./media/image23.png" style="width:3.23628in;height:2.78029in"
+> alt="A screenshot of a computer Description automatically generated" />
+
+13. Nel campo di prompt, Copilot digita automaticamente **Create
+    presentation from file /.** Posizionare il cursore dopo la barra in
+    avanti e digitare **Ctrl+V** per incollare il link a questo
+    documento nel prompt.
+
+> <img src="./media/image24.png" style="width:5.60066in;height:3.19373in"
+> alt="A screenshot of a computer Description automatically generated" />
+
+14. Selezionare l'icona **Send.**
+
+15. Questa richiesta fa sì che Copilot crei una presentazione basata sul
+    documento. In questo modo, visualizza lo schema della presentazione
+    e un elenco di caratteristiche incluse nella presentazione. Queste
+    caratteristiche possono includere note del relatore, immagini,
+    layout per organizzare le diapositive e un'etichetta di Sensitivity
+    Label generale.
+
+> <img src="./media/image25.png" style="width:5.53483in;height:2.55953in"
+> alt="A screenshot of a computer Description automatically generated" />
+
+16. Ora siete liberi di rivedere le diapositive e di apportare gli
+    aggiornamenti necessari. È possibile utilizzare lo strumento
+    **Designer** per regolare i layout.
+
+> <img src="./media/image26.png" style="width:5.48768in;height:3.24908in"
+> alt="A screenshot of a computer Description automatically generated" />
+
+17. Durante la revisione delle diapositive, fate attenzione ai
+    riferimenti all'"oratore" o a qualsiasi altro elemento che potrebbe
+    essere necessario modificare.
+    <img src="./media/image27.png" style="width:5.39563in;height:2.89748in"
+    alt="A screenshot of a computer Description automatically generated" />
+
+> Attenzione: Fate attenzione al riferimento a "L'oratore" e alla
+> seconda frase che inizia con "La presentazione riassumerà...". che può
+> essere creata da Copilot.
+>
+> **Esempio**: L'oratore introduce una presentazione sui dati salienti
+> del Fabrikam's 2023 income statement, riportando una forte performance
+> e crescita nonostante le sfide poste dalla pandemia globale e dalla
+> competitività del mercato. La presentazione riassumerà i risultati
+> principali e spiegherà come si allineano alla visione e agli obiettivi
+> strategici dell'azienda.
+>
+> È opportuno eliminare questo tipo di riferimenti, in quanto sono più
+> applicabili come note del relatore che come testo destinato al
+> pubblico.
+
+18. Esaminate le note del relatore che Copilot ha aggiunto alla
+    presentazione. Verificate che richiamino i punti che desiderate
+    sottolineare durante la presentazione.
+
+19. Provare a utilizzare Copilot per aggiornare la presentazione. Ad
+    esempio, immettere il seguente prompt:
+
+> **Add a new slide after slide 1. This slide should have an image of a
+> mountain peak in the Alps. Towards the bottom of the slide, add a text
+> box that says: Fabrikam's company motto - "We overcome every
+> obstacle." Add speaker notes to this new slide that talk about how
+> Fabrikam works diligently to solve every customer's request, never
+> letting any obstacle stand in its way of success**.
+>
+> <img src="./media/image28.png" style="width:5.31122in;height:2.17898in"
+> alt="A screenshot of a computer Description automatically generated" />
+
+Esaminate la nuova diapositiva creata. Sebbene i restanti esercizi di
+laboratorio non utilizzino questa presentazione, è possibile scartarla o
+salvarla per riferimenti futuri.
+
+Sintesi
+
+In questo laboratorio, avete
+
+- Ha utilizzato le funzionalità di Microsoft Copilot in Word per
+  redigere un discorso completo che include la generazione di contenuti
+  che comunicano efficacemente i messaggi chiave e gli aggiornamenti
+  aziendali.
+
+- Ha utilizzato Microsoft Copilot in PowerPoint per trasformare il
+  discorso creato in Word in una presentazione visivamente coinvolgente
+  e informativa, creando diapositive che evidenziano i punti principali
+  del discorso, utilizzando Copilot per garantire coerenza e chiarezza
+  nel formato della presentazione.
