@@ -4,9 +4,11 @@
 
 In questo laboratorio
 
-- Utilizzate Copilot in Word per creare un discorso che intendete tenere agli azionisti della società.
+- Utilizzate Copilot in Word per creare un discorso che intendete tenere
+  agli azionisti della società.
 
-- Utilizzate Copilot in PowerPoint per creare una presentazione in PowerPoint basata sul discorso creato.
+- Utilizzate Copilot in PowerPoint per creare una presentazione in
+  PowerPoint basata sul discorso creato.
 
 ## Esercizio n. 1: Creare un discorso utilizzando Copilot in Word
 
@@ -37,8 +39,7 @@ prompt di Copilot utilizzando uno dei seguenti metodi:</span>
 <span class="mark">In questo esercizio, si seleziona il conto economico
 della società dall'elenco dei file MRU.</span>
 
-<img src="./media/image1.png" style="width:6.26806in;height:3.02917in"
-alt="A screenshot of a computer Description automatically generated" />
+![](./media/image1.png)
 
 Per far sì che Copilot in Word crei per voi un discorso basato sul conto
 economico della vostra azienda, dovrete eseguire i seguenti passaggi:
@@ -55,15 +56,13 @@ economico della vostra azienda, dovrete eseguire i seguenti passaggi:
 2.  Nel riquadro di navigazione di **Microsoft 365**, selezionare
     **OneDrive** per aprirlo.
 
-> <img src="./media/image2.png" style="width:5.07948in;height:4.44379in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image2.png)
 
 3.  Passare alla cartella **C:\LabFiles** per selezionare e caricare su
     **OneDrive** una copia del **documento** **Fabrikam 2023 Income
     Statement** .
 
-<img src="./media/image3.png" style="width:4.41654in;height:2.77806in"
-alt="A screenshot of a computer Description automatically generated" />
+![](./media/image3.png)
 
 **Nota**: se avete già caricato tutti gli asset del laboratorio su
 OneDrive come indicato in **Preparazione all'esecuzione del
@@ -80,15 +79,12 @@ uscire da **Microsoft 365** e accedere nuovamente.
     documento vuoto. Fare clic sull'icona di Copilot che appare come
     mostrato nell'immagine.
 
-<img src="./media/image4.png"
-style="width:6.26806in;height:3.27348in" />
+![](./media/image4.png)
 
 > Se si passa il mouse sull'icona Copilot, viene visualizzata **Draft
 > with Copilot tooltip**. Fare clic sull'icona per visualizzare la
 > finestra Bozza con Copilot.
->
-> <img src="./media/image5.png"
-> style="width:5.58171in;height:2.49083in" />
+> ![](./media/image5.png)
 
 6.  Nella finestra **Draft with Copilot** che appare nella parte
     superiore del documento vuoto, inserire la seguente prompt:
@@ -103,47 +99,33 @@ style="width:6.26806in;height:3.27348in" />
 
 > Se per qualche motivo il file non viene visualizzato, fare clic su
 > **Browse files from cloud** nella finestra pop-up.
->
-> <img src="./media/image6.png" style="width:5.60425in;height:2.54445in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image6.png)
 
 8.  Nella finestra **Pick a file**, nell'elenco File **Recent**,
     selezionare il file **Fabrikam 2023 Income Statement.docx** e poi
     selezionare il pulsante **Attach**.
 
-> <img src="./media/image7.png" style="width:5.55643in;height:2.6003in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image7.png)
 
 9.  Notate come il file viene visualizzato nel prompt. Selezionare
     **Generate**.
 
-> <img src="./media/image8.png" style="width:5.72754in;height:2.06359in"
-> alt="A screenshot of a computer screen Description automatically generated" />
->
+> ![](./media/image8.png)
 > **Nota**: se, per qualche motivo, si continua a ricevere l'errore
 > **Something went wrong (Qualcosa è andato storto**) quando si fa clic
 > sul pulsante **Generate** dopo aver allegato il documento di
 > riferimento, eliminare l'errore e procedere con il passaggio
 > successivo.
->
-> <img src="./media/image9.png" style="width:6.26806in;height:2.06111in"
-> alt="A screenshot of a computer screen Description automatically generated" />
->
+> ![](./media/image9.png)
 > Aprite il file in un browser e copiate il suo percorso utilizzando
 > l'opzione Condividi, quindi incollate il percorso nel prompt dopo la
 > barra in avanti (/).
->
-> <img src="./media/image10.png" style="width:5.00602in;height:2.64111in"
-> alt="A screenshot of a computer Description automatically generated" />
->
-> <img src="./media/image11.png" style="width:6.26806in;height:1.9875in"
-> alt="A screenshot of a computer Description automatically generated" />
->
+> ![](./media/image10.png)
+> ![](./media/image11.png)
 > <span class="mark">**Importante**: anche dopo aver provato con
 > l'opzione alternativa, se si verifica la stessa eccezione "qualcosa è
 > andato storto", invece di utilizzare il client Web di Word provare a
 > utilizzare la versione desktop di Word.</span>
->
 > <span class="mark">Se funziona con la versione desktop di Word,
 > seguite la stessa procedura nei prossimi laboratori, se vedete
 > l'eccezione "qualcosa è andato storto" quando fate clic sul pulsante
@@ -152,8 +134,7 @@ style="width:6.26806in;height:3.27348in" />
 10. A questo punto, Copilot estrae i risultati finanziari dal conto
     economico e redige un discorso.
 
-> <img src="./media/image12.png" style="width:5.55797in;height:3.08071in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image12.png)
 
 11. Dopo aver esaminato il discorso, si decide che è un buon punto di
     partenza, anche se ci sono alcune aree che si desidera modificare.
@@ -166,9 +147,7 @@ style="width:6.26806in;height:3.27348in" />
 
 > <span class="mark">**Nota**: l'icona **Editor** sarà visibile nella
 > barra multifunzione classica e non in quella a riga singola.</span>
->
-> <img src="./media/image13.png" style="width:5.79439in;height:2.84712in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image13.png)
 
 13. Nel riquadro dell'**editor** che appare, notare le categorie che
     appaiono sotto le sezioni **Corrections** o **Refinements** e che
@@ -203,17 +182,13 @@ style="width:6.26806in;height:3.27348in" />
 > **Ignore** le modifiche suggerite. Rivedere tutte le modifiche
 > suggerite per vedere le differenze segnalate tra gli stili
 > Professionale e Casual.
->
-> <img src="./media/image14.png" style="width:5.42799in;height:2.68573in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image14.png)
 
 15. Salvate il file nel vostro account OneDrive con il seguente nome:
     **Fabrikam 2023 Financial presentation.docx**. Il prossimo esercizio
     utilizza questo documento.
 
-> <img src="./media/image15.png" style="width:5.63671in;height:2.91765in"
-> alt="A screenshot of a computer Description automatically generated" />
->
+> ![](./media/image15.png)
 > **Importante**: assicurarsi di salvare il file su **OneDrive** e non
 > sul PC locale. Nell'esercizio successivo, si utilizza Copilot in
 > PowerPoint per creare una presentazione basata su questo documento. Il
@@ -223,7 +198,7 @@ style="width:6.26806in;height:3.27348in" />
 16. Chiudere la scheda contenente questo documento nel browser Microsoft
     Edge.
 
-Esercizio n. 2: Creare una presentazione di diapositive utilizzando
+## Esercizio n. 2: Creare una presentazione di diapositive utilizzando
 Copilot in PowerPoint
 
 In questo esercizio, utilizzerete Copilot in PowerPoint per creare una
@@ -258,16 +233,13 @@ Per far sì che Copilot in PowerPoint crei una bozza della presentazione,
     recenti e selezionare **Fabrikam 2023 Financial presentation.docx**
     per aprirlo in una nuova scheda del browser Microsoft Edge.
 
-> <img src="./media/image16.png" style="width:6.26806in;height:2.95486in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image16.png)
 
 4.  Copiare l'URL del documento selezionando il pulsante **Share**
     nell'angolo in alto a destra, sopra la barra multifunzione, e
     selezionando **Copy Link** dal menu a discesa che appare.
 
-> <img src="./media/image17.png" style="width:6.26806in;height:2.85069in"
-> alt="A screenshot of a computer Description automatically generated" />
->
+> ![](./media/image17.png)
 > **Nota**: a volte si possono riscontrare problemi nell'utilizzo
 > dell'URL dalla barra degli indirizzi. Per ottenere risultati migliori,
 > copiate il link dalla barra delle condivisioni.
@@ -275,8 +247,7 @@ Per far sì che Copilot in PowerPoint crei una bozza della presentazione,
 5.  Chiudere la finestra di dialogo **Link copied** visualizzata in
     Word.
 
-> <img src="./media/image18.png" style="width:6.26806in;height:3.26042in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image18.png)
 
 6.  Chiudere la scheda del documento nel browser Microsoft Edge. In
     questo modo si ritorna alla scheda **Word \| Microsoft 365**.
@@ -284,19 +255,15 @@ Per far sì che Copilot in PowerPoint crei una bozza della presentazione,
 7.  Nella pagina del file Word, selezionare l'icona **PowerPoint** nel
     riquadro **App Launcher** in alto a sinistra.
 
-> <img src="./media/image19.png"
-> style="width:5.22778in;height:4.43681in" />
+> ![](./media/image19.png)
 
 8.  In **PowerPoint**, aprite una nuova presentazione vuota.
 
 9.  Selezionate l'icona **Copilot** (evidenziata in rosso, come mostrato
     nella schermata).
 
-> <img src="./media/image20.png"
-> style="width:4.95585in;height:2.46282in" />
->
-> <img src="./media/image21.png" style="width:4.54803in;height:2.67309in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image20.png)
+> ![](./media/image21.png)
 
 10. Nel riquadro **Copilot** che appare, sono disponibili diversi prompt
     predefiniti tra cui scegliere.
@@ -307,9 +274,7 @@ Per far sì che Copilot in PowerPoint crei una bozza della presentazione,
 > selezionandolo dall'elenco MRU. In questa esercitazione si farà
 > esperienza nel collegare un file a un prompt utilizzando un altro
 > metodo.
->
-> <img src="./media/image22.png" style="width:4.94073in;height:2.29027in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image22.png)
 
 12. Sopra il campo di richiesta nella parte inferiore del riquadro
     **Copilot**, apparirà una finestra **Suggestions** che contiene i
@@ -319,17 +284,14 @@ Per far sì che Copilot in PowerPoint crei una bozza della presentazione,
 > creato nell'esercizio precedente apparirà nell'elenco MRU. In caso
 > contrario, è necessario incollare il link (copiato al punto 5) al file
 > nel campo di richiesta.
->
-> <img src="./media/image23.png" style="width:3.23628in;height:2.78029in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image23.png)
 
 13. Nel campo di prompt, Copilot digita automaticamente **Create
     presentation from file /.** Posizionare il cursore dopo la barra in
     avanti e digitare **Ctrl+V** per incollare il link a questo
     documento nel prompt.
 
-> <img src="./media/image24.png" style="width:5.60066in;height:3.19373in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image24.png)
 
 14. Selezionare l'icona **Send.**
 
@@ -340,33 +302,28 @@ Per far sì che Copilot in PowerPoint crei una bozza della presentazione,
     layout per organizzare le diapositive e un'etichetta di Sensitivity
     Label generale.
 
-> <img src="./media/image25.png" style="width:5.53483in;height:2.55953in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image25.png)
 
 16. Ora siete liberi di rivedere le diapositive e di apportare gli
     aggiornamenti necessari. È possibile utilizzare lo strumento
     **Designer** per regolare i layout.
 
-> <img src="./media/image26.png" style="width:5.48768in;height:3.24908in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image26.png)
 
 17. Durante la revisione delle diapositive, fate attenzione ai
     riferimenti all'"oratore" o a qualsiasi altro elemento che potrebbe
     essere necessario modificare.
-    <img src="./media/image27.png" style="width:5.39563in;height:2.89748in"
-    alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image27.png)
 
 > Attenzione: Fate attenzione al riferimento a "L'oratore" e alla
 > seconda frase che inizia con "La presentazione riassumerà...". che può
 > essere creata da Copilot.
->
 > **Esempio**: L'oratore introduce una presentazione sui dati salienti
 > del Fabrikam's 2023 income statement, riportando una forte performance
 > e crescita nonostante le sfide poste dalla pandemia globale e dalla
 > competitività del mercato. La presentazione riassumerà i risultati
 > principali e spiegherà come si allineano alla visione e agli obiettivi
 > strategici dell'azienda.
->
 > È opportuno eliminare questo tipo di riferimenti, in quanto sono più
 > applicabili come note del relatore che come testo destinato al
 > pubblico.
@@ -384,15 +341,13 @@ Per far sì che Copilot in PowerPoint crei una bozza della presentazione,
 > obstacle." Add speaker notes to this new slide that talk about how
 > Fabrikam works diligently to solve every customer's request, never
 > letting any obstacle stand in its way of success**.
->
-> <img src="./media/image28.png" style="width:5.31122in;height:2.17898in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image28.png)
 
 Esaminate la nuova diapositiva creata. Sebbene i restanti esercizi di
 laboratorio non utilizzino questa presentazione, è possibile scartarla o
 salvarla per riferimenti futuri.
 
-Sintesi
+## Sintesi
 
 In questo laboratorio, avete
 
