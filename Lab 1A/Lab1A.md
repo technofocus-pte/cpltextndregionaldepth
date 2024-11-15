@@ -88,9 +88,9 @@ economico della vostra azienda, dovrete eseguire i seguenti passaggi:
 6.  Nella finestra **Draft with Copilot** che appare nella parte
     superiore del documento vuoto, inserire la seguente prompt:
 
-    <span class="mark">**Write a speech for the Fabrikam stakeholders that
+    ++**Write a speech for the Fabrikam stakeholders that
     summarizes the results of the company's 2023 income statement found in
-    the attached file**.</span>
+    the attached file**.++
 
 7.  Nella finestra **Draft with Copilot**, selezionare il pulsante
     **Reference your content**. Nella finestra a comparsa che appare,
@@ -128,14 +128,14 @@ economico della vostra azienda, dovrete eseguire i seguenti passaggi:
 
     ![](./media/image11.png)
 
-    <span class="mark">**Importante**: anche dopo aver provato con
+    **Importante**: anche dopo aver provato con
     l'opzione alternativa, se si verifica la stessa eccezione "qualcosa è
     andato storto", invece di utilizzare il client Web di Word provare a
     utilizzare la versione desktop di Word.</span>
     <span class="mark">Se funziona con la versione desktop di Word,
     seguite la stessa procedura nei prossimi laboratori, se vedete
     l'eccezione "qualcosa è andato storto" quando fate clic sul pulsante
-    **Generate**.</span>
+    **Generate**.
 
 10. A questo punto, Copilot estrae i risultati finanziari dal conto
     economico e redige un discorso.
@@ -327,7 +327,7 @@ Per far sì che Copilot in PowerPoint crei una bozza della presentazione,
 
     ![](./media/image27.png)
 
-    Attenzione: Fate attenzione al riferimento a "L'oratore" e alla
+    **Attenzione**: Fate attenzione al riferimento a "L'oratore" e alla
     seconda frase che inizia con "La presentazione riassumerà...". che può
     essere creata da Copilot.
     **Esempio**: L'oratore introduce una presentazione sui dati salienti
