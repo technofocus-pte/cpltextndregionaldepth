@@ -1,16 +1,14 @@
-# Lab 1A: Empowering Executives to do more
+# Laboratorio 1A: Dare ai dirigenti la possibilità di fare di più
 
-## Objective:
+## Obiettivo:
 
-In this lab, you will
+In questo laboratorio
 
-- Use Copilot in Word to create a speech you plan to deliver to company
-  shareholders.
+- Utilizzate Copilot in Word per creare un discorso che intendete tenere agli azionisti della società.
 
-- Use Copilot in PowerPoint to create a PowerPoint presentation based on
-  the speech you created.
+- Utilizzate Copilot in PowerPoint per creare una presentazione in PowerPoint basata sul discorso creato.
 
-## Exercise #1: Create a speech using Copilot in Word
+## Esercizio n. 1: Creare un discorso utilizzando Copilot in Word
 
 In this exercise, you direct Copilot in Word to write a speech for you
 based on your company's Income Statement, which is stored as a Word
