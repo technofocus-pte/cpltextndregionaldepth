@@ -47,8 +47,7 @@ conversazione (più creativo, più equilibrato o più preciso).
     superiore della pagina, selezionare **Copilot**. In questo modo si
     apre Microsoft Copilot.
 
- <img src="./media/image1.png"
- style="width:4.24478in;height:3.02287in" />
+ ![](./media/image1.png)
 
  **Nota:** se non si vede l'elenco delle schede nella parte superiore
  della pagina, seguire i passaggi seguenti per visualizzarlo.
@@ -56,22 +55,18 @@ conversazione (più creativo, più equilibrato o più preciso).
 - Assicurarsi di aver effettuato l'accesso utilizzando le **credenziali
   di Microsoft 365** (disponibili nella scheda **Resources**).
 
- <img src="./media/image2.png"
- style="width:5.14864in;height:1.57919in" />
+ ![](./media/image2.png)
 
 - Abilitare l'opzione **Show menu bar** (evidenziata in rosso)
 
- <img src="./media/image3.png"
- style="width:2.18413in;height:2.61283in" />
+ ![](./media/image3.png)
 
-<img src="./media/image4.png"
-style="width:4.41053in;height:2.31873in" />
+![](./media/image4.png)
 
 3.  Selezionare ora **Copilot**. In questo modo si apre Microsoft
     Copilot.
 
- <img src="./media/image5.png" style="width:4.60041in;height:2.78288in"
- alt="A screenshot of a computer Description automatically generated" />
+ ![](./media/image5.png)
 
 4.  Nella pagina di **Copilot**, si noti l'interruttore a levetta in
     alto che consente di selezionare **Work** o **Web**. Sebbene la
@@ -79,11 +74,9 @@ style="width:4.41053in;height:2.31873in" />
     Web per condurre l'analisi di mercato dell'industria dei giocattoli.
     Se necessario, selezionare l'interruttore **Web**.
 
- <img src="./media/image6.png"
- style="width:4.04086in;height:2.44768in" />
+ ![](./media/image6.png)
 
- <img src="./media/image7.png"
- style="width:3.38548in;height:2.86143in" />
+ ![](./media/image7.png)
 
  Nota: il selettore del tono di conversazione **Più creativo - Più
  equilibrato - Più preciso** presente nella precedente versione di
@@ -97,8 +90,7 @@ style="width:4.41053in;height:2.31873in" />
  identify sales figures, the latest trends, consumer preferences, and
  the most popular toys in the market**.
 
- <img src="./media/image8.png"
- style="width:5.33427in;height:2.19325in" />
+ ![](./media/image8.png)
 
 6.  Esaminare l'analisi di mercato generata da Copilot. Vi rendete conto
     che una richiesta generale come quella che avete presentato fornisce
@@ -117,13 +109,11 @@ style="width:4.41053in;height:2.31873in" />
  feedback. Please amend your prior analysis to include this
  information. Thanks**!
 
- <img src="./media/image9.png"
- style="width:5.10146in;height:2.63366in" />
+ ![](./media/image9.png)
 
- <img src="./media/image10.png" style="width:4.83737in;height:2.5in" />
+ ![](./media/image10.png)
 
- <img src="./media/image11.png"
- style="width:4.72414in;height:2.4304in" />
+ ![](./media/image11.png)
 
 7.  Vi rendete conto che vi state avvicinando al vostro obiettivo, ma vi
     mancano ancora alcune informazioni chiave. Dopo aver rivisto le
@@ -140,11 +130,9 @@ style="width:4.41053in;height:2.31873in" />
  insights that can help me determine what Tailspin Toy's business plan
  should be for the upcoming year**.
 
- <img src="./media/image12.png"
- style="width:5.3955in;height:2.83168in" />
+ ![](./media/image12.png)
 
- <img src="./media/image13.png"
- style="width:5.13826in;height:2.39906in" />
+ ![](./media/image13.png)
 
 8.  Vi piacciono molto le informazioni fornite da Copilot. Tuttavia,
     poiché questo progetto è la vostra prima opportunità di fornire un
@@ -159,11 +147,9 @@ style="width:4.41053in;height:2.31873in" />
  request? If so, can you please amend your responses to include this
  information. Thank you**!
 
- <img src="./media/image14.png"
- style="width:4.94213in;height:2.23041in" />
+ ![](./media/image14.png)
 
- <img src="./media/image15.png"
- style="width:4.89333in;height:2.5297in" />
+ ![](./media/image15.png)
 
 9.  Sulla base delle informazioni fornite da Copilot, ci si rende conto
     che è possibile massimizzare l'efficacia dei rapporti facendo
@@ -174,11 +160,9 @@ style="width:4.41053in;height:2.31873in" />
  these areas for the Toy industry. Also update the business plan that
  you created for Tailspin Toys based on these insights. Thanks**!
 
- <img src="./media/image16.png"
- style="width:4.72996in;height:2.38168in" />
+ ![](./media/image16.png)
 
- <img src="./media/image17.png"
- style="width:5.00562in;height:2.66729in" />
+ ![](./media/image17.png)
 
 10. L'analisi di mercato e il business plan che Copilot ha generato per
     voi si basano su uno stile di conversazione predefinito. È ideale
@@ -215,8 +199,7 @@ vuole salvare per riferimenti futuri.
     per copiare la risposta e incollare la risposta copiata in un editor
     di testo.
 
- <img src="./media/image18.png"
- style="width:5.24434in;height:2.71287in" />
+ ![](./media/image18.png)
 
  Se si desidera consolidare più risposte in un unico documento, è
  necessario copiare e incollare manualmente ogni risposta in un editor
@@ -270,8 +253,7 @@ sulla destra .
     utilizzati più di recente. Per far apparire i file nell'elenco MRU,
     aprire ciascuno dei tre documenti e poi chiuderli.
 
- <img src="./media/image19.png" style="width:5.4728in;height:2.60968in"
- alt="A screenshot of a computer Description automatically generated" />
+ ![](./media/image19.png)
 
 4.  In **Microsoft 365**, aprire **Microsoft Word**, quindi aprire un
     nuovo documento vuoto.
@@ -287,8 +269,7 @@ sulla destra .
  describes the product, analyzes the market trend for it, and includes
  a promotion plan for Latin America**.
 
- <img src="./media/image20.png" style="width:5.54781in;height:2.69646in"
- alt="A screenshot of a computer Description automatically generated" />
+ ![](./media/image20.png)
 
 6.  A questo punto è necessario allegare i tre documenti alla richiesta.
     Nella finestra **Draft with Copilot**, selezionare il pulsante
@@ -299,24 +280,21 @@ sulla destra .
     file **Recent** e quindi selezionare il pulsante **Attach**. Notate
     come il file viene visualizzato nel prompt.
 
- <img src="./media/image21.png" style="width:5.39448in;height:2.5287in"
- alt="A screenshot of a computer Description automatically generated" />
+ ![](./media/image21.png)
 
 7.  Ripetete il passaggio precedente sia per il file **Contoso Chai Tea
     market trends 2023.docx** che per il file **Promotion Plan for Chai
     Tea in Latin America.docx**. A questo punto, nel prompt dovrebbero
     comparire i link a tutti e tre i file.
 
- <img src="./media/image22.png" style="width:5.74913in;height:2.47456in"
- alt="A screenshot of a computer Description automatically generated" />
+ ![](./media/image22.png)
 
 8.  Selezionare **Generate**. A questo punto, Copilot estrae le
     informazioni pertinenti dai tre file e redige un rapporto che li
     combina in un unico rapporto di analisi di mercato per Mystic Spice
     Premium Chai Tea.
 
- <img src="./media/image23.png" style="width:5.22198in;height:2.56355in"
- alt="A screenshot of a computer Description automatically generated" />
+ ![](./media/image23.png)
 
 9.  Dopo aver esaminato la prima bozza del rapporto sull'analisi di
     mercato, vi rendete conto che mancano alcune informazioni
@@ -326,8 +304,7 @@ sulla destra .
     di Copilot in fondo al rapporto e poi selezionate la freccia
     **Generate**:
 
- <img src="./media/image24.png" style="width:5.37635in;height:2.41835in"
- alt="A screenshot of a computer Description automatically generated" />
+ ![](./media/image24.png)
 
  **This report looks good. However, please add a section titled
  Competitive Analysis. Review the beverage companies in Latin America
@@ -335,8 +312,7 @@ sulla destra .
  strengths and weaknesses of these competitors, their market share, and
  their pricing strategies**.
 
- <img src="./media/image25.png" style="width:5.23569in;height:2.67991in"
- alt="A screenshot of a computer Description automatically generated" />
+ ![](./media/image25.png)
 
 10. Dopo aver esaminato questa seconda bozza del rapporto che contiene
     la nuova sezione Analisi della concorrenza, vi rendete conto che
@@ -347,8 +323,7 @@ sulla destra .
     Copilot in fondo al rapporto e poi selezionate la freccia
     **Generate**:
 
- <img src="./media/image26.png" style="width:5.36269in;height:2.16623in"
- alt="A screenshot of a computer Description automatically generated" />
+ ![](./media/image26.png)
 
  **Nice job! One last thing. Please add a section titled Distribution
  Channels. Review the distribution channels used to sell Chai Tea in
@@ -361,8 +336,7 @@ sulla destra .
     selezionare il pulsante **Keep it** per convertirlo da bozza Copilot
     a documento Word.
 
- <img src="./media/image27.png" style="width:5.41303in;height:2.5374in"
- alt="A screenshot of a computer Description automatically generated" />
+ ![](./media/image27.png)
 
 12. Rivedere il documento. Se si desidera apportare modifiche manuali, è
     possibile farlo ora. Una volta soddisfatti, potete salvare il
@@ -437,8 +411,7 @@ Excel definita.
     2023.xlsx** (caricato su **OneDrive**) per inserirlo nell'elenco dei
     file utilizzati più di recente (MRU).
 
- <img src="./media/image28.png" style="width:4.61069in;height:2.74772in"
- alt="A screenshot of a computer Description automatically generated" />
+ ![](./media/image28.png)
 
 4.  Nella pagina iniziale di **Microsoft 365**, selezionate l'icona
     **Excel** nel pannello di navigazione a sinistra.
@@ -453,11 +426,9 @@ Excel definita.
     predefiniti tra cui scegliere. Selezionare il pulsante **Show data
     insights**.
 
- <img src="./media/image29.png" style="width:5.33973in;height:1.85465in"
- alt="A screenshot of a computer Description automatically generated" />
+ ![](./media/image29.png)
 
- <img src="./media/image30.png"
- style="width:2.99219in;height:2.96791in" />
+ ![](./media/image30.png)
 
 8.  Si noti il grafico pivot generato. Quando abbiamo testato questo
     esercizio, Copilot ha sempre creato un grafico a linee del **Social
@@ -465,21 +436,18 @@ Excel definita.
     Copilot per voi? Sotto il grafico creato da Copilot, selezionare il
     pulsante **+Add to a new sheet**.
 
- <img src="./media/image31.png" style="width:2.67604in;height:2.56115in"
- alt="A screenshot of a computer Description automatically generated" />
+ ![](./media/image31.png)
 
 9.  Anche se Copilot dice di aver aggiunto il grafico al foglio 2, il
     foglio 2 non è visibile nel foglio di calcolo.
 
- <img src="./media/image32.png" style="width:5.49176in;height:2.53185in"
- alt="A screenshot of a computer Description automatically generated" />
+ ![](./media/image32.png)
 
 10. Provare con il foglio excel massimizzato e ripetere il passaggio 11.
     La **Add to sheet function** (**funzione Aggiungi al foglio)** ora
     funziona bene.
 
- <img src="./media/image33.png" style="width:5.45178in;height:1.87665in"
- alt="A screenshot of a computer Description automatically generated" />
+ ![](./media/image33.png)
 
 11. Selezionare **Sheet 2**. Esaminare il nuovo foglio dati creato da
     Copilot. Copilot ha incluso sia il grafico sia la colonna di dati
@@ -487,8 +455,7 @@ Excel definita.
     cursore sul grafico e notare la finestra visualizzata che indica il
     tipo di grafico generato da Copilot.
 
- <img src="./media/image34.png" style="width:4.89912in;height:2.11412in"
- alt="A graph with a line Description automatically generated" />
+ ![](./media/image34.png)
 
 14. Si noti che nel riquadro Copilot non appare più l'elenco dei prompt
     predefiniti. Questa situazione si verifica perché Copilot non
@@ -496,8 +463,7 @@ Excel definita.
     questo problema). Selezionate il **Sheet 1** per tornare alla
     tabella di Excel. Notate come appaiono i prompt predefiniti.
 
- <img src="./media/image35.png" style="width:2.68568in;height:2.56173in"
- alt="A screenshot of a chat Description automatically generated" />
+ ![](./media/image35.png)
 
 15. Nelle richieste predefinite che appaiono sopra il campo di
     richiesta, selezionare il pulsante **Show suggestions for formula
@@ -506,16 +472,14 @@ Excel definita.
 16. Si noti il suggerimento fornito da Copilot. L'immagine seguente
     mostra il suggerimento fornito da Copilot durante i nostri test.
 
- <img src="./media/image36.png"
- style="width:3.02624in;height:2.91475in" />
+ ![](./media/image36.png)
 
 17. Nel suggerimento ricevuto, selezionare la freccia a discesa
     **Explain formula**. Leggere la spiegazione di Copilot che descrive
     il calcolo. Selezionare il pulsante **+Insert Column** per inserire
     la colonna nella tabella di Excel.
 
- <img src="./media/image37.png"
- style="width:4.6763in;height:2.13905in" />
+ ![](./media/image37.png)
 
 18. Notate come Copilot ha aggiunto questa colonna di dati alla fine
     della vostra tabella Excel nel **Sheet 1**. Questa funzione vi
@@ -529,28 +493,24 @@ Excel definita.
     richiesta, selezionare il pulsante **How can I highlight, filter,
     and sort data**?
 
- <img src="./media/image38.png"
- style="width:2.81961in;height:2.40686in" />
+ ![](./media/image38.png)
 
 20. Si noti l'elenco delle azioni che si possono intraprendere.
 
- <img src="./media/image39.png" style="width:2.92147in;height:2.71202in"
- alt="A screenshot of a chat Description automatically generated" />
+ ![](./media/image39.png)
 
 21. A questo punto, i messaggi predefiniti visualizzati da Copilot non
     interessano più. Si desidera quindi visualizzare una nuova serie di
     messaggi. Selezionare il pulsante **Refresh** che appare sopra il
     campo dei prompt.
 
- <img src="./media/image40.png" style="width:0.70069in;height:0.64722in"
- alt="Screenshot showing the Refresh prompt button." />
+ ![](./media/image40.png)
 
 22. Esaminare l'elenco rivisto dei prompt predefiniti che ora vengono
     visualizzati. L'immagine seguente mostra alcuni esempi di prompt
     visualizzati.
 
- <img src="./media/image41.png" style="width:3.03109in;height:2.62747in"
- alt="A screenshot of a chat Description automatically generated" />
+ ![](./media/image41.png)
 
 23. L'obiettivo di questo esercizio è quello di conoscere i vari tipi di
     azioni predefinite che Copilot può eseguire. Pertanto, selezionare
@@ -566,8 +526,7 @@ Excel definita.
 24. Selezionate nuovamente il pulsante **Refresh** che appare sopra il
     campo di richiesta.
 
- <img src="./media/image40.png" style="width:0.70069in;height:0.64722in"
- alt="Screenshot showing the Refresh prompt button." />
+ ![](./media/image40.png)
 
 25. Esaminare la nuova serie di messaggi visualizzati. Selezionare più
     volte il pulsante **Refresh** per vedere i diversi tipi di messaggi
