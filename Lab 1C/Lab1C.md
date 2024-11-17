@@ -59,9 +59,9 @@ conversazione (più creativo, più equilibrato o più preciso).
   
    - Abilitare l'opzione **Show menu bar** (evidenziata in rosso)
   
-    ![](./media/image3.png)
+     ![](./media/image3.png)
 
-    ![](./media/image4.png)
+     ![](./media/image4.png)
 
 3.  Selezionare ora **Copilot**. In questo modo si apre Microsoft
     Copilot.
@@ -90,7 +90,7 @@ conversazione (più creativo, più equilibrato o più preciso).
      identify sales figures, the latest trends, consumer preferences, and
      the most popular toys in the market**.++
 
- ![](./media/image8.png)
+    ![](./media/image8.png)
 
 6.  Esaminare l'analisi di mercato generata da Copilot. Vi rendete conto
     che una richiesta generale come quella che avete presentato fornisce
@@ -431,12 +431,12 @@ Excel definita.
     Copilot per voi? Sotto il grafico creato da Copilot, selezionare il
     pulsante **+Add to a new sheet**.
 
-   ![](./media/image31.png)
+    ![](./media/image31.png)
 
 9.  Anche se Copilot dice di aver aggiunto il grafico al foglio 2, il
     foglio 2 non è visibile nel foglio di calcolo.
 
-   ![](./media/image32.png)
+    ![](./media/image32.png)
 
 10. Provare con il foglio excel massimizzato e ripetere il passaggio 11.
     La **Add to sheet function** (**funzione Aggiungi al foglio)** ora
