@@ -395,7 +395,7 @@ Excel definita.
 
 2.  Sfogliare la cartella **C:\LabFiles** per selezionare e caricare una
     copia di **Contoso Chai Tea market trends 2023.xlsx** su
-    **OneDrive.**
+    **OneDrive**.
 
      **Nota**: potete saltare questo passaggio se avete già caricato una
      copia di tutti i documenti (che userete in questa sessione di
