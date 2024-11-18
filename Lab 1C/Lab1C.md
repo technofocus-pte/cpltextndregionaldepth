@@ -387,7 +387,7 @@ Excel definita.
 
 1.  Se nel browser Microsoft Edge è aperta una scheda di **Microsoft
     365**, selezionatela ora; altrimenti, aprite una nuova scheda e
-    inserite il seguente URL: +++https://www.office.com per accedere alla home page di **Microsoft 365**.
+    inserite il seguente URL: +++https://www.office.com+++ per accedere alla home page di **Microsoft 365**.
 
      **Nota**: è necessario effettuare l'accesso (se richiesto) utilizzando
      le **credenziali Microsoft 365** fornite nella **scheda Resources**
