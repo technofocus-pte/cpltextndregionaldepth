@@ -145,7 +145,7 @@ utilizzerà questo file.
     ++**While that was a good start, I feel like it's missing important
     areas. Please add the following items to the existing list: testing
     and QA, training, communication, document and reporting, stakeholder
-    analysis, project timeline, and risk assessment and mitigation.**++
+    analysis, project timeline, and risk assessment and mitigation**.++
 
     ![](./media/image12.png)
 
@@ -161,7 +161,7 @@ utilizzerà questo file.
     ++**This version looks better. Please review the attached file, which is
     a product specification for the Contoso CipherGuard Sentinel X7
     security product, and update your project plan with information from
-    this product spec.**++
+    this product spec**.++
 
     ![](./media/image14.png)
 
@@ -193,8 +193,7 @@ utilizzerà questo file.
 
     **Nota**: se Copilot non è in grado di accedere 
     direttamente ai documenti o di rivederli, uscire dall'utente connesso
-    e accedere nuovamente, quindi proseguire nuovamente dal punto
-    9.
+    e accedere nuovamente, quindi proseguire nuovamente dal punto 9.
 
     ![](./media/image17.png)
 
