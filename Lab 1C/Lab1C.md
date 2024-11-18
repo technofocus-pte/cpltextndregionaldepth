@@ -421,7 +421,7 @@ Excel definita.
     predefiniti tra cui scegliere. Selezionare il pulsante **Show data
     insights**.
 
-    ![](./media/image29.png)
+    ![](./media/image2.png)
     
     ![](./media/image30.png)
 
