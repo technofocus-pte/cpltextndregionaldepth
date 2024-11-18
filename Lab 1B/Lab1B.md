@@ -606,7 +606,7 @@ esistente e trasforma il testo in una tabella.
     mancava nulla. Riprovare per vedere se Copilot fornisce una risposta
     diversa.
 
-    ![](./media/image48.png)
+    ![](./media/image44.png)
 
 20. Se Copilot consiglia di aggiungere altro contenuto al documento,
     creare un prompt che chieda di farlo. È quindi possibile copiare e
