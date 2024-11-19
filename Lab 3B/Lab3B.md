@@ -12,18 +12,17 @@ informazioni sul tempo.
 ## Esercizio 1: Creare un flusso da utilizzare con un Copilot
 
 1.  Accedere a
-    [+++\*\*https://copilotstudio.microsoft.com/\*\*+++](https://copilotstudio.microsoft.com/**+++)
+    +++**https://copilotstudio.microsoft.com/**+++
     utilizzando le proprie credenziali utente se non si è già effettuato
     il login.
 
-2.  Aprire il Copilot **Customer service**.
+2.  Aprire il agent **Agent**.
 
-    ![](./media/image1.png)
+    ![](./media/image42.png)
 
-3.  Cliccate su **Topics**, aprite l'argomento - **Get store
-    locations**.
+3.  Cliccate su **Topics**, aprite l'argomento - **Ask about expenses contact**.
 
-    ![](./media/image2.png)
+    ![](./media/image43.png)
 
 4.  Fare clic sul simbolo + per aggiungere un nodo dopo un nodo
     esistente, selezionare **call an action** e quindi **Create a
@@ -33,7 +32,7 @@ informazioni sul tempo.
 pagina di creazione del flusso su Power Automate con il modello
 appropriato.
 
-    ![](./media/image3.png)
+    ![](./media/image44.png)
 
 5.  Power Automate viene aperto con il modello di base richiesto per un
     Copilot.
@@ -53,7 +52,7 @@ appropriato.
 
     ![](./media/image6.png)
 
-3.  Scegliere un input di **Text** e denominarlo **+++** **City+++**.
+3.  Scegliere un input di **Text** e denominarlo **+++City+++**.
 
     ![](./media/image7.png)
 
@@ -62,8 +61,8 @@ appropriato.
 
     ![](./media/image8.png)
 
-5.  Selezionare un input **Number** e denominarlo +++ **Zipcode+++**.
-    Fare clic sul simbolo **back (\<\<)** nell'angolo destro per uscire
+5.  Selezionare un input **Number** e denominarlo +++**Zipcode**+++.
+    Fare clic sul simbolo **back (<)** nell'angolo destro per uscire
     dal riquadro dei dettagli del nodo.
 
     ![](./media/image9.png)
@@ -73,7 +72,7 @@ appropriato.
 
     ![](./media/image10.png)
 
-7.  Cercate +++**msn** **weather+++** e selezionate **Get forecast for
+7.  Cercate +++**msn weather**+++ e selezionate **Get forecast for
     today** sotto **MSN Weather**.
 
     ![](./media/image11.png)
@@ -161,18 +160,18 @@ modifica un flusso esistente in cui le risposte asincrone sono attivate,
 1.  Tornare alla pagina di Microsoft Copilot Studio, selezionare
     **Done** su **Save & refresh**.
 
-    ![](./media/image26.png)
+    ![](./media/image45.png)
 
 2.  Selezionare **Topics**. Fare clic su **+ Add -\> Topic -\> From
     blank**.
 
-    ![](./media/image27.png)
+    ![](./media/image46.png)
 
-3.  Assegnare all'argomento il nome di +++**Get** **weather+++**. Fare
+3.  Assegnare all'argomento il nome di +++**Get weather**+++. Fare
     clic su **Edit** sotto Phrases per aggiungere le frasi di
     attivazione.
 
-    ![](./media/image28.png)
+    ![](./media/image47.png)
 
 4.  Aggiungete le seguenti **frasi di attivazione**:
 
@@ -193,7 +192,7 @@ modifica un flusso esistente in cui le risposte asincrone sono attivate,
     ![](./media/image30.png)
 
 5.  Dopo il nodo Trigger, aggiungete un nodo **Message** e inserite il
-    messaggio come **+++** **I can help you with that +++**.
+    messaggio come **+++I can help you with that+++**.
 
     ![](./media/image31.png)
 
@@ -205,7 +204,7 @@ modifica un flusso esistente in cui le risposte asincrone sono attivate,
 
 	| Proprietà	| Valore	|
 	|:-------|:------|
-	| Question	|+++ What is your city?+++	|
+	| Question	|+++What is your city?+++	|
 	|	Identify | Selezionare User’s entire response	|
 	| Save Response as		| Fare clic su Var1 per aprire la scheda Proprietà della variabile e fornire il nome della variabile come +++city+++.|
 
@@ -215,7 +214,7 @@ modifica un flusso esistente in cui le risposte asincrone sono attivate,
 
     | Proprietà	| Valore	|
 	|:-------|:------|
-	| Question	+++ What is your Zipcode?+++	|
+	| Question	+++What is your Zipcode?+++	|
 	|	Identify | Selezionare Number	|
 	| Save Response as		| Fare clic su Var1 per aprire la scheda Proprietà variabile e fornire il nome della variabile come +++Zipcode+++.|
 
@@ -246,7 +245,7 @@ and choose chance_of_rain. \>+++
 
 13. Fare clic su **Save** per salvare l'argomento.
 
-    ![](./media/image38.png)
+    ![](./media/image48.png)
 
 ## Esercizio 5: Test del flusso e dell'argomento
 
