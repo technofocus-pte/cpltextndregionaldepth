@@ -237,9 +237,7 @@ modifica un flusso esistente in cui le risposte asincrone sono attivate,
     inserire un messaggio che utilizzi le uscite del flusso, come
     indicato di seguito.
 
-+++Today's forecast for+++ \< Select X and choose location \> +++:+++ \<
-Select X and choose day_summar y\> +++Chance of rain is+++ \< Select X
-and choose chance_of_rain. \>+++
+    +++Today's forecast for+++ < Select X and choose location > +++:+++  < Select X and choose day_summar y> +++Chance of rain is+++ < Select X and choose chance_of_rain. >
 
     ![](./media/image37.png)
 
