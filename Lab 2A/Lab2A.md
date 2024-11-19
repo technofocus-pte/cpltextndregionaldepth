@@ -39,7 +39,7 @@ Durata del laboratorio - 15 minuti
 ## Esercizio 2: Creare un plugin conversazionale
 
 1.  Aprite un browser e digitate
-    [+++https://copilotstudio.microsoft.com/+++](https://copilotstudio.microsoft.com/+++)
+    +++https://copilotstudio.microsoft.com/+++
     nella barra degli indirizzi.
 
 2.  Accedere con le **credenziali** fornite nella scheda **Resources**
@@ -57,47 +57,42 @@ Durata del laboratorio - 15 minuti
 
     ![](./media/image6.png)
 
-5.  Nella pagina di creazione del Copilot che si apre, fare clic sui 3
+5.  Nella pagina di creazione del agent che si apre, fare clic sui 3
     punti accanto a **Create** in alto a destra e fare clic su **Cancel
-    copilot creation** e su **Leave** nella finestra di dialogo di
+    agent creation** e su **Leave** nella finestra di dialogo di
     conferma.
 
-    ![](./media/image7.png)
+    ![](./media/image36.png)
     
     ![](./media/image8.png)
 
 6.  Si apre la pagina **Home** di Copilot Studio.
 
-    ![](./media/image9.png)
+    ![](./media/image37.png)
 
 7.  Nel riquadro sinistro della schermata principale, selezionare
-    **Copilot**.
+    **Agents**.
 
-    ![](./media/image10.png)
+    ![](./media/image38.png)
 
 8.  Selezionare **Copilot for Microsoft 365**.
 
-    ![](./media/image11.png)
+    ![](./media/image39.png)
 
 9.  Selezionare **Extensions** o **Actions**, entrambe visualizzate
     nell'interfaccia utente.
 
-    ![](./media/image12.png)
+    ![](./media/image40.png)
 
-10. Selezionare **+ Add Extension** o **+ Add Action**.
+10. Selezionare **+ Add Extension** o **New Action**.
 
-    ![](./media/image13.png)
+    ![](./media/image41.png)
 
-11. Selezionare **New action**.
-
-    ![](./media/image14.png)
-
-12. Selezionate **Conversational** nel riquadro **New action**.
+11. Selezionate **Conversational** nel riquadro **New action**.
 
     ![](./media/image15.png)
 
-13. Indicare il nome dell'azione come **+++** **Conversational action
-    +++**. Selezionare **Create**.
+13. Indicare il nome dell'azione come +++**Conversational action**+++. Selezionare **Create**.
 
     ![](./media/image16.png)
 
@@ -108,7 +103,7 @@ Durata del laboratorio - 15 minuti
 
 15. Selezionare **Allow** se appare un pop-up per consentire la copia.
 
-16. Nominare l'argomento come +++ Holidaylist +++
+16. Nominare l'argomento come +++Holidaylist+++
 
     ![](./media/image18.png)
 
