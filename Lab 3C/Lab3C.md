@@ -13,13 +13,13 @@ conversazionali, se non c'è un argomento corrispondente.
 ## Esercizio 1: Abilitare le risposte generative e aggiungere un sito web pubblico
 
 1.  Accedere a
-    [+++\*\*https://copilotstudio.microsoft.com/\*\*+++](https://copilotstudio.microsoft.com/**+++)
+    +++**https://copilotstudio.microsoft.com/**+++
     utilizzando le credenziali dell'inquilino, se non si è già
     effettuato l'accesso.
 
-2.  Selezionare **Copilots** e fare clic su **+ New copilot.**
+2.  Selezionare **Agents** e fare clic su **+ New agent.**
 
-    ![](./media/image1.png)
+    ![](./media/image14.png)
 
 3.  Se richiesto, selezionare **Skip to configure**.
 
@@ -35,7 +35,7 @@ conversazionali, se non c'è un argomento corrispondente.
     ![](./media/image4.png)
 
 6.  Inserire
-    [+++\*\*https://www.microsoft.com/en-us/store/\*\*+++](https://www.microsoft.com/en-us/store/**+++)
+    +++**https://www.microsoft.com/en-us/store/**+++
     in **Public website link** e fare clic su **Add**. Questo sarà il
     sito web che Copilot utilizzerà per generare le risposte.
 
