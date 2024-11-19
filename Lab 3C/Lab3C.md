@@ -17,7 +17,7 @@ conversazionali, se non c'è un argomento corrispondente.
     utilizzando le credenziali dell'inquilino, se non si è già
     effettuato l'accesso.
 
-2.  Selezionare **Agents** e fare clic su **+ New agent.**
+2.  Selezionare **Agents** e fare clic su **+ New agent**.
 
     ![](./media/image14.png)
 
@@ -67,17 +67,7 @@ conversazionali, se non c'è un argomento corrispondente.
 
     ![](./media/image10.png)
 
-3.  Provate a chiedere al Copilot informazioni su qualcosa che non è
-    presente sul vostro sito web di riserva.
-
-Ad esempio, digitare +++**Why is the sky blue?**+++. Poiché il Copilot
-non riesce a trovare un argomento o una risposta pertinenti, risponde
-con un argomento di riserva del sistema e chiede di riformulare la
-domanda.
-
-    ![](./media/image11.png)
-
-4.  Fare clic su **Home** per tornare alla pagina iniziale.
+3.  Fare clic su **Home** per tornare alla pagina iniziale.
 
     ![](./media/image12.png)
 
