@@ -18,10 +18,9 @@ sulle politiche di spesa di un'azienda fittizia.
 
     ![](./media/image1.png)
 
-3.  Dal menu di sinistra, selezionare **Agents** e poi selezionare **+
-    New agent.**
+3.  Dal menu di sinistra, selezionare **Agents** e poi selezionare **+ New agent.**
 
-![](./media/image2.png)
+    ![](./media/image2.png)
 
 4.  Inserite il seguente prompt.
 
@@ -31,13 +30,13 @@ sulle politiche di spesa di un'azienda fittizia.
 
 5.  Aggiungete altre istruzioni come,
 
-    - Use a friendly, professional tone. *(Usate un tono amichevole e
+    - +++Use a friendly, professional tone+++. *(Usate un tono amichevole e
       professionale.)*
     
-    - Avoid providing any tax advice. *(Evitare di fornire consulenza
+    - +++Avoid providing any tax advice+++. *(Evitare di fornire consulenza
       fiscale.)*
 
-    ![](./media/image4.png)
+        ![](./media/image4.png)
 
 6.  Al termine, fare clic su **Create** in alto a destra per creare
     l'agente.
@@ -59,7 +58,7 @@ sulle politiche di spesa di un'azienda fittizia.
 un'organizzazione reale, si vorrebbe che l'agente fornisse un indirizzo
 e-mail o un numero di telefono da contattare.
 
-9.  Chiudere il riquadro **Test your agent.**
+9.  Chiudere il riquadro **Test your agent**.
 
 ### **Attività 2: Gestire gli argomenti nel proprio agente**
 
@@ -68,15 +67,14 @@ e-mail o un numero di telefono da contattare.
     ![](./media/image8.png)
 
 2.  Nella pagina Topics, nel menu **+ Add a topic**, selezionare
-    Argomento **\> Create from description with copilot.**
+    Argomento > **Create from description with copilot.**
 
     ![](./media/image9.png)
 
 3.  Nella finestra di dialogo **Create a description with copilot**,
     nominare il nuovo argomento come +++Ask about expenses contact+++ e
     inserire il seguente testo per indicare a Copilot cosa deve fare
-    l'argomento: +++When the user asks who to contact about expense
-    claims, tell them to send an email to <finance@contoso.com>.+++
+    l'argomento: +++When the user asks who to contact about expense claims, tell them to send an email to finance@contoso.com+++
 
 4.  Selezionare **Create**.
 
