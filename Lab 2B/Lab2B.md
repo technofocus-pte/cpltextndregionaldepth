@@ -22,23 +22,23 @@ Durata del laboratorio - 15 minuti
 
 2.  Selezionate **Library** dal pannello di navigazione laterale.
 
-![](./media/image34.png)
+    ![](./media/image34.png)
 
 3.  Selezionare **+ Add an item**.
 
-![](./media/image2.png)
+    ![](./media/image2.png)
 
 4.  Selezionare **Copilot for Microsoft 365**.
 
-![](./media/image3.png)
+    ![](./media/image3.png)
 
 5.  Selezionare **New action**.
 
-![](./media/image4.png)
+    ![](./media/image4.png)
 
 6.  Viene visualizzato il menu **New action**. Selezionare **Prompt**.
 
-![](./media/image5.png)
+    ![](./media/image5.png)
 
 7.  Si apre la procedura guidata **Add a prompt action.**
 
@@ -51,15 +51,15 @@ Durata del laboratorio - 15 minuti
 
     - Descrizione - **+++Dynamic prompt to summarize text**+++
 
-![](./media/image6.png)
+    ![](./media/image6.png)
 
 2.  Selezionare **Summarize text**.
 
-![](./media/image7.png)
+    ![](./media/image7.png)
 
 3.  Aggiungerà un prompt con un **text** valore dinamico.
 
-![](./media/image8.png)
+    ![](./media/image8.png)
 
 4.  Fare clic su **Input** sotto Prompt Settings e aggiungere il
     contenuto seguente nei **Sample data**.
@@ -76,35 +76,35 @@ Durata del laboratorio - 15 minuti
     
     ```
 
-![](./media/image9.png)
+    ![](./media/image9.png)
 
 5.  Fare clic su **Test prompt**.
 
-![](./media/image10.png)
+    ![](./media/image10.png)
 
 6.  Si noti che viene generata la risposta del prompt, che riassume il
     testo.
 
-![](./media/image11.png)
+    ![](./media/image11.png)
 
 7.  Fare clic su **Save custom prompt**.
 
-![](./media/image12.png)
+    ![](./media/image12.png)
 
 8.  Fare clic su **Next**.
 
-![](./media/image13.png)
+    ![](./media/image13.png)
 
 9.  Fare clic su **Publish**.
 
-![](./media/image14.png)
+    ![](./media/image14.png)
 
 10. Una volta pubblicato, fare clic su **Go to details page** per
     visualizzare i dettagli.
 
-![](./media/image15.png)
-
-![](./media/image16.png)
+    ![](./media/image15.png)
+    
+    ![](./media/image16.png)
 
 La vostra azione immediata è ora pubblicata su **Copilot for Microsoft
 365**. Verrà visualizzata nelle esperienze Copilot solo se si dispone di
