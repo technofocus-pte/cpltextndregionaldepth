@@ -196,7 +196,7 @@ modifica un flusso esistente in cui le risposte asincrone sono attivate,
 
     ![](./media/image31.png)
 
-6.  Quindi, aggiungere un nodo **Ask a question.**
+6.  Quindi, aggiungere un nodo **Ask a question**.
 
     ![](./media/image32.png)
 
@@ -214,7 +214,7 @@ modifica un flusso esistente in cui le risposte asincrone sono attivate,
 
     | Proprietà	| Valore	|
 	|:-------|:------|
-	| Question	+++What is your Zipcode?+++	|
+	| Question	| +++What is your Zipcode?+++	|
 	|	Identify | Selezionare Number	|
 	| Save Response as		| Fare clic su Var1 per aprire la scheda Proprietà variabile e fornire il nome della variabile come +++Zipcode+++.|
 
