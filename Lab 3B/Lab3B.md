@@ -18,7 +18,7 @@ informazioni sul tempo.
 
 2.  Aprire il agent **Agent**.
 
-    ![](./media/image42.png)
+    ![](./media/image 42.png)
 
 3.  Cliccate su **Topics**, aprite l'argomento - **Ask about expenses contact**.
 
