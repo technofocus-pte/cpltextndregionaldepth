@@ -34,7 +34,37 @@ Lab duration – 15 minutes
 
     ![](./media/image4.jpeg)
 
-## **Exercise 2: Create a Conversational plugin**
+## **Exercise 2: Create a development environment**
+
+1.	Login to +++https://admin.powerplatform.microsoft.com/+++.
+   
+2.	Select **Environments** from the left navigation pane and click on **+ New**.
+
+    ![](./media/image43.jpeg)
+
+3.	In the New environment window that opens, fill in the below details and click on **Next**.
+
+    |  **Property**  |  **Value**  |
+  	|:----|:-----|
+  	|   Name |  +++Dev env+++  |
+  	|  Region  |  United States - Default  |
+  	| Type   |  Developer  |
+
+    ![](./media/image44.jpeg)
+  	
+  	![](./media/image45.jpeg)
+
+4.	In the **Add Dataverse** window, accept the defaults and click on **Save**.
+
+    ![](./media/image46.jpeg)
+
+5.	The newly created environment gets listed in the admin center with its status in the Environments pane.
+   
+6.	Once the **status** is **ready**, the environment is ready to use. We will use this environment in the upcoming exercises.
+
+  	![](./media/image47.jpeg)
+
+## **Exercise 3: Create a Conversational plugin**
 
 1.  Open a browser and type +++**https://copilotstudio.microsoft.com/**+++ in the address bar.
 
@@ -50,35 +80,35 @@ Lab duration – 15 minutes
 
     ![](./media/image25.png)
 
-5. In the Copilot creation page that opens up, click on the 3 dots next to **Create** in the top right and click on **Cancel copilot creation** and click on **Leave** in the confirmation dialog.
+5. In the Agent creation page that opens up, click on the 3 dots next to **Create** in the top right and click on **Cancel agent creation** and click on **Leave** in the confirmation dialog.
    
-    ![](./media/image29.png)
+    ![](./media/image36.png)
     
     ![](./media/image30.png)
 
 6.  The Copilot Studio **Home** page opens.
 
     ![](./media/image8.png)
-    
-7.	From the Home screen’s left pane, select **Copilots**.
 
-    ![](./media/image26.png)
+7.	Select **Environments** in the top right and select the **Dev env** environment.
+
+  	![](./media/image42.png)
   	
-8.  Select **Copilot for Microsoft 365**.
+8.	From the Home screen’s left pane, select **Agents**.
 
-    ![](./media/image31.png)
+    ![](./media/image38.png)
+  	
+9.  Select **Copilot for Microsoft 365**.
 
-9.  Select **Extensions** or **Actions** either of which appears in the UI.
+    ![](./media/image39.png)
 
-    ![](./media/image32.png)
+10.  Select **Actions** tab.
 
-10.  Select **+ Add Extension** or **+ Add Action**.
+    ![](./media/image40.png)
 
-    ![](./media/image33.png)
+11.  Select **New action** or **+ Add Action**.
 
-11.	Select **New action**.
-    
-    ![](./media/image34.png)
+    ![](./media/image41.png)
    	
 12.  Select **Conversational** in the **New action** pane.
 
@@ -177,8 +207,7 @@ availability in the Microsoft Admin Center can take up to 4 hours.
     under **Settings**, then **Integrations to be reviewed and
     approved**.
 
-    >[!Alert] **Important:** For the admin to get it listed in the admin center,
-the company will have to hold a valid Copilot license.
+    >[!Alert] **Important:** For the admin to get it listed in the admin center, the company will have to hold a valid adminCopilot license. This part cannot be done as part of this lab. This lab has got user copilot license.
 
 7.  Once your Tenant admin approves the Dataverse and Microsoft Copilot
     Studio integrated app, it should appear in the user's list of
