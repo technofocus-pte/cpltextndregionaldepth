@@ -88,7 +88,7 @@ Lab duration – 15 minutes
 
 6.  The Copilot Studio **Home** page opens.
 
-    ![](./media/image8.png)
+    ![](./media/image37.png)
 
 7.	Select **Environments** in the top right and select the **Dev env** environment.
 
@@ -176,7 +176,7 @@ Lab duration – 15 minutes
 
     ![](./media/image20.png)
 
-## **Exercise 3: Publishing your conversational action to Microsoft Copilot**
+## **Exercise 4: Publishing your conversational action to Microsoft Copilot**
 
 1.  Publishing your conversational plugin creates a new plugin in the
     Dataverse registry for your Tenant. Once available there, your
