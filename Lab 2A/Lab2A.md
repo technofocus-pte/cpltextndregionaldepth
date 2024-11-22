@@ -50,19 +50,19 @@ Lab duration – 15 minutes
   	|  Region  |  United States - Default  |
   	| Type   |  Developer  |
 
-    ![](./media/image44.jpeg)
+    ![](./media/image44.png)
   	
-  	![](./media/image45.jpeg)
+  	![](./media/image45.png)
 
 4.	In the **Add Dataverse** window, accept the defaults and click on **Save**.
 
-    ![](./media/image46.jpeg)
+    ![](./media/image46.png)
 
 5.	The newly created environment gets listed in the admin center with its status in the Environments pane.
    
 6.	Once the **status** is **ready**, the environment is ready to use. We will use this environment in the upcoming exercises.
 
-  	![](./media/image47.jpeg)
+  	![](./media/image47.png)
 
 ## **Exercise 3: Create a Conversational plugin**
 
