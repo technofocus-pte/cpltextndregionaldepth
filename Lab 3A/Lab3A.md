@@ -1,333 +1,264 @@
-# **Lab 3A: Building your first copilot with Copilot Studio**
+# **Lab 3A - Building your first agent with Copilot Studio**
 
 **Objective:**
 
 In this lab, you go through the steps of creating, deploying, and
-testing your first copilot to handle a common customer request.
+testing your first agent that can answer employee questions about
+expense policies in a fictional corporation.
 
-## **Exercise 1: Build your first copilot**
+## **Exercise 1: Build your first agent**
 
-### **Task 1: Sign in to create a copilot**
+### **Task 1: Sign in to create an agent**
 
-1.  From a browser, open the url - +++https://copilotstudio.microsoft.com/+++.
+1.  From a browser, open the url -
+    +++https://copilotstudio.microsoft.com/+++.
 
-2.  Sign in with the credentials provided under the **Resources** tab of your Lab VM.
+2.  Sign in with the credentials provided under the **Resources** tab of
+    your Lab VM.
 
-    ![](./media/image56.png)
+    ![](./media/image1.png)
 
-3.  Select Copilots from the left pane. And then click on **+ New copilot**.
+3.  Ensure that you are on the **Dev env** environment created in Lab
+    2A. If the environment is not present, please redo **Exercise 2 of
+    Lab 2A** and then continue with the remaining exercises of this lab.
 
-     ![](./media/image3.png)
+    ![](./media/image2.png)
 
-4.  Select **Skip to configure**.
+4.  From the left menu, select **Agents** and then select **+ New
+    agent.**
 
-     ![](./media/image4.png)
+    ![](./media/image3.png)
 
-5.  On the Create a copilot page, enter the **name** as +++**Customer
-    service+++** and click on **Create**.
+5.  Enter the following prompt.
 
-     ![](./media/image5.png)
+    +++Create a copilot to help employees with expense claims.+++
 
-6.  Wait for the Copilot to get created.
+    ![](./media/image4.png)
 
-8.	If you are not on the **CustomerService** copilot page, click on **Copilots** from the left pane.
+6.  Next, it suggest a name for the agent. Accept it or instruct it to
+    rename it as per your choice.
 
-     ![](./media/image8.png)
+    ![](./media/image5.png)
 
-9. Click on **Customer service**.
+7.  Add few more instructions like,
 
-    >[!Note] **Note:** If the page does not get refreshed automatically, open the url +++https://copilotstudio.microsoft.com/+++ again to get the created copilot listed in the Copilot Studio.
+    - Use a friendly, professional tone.
+    
+    - Avoid providing any tax advice.
+
+    ![](./media/image6.png)
+
+8.  When you’re done, click on **Create** on the top right to create the
+    agent.
+
+    ![](./media/image7.png)
+
+9.  The agent gets created, and gets opened with a message, **Your agent
+    is ready**.
+
+    ![](./media/image8.png)
+
+10. In the **Test your agent** pane, enter the prompt +++Hello+++.
+    Review the response, which should be an appropriate message.
 
     ![](./media/image9.png)
 
-### **Task 2: Take a quick tour of the user interface**
+11. Now try the following prompt - +++Who should I contact about
+    submitting an expense claim?+++
 
-   ![](./media/image10.png)
+    ![](./media/image10.png)
 
-### **Task 3: Try out a conversation in the Test Copilot pane (Hello!)**
+    The response may be appropriate, but it’s fairly generic. In a real
+organization, you’d want the agent to provide an email address of phone
+number for the user to contact.
 
-Now let's try out the bot using one of the four pre-built lessons
-included when you create a new bot.
+12. Close the **Test your agent** pane.
 
-1.  Click on **Test** to open the **Test your copilot** pane if it’s not
-    open already.
+### **Task 2: Manage topics in your agent**
 
-     ![](./media/image11.png)
+1.  Select Topics from the top menu of the agent.
 
-2.  Select the three dots in the **Test your copilot** dialog available
-    at the right side. Toggle the **Track between topics** to switch it
-    **on**.
+    ![](./media/image11.png)
 
-     ![](./media/image12.png)
+2.  In the Topics page, in the **+ Add a topic** menu, select Topic **\>
+    Create from description with copilot.**
 
-3.  At the **Ask your question or describe what you need** prompt at the
-    bottom of the Test copilot, type: +++**Hello**+++ and then select
-    the **Send** button.
+    ![](./media/image12.png)
+
+3.  In the **Create a description with copilot** dialog box, name the
+    new topic as +++Ask about expenses contact+++ and enter the
+    following text to tell copilot what the topic should do: +++When the
+    user asks who to contact about expense claims, tell them to send an
+    email to <finance@contoso.com>.+++
+
+4.  Select **Create**.
 
     ![](./media/image13.png)
 
-    The copilot offers a greeting in the Test copilot pane.
-
-    Additionally, the Topics page opens (no matter which page you were on before) and you can see the greeting topic open in the authoring canvas window, with green outline and a checkmark added for each part of the conversation design when it's used in the test chat. (This is what the Tracking feature does; if you didn't turn this on, you don't see any changes to the page selection and you see the green highlights in the greeting topic only if you already opened it from the Topics page.)
+5.  A new topic named **Ask about expenses contact** gets created and
+    opened in the authoring canvas, where it should look similar to
+    this.
 
     ![](./media/image14.png)
 
-    >[!Note] **Note:** If there is a prompt which gives you the option to select Allow/Block Copilot from seeing the copied text and images, click on **Allow**.
-    >
-    >![](./media/image15.png)
+    The new topic should be triggered by phrases that ask about a contact
+for expenses, and respond with a message telling the user to send an
+email to the appropriate address.
 
-4.  In the Test copilot, enter the following message and
-    press Send +++**stores near me**+++.
+6.  Use the **Save** button (at the top right) to save the new topic in
+    your copilot.
 
-    Select **Redmond**.
+    ![](./media/image15.png)
+
+7.  Open the **Test** pane, and enter the following prompt
+
+    +++Who should I contact about submitting an expense claim?+++
+
+    ![](./media/image16.png)
+
+### Task 3: Add a knowledge source for Generative AI responses
+
+You can add topics for all of the inputs that you expect a user to
+enter; but you can’t realistically expect to anticipate every question
+that will be asked. Currently, your agent uses a *Conversation
+boosting* topic to generate AI responses from a language model, but this
+results in generic answers. You need to provide a source of knowledge in
+which the generative AI responses can be *grounded* to provide more
+relevant information.
+
+1.  Close the **Test your agent** pane to see the page more easily, then
+    select the **Overview** tab and scroll down to the **Knowledge** tab
+    to see the knowledge sources defined in your agent (currently there
+    should be none).
+
+    ![](./media/image17.png)
+
+2.  Select **+ Add knowledge**, and note the multiple types of knowledge
+    source that you can add to your agent.
+
+    ![](./media/image18.png)
+
+3.  In the **Upload files** section, select **click to browse** option.
+
+    ![](./media/image19.png)
+
+4.  Navigate to **C:\Labfiles** and upload the **Expenses_Policy**
+    document.
+
+    ![](./media/image20.png)
+
+5.  Click on **Add** to add the document as the knowledge source.
+
+    ![](./media/image21.png)
+
+    **Note**: After uploading the file, you will need to wait while it is
+indexed, which may take 10 minutes (or longer).
+
+6.  When the file is ready, view the **Topics** page and open
+    the **Conversational boosting** system topic. Recall that this topic
+    is triggered by an unknown intent, and then tries to create a
+    generative AI response based on data sources containing knowledge,
+    such as the file you uploaded.
+
+    **Note**: If no relevant answer is found in the custom knowledge sources
+you have added, the topic may use the knowledge inherent in the language
+model to provide a more generic answer. You can configure the topic to
+restrict its search to specific knowledge stores if you want greater
+control over the generative AI responses it returns.
+
+7.  Expand the **Test** pane and restart the conversation. Then enter
+    the following prompt:
+
+    +++What's the expense limit for a hotel stay?+++
+
+    The response should be based on the information in the knowledge source
+you uploaded, and include a citation reference.
+
+    ![](./media/image22.png)
+
+8.  Try asking some follow-up questions, such as:
+
+        - +++What about flights?+++
     
-     Notice that a new topic opens in the authoring canvas. You have triggered one of the prebuilt topics (Lesson 2).
+        - +++What guidelines are there for entertainment expenses?+++
 
-     ![](./media/image16.png)
+### **Task 4: Publish your agent**
 
-5.  Observe that the copilot answers with a store address in the Redmond
-    location.
+Now that you have a working copilot, you can publish it for people to
+use. The available channels through which you can deliver your copilot
+depend on the type of authentication you want to use to restrict access
+to it. In this case, you’ll enable access for anyone and then publish
+the copilot for use in a demo web page.
 
-     ![](./media/image17.png)
+1.  Hide the **Test your agent** pane.
 
-## **Exercise 2: Edit your conversation**
+2.  Select **Settings** at the top of the page.
 
-Now, let's make a change to that conversation by adding another store
-location. We make a copy first so that later you can go back to the
-Lessons as they were written if you want to.
+    ![](./media/image23.png)
 
-### **Task 1: Make a copy of the topic**
+3.  In the **Settings** pane, on the **Security** page,
+    select **Authentication**. Then select the option for **No
+    authentication** and **Save** the changes to the configuration.
 
-1.  Click on **Test** at the top right corner to put the Test copilot
-    out of your way for now.
+    ![](./media/image24.png)
 
-     ![](./media/image18.png)
+4.  Close the **Settings** pane.
 
-2.  Select **Topics** from the menu items at the top to open
-    the **Topics** list.
+5.  Then, at the top of the page, select the **Channels** tab and review
+    the channels to which you can deploy your copilot. The available
+    channels depend on the authentication settings for your copilot.
 
-     ![](./media/image19.png)
+    ![](./media/image25.png)
 
-3.  Hover your mouse over the row for the prebuilt topic **Lesson 2 - A
-    simple topic with a condition and variable**. Select the **More
-    actions** icon, then **Make a copy**.
+6.  At the top of the page, select **Publish**. Then, on
+    the **Publish** page, select **Publish**, and publish your copilot.
+    Publishing will take a minute or so.
 
-     ![](./media/image20.png)
+    ![](./media/image26.png)
 
-     The Topics page opens with the copied version of the lesson.
+    ![](./media/image27.png)
 
-     ![](./media/image21.png)
-
-### **Task 2: Edit the copy of the topic**
-
-1.  You're now looking at the **Setup** page for the copied topic. This
-    page is where you enter the topic **Name** (which appears to your
-    customers) and the **Trigger phrases**.
-
-2.  Select the current text in the **Name** field, delete it, and type
-    to rename the topic to +++**Get store locations**+++.
-
-3.  Select **Save** in the upper right corner of the page.
-
-     ![](./media/image22.png)
-
-4. Let's imagine you opened a new store in Bellevue. To add the store info to your copilot, you need to edit the topic design in the authoring canvas. The authoring canvas contains all the text and logic for the conversation about store locations. At the top, you see a reminder of the trigger phrases, which are added and edited on the **Setup** page.
-
-5.  Scroll down the page to see the conversation design.
-
-     Each of the connected boxes you see is called a "node." You can see that the copilot displays a message in a **Message** node that it's happy to help find a store location and then asks in a **Question** node which location the user is interested in. (You can reopen the test copilot to see that this is the same as the conversation you had in Exercise 1. Then close the test copilot again.)
-
-6.  Scroll to the Question node that asks "Which location are you
-    interested in?" We're going to add another option here.
-
-    >[!Note] **Note:** If the already existing nodes has got **Incompatible type comparison error**, click on the **Object** field and select one location in a node(based on the location in the corresponding Message node), ensuring that all the 3 existing locations are available in one condition node.
-    >
-    >![](./media/image24.png)
-
-7.  Under "Redmond" "Seattle" "Kirkland," select **+ New option**.
-
-     ![](./media/image25.png)
-
-     A new **Condition** node is added under the Question node.
-
-8.  In the Question node (**NOT** in the Condition node),
-    type +++**Bellevue**+++ in the newly added empty box under **Options
-    for user**.
-
-     **Bellevue** is automatically added for you in the Condition node too.
-
-     ![](./media/image26.png)
-
-     >[!Note] **Note:** The **Options for user** section controls what buttons are visible to users in the chat window, and always need to be matched with a condition, or the button won't work. The Conditions, however, can handle the user typing something that is not shown in a button. So for instance if you wereto delete the Bellevue **Options for user** button, it would not delete the Bellevue Condition node, which would be used if the user types "Bellevue" when asked for a location.
-     
-     Now tell the copilot what message to display if the user selects **Bellevue**.
-
-9.  Select the **+ icon** underneath the Bellevue condition node.
-
-     ![](./media/image27.png)
-
-10. From the options that appear, select **Send a message**.
-
-     ![](./media/image28.png)
-
-    This adds a new Message node connected to the Bellevue condition.
-
-11. In the Message node, enter the store location info: +++Our Bellevue store is in 1234 Bellevue Way, Bellevue, WA 98123+++.
-
-     ![](./media/image29.png)
-
-    >[!Note] **Note:** You can format the message text using the formatting buttons that appear while you're typing. You can even replace the name of the location with the value of the pva_StoreLocation variable by using the {*x*} control.
-    >
-    >You're now going to end the conversation. Since the conversation ends the same way no matter which location the user chose, we're going to link to a shared **End of conversation** node. This node starts the **End of conversation** system topic.
-
-12. First, zoom out if necessary to see the **End of conversation** node
-    on your screen. (**Zoom out** is in the utility bar on the left of
-    the authoring canvas.)
-
-     ![](./media/image30.png)
-
-     ![](./media/image31.png)
-
-11. At the top right of the page, select **Save** to save the changes
-    you made.
-
-     ![](./media/image32.png)
-
-### **Task 3: Turn on your topic and test your changes**
-
-You might recall that when we made a copy of the Lesson 2 topic, the
-copy was created in an Off state. This means you can't trigger the topic
-in the test copilot (and if you published your copilot, your users
-couldn't trigger it either). We're ready to turn on the edited topic
-now.
-
-1.  Select the **Topics** from the top menu list to return to the Topics
-    list.
-
-     ![](./media/image33.png)
-
-2.  Select the **Status** toggle from On to **Off** for **Lesson 2 - A
-    simple topic with a condition and variable** and select
-    the **Status** toggle from Off to **On** for **Get store
-    locations**. Now, you can test the conversation you edited.
-
-     ![](./media/image34.png)
-     
-     ![](./media/image35.png)
-
-3.  Click on **Test** from the top right.
-
-     ![](./media/image36.png)
-
-4.  Make sure the **Track between topics** toggle is set to
-    the **On** position.
-
-     ![](./media/image37.png)
-
-5.  In the Test copilot, enter +++**Is there a store near me?**+++ and
-    select the **Send** button.
-
-     ![](./media/image38.png)
-
-     Notice that even though it isn't exactly the same as the trigger phrases in the topic, "Is there a store near me?" works to trigger the topic because Microsoft Copilot Studio understands that it means the same thing as the trigger phrases.
-
-6.  When asked to select a location, select the **Bellevue** location in
-    the test chat. (You might need to use the onscreen right arrow to
-    see the Bellevue option.)
-
-     ![](./media/image39.png)
-
-     The copilot replies with location info for Bellevue store. Notice that the conversation continues in the **End of conversation** system topic. Feel free to keep chatting with the test copilot.
-
-     ![](./media/image40.png)
-
-## **Exercise 3: Publish your copilot to the demo site for testing**
-
-Microsoft Copilot Studio provides a demo website so that you can invite
-anyone to test your copilot by sending them the URL. This demo website
-is useful to gather feedback to improve the copilot content before you
-activate the copilot for your real customers.
-
-1.  Close the Test your Copilot by selecting the **Test** icon on the
-    top right.
-
-     ![](./media/image41.png)
-
-2.  Select **Settings**.
-
-     ![](./media/image42.png)
-
-3.  In the Settings pane, on the **Security** page, select
-    **Authentication**.
-
-     ![](./media/image43.png)
-
-4.  Ensure that the option for **No authentication** is selected. If not select it and click on **Save** (confirming that you want to enable access to the copilot for anyone).
-
-     ![](./media/image44.png)
-
-5.	Select **Save** in the Save this configuration? Dialog.
-
-      ![](./media/image57.png)
-
-6.  **Close** the Settings pane.
-
-     ![](./media/image58.png)
-
-7.  Click on **Channels**.
-
-     ![](./media/image46.png)
-
-8.  At the top of the page, select **Publish**.
-
-    ![](./media/image47.png)
-
-9.  On the **Publish** page, select **Publish**, and publish your
-    copilot. Publishing will take a minute or so.
-
-     ![](./media/image48.png)
-
-     ![](./media/image49.png)
-
-10.  You see a message at the top of the screen when publishing is
-    complete.
-
-     ![](./media/image50.png)
-
-11. After your copilot has been published, verify the **Publish
+7.  After your copilot has been published, verify the **Publish
     status** on the **Channels** page.
 
-     ![](./media/image51.png)
-
-12. Select the **Demo website** channel. This is an appropriate channel
+8.  Select the **Demo website** channel. This is an appropriate channel
     for users to test your copilot.
 
-     ![](./media/image52.png)
+    ![](./media/image28.png)
 
-13.	Click on the **Start free trial** option.
+9.  Click on **Start free trial** if prompted and click on Demo website
+    from the Channels page again.
 
-     ![](./media/image59.png)
+    ![](./media/image29.png)
 
-14.	Click on the **Demo website** option again.
+10. In the Demo website pane, enter the following settings:
 
-     ![](./media/image60.png)
+    Welcome message: +++Ask me about Expense claims+++
+    
+    Conversation starters:
 
-16. In the Demo website pane, enter the Welcome message as +++**Ask me about the Stores**+++ Select **Save**.
+    ```
+    "Hello"
+    
+    "Who should I contact with expense enquiries?"
+    
+    "What are the expense limits for flights?"\
+    ```
 
-     ![](./media/image53.png)
+11. Select **Save** to save the settings.
 
-17. Click on **Copy** to copy the link to your copilot demo website to
-    the clipboard.
+    ![](./media/image30.png)
 
-     ![](./media/image54.png)
+12. Then **Copy** the link to your copilot demo website to the
+    clipboard.
 
-18. In a new browser tab, navigate to the URL you copied to open the
+    ![](./media/image31.png)
+
+13. In a new browser tab, navigate to the URL you copied to open the
     demo website, which should look similar to this.
 
-     ![](./media/image55.png)
-
-19. You can share the URL of the **demo website** with your team.
+    ![](./media/image32.png)
 
 **Summary:**
 
-In this lab, you have learnt to build, test and publish a copilot.
+In this lab, we have learnt to create and publish an agent and adding a knowledge source to the agent.
