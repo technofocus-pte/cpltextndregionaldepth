@@ -40,7 +40,7 @@ Lab duration – 15 minutes
    
 2.	Select **Environments** from the left navigation pane and click on **+ New**.
 
-    ![](./media/image43.jpeg)
+    ![](./media/image43.png)
 
 3.	In the New environment window that opens, fill in the below details and click on **Next**.
 
