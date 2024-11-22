@@ -13,20 +13,20 @@ flow when a customer asks about the weather.
 1.  Login to +++**https://copilotstudio.microsoft.com/**+++ using your
     user credentials if not logged in already.
 
-2.  Open the **Customer service** copilot.
+2.  Open the agent you created in the **Lab 3A**.
 
-    ![](./media/image1.png)
+    ![](./media/image49.png)
 
-3.  Click on **Topics**, open the topic – **Get store locations**.
+3.  Click on **Topics**, open the topic – **Ask about expenses contact.**.
 
-    ![](./media/image2.png)
+    ![](./media/image50.png)
 
 4.  Click on + symbol to add a node after any existing node, select
     **call an action** and then **Create a flow**.
 
     >[!Note] **Note:** This action will not add anything here but will only open the flow creation page on Power Automate with the proper template.
 
-    ![](./media/image3.png)
+    ![](./media/image51.png)
 
 5.  The Power Automate is opened with the basic template required for a
     Copilot.
@@ -140,15 +140,15 @@ When you create a flow from Microsoft Copilot Studio, **asynchronous responses**
 
 1.  Go back to Microsoft Copilot Studio page, select **Done** on **Save & refresh** pop up.
 
-    ![](./media/image26.png)
+    ![](./media/image45.png)
 
 2.  Select **Topics**. Click on **+ Add -\> Topic -\> From blank**.
 
-    ![](./media/image27.png)
+    ![](./media/image52.png)
 
 3.  Name the topic as +++**Get weather**+++. Click on **Edit** under Phrases to add in the Trigger phrases.
 
-    ![](./media/image28.png)
+    ![](./media/image53.png)
 
 4.  Add the following **trigger phrases**:
 
