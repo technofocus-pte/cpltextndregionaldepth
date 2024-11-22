@@ -19,11 +19,11 @@ Lab duration – 15 minutes
 
 2.  Select **Library** from the side navigation pane.
 
-    ![](./media/image1.png)
+    ![](./media/image34.png)
 
 3.  Select **+ Add an item**.     
 
-    ![](./media/image2.png)
+    ![](./media/image36.png)
 
 4.  Select **Copilot for Microsoft 365**.
 
@@ -99,7 +99,7 @@ Lab duration – 15 minutes
 
     ![](./media/image14.png)
 
-    ![](./media/image33.png)
+    ![](./media/image35.png)
 
     Your prompt action is now published to **Copilot for Microsoft 365**. It
 will show up in copilot experiences only if you have a valid Copilot
