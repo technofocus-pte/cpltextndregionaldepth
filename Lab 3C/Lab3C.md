@@ -14,9 +14,9 @@ can generate conversational responses, if there's no matching topic.
     +++**https://copilotstudio.microsoft.com/**+++
     using your tenant credentials if not already logged in.
 
-2.  Select **Copilots** and then click on **+ New copilot.**
+2.  Select **Agents ** and then click on **+ New agent.**
 
-    ![](./media/image1.png)
+    ![](./media/image14.png)
 
 3.  If prompted, select **Skip to configure**.
 
