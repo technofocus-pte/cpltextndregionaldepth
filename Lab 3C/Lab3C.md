@@ -14,7 +14,7 @@ can generate conversational responses, if there's no matching topic.
     +++**https://copilotstudio.microsoft.com/**+++
     using your tenant credentials if not already logged in.
 
-2.  Select **Agents ** and then click on **+ New agent.**
+2.  Select **Agents** and then click on **+ New agent.**
 
     ![](./media/image14.png)
 
