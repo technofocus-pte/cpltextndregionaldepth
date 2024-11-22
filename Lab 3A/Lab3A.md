@@ -184,11 +184,11 @@ you uploaded, and include a citation reference.
 
 ### **Task 4: Publish your agent**
 
-Now that you have a working copilot, you can publish it for people to
-use. The available channels through which you can deliver your copilot
+Now that you have a working agent, you can publish it for people to
+use. The available channels through which you can deliver your agent
 depend on the type of authentication you want to use to restrict access
 to it. In this case, you’ll enable access for anyone and then publish
-the copilot for use in a demo web page.
+the agent for use in a demo web page.
 
 1.  Hide the **Test your agent** pane.
 
