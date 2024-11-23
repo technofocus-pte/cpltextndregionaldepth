@@ -1,360 +1,287 @@
-# Lab 1A: Empowering Executives to do more
+ラボ1A：エグゼクティブのエンパワーメント
 
-## Objective:
+目的
 
-In this lab, you will
+このラボでは
 
-- Use Copilot in Word to create a speech you plan to deliver to company
-  shareholders.
+- WordのCopilotを使って、会社の株主に対して行う予定のスピーチを作成します。
 
-- Use Copilot in PowerPoint to create a PowerPoint presentation based on
-  the speech you created.
+- PowerPointのCopilotを使用して、作成したスピーチを基にPowerPointプレゼンテーションを作成します。
 
-## Exercise #1: Create a speech using Copilot in Word
+練習1：WordでCopilotを使ってスピーチを作成する
 
-In this exercise, you direct Copilot in Word to write a speech for you
-based on your company's Income Statement, which is stored as a Word
-document. This exercise walks you through a series of prompts that you
-can use to have Copilot in Word generate your speech and then update it
-based on your suggested changes.
+この演習では、Word
+文書として保存されている会社の損益計算書に基づいてスピーチを作成するよう、Word
+の Copilot
+に指示します。この演習では、一連のプロンプトを使用して、Copilot in Word
+でスピーチを作成し、提案された変更に基づいてスピーチを更新します。
 
-<span class="mark">**Note**: When you need to reference a file (such as
-your company's Income Statement) into a Copilot prompt, the file MUST be
-saved in a OneDrive account. You can't link to a locally stored file on
-your PC.</span>
+<span class="mark">**注**：Copilotプロンプトでファイル（会社の損益計算書など）を参照する必要がある場合、ファイルはOneDriveアカウントに保存する必要があります。PC
+にローカルに保存されているファイルにリンクすることはできません。</span>
 
-<span class="mark">You can reference/link a file into the Copilot prompt
-using one of the following methods:</span>
+<span class="mark">Copilotプロンプトでファイルを参照/リンクするには、次のいずれかの方法を使用します：</span>
 
-- <span class="mark">Select the file from the Most Recently Used (MRU)
-  file list.</span>
+- <span class="mark">MRU（Most Recently
+  Used）ファイルリストからファイルを選択します。</span>
 
-- <span class="mark">Open the file and copy its path using
-  the **Share** option, then paste the path into the prompt following
-  the forward slash (/).</span>
+- <span class="mark">ファイルを開き、**共有**オプションを使用してパスをコピーし、フォワードスラッシュ（/）に続くプロンプトにパスを貼り付けます。</span>
 
-- <span class="mark">Copy the file's path from File Explorer and paste
-  it into the prompt following the forward slash (/).</span>
+- <span class="mark">ファイルエクスプローラーからファイルのパスをコピーし、フォワードスラッシュ（/）に続くプロンプトに貼り付ける。</span>
 
-<span class="mark">In this exercise, you select the company's Income
-Statement from the MRU file list.</span>
+<span class="mark">この演習では、MRUファイルリストから会社の損益計算書を選択します。</span>
 
 ![](./media/image1.png)
 
-You will perform the following steps to have Copilot in Word create a
-speech for you based on your company's Income Statement:
+Copilot（Word）を使用して、会社の損益計算書に基づいてスピーチを作成するには、次の手順を実行します：
 
-1.  If you have a Microsoft 365 tab open in your Edge browser, then
-    select it now; otherwise, open a new tab and enter the following
-    URL:+++https://www.office.com/+++ to go to
-    the **Microsoft 365** home page.
+1.  EdgeブラウザでMicrosoft
+    365のタブを開いている場合は、今すぐ選択します。
+    そうでない場合は、新しいタブを開き、次のURLを入力します。[**https://www.office.com
+    Microsoft
+    365のホームページに移動します。**](https://www.office.com/)
 
-    **Note**: You need to sign-in (if prompted) using the **Microsoft 365
-    Credentials** provided under the **Resources tab** on the right.
+> **注**: 右側の に**ある \[リソース\] タブで**提供される **Microsoft
+> 365 認証情報を**使用してサインインする必要があります
+> (プロンプトが表示された場合)。
 
-2.  On the **Microsoft 365** navigation pane, select **OneDrive** to
-    open it.
+2.  **Microsoft
+    365の**ナビゲーションペインで、**OneDriveを**選択して開きます。
 
-    ![](./media/image2.png)
+> ![](./media/image2.png)
 
-3.  Browse to the **C:\LabFiles** folder to select and upload a copy
-    of **Fabrikam 2023 Income Statement document** to **OneDrive**.
+3.  **C:♪LabFiles** フォルダを参照して、 **Fabrikam 2023 Income
+    Statement 文書** のコピーを選択し、**OneDrive**
+    にアップロードします。
 
-    ![](./media/image3.png)
+![](./media/image3.png)
 
-    **Note**: If you have already uploaded all the lab assets to OneDrive as
-    instructed in **Preparing for the lab execution** (**Lab 0**) you can
-    skip this step.
+**注**：「**ラボ実施の準備**（**ラボ
+0**）」の指示に従って、すべてのラボ資産を OneDrive
+にアップロード済みの場合は、この手順を省略できます。
+
+4.  **Fabrikam 2023 Income
+    Statement文書**（**OneDriveに**アップロードしたもの）を開いて閉じ、最近使用したファイル（MRU）リストに表示します。
+
+**注**: 最近開いたドキュメントが MRU
+リストに表示されない場合は、**Microsoft 365**
+からログアウトし、再度サインインしてください。
 
-4.  Open and close the file **Fabrikam 2023 Income Statement document**
-    (which you uploaded to **OneDrive**) to get it in your Most Recently
-    Used (MRU) file list.
+5.  **Microsoft 365でMicrosoft
+    Wordを**開き、新しい空白の文書を開きます。スクリーンショットのように表示されるCopilotアイコンをクリックします。
 
-    **Note**: If the recently opened document is not appearing in the MRU
-    list, log out of **Microsoft 365** and sign-in again.
+![](./media/image4.png)
 
-5.  In **Microsoft 365**, open **Microsoft Word**, and then open a new
-    blank document. Click the Copilot icon that appears as shown in the
-    screenshot.
+> Copilotアイコンにマウスカーソルを合わせると、**Draft with
+> Copilotツールチップが表示さ**れます。アイコンをクリックすると、Draft
+> with Copilotウィンドウが表示されます。
+>
+> ![](./media/image5.png)
 
-    ![](./media/image4.png)
+6.  白紙文書の上部に表示される「**Copilotで下書き」**ウィンドウで、次のプロンプトを入力します：
 
-    If you hover the mouse over the Copilot icon, you will see **Draft
-    with Copilot tooltip**. Click the icon to display the Draft with
-    Copilot window.
+> <span class="mark">**ファブリカムのステークホルダー向けに、添付ファイルにある
+> 2023 年の損益計算書の結果を要約したスピーチを書いて**ください。</span>
 
-    ![](./media/image5.png)
+7.  **Draft with Copilot］**ウィンドウで、［**Reference your
+    content］**ボタンを選択します。表示されるポップアップウィンドウで、ファイルを選択します。
 
-6.  In the **Draft with Copilot** window that appears at the top of the
-    blank document, enter the following prompt:
+> 何らかの理由でファイルが表示されない場合は、ポップアップウィンドウで**「クラウドからファイルを参照**」をクリックします。
+>
+> ![](./media/image6.png)
 
-    ++**Write a speech for the Fabrikam stakeholders that summarizes the
-    results of the company's 2023 income statement found in the attached
-    file**++
+8.  表示された「**Pick a file」**ウィンドウで、「**Recent**
+    file」リストの下にある「**Fabrikam 2023 Income
+    Statement.docx」**ファイルを選択し、**「Attach」**ボタンを選択します。
 
-7.  In the **Draft with Copilot** window, select the **Reference your
-    content** button. In the pop-up window that appears, select the
-    file.
+> ![](./media/image7.png)
 
-    If, for some reasons the file is not displayed, click **Browse files
-    from cloud** in the pop-up window.
+9.  プロンプトにどのようにファイルが表示されるかに注意してください。**Generateを**選択する。
 
-    ![](./media/image6.png)
+> ![](./media/image8.png)
+>
+> **注**：何らかの理由で、参照ドキュメントを添付した後に**「Generate」**ボタンをクリックすると、「**Something
+> went
+> wrong」**エラーが表示され続ける場合は、そのエラーを解除して次のステップに進んでください。
+>
+> ![](./media/image9.png)
+>
+> ブラウザでファイルを開き、共有オプションを使用してパスをコピーし、フォワードスラッシュ（/）に続くプロンプトにパスを貼り付けます。
+>
+> ![](./media/image10.png)
+>
+> ![](./media/image11.png)
+>
+> <span class="mark">**重要**：代替オプションを試しても、同じ「something
+> went
+> wrong」例外が表示される場合は、Wordのウェブクライアントを使用するのではなく、Wordのデスクトップバージョンを使用してみてください。</span>
+>
+> <span class="mark">デスクトップ版のWordを使用しているときにうまくいく場合、**生成**ボタンをクリックしたときに「something
+> went
+> wrong」という例外が表示される場合は、今後のラボでも同じようにしてください。</span>
 
-8.  In the **Pick a file** window that appears, under
-    the **Recent** file list, select the **Fabrikam 2023 Income
-    Statement.docx** file and then select the **Attach** button.
+10. この時点で、Copilotは損益計算書から財務結果を抽出し、スピーチを作成します。
 
-    ![](./media/image7.png)
+> ![](./media/image12.png)
 
-9.  Note how the file is displayed in the prompt. Select **Generate**.
+11. スピーチを確認した後、修正したい部分がいくつかあるものの、良い出発点であると判断します。スピーチの最後にあるCopilotウィンドウで、**Keep
+    it**ボタンを選択します。
 
-    ![](./media/image8.png)
+12. Copilot
+    Editorから提案された変更点を確認することから始めます。ページ上部のメニューバーに表示される**Editor**アイコンを選択します。
 
-    **Note**: If, for some reasons, you keep getting **Something went
-    wrong** error when clicking the **Generate** button after attaching
-    the referenced document dismiss the error and proceed with the next
-    step.
+> <span class="mark">**注**：エディターアイコンはクラシックリボンに表示され、シングルラインリボンには表示されません。</span>
+>
+> ![](./media/image13.png)
 
-    ![](./media/image9.png)
+13. 表示される**「エディター」**ペインで、「**修正」**または「**リファインメント」**セクションの下に表示されるカテゴリーに注目してください。これらの問題は、多くの場合、文書で使用されている文体のトーンと関連しています。
 
-    Open the file in a browser and copy its path using the Share option,
-    then paste the path into the prompt following the forward slash (/).
+> **Editor
+> Scoreの**下には、スピーチを書くときに使用したトーンを選択するフィールドがあります。現在、「**Formal
+> writing**」と表示されていますが、これは Copilot
+> がこのスピーチを作成するときに使用したデフォルトのトーンです。プロンプトで使用する文体を指定しない場合、Copilot
+> がデフォルトで使用するトーンは **Formal writing**
+> です。このフィールドを選択すると、オプションが表示されます。プロフェッショナルな口調を希望する場合は、ドロップダウンメニューから**「Professional**」を選択します。**Editor
+> Score］が**変化するかどうかを確認してください。
 
-    ![](./media/image10.png)
+14. **Corrections** or
+    **Refinements**セクションの下に表示されるカテゴリーでは、ライティングスタイルをFormalからProfessionalに変更したことに基づいて、カテゴリーで発生した変更を確認することができます。数字（そのカテゴリの問題数を示す）が表示されている各カテゴリを選択します。そうすることで、そのカテゴリに関する文書全体の提案を確認することができます。各提案について、提案された変更を選択するか、「**無視」を**選択します。すべてのカテゴリーにチェックマークが表示されるまで、このプロセスを繰り返します。
 
-    ![](./media/image11.png)
+> ライティングスタイルを**カジュアルに**変更し、**エディタースコアが**変化するかどうかを確認する。カテゴリーに数字が表示されている場合は、そのカテゴリーを見直し、エディターがどのようなフラグを立てたかを確認します。文章スタイルをプロフェッショナルに保ちたい場合は、「提案された変更を**無視する**」を選択します。提案された変更点をすべて確認し、プロフェッショナルスタイルとカジュアルスタイルの間でフラグが立てられた違いを確認します。
+>
+> ![](./media/image14.png)
 
-    <span class="mark">**Important**: Even after trying with the alternate
-    option, if you see the same “something went wrong” exception, then
-    instead of using the web client of Word try using the desktop version
-    of Word.</span>
+15. このファイルを次のファイル名で OneDrive アカウントに保存します：
+    **Fabrikam 2023 Financial
+    presentation.docx**.次の演習では、この文書を使用します。
 
-    <span class="mark">If it works when using the desktop version of Word,
-    please follow the same in the upcoming labs, if you see the “something
-    went wrong” exception when clicking **Generate** button.</span>
+> ![](./media/image15.png)
+>
+> **重要**:
+> ファイルはローカルPCではなく**OneDriveに**保存するようにしてください。次の実習では、PowerPointのCopilotを使用して、このドキュメントに基づいてスライドプレゼンテーションを作成します。Copilotがドキュメントにアクセスするには、ドキュメントが**OneDriveに**ある必要があります。
 
-10. At this point, Copilot extracts the financial results from the
-    Income Statement and drafts a speech.
+16. Microsoft
+    Edgeブラウザで、このドキュメントが含まれているタブを閉じます。
 
-    ![](./media/image12.png)
+練習その2：PowerPointでCopilotを使用してスライドプレゼンテーションを作成する
 
-11. After reviewing the speech, you decide that it's a good starting
-    point, although there are a few areas that you want to modify. In
-    the Copilot window at the end of the speech, select the **Keep
-    it** button.
-
-12. You want to begin by reviewing any changes suggested by the Copilot
-    Editor. Select the **Editor** icon that appears in the menu bar at
-    the top of the page.
-
-    <span class="mark">**Note**: You will be able to see the **Editor**
-    icon, in the Classic Ribbon and not in the Single line ribbon.</span>
-
-    ![](./media/image13.png)
+この演習では、PowerPoint の Copilot を使用して、Word の Copilot
+を使用して作成したスピーチ (損益計算書に基づく株主へのスピーチ)
+に基づくスライド・プレゼンテーションを作成します。
 
-13. In the **Editor** pane that appears, note the categories that appear
-    under the **Corrections** or **Refinements** sections that display a
-    number (indicating the number of issues for that category). These
-    issues are often linked to the tone of the writing style used in the
-    document.
+前回の演習では、Copilot の \[MRU (Most Recently Used)\] ファイル
+リストからファイルにアクセスして、会社の損益計算書にアクセスしました。この演習では、別のプロセスを使用してファイルにアクセスする経験を積みます。MRU
+リストを使用する代わりに、前の演習で作成した **Fabrikam 2023 Financial
+presentation.docx**
+ファイルへのリンクをコピーして、スピーチにアクセスする予定です。
 
-    Below the **Editor Score** is a field that allows you to select the
-    tone used when writing the speech. It currently displays **Formal
-    writing**, which is the default tone that Copilot used when writing
-    this speech. When you don't indicate what writing style to use in your
-    prompt, **Formal writing** is the default tone that Copilot uses.
-    Select this field to see your options. You prefer a professional
-    sounding tone, so select **Professional** from the drop-down menu.
-    Note whether the **Editor Score** changes.
+PowerPointのCopilotにプレゼンテーションの下書きを作成させるには、以下の手順を実行します：
 
-14. In the categories that appear under
-    the **Corrections** or **Refinements** sections, you can review the
-    changes that occurred in the categories based on changing the
-    writing style from Formal to Professional. Select each category that
-    displays a number (indicating the number of issues for that
-    category). Doing so enables you to review the suggestions throughout
-    the document for that category. For each suggestion, select either
-    the suggested change or select **Ignore**. Repeat this process until
-    all categories display a check mark.
+1.  EdgeブラウザでMicrosoft
+    365のタブを開いている場合は、今すぐ選択します。そうでない場合は、新しいタブを開き、次のURLを入力します：[**https://www.office.com
+    Microsoft
+    365のホームページに移動します。**](https://www.office.com/)
 
-    Change the writing style to **Casual** and check whether the **Editor
-    Score** changes. If any categories display a number, review the
-    category and see what the Editor has flagged. You want to keep the
-    writing style as Professional, so select **Ignore** any suggested
-    changes. Review all the suggested changes to see the differences that
-    were flagged between Professional and Casual styles.
+> **注**: 右側の**「Resources」タブで**提供される **Microsoft 365
+> 認証情報を**使用してサインインする必要があります
+> (プロンプトが表示された場合)。
 
-    ![](./media/image14.png)
+2.  **Microsoft
+    365の**ナビゲーションペインで**Wordを**選択し、Wordファイルのページを開きます。
 
-15. Save the file to your OneDrive account with the following file
-    name: **Fabrikam 2023 Financial presentation.docx**. The next
-    exercise uses this document.
+3.  **Wordの**ファイルページで、最近のファイルのリストまでスクロールダウンし、**Fabrikam
+    2023 Financial presentation.docxを**選択してMicrosoft
+    Edgeブラウザの新しいタブで開きます。
 
-    ![](./media/image15.png)
+> ![](./media/image16.png)
 
-    **Important**: Ensure that you save the file to your **OneDrive**
-    rather than your local PC. In the next exercise, you use Copilot in
-    PowerPoint to create a slide presentation based on this document. The
-    document must be in **OneDrive** for Copilot to access it.
+4.  リボンの上にある右上の**共有**ボタンを選択し、表示されるドロップダウンメニューから**リンクをコピーを**選択して、ドキュメントのURLをコピーします。
 
-16. Close the tab containing this document in your Microsoft Edge
-    browser.
+> ![](./media/image17.png)
+>
+> **注**：アドレスバーからURLを使用する際、問題に出くわすことがあります。最良の結果を得るためには、共有トレイからリンクをコピーしてください。
 
-## Exercise #2: Create a slide presentation using Copilot in PowerPoint
+5.  Wordに表示される**「コピーしたリンク」**ダイアログボックスを閉じる。
 
-In this exercise, you will use Copilot in PowerPoint to create a slide
-presentation based on your speech (to the shareholders based on the
-Income Statement) that you created using Copilot in Word to write your
-speech.
+> ![](./media/image18.png)
 
-In the prior exercise, you accessed the company's Income Statement in
-Copilot by accessing the file from the Most Recently Used (MRU) file
-list. In this exercise, you're going to gain experience accessing a file
-using a different process. Instead of using the MRU list, you plan to
-access the speech by copying the link to the **Fabrikam 2023 Financial
-presentation.docx** file that you created in the prior exercise.
+6.  Microsoft
+    Edgeブラウザでこのドキュメントタブを閉じます。**Word｜Microsoft
+    365**」タブに戻ります。
 
-You will perform the following steps to have Copilot in PowerPoint
-create a draft of your presentation:
+7.  Wordファイルページで、左上の**App
+    Launcher**ペインにある**PowerPoint**アイコンを選択します。
 
-1.  If you have a Microsoft 365 tab open in your Edge browser, then
-    select it now; otherwise, open a new tab and enter the following
-    URL: +++https://www.office.com/+++ to go to
-    **Microsoft 365** home page.
+> ![](./media/image19.png)
 
-    **Note**: You need to sign-in (if prompted) using the **Microsoft 365
-    Credentials** provided under the **Resources tab** on the right.
+8.  **PowerPointで**、新しい空白のプレゼンテーションを開きます。
 
-2.  On the **Microsoft 365** navigation pane, select **Word** to open
-    the Word file page.
+9.  **Copilot**アイコンを選択します（スクリーンショットのように赤くハイライトされています）。
 
-3.  On the file page in **Word**, scroll down to the list of recent
-    files and select **Fabrikam 2023 Financial presentation.docx** to
-    open it in a new tab in your Microsoft Edge browser.
+> ![](./media/image20.png)
+>
+> ![](./media/image21.png)
 
-    ![](./media/image16.png)
+10. 表示される**Copilot**ペインでは、いくつかの定義済みプロンプトから選択できます。
 
-4.  Copy the URL of the document by selecting the **Share** button in
-    the upper-right corner, above the ribbon and selecting **Copy
-    Link** from the drop-down menu that appears.
+11. **ファイルからプレゼンテーションを作成\]**プロンプトを選択します。
 
-    ![](./media/image17.png)
+> **メモ**：前の演習では、MRUリストからファイルを選択してプロンプトにリンクした。この演習では、別の方法でファイルをプロンプトにリンクする方法を学びます。
+>
+> ![](./media/image22.png)
 
-    **Note**: You may occasionally come across trouble using the URL from
-    your address bar. Copy the link from the Share tray for best results
+12. **Copilot**ペインの下部にあるプロンプトフィールドの上に、最近使用した3つのファイルを含む**Suggestions**ウィンドウが表示されます。
 
-5.  Close the **Link copied** dialog box that appears in Word.
+> 通常、前の演習で作成した **Fabrikam 2023 Financial presentation.docx**
+> が MRU
+> リストに表示されます。表示されない場合は、ファイルへのリンク（ステップ5でコピーしたもの）をプロンプトフィールドに貼り付ける必要があります。
+>
+> ![](./media/image23.png)
 
-    ![](./media/image18.png)
+13. プロンプトフィールドに、Copilotが自動的に「**Create presentation
+    from file /」と**入力します。
+    スラッシュの後にカーソルを置き、**Ctrl+Vを**入力して、このドキュメントへのリンクをプロンプトに貼り付けます。
 
-6.  Close this document tab in your Microsoft Edge browser. This return
-    you to the **Word \| Microsoft 365** tab.
+> ![](./media/image24.png)
 
-7.  On the Word file page, select the **PowerPoint** icon in the **App
-    Launcher** pane on the top left.
+14. **送信**アイコンを選択します。
 
-    ![](./media/image19.png)
+15. このプロンプトを表示すると、Copilotがドキュメントに基づいてスライドプレゼンテーションを作成します。その際、プレゼンテーションのアウトラインと、プレゼンテーションに含まれる機能のリストが表示されます。これらの機能には、発言者ノート、画像、スライドを整理するためのレイアウト、および一般的な感度ラベルが含まれます。
 
-8.  In **PowerPoint**, open a new blank presentation.
+> ![](./media/image25.png)
 
-9.  Select the **Copilot** icon (in red highlight as shown in the
-    screenshot)
+16. これでスライドを自由に見直し、必要な更新を行うことができます。**デザイナー**ツールを使ってレイアウトを調整できます。
 
-    ![](./media/image20.png)
+> ![](./media/image26.png)
 
-    ![](./media/image21.png)
-
-10. In the **Copilot** pane that appears, several predefined prompts are
-    available for you to choose from.
-
-11. Select the **Create presentation from file** prompt.
-
-    **Note**: In the prior exercise, you linked a file into a prompt by
-    selecting the file from the MRU list. In this exercise, you will gain
-    experience linking a file into a prompt using another method.
-
-    ![](./media/image22.png)
-
-12. Above the prompt field at the bottom of the **Copilot** pane,
-    a **Suggestions** window will appear that contains the three most
-    recently used files.
-
-    Normally, the **Fabrikam 2023 Financial presentation.docx** that you
-    created in the previous exercise will appear in the MRU list. If it
-    did not, you must paste the link (you copied in step 5) to the file
-    into the prompt field.
-
-     ![](./media/image23.png)
-
-13. In the prompt field, Copilot automatically types in **Create
-    presentation from file /**. Place your cursor after the forward
-    slash and enter **Ctrl+V** to paste the link to this document into
-    the prompt.
-
-     ![](./media/image24.png)
-
-14. Select the **Send** icon.
-
-15. This prompt triggers Copilot to create a slide presentation based on
-    the document. In doing so, it displays the outline of the
-    presentation and a list of features included in the presentation.
-    These features may include speaker notes, images, layouts to
-    organize slides, and a General sensitivity label.
-
-     ![](./media/image25.png)
-
-16. You're now free to review the slides and make any necessary updates.
-    You can use the **Designer** tool to adjust the layouts.
-
-     ![](./media/image26.png)
-
-17. As you review the slides, be on the lookout for references to "the
-    speaker" or any other items that you may need to change.
+17. スライドを見直しながら、"the
+    speaker"（講演者）への言及や、変更が必要な項目がないか注意してください。
     ![](./media/image27.png)
 
-    **Warning**: Look out for the reference to "The speaker" along with the
-    second sentence that begins with "The presentation will summarize...".
-    that may be created by Copilot.
+> 警告Copilotによって作成された可能性のある、"The speaker
+> "への言及と、"The presentation will summarize...
+> "で始まる第2文に注意してください。
+>
+> 例世界的なパンデミックと競争市場という課題にもかかわらず、好調な業績と成長を報告するファブリカムの2023年損益計算書ハイライトに関するプレゼンテーションを紹介する。プレゼンテーションでは、主な業績を要約し、それらが会社の戦略的ビジョンと目標にどのように合致しているかを説明する。
+>
+> このような言及は、聴衆向けの文章というより、講演者用のメモとしてより適切なので、削除すべきです。
 
-    **Example**: The speaker introduces a presentation on Fabrikam's 2023
-    income statement highlights, reporting strong performance and growth
-    despite challenges from the global pandemic and competitive market.
-    The presentation will summarize the main results and explain how they
-    align with the company's strategic vision and goals.
+18. Copilotがプレゼンテーションに追加したスピーカーノートを確認します。プレゼン中に強調したいポイントを確認してください。
 
-    You should remove these types of references as they're more applicable
-    as speaker notes rather than text intended for audiences.
+19. Copilotを使用してプレゼンテーションを更新してみる。たとえば、次のプロンプトを入力します：
 
-18. Review the speaker notes that Copilot added to the presentation.
-    Verify they call out the points that you want to make during the
-    presentation.
+> **スライド1の後に新しいスライドを追加する。このスライドには、アルプスの山頂の画像を載せます。スライドの一番下に、次のようなテキストボックスを追加します：Fabrikamの社是 -
+> "We overcome every
+> obstacle."（私たちはあらゆる障害を克服します）。この新しいスライドに、Fabrikamがいかに顧客のあらゆる要望を解決するために真摯に取り組み、いかなる障害にも決して立ち向かわずに成功を収めているかについて語るスピーカーノートを追加します**。
+>
+> ![](./media/image28.png)
 
-19. Try using Copilot to update the presentation. For example, enter the
-    following prompt:
+作成された新しいスライドを見直す。残りのラボ演習ではこのプレゼンテーションは使用しませんが、将来の参考のために破棄するか、保存しておくことができます。
 
-    ++**Add a new slide after slide 1. This slide should have an image of a
-    mountain peak in the Alps. Towards the bottom of the slide, add a text
-    box that says: Fabrikam's company motto - "We overcome every
-    obstacle." Add speaker notes to this new slide that talk about how
-    Fabrikam works diligently to solve every customer's request, never
-    letting any obstacle stand in its way of success**++
+概要
 
-     ![](./media/image28.png)
+このラボでは
 
-    Review the new slide that was created. While the remaining lab exercises
-    don't use this presentation, you can either discard it or save it if you
-    want for future reference.
+- Microsoft
+  CopilotのWord機能を活用し、キーメッセージや会社の最新情報を効果的に伝えるコンテンツの作成を含む、包括的なスピーチの草稿を作成。
 
-## Summary
-
-In this lab, you have
-
-- Utilized Microsoft Copilot's capabilities in Word to draft a
-  comprehensive speech that includes generating content that effectively
-  communicates key messages and company updates.
-
-- Leveraged Microsoft Copilot in PowerPoint to transform the speech
-  created in Word into a visually engaging and informative presentation,
-  creating slides that highlight the main points of the speech, using
-  Copilot to ensure consistency and clarity in the presentation format.
+- MicrosoftのCopilotをPowerPointで活用し、Wordで作成したスピーチを視覚的に魅力的で情報量の多いプレゼンテーションに変換。Copilotを使用してプレゼンテーション形式の一貫性と明瞭性を確保しながら、スピーチの要点を強調するスライドを作成した。
