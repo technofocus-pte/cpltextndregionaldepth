@@ -1,515 +1,497 @@
-# Lab 1C: Improving Sales and Marketing productivity
+ラボ1C：営業とマーケティングの生産性向上
 
-## Objective:
+目的
 
-Marketing and Sales professionals can utilize Copilot for Microsoft 365
-to generate content for their campaigns, improve productivity, get
-insights into their campaigns, collaborate more effectively and
-automating repetitive tasks such as formatting, adding charts and
-graphs, and even proofreading documents.
+マーケティングおよびセールス担当者は、Copilot for Microsoft
+365を活用することで、キャンペーン用のコンテンツを作成し、生産性を向上させ、キャンペーンに関する洞察を得て、コラボレーションを効率化し、書式設定、図表の追加、文書の校正などの繰り返し作業を自動化することができます。
 
-In this lab you will use:
+このラボでは、以下のものを使用する：
 
-- Microsoft Copilot (Bing/Web mode) to analyze market trends, provide
-  sales forecasts, and identify new sales opportunities.
+- Microsoft
+  Copilot（Bing/Webモード）による市場動向の分析、販売予測、新規販売機会の特定。
 
-- Copilot in Word to combine multiple marketing reports.
+- WordのCopilotで複数のマーケティングレポートを結合。
 
-- Copilot in Excel to analyze market trends in a spreadsheet.
+- ExcelのCopilotを使用し、スプレッドシートで市場動向を分析。
 
-## Exercise #1: Conduct market analysis using Microsoft Copilot
+## 練習1：Microsoft Copilotを使った市場分析の実施
 
-Microsoft Copilot (within Bing) is a generative AI service grounded in
-data from the public web in the Microsoft Bing search index only. It
-doesn't have access to organizational resources or content within the
-Microsoft 365 Graph.
+Microsoft Copilot（Bing内）は、Microsoft
+Bing検索インデックス内のパブリックウェブのデータのみを根拠とするGenerative
+AIサービスである。Microsoft 365
+Graph内の組織リソースやコンテンツにはアクセスできない。
 
-As the Director for Market Research at Tailspin Toys, you want to
-conduct a market analysis of the toy industry to provide to the
-company's Senior Leadership Team (SLT). Your goal is to identify the
-latest trends, consumer preferences, and the most popular toys in the
-market.
+Tailspin
+Toysの市場調査担当ディレクターとして、あなたは玩具業界の市場分析を行い、会社のシニア・リーダーシップ・チーム（SLT）に提供したいと考えています。あなたの目標は、最新のトレンド、消費者の嗜好、市場で最も人気のある玩具を特定することです。
 
-In this exercise you will utilize the Microsoft Copilot chat
-functionality in Bing. When you use Microsoft Copilot, it's important to
-provide context and resources when you craft your prompts. The quality
-of the response is a function of how you craft the request by following
-the tips and choosing the right conversation style (either More
-Creative, More Balanced, or More Precise).
+この演習では、BingのMicrosoft Copilotチャット機能を使用します。Microsoft
+Copilotを使用する場合、プロンプトを作成するときにコンテキストとリソースを提供することが重要です。回答の質は、ヒントに従ってどのようにリクエストを作成し、適切な会話スタイル（More
+Creative、More Balanced、More
+Preciseのいずれか）を選択するかによって決まります。
 
-1.  In **Microsoft Edge**, open a new tab and enter the following
-    URL: +++**<https://bing.com>+++**
+1.  **Microsoft
+    Edgeで**新しいタブを開き、以下のURLを入力する：[**+++https://bing.com+++**](https://bing.com)
 
-2.  In **Microsoft Bing**, in the list of tabs across the top of the
-    page, select **Copilot**. Doing so opens Microsoft Copilot.
+2.  **Microsoft
+    Bingで**、ページ上部のタブの一覧から**Copilotを**選択します。Microsoft
+    Copilotが開きます。
 
     ![](./media/image1.png)
 
-    **Note:** If you don’t see the list of tabs across the top of the
-    page, please follow the steps below to view the list of tabs.
 
-- Ensure you have signed-in using the **Microsoft 365 credentials**
-  (available under the **Resources** tab).
+
+ **注：**ページ上部にタブのリストが表示されない場合は、以下の手順でタブのリストを表示してください。
+
+- **Microsoft 365
+  認証情報を**使用してサインインしていることを確認します（\[**リソース**\]
+  タブで利用可能）。
+
 
     ![](./media/image2.png)
 
-- Enable the option **Show menu bar** (in red highlight)
+- **メニューバーを表示する**オプションを有効にする（赤いハイライト部分）
+
 
     ![](./media/image3.png)
 
     ![](./media/image4.png)
 
-3.  Now select **Copilot**. Doing so opens Microsoft Copilot.
+3.  **Copilotを**選択します。Microsoft Copilotが開きます。
+
 
     ![](./media/image5.png)
 
-4.  On the **Copilot** page, note the toggle switch at the top of the
-    page that allows you to select either **Work** or **Web**. While
-    your request is a work-related task, you need Copilot to access the
-    Web to conduct its market analysis of the Toy industry. If
-    necessary, select the **Web** toggle switch.
+4.  **Copilotの**ページで、ページ上部のトグルスイッチに注目してください。リクエストは仕事に関連するタスクですが、Copilotが玩具業界の市場分析を行うにはWebにアクセスする必要があります。必要に応じて、**Webの**トグルスイッチを選択してください。
+
 
     ![](./media/image6.png)
 
+
+
     ![](./media/image7.png)
 
-    **Note**: The conversational tone selector **More Creative -More Balanced-
-    More Precise** present in the previous Copilot version is dropped in
-    the latest version.
 
-5.  In the prompt field, enter the following prompt and then select
-    the **Submit** icon:
 
-    ++**I'm the Director for Market Research for Tailspin Toys, a U.S.
-    based toy manufacturer. Conduct a market analysis of the toy industry
-    to identify sales figures, the latest trends, consumer preferences,
-    and the most popular toys in the market**.++
+ 注：旧バージョンのCopilotにあった会話トーンセレクター「**More
+
+ Creative - More Balanced - More
+
+ Precise**」は、最新バージョンでは廃止されています。
+
+5.  プロンプトフィールドに以下のプロンプトを入力し、**Submit**アイコンを選択する：
+
+
+ **米国の玩具メーカー、テイルスピン・トイズの市場調査担当ディレクターです。玩具業界の市場分析を行い、販売数、最新トレンド、消費者の嗜好、市場で最も人気のある玩具を特定する**。
+
+
 
     ![](./media/image8.png)
 
-6.  Review the market analysis that Copilot generated. You realize that
-    a general request such as the one you submitted provides basic
-    information such as market trends, consumer preferences, and toy
-    trends. However, you're also interested in gathering data on the toy
-    industry, including market share and consumer feedback. You realized
-    that you were a little too vague in your prior prompt since you
-    failed to request this specific information. You remember the best
-    practice suggestions from your earlier training - Be polite and
-    iterate, iterate, iterate. Enter the following prompt to amend the
-    market analysis:
+6.  Copilotが作成した市場分析を確認してください。提出したリクエストのような一般的なリクエストでは、市場動向、消費者の嗜好、玩具のトレンドなどの基本的な情報が得られることを理解しています。しかし、市場シェアや消費者の声など、玩具業界に関するデータも収集したいと考えています。このような具体的な情報を要求していなかったため、事前のプロンプトでは少し漠然としすぎていたことに気づきました。礼儀正しく、反復、反復、反復。次のプロンプトを入力し、市場分析を修正する：
 
-    ++**That analysis was great. However, I'm also interested in
-    including data on the toy industry, including market share and
-    consumer feedback. Please amend your prior analysis to include this
-    information. Thanks**!++
+
+ **その分析は素晴らしかった。しかし、市場シェアや消費者の声など、玩具業界に関するデータも含めたいと思っています。この情報を含むように、以前の分析を修正してください。ありがとうございます**！
+
+
 
     ![](./media/image9.png)
 
-    <![](./media/image10.png)
 
-    [](./media/image11.png)
 
-7.  You realize that you're getting closer to your goal, but you're
-    still missing some key information. After reviewing your prior
-    prompts, you realized that you provided Copilot with your overall
-    objective, the scope of the analysis, and the data that you needed.
-    However, you failed to ask Copilot to analyze all this information
-    so that you can make informed decisions on Tailspin Toys’ business
-    plan for the upcoming year. To correct this shortcoming, enter the
-    following prompt:
+    ![](./media/image10.png)
 
-    ++**I think all the data is complete. With all the information that
-    you captured, please analyze the data and identify patterns, trends,
-    and insights that can help me determine what Tailspin Toy's business
-    plan should be for the upcoming year**++
+
+
+    ![](./media/image11.png)
+
+7.  目標に近づいていることに気付きましたが、まだ重要な情報が不足しています。事前のプロンプトを確認した後、Copilotに全体的な目的、分析の範囲、必要なデータを提供したことに気付きました。しかし、Tailspin
+    Toysの次年度の事業計画について十分な情報を得た上で意思決定できるように、Copilotにこれらの情報をすべて分析するよう依頼できませんでした。この欠点を修正するには、次のプロンプトを入力します：
+
+
+ **データはすべて揃っていると思います。このデータを分析し、パターンや傾向、洞察を明らかにして**ください**。**
+
+
 
     ![](./media/image12.png)
 
+
+
     ![](./media/image13.png)
 
-8.  You really like the information that Copilot provided. However,
-    since this project is your first opportunity to provide a market
-    analysis report to your company's SLT, you're not sure if you're
-    covering everything that might be of interest to them. You decide to
-    have Copilot help you determine if you're missing anything. Enter
-    the following prompt:
+8.  Copilotが提供してくれた情報はとても気に入っています。しかし、このプロジェクトはSLTに市場分析レポートを提供する初めての機会であるため、SLTが関心を持ちそうな情報をすべて網羅しているかどうか確信が持てません。そこで、Copilot
+    に不足しているものがないかどうかを判断してもらうことにしました。次のプロンプトを入力します：
 
-    ++**Please analyze the data in this market analysis and business
-    plan. Is there any other information that a toy company would
-    typically request for market analysis and business plans that I failed
-    to request? If so, can you please amend your responses to include this
-    information. Thank you**!++
+
+ **この市場分析とビジネスプランのデータを分析してください。玩具会社が市場分析および事業計画のために通常要求する情報で、私が要求しなかったものはありますか？もしあれば、この情報を含むように回答を修正していただけますか。ありがとうございました**！
+
+
 
     ![](./media/image14.png)
 
+
+
     ![](./media/image15.png)
 
-9.  Based on the information that Copilot provides, you realize that you
-    can really maximize the effectiveness of your reports by having
-    Copilot include an analysis of these areas. To put the finishing
-    touch on your reports, enter the following prompt:
+9.  Copilot が提供する情報に基づき、Copilot
+    にこれらの領域の分析を含めることで、レポートの効果を最大限に高めることができます。レポートの仕上げを行うには、次のプロンプトを入力します：
 
-    ++**Please amend the market analysis to include an analysis of each
-    of these areas for the Toy industry. Also update the business plan
-    that you created for Tailspin Toys based on these insights.
-    Thanks**!++
+
+ **市場分析を修正し、玩具業界のこれらの各分野の分析を含めてください。また、これらの洞察に基づいてTailspin
+
+ Toysのために作成したビジネスプランも更新してください。ありがとうございました**！
+
+
 
     ![](./media/image16.png)
 
+
+
     ![](./media/image17.png)
-10. The market analysis and business plan that Copilot generated for you
-    was based on a predefined conversation style. It's ideal for users
-    who want a balance between precision and creativity.
 
-    If you're curious as to how the reports would look using the **More
-    Creative** style (responses that are more imaginative and creative)
-    you can adjust your prompts to manually set the tone or focus,
-    depending on whether you want precise, creative, or balanced outputs:
+10. Copilotが作成した市場分析と事業計画は、事前に定義された会話スタイルに基づいています。正確さと創造性のバランスを求めるユーザーに最適です。
 
-    **Points to note**:
 
-    - **For Precise Responses**: Use clear, specific, and detail-oriented
-      prompts. Indicate that you want factual, concise answers with a focus
-      on accuracy.
+ **よりクリエイティブな**スタイル（より想像的で創造的な回答）を使用したレポートがどのように見えるか興味がある場合は、プロンプトを調整して、正確な出力、創造的な出力、またはバランスの取れた出力のいずれを求めるかによって、トーンまたはフォーカスを手動で設定することができます：
 
-    - **For Creative Responses**: Use open-ended, exploratory, or
-  i   maginative prompts. Encourage brainstorming or suggest solutions
-      where originality is needed.
 
-    - **For Balanced Responses:** Use moderately open-ended prompts that
-      request a mix of factual detail with some creativity. You can ask for
-      both analytical and exploratory input.
 
-  ## Export a Copilot response
+ **注意すべき点**
 
-  When you use Microsoft Copilot in Bing to research different things or
-  answer different questions, you may decide that a response is so good
-  that you want to save it for future reference. 
+- **的確な**回答の**ために**明確で具体的、かつ詳細志向のプロンプトを使用する。正確さを重視し、事実に基づいた簡潔な回答を求めていることを示す。
 
-  1.  Select **Copy** button at the bottom of a prompt response to copy
-      the response and paste the copied response in a text editor.
+- **創造的な回答のために**：自由形式、探索的、または想像的なプロンプトを使用する。独創性が必要な場合は、ブレーンストーミングを奨励したり、解決策を提案する。
 
-      ![](./media/image18.png)
+- **バランスのとれた回答のために**事実の詳細と創造性を織り交ぜた、適度な自由形式のプロンプトを使用する。分析的な意見と探求的な意見の両方を求めることができます。
 
-      If you want to consolidate multiple responses into a single document,
-      you need to manually copy and paste each response in a text editor and
-      save the file.
+Copilot レスポンスのエクスポート
 
-## Exercise #2: Consolidate multiple marketing reports using Copilot in Word
+BingのMicrosoft
+Copilotを使用してさまざまなことを調べたり、さまざまな質問に答えたりするとき、ある回答が非常に優れていると判断して、将来の参考のために保存したくなることがあります。
 
-Copilot in Word, an AI-powered writing assistant, can help you rewrite
-existing content, or even transform selected content into a table.
+1.  プロンプト応答の下部にある**コピー**ボタンを選択すると、応答がコピーされ、
+    コピーされた応答がテキストエディタに貼り付けられます。
 
-As the Latin America (LATAM) Marketing Director for Contoso Beverage, a
-division of Contoso, Ltd., your product manager provided you with three
-separate reports involving the company's Mystic Spice Premium Chai Tea
-beverage. However, you’re finding it difficult to analyze the
-information, since you’re constantly jumping back and forth between
-documents.
 
-You decide to combine the reports into a single LATAM Market Analysis
-report for Mystic Spice Premium Chai Tea. In this exercise you will use
-Copilot to creates the combined report, review it and possibly update it
-with other information that Copilot can find on the Chai Tea market in
-Latin America.
+    ![](./media/image18.png)
 
-1.  If you have a **Microsoft 365** tab open in your Microsoft Edge
-    browser, then select it now; otherwise, open a new tab and enter the
-    following
-    URL: +++https://www.office.com+++ to go to the **Microsoft 365** home page.
 
-    **Note**: You need to sign-in (if prompted) using the **Microsoft 365
-    Credentials** provided under the **Resources tab** on the right.
 
-2.  Browse to the **C:\LabFiles** folder to select and upload a copy of
-    the following documents to **OneDrive**.
+ 複数の回答を1つの文書にまとめたい場合は、各回答をテキストエディタで手動でコピー＆ペーストし、ファイルを保存する必要があります。
 
-  - **Mystic Spice Premium Chai Tea product description**
+練習その2：WordのCopilotを使用して複数のマーケティングレポートを統合する
 
-  - **Contoso Chai Tea market trends 2023**
+WordのCopilotは、AI-poweredライティングアシスタントで、既存のコンテンツを書き直したり、選択したコンテンツを表に変換することもできます。
 
-  - **Promotion Plan for Chai Tea in Latin America**
+Contoso, Ltd.の一部門であるContoso
+Beverageのラテンアメリカ（LATAM）マーケティングディレクターであるあなたは、プロダクトマネージャーから、同社のミスティックスパイス・プレミアム・チャイティー飲料に関する3つの報告書を受け取りました。しかし、あなたは常に書類を行ったり来たりしているため、情報を分析するのが難しいと感じています。
 
-  **Note**: You can skip this step, if you have already uploaded a copy
-  of all the documents (that you will be using in this hands-on lab
-  session from **C:\LabFiles** as instructed in **Lab 0**).
+このレポートを 1 つにまとめ、Mystic Spice Premium Chai Tea
+のラテンアメリカ市場分析レポートを作成することにしました。この演習では、Copilot
+を使用して結合レポートを作成し、それをレビューして、ラテンアメリカのチャイティー市場に関するその他の情報を更新します。
 
-3.  In this exercise, you access the documents from the Most Recently
-    Used file list. To get the files to appear in the MRU list, open
-    each of the three document and then close them.
+1.  Microsoft Edgeブラウザで**Microsoft
+    365の**タブを開いている場合は、今すぐ選択します。そうでない場合は、新しいタブを開き、次のURLを入力します：
+    +++https://www.office.com+++
 
-    ![](./media/image19.png)
+Microsoft
+    365のホームページに移動します。</u
+**](https://www.office.com/)
 
-4.  In **Microsoft 365**, open **Microsoft Word**, and then open a new
-    blank document.
+**注**: 右側の に**ある \[リソース\] タブで**提供される **Microsoft 365
+認証情報を**使用してサインインする必要があります
+(プロンプトが表示された場合)。
 
-5.  In the **Draft with Copilot** window that appears at the top of the
-    blank document, enter the following prompt, but don't select
-    the **Generate** button until after you link the three files to the
-    prompt:
+2.  **C:◆LabFiles**フォルダを参照し、以下のドキュメントのコピーを選択して**OneDriveに**アップロードします。
 
-    ++**I'm the LATAM Marketing Director for Contoso Beverage. Please
-    create a LATAM Market Analysis report for our Mystic Spice Premium
-    Chai Tea beverage. Combine the three attached files to create a report
-    that describes the product, analyzes the market trend for it, and
-    includes a promotion plan for Latin America**.++
+- **ミスティック・スパイス・プレミアム・チャイティー 商品説明**
 
-    ![](./media/image20.png)
+- **コントソチャイティー市場動向2023**
 
-6.  You now must attach the three documents to the prompt. In
-    the **Draft with Copilot** window, select the **Reference your
-    content** button. In the drop-down menu that appears, if
-    the **Mystic Spice Premium Chai Tea product description.docx** file
-    appears in the list of files, select it. Otherwise, select **Browse
-    files from cloud**, select the file from the **Recent** file list,
-    and then select the **Attach** button. Note how the file is
-    displayed in the prompt.
-
-    ![](./media/image21.png)
-
-7.  Repeat the prior step for both the **Contoso Chai Tea market trends
-    2023.docx** file and the **Promotion Plan for Chai Tea in Latin
-    America.docx** file. At this point, links to all three files should
-    appear in the prompt.
-
-    ![](./media/image22.png)
+- **ラテンアメリカにおけるチャイティーのプロモーション計画**
 
-8.  Select **Generate**. Upon doing so, Copilot extracts the pertinent
-    information from the three files and drafts a report that combines
-    them into a single Market Analysis report for Mystic Spice Premium
-    Chai Tea.
-
-    ![](./media/image23.png)
 
-9.  After reviewing this first draft of the Market Analysis report, you
-    recognize that it's missing some critical information. You would
-    like to see it include a section titled **Competitive Analysis**.
-    You want Copilot to analyze the competition. To do so, enter the
-    following prompt in the Copilot window at the bottom of the report
-    and then select the **Generate** arrow:
+ **注**: すべてのドキュメントのコピー（実習ラボ
 
-    ![](./media/image24.png)
+ セッションで使用するもの）を、**実習ラボ 0** の指示に従って
 
-    ++**This report looks good. However, please add a section titled
-    Competitive Analysis. Review the beverage companies in Latin America
-    that sell Chai Tea and then provide information in this section on the
-    strengths and weaknesses of these competitors, their market share, and
-    their pricing strategies**++
+ **C:∕LabFiles**
 
-    ![](./media/image25.png)
+ からすでにアップロードしている場合は、この手順を省略できます。
 
-10. After reviewing this second draft of the report that contains the
-    new Competitive Analysis section, you realize that one last thing is
-    missing. You want Copilot to add a section on **Distribution
-    Channels**. This section should analyze the distribution channels
-    used to sell Chai Tea in Latin America. To do so, enter the
-    following prompt in the Copilot window at the bottom of the report
-    and then select the **Generate** arrow:
+3.  この練習では、"最近使用したファイル
+    "リストからドキュメントにアクセスします。MRUリストにファイルを表示させるには、3つのドキュメントをそれぞれ開いてから閉じます。
 
-    ![](./media/image26.png)
 
-    ++**Nice job! One last thing. Please add a section titled Distribution
-    Channels. Review the distribution channels used to sell Chai Tea in
-    Latin America and then provide information in this section on the
-    types of retailers, wholesalers, and distributors used**++
+ ![](./media/image19.png)
 
-11. After reviewing this latest draft that contains the new Distribution
-    Channels section, you're satisfied with the report and you're ready
-    to save it. In the Copilot window at the bottom of the document,
-    select the **Keep it** button to convert it from a Copilot draft to
-    a Word document.
+4.  **Microsoft 365でMicrosoft
+    Wordを**開き、新しい空白の文書を開きます。
 
-    ![](./media/image27.png)
+5.  空白ドキュメントの上部に表示される「**Copilotを使用した下書き」**ウィンドウで、次のプロンプトを入力します。ただし、3つのファイルをプロンプトにリンクするまでは、**「生成」**ボタンを選択しないでください：
 
-12. Review the document. If you want to make any manual changes, you can
-    do so now. Once you're satisfied with it, feel free to save the
-    document to your OneDrive if you wish to keep it for future
-    reference, or just discard it.
 
-13. Close this tab in your Microsoft Edge browser.
+ **コントソ・ビバレッジのLATAMマーケティング・ディレクターです。ミスティックスパイス・プレミアム・チャイティー飲料のLATAM市場分析レポートの作成をお願いします。添付の3つのファイルを組み合わせて、製品の説明、市場動向の分析、ラテンアメリカでのプロモーション計画を含むレポートを作成してください**。
 
-## Exercise #3: Analyze a market trend spreadsheet using Copilot in Excel
 
-Copilot in Excel is a powerful tool that can help Marketing
-professionals create, edit, understand, and visualize their data with
-ease and gain insights into their business.
 
-Copilot’s AI-powered capabilities can help Marketing professionals save
-time and effort by automating repetitive tasks (analyze quarterly
-business results, summarize key trends, apply color coding to tables,
-create models, scenarios, filter and sort, and add charts at the click
-of a mouse) and providing valuable insights that can help them make
-informed decisions.
+ ![](./media/image20.png)
 
-As the Director of Marketing for Contoso Beverage, a division of
-Contoso, Ltd., you received a market trend spreadsheet showing monthly
-activity for Contoso's Chai Tea product. You want to use the features of
-Copilot in Excel to analyze the report and provide detailed analysis of
-the monthly marketing trends.
+6.  ここで、3 つの文書をプロンプトに添付する必要があります。**Draft with
+    Copilot** ウィンドウで、\[**Reference your content**\]
+    ボタンを選択します。表示されるドロップダウンメニューで、ファイルの一覧に
+    **Mystic Spice Premium Chai Tea product description.docx**
+    ファイルが表示されている場合は、それを選択します。そうでない場合は、**\[クラウドからファイルを参照\]**
+    を選択し、\[**最近使用した**ファイル\]
+    リストからファイルを選択して、**\[添付\]**
+    ボタンを選択します。プロンプトにファイルがどのように表示されるかに注意してください。
 
-In this exercise, you will use Copilot in Excel to analyze a market
-trend spreadsheet that already has an Excel table defined.
 
-  <span class="mark">**Note**: When you use Copilot in Excel, you must
-  have an Excel table that includes data in a worksheet. You can quickly
-  turn a range of cells into an Excel table by following these
-  steps:</span>
+ ![](./media/image21.png)
 
-- <span class="mark">Select the cell or the range in the data.</span>
+7.  **Contoso Chai Tea market trends 2023.docx**ファイルと**Promotion
+    Plan for Chai Tea in Latin
+    America.docx**ファイルの両方について、前のステップを繰り返します。この時点で、3つのファイルへのリンクがプロンプトに表示されるはずです。
 
-- <span class="mark">Select **Home** \> **Format as Table**.</span>
 
-- <span class="mark">In the **Format as Table** dialog box, select the
-  checkbox next to **My table has headers** if you want the first row of
-  the range to be the header row.</span>
+ ![](./media/image22.png)
 
-- <span class="mark">Select **OK**.</span>
+8.  **生成\]を**選択します。そうすると、Copilotは3つのファイルから適切な情報を抽出し、それらを1つのレポートにまとめて、Mystic
+    Spice Premium Chai Teaの市場分析レポートを作成します。
 
-1.  If you have a **Microsoft 365** tab open in your Microsoft Edge
-    browser, then select it now; otherwise, open a new tab and enter the
-    following URL: +++**<https://www.office.com>+++** to go to the
-    **Microsoft 365** home page.
 
-    **Note**: You need to sign-in (if prompted) using the **Microsoft 365
-    Credentials** provided under the **Resources tab** on the right.
+ ![](./media/image23.png)
 
-2.  Browse to the **C:\LabFiles** folder to select and upload a copy of
-    **Contoso Chai Tea market trends 2023.xlsx** to **OneDrive.**
+9.  市場分析レポートの第一稿を見直した結果、重要な情報が欠けていることに気づきました。**競合分析**」というタイトルのセクションが必要です。Copilotに競合を分析させたい。そのためには、レポート下部の
+    Copilot ウィンドウに次のプロンプトを入力し、\[**Generate\] (生成)**
+    矢印を選択します：
 
-    **Note**: You can skip this step, if you have already uploaded a copy
-    of all the documents (that you will be using in this hands-on lab
-    session from **C:\LabFiles** as instructed in **Lab 0**).
 
-3.  Open and close the file **Contoso Chai Tea market trends 2023.xlsx**
-    (which you uploaded to **OneDrive**) to get it in your Most Recently
-    Used (MRU) file list.
+ ![](./media/image24.png)
 
-    ![](./media/image28.png)
 
-4.  On the **Microsoft 365** home page, select the **Excel** icon in the
-    navigation pane on the left.
 
-5.  In **Excel**, on the **File** page, select **Contoso Chai Tea market
-    trends 2023.xlsx** from the file list.
+ **このレポートは良くできている。しかし、競合分析というタイトルのセクションを追加してください。ラテンアメリカでチャイ・ティーを販売している飲料メーカーをレビューし、その競合他社の強みと弱み、市場シェア、価格戦略に関する情報をこのセクションで提供してください**。
 
-6.  Select the **Copilot** option on the right side of the ribbon.
 
-7.  In the **Copilot** pane that appears, several predefined prompts are
-    available for you to choose from. Select the **Show data
-    insights** button.
 
-    ![](./media/image29.png)
+ ![](./media/image25.png)
 
-    ![](./media/image30.png)
+10. 新しい「競合分析」セクションを含むレポートの第2稿を見直した後、最後に1つだけ欠けていることに気付きます。Copilotに「**流通チャネル**」のセクションを追加してほしいのです。このセクションでは、ラテンアメリカでチャイティーを販売するために使用される流通チャネルを分析する必要があります。そのためには、レポート下部のCopilotウィンドウに次のプロンプトを入力し、**生成**矢印を選択します：
 
-8.  Note the pivot chart that it generated. When we tested this
-    exercise, Copilot always created a line graph of the **Social Media
-    Engagement (views) by Date**. What type of chart did Copilot create
-    for you? Below the chart that Copilot created for you, select
-    the **+Add to a new sheet** button.
 
-    ![](./media/image31.png)
+ ![](./media/image26.png)
 
-9.  Though Copilot says it added the chart to Sheet 2, Sheet 2 is not
-    visible in the spreadsheet.
 
-    ![](./media/image32.png)
 
-10. Try with maximized excel sheet and repeat step 11. The **Add to
-    sheet function** worked fine now.
+ **よくやった！最後にひとつだけ。流通チャネル」というセクションを追加してください。ラテンアメリカでチャイ・ティーを販売するために使われている流通経路を検討し、使われている小売店、卸売業者、販売業者の種類に関する情報をこのセクションに提供してください**。
 
-    ![](./media/image33.png)
+11. 新しい \[販売チャネル\]
+    セクションを含む最新の草稿を確認した後、レポートに満足して保存する準備ができました。ドキュメントの下部にある
+    Copilot ウィンドウで \[**Keep it\]** ボタンを選択し、Copilot
+    ドラフトから Word ドキュメントに変換します。
 
-11. Select **Sheet 2**. Review the new data sheet that Copilot created.
-    Copilot included both the graph and the column of data from the
-    spreadsheet that was the basis of this graph. Hold your cursor over
-    the chart and note the window that appears which indicates the type
-    of chart that Copilot generated.
 
-    ![](./media/image34.png)
+ ![](./media/image27.png)
 
-14. Note how in the Copilot pane, the list of predefined prompts no
-    longer appears. This situation occurs because Copilot doesn't work
-    on PivotTables yet (note the message indicating this issue).
-    Select **Sheet 1**, which returns you back to the Excel table. Note
-    how the predefined prompts appear.
+12. 文書を見直す。手動で変更したい場合は、今すぐ変更できます。ご満足いただけたら、今後の参考のために文書を保存しておきたい場合は、OneDriveに保存してください。
 
-    ![](./media/image35.png)
-15. In the predefined prompts that appear above the prompt field, select
-    the **Show suggestions for formula columns** button.
+13. Microsoft Edgeブラウザでこのタブを閉じます。
 
-16. Note the suggestion that Copilot provides. The following image shows
-    the suggestion that Copilot provided during our testing.
+演習3:エクセルのCopilotを使用して市場トレンドのスプレッドシートを分析する
 
-    ![](./media/image36.png)
+ExcelのCopilotは、マーケティング担当者がデータを簡単に作成、編集、理解、視覚化し、ビジネスに関する洞察を得るのに役立つ強力なツールです。
 
-17. In the suggestion that you received, select the **Explain
-    formula** drop-down arrow. Review Copilot's explanation that
-    describes the calculation. Select the **+Insert Column** button to
-    insert this column into your Excel table.
+CopilotのAI-powered機能は、反復的なタスク（四半期業績の分析、主要トレンドの要約、表の色分け、モデルの作成、シナリオの作成、フィルタリングと並べ替え、マウスのクリックによるグラフの追加）を自動化することで、マーケティング担当者の時間と労力を節約し、情報に基づいた意思決定に役立つ貴重な洞察を提供します。
 
-    ![](./media/image37.png)
-    
-18. Note how Copilot added this column of data to the end of your Excel
-    table in **Sheet 1**. Is this feature intriguing you? You may want
-    to see what other formula suggestions it provides. Select the **Show
-    suggestions for formula columns** button again. Note the suggestion.
-    Select the **+Insert Column** button to insert this suggested column
-    into your Excel table.
+Contoso, Ltd.の一部門であるContoso
+Beverage社のマーケティング部長であるあなたは、Contoso社のチャイ紅茶製品の月ごとの活動を示す市場動向のスプレッドシートを受け取りました。Excel
+の Copilot
+の機能を使用してレポートを分析し、毎月のマーケティング傾向の詳細な分析を行いたいとします。
 
-19. In the predefined prompts that appear above the prompt field, select
-    the **How can I highlight, filter, and sort data**? button.
+この演習では、ExcelのCopilotを使用して、すでにExcelテーブルが定義されている市場トレンドのスプレッドシートを分析します。
 
-    ![](./media/image38.png)
 
-20. Note the list of actions that you can take.
+ <span> class="mark"
+**注**: Excel で Copilot
 
-    ![](./media/image39.png)
+ を使用する場合は、ワークシートのデータを含む Excel
 
-21. At this point, the predefined prompts that Copilot displays no
-    longer interest you. As such, you want to see a new set of prompts.
-    Select the **Refresh** button that appears above the prompt field.
+ テーブルが必要です。次の手順を実行すると、セル範囲を Excel
 
-    ![](./media/image40.png)
+ テーブルにすばやく変換できます：</span>
 
-22. Review the revised list of predefined prompts that now appear. The
-    following image shows examples of prompts that was displayed.
 
-    ![](./media/image41.png)
+- <span> class="mark"
+データ内のセルまたは範囲を選択します。</span>
 
-23. The purpose of this exercise is to get a feel for the various types
-    of predefined actions that Copilot can perform. Therefore, select
-    different prompts to see what happens. For example:
 
-    - If a **Sort** prompt appears, select it now. Note how Copilot
-      sorted the data for you.
+- <span> class="mark"
+**Home** \
+ **Format as Table** を選択する。</span>
 
-    - If a **Bold** prompt appears, select it now. Note how Copilot
-      bolded the items in the column it mentioned and left any others
-      nonbolded.
 
-24. Again select the **Refresh** button that appears above the prompt
-    field.
+- <span> class="mark"
+**表としてフォーマット**
+  ダイアログボックスで、範囲の最初の行をヘッダー行にしたい場合は、**My
+  table has headers** の横のチェックボックスを選択する。</span>
 
-    ![](./media/image40.png)
 
-25. Review the new set of prompts that it displays. Select
-    the **Refresh** button several times to see the different types
-    prompts that Copilot provides.
+- <span> class="mark"
+**OKを**選択する。</span>
 
-26. Feel free to select any other prompts to see what Copilot does. When
-    you're done, close your Microsoft Edge browser tab.
 
-## Summary:
+1.  Microsoft Edgeブラウザで**Microsoft
+    365の**タブを開いている場合は、今すぐそれを選択します。そうでない場合は、新しいタブを開き、次のURLを入力します：[**<u
+https://www.office.com
+    Microsoft
+    365のホームページに移動します。</u
+**](https://www.office.com/)
 
-In this lab you used
 
-- Microsoft Copilot (Bing/Web mode) to analyze market trends
+ **注**: 右側の**「Resources」タブで**提供される **Microsoft 365
 
-- Copilot in Word to combine multiple marketing reports into a cohesive
-  document.
+ 認証情報を**使用してサインインする必要があります
 
-- Copilot in Excel to analyze market trends within a spreadsheet.
+ (プロンプトが表示された場合)。
 
-Through these activities, you can streamline the processes and improve
-the overall effectiveness of your marketing campaigns.
+2.  **C:「LabFiles」**フォルダを参照し、「**Contoso Chai Tea market
+    trends 2023.xlsx**」を選択し、**OneDriveに**アップロードします**。**
+
+
+ **注**: すべてのドキュメントのコピー（実習ラボ
+
+ セッションで使用するもの）を、**実習ラボ 0** の指示に従って
+
+ **C:∕LabFiles**
+
+ からすでにアップロードしている場合は、この手順を省略できます**。**
+
+3.  **Contoso Chai Tea market trends
+    2023.xlsx**（**OneDriveに**アップロードしたファイル）を開いて閉じると、Most
+    Recently Used（MRU）ファイルリストに表示されます。
+
+
+ ![](./media/image28.png)
+
+4.  **Microsoft 365 の**ホームページで、左側のナビゲーション
+    ペインにある **Excel** アイコンを選択します。
+
+5.  **Excelの「ファイル**」ページで、ファイルリストから**「Contoso Chai
+    Tea market trends 2023.xlsx」を**選択する。
+
+6.  リボンの右側にある**Copilot**オプションを選択します。
+
+7.  表示される **Copilot**
+    ペインでは、いくつかの定義済みプロンプトから選択できます。**Show
+    data insights**］ボタンを選択します。
+
+
+ ![](./media/image29.png)
+
+
+
+ ![](./media/image30.png)
+
+8.  生成されたピボットチャートに注目してください。この演習をテストしたとき、Copilot
+    は常に**日付ごとのソーシャルメディア関与（ビュー**）の折れ線グラフを作成しました。Copilot
+    はどのようなグラフを作成しましたか?Copilot
+    が作成したチャートの下にある \[**+新しいシートに追加\]**
+    ボタンを選択します。
+
+
+ ![](./media/image31.png)
+
+9.  Copilotはチャートをシート2に追加したと言っていますが、スプレッドシートにはシート2が表示されていません。
+
+
+ ![](./media/image32.png)
+
+10. エクセルシートを最大化し、ステップ11を繰り返します。**シートへの追加機能は**正常に動作するようになりました。
+
+
+ ![](./media/image33.png)
+
+11. **シート 2** を選択します。Copilot
+    が作成した新しいデータシートを確認します。Copilot
+    には、グラフと、このグラフの基となったスプレッドシートのデータ列の両方が含まれています。グラフにカーソルを合わせると、Copilot
+    が作成したグラフの種類を示すウィンドウが表示されます。
+
+
+ ![](./media/image34.png)
+
+14. Copilot
+    ペインで、定義済みのプロンプトのリストが表示されなくなったことに注意してください。このような状況が発生するのは、Copilot
+    がまだピボットテーブルで動作していないためです
+    (この問題を示すメッセージに注意してください)。**シート 1**
+    を選択すると、Excel
+    テーブルに戻ります。定義済みのプロンプトが表示されることに注意してください。
+
+
+ ![](./media/image35.png)
+
+15. プロンプトフィールドの上に表示される定義済みのプロンプトで、\[**数式列の候補を表示\]**
+    ボタンを選択します。
+
+16. Copilotが提供する提案に注意してください。次の画像は、テスト中にCopilotが提示した提案です。
+
+
+ ![](./media/image36.png)
+
+17. 表示された提案で、\[**数式の説明\]**
+    ドロップダウン矢印を選択します。計算について説明する Copilot
+    の説明を確認します。**列の挿入］**ボタンを選択して、この列を Excel
+    テーブルに挿入します。
+
+
+ ![](./media/image37.png)
+
+18. Copilotが**シート1の**Excel表の最後にこのデータ列を追加したことに注目してください。この機能に興味を持ちましたか?他の数式の候補を確認することもできます。**数式列の候補を表示\]**ボタンをもう一度選択します。提案に注目してください。**列の挿入\]**ボタンを選択し、この提案された列をエクセルの表に挿入します。
+
+19. プロンプトフィールドの上に表示される定義済みのプロンプトで、［**データの強調表示、
+    フィルタリング、並べ替えの方法**］ボタンを選択します。
+
+
+ ![](./media/image38.png)
+
+20. あなたが取ることができるアクションのリストに注意してください。
+
+
+ ![](./media/image39.png)
+
+21. この時点で、Copilotが表示する事前定義されたプロンプトに興味がなくなりました。そのため、新しいプロンプトを表示する必要があります。プロンプトフィールドの上に表示される**［Refresh］**ボタンを選択します。
+
+
+ ![](./media/image40.png)
+
+22. 表示されるようになった定義済みプロンプトのリストを確認します。以下の画像は、表示されたプロンプトの例を示しています。
+
+
+ ![](./media/image41.png)
+
+23. この練習の目的は、Copilotが実行できるさまざまなタイプの定義済みアクションの感触をつかむことです。そのため、さまざまなプロンプトを選択して、何が起こるかを確認します。たとえば
+
+    - **並べ替え**プロンプトが表示されたら、それを選択します。Copilotがデータをどのように並べ替えたかを確認してください。
+
+    - **太字の**プロンプトが表示されたら、それを選択します。Copilotが言及した列の項目を太字にし、それ以外の項目を太字にしなかったことに注意してください。
+
+24. 再度、プロンプトフィールドの上に表示される**「更新」**ボタンを選択する。
+
+
+ ![](./media/image40.png)
+
+25. 表示される新しいプロンプトのセットを確認します。Copilotが表示するさまざまな種類のプロンプトを確認するには、\[**Refresh\]**ボタンを数回選択します。
+
+26. 他のプロンプトを自由に選択して、Copilotの動作を確認します。終了したら、Microsoft
+    Edgeブラウザのタブを閉じます。
+
+概要
+
+このラボでは
+
+- Microsoft Copilot（Bing/Webモード）による市場動向の分析
+
+- WordのCopilotを使用して、複数のマーケティングレポートをまとまりのある文書にまとめる。
+
+- ExcelのCopilotでスプレッドシート内の市場動向を分析。
+
+これらの活動を通じて、プロセスを合理化し、マーケティング・キャンペーン全体の効果を向上させることができます。
