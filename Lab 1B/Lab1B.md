@@ -1,587 +1,428 @@
-# Lab 1B: Empowering Project managers and IT workforce
+ラボ1B：プロジェクトマネージャーとIT人材の強化
 
-## Objective:
+目的
 
-Copilot for Microsoft 365 serves as an AI-powered writing assistant
-understands context, suggests phrases, and helps generate content, all
-of which can enhance the quality of your work. In this lab, you will
-use:
+Microsoft
+365のCopilotは、AI-poweredライティングアシスタントとして機能し、文脈を理解し、フレーズを提案し、コンテンツの生成を支援します。このラボでは、以下を使用します：
 
-- Microsoft Copilot to summarize the information in a product spec and
-  create a project plan to implement the product.
+- Microsoft
+  Copilotを使用して製品仕様書の情報を要約し、製品を実装するためのプロジェクト計画を作成します。
 
-- Copilot in PowerPoint to create a presentation based on the project
-  plan that you created.
+- PowerPointのCopilotで、作成したプロジェクト計画に基づいてプレゼンテーションを作成する。
 
-- Copilot in Word to modify a technical specification report.
+- WordのCopilotで技術仕様書を修正。
 
-## Exercise #1: Create a project plan using Microsoft Copilot
+練習1：Microsoft Copilotを使用してプロジェクト計画を作成する。
 
-With Microsoft Copilot seamlessly integrates into Microsoft 365 and
-offers a robust platform for IT professionals to enhance teamwork, share
-insights, and accelerate problem-solving within the IT ecosystem. It
-enables IT professionals to connect instantly, share information, and
-coordinate efforts efficiently.
+Microsoft Copilotは、Microsoft
+365にシームレスに統合され、ITプロフェッショナルがチームワークを強化し、洞察を共有し、ITエコシステム内の問題解決を加速するための堅牢なプラットフォームを提供します。これにより、IT担当者は即座につながり、情報を共有し、効率的に作業を調整できます。
 
-As the Director of IT at Adatum Corporation, you've been reviewing a
-product specification report for the Contoso CipherGuard Sentinel X7
-network security product. You plan to install this product, which
-provides advanced security protection that is far beyond anything Adatum
-has today.
+Adatum Corporation の IT 部長として、あなたは Contoso CipherGuard
+Sentinel X7
+ネットワークセキュリティ製品の仕様書を検討していました。アダタムが現在持っているものをはるかに超える高度なセキュリティ保護を提供するこの製品の導入を計画しています。
 
-In this exercise you will use Microsoft Copilot in Bing
+この演習では、BingのMicrosoft Copilotを使用します。
 
-- Analyze a product specification report for a new network security
-  product that you plan to install.
+- 導入を計画している新しいネットワークセキュリティ製品の製品仕様書を分析する。
 
-- Update the project plan with information from the product spec report.
+- 製品スペックレポートの情報でプロジェクト計画を更新する。
 
-**Note**: At the end of this exercise, you must save your project plan
-to your OneDrive account. The next exercise uses this file.
+**注意**：この演習の最後に、プロジェクト計画を OneDrive
+アカウントに保存してください。次の演習では、このファイルを使用します。
 
-1.  If you have a Microsoft 365 tab open in your Microsoft Edge browser,
-    then select it now; otherwise, open a new tab and enter the
-    following URL: +++https://www.office.com+++ to go to the **Microsoft 365** home page.
+1.  Microsoft EdgeブラウザでMicrosoft
+    365のタブを開いている場合は、今すぐそれを選択します。そうでない場合は、新しいタブを開き、次のURLを入力します：+++新しいタブを開き、次のURLを入力します：++https://www.office.co**m+++**
+    Microsoft 365のホームページに移動します。
 
-    **Note**: You need to sign-in (if prompted) using the **Microsoft 365
-    Credentials** provided under the **Resources tab** on the right.
+**注**: 右側の**「Resources」タブで**提供される **Microsoft 365
+認証情報を**使用してサインインする必要があります
+(プロンプトが表示された場合)。
 
-2.  Browse to the **C:\LabFiles** folder to select and upload a copy of
-    **Contoso CipherGuard Product Specification report.docx** to
-    **OneDrive**.
+2.  **C:∕LabFiles** フォルダを参照し、**Contoso CipherGuard 製品仕様書
+    report.docx** を選択して **OneDrive** にアップロードします。
 
-    **Note**: You can skip this step, if you have already uploaded a copy
-    of all the documents (that you will be using in this hands-on lab
-    session from **C:\LabFiles** as instructed in **Lab 0**).
+> **注**: すべてのドキュメントのコピー（実習ラボ
+> セッションで使用するもの）を、**実習ラボ 0** の指示に従って
+> **C:∕LabFiles**
+> からすでにアップロードしている場合は、この手順を省略できます**。**
 
-3.  Open and close the file **Contoso CipherGuard Product Specification
-    report.docx** (which you uploaded to **OneDrive**) to get it in your
-    Most Recently Used (MRU) file list
+3.  **Contoso CipherGuard 製品仕様書 report.docx（OneDrive**
+    にアップロードしたファイル）を開いて閉じ、最近使用したファイル（MRU）リストに表示します。
 
-    ![](./media/image1.png)
+> ![](./media/image1.png)
 
-4.  In **Microsoft Edge**, navigate to Microsoft Bing by entering the
-    following URL: +++https://bing.com+++.
+4.  **Microsoft Edgeで**、以下のURLを入力してMicrosoft
+    Bingに移動します：+++https://bing.co[**m+++。**](https://bing.com)
 
-    ![](./media/image2.png)
+> ![](./media/image2.png)
 
-5.  On the **Microsoft Bing home page**, in the list of tabs that appear
-    across the top of the page, select **Copilot**. Doing so
-    opens **Microsoft Copilot**.
+5.  **Microsoft
+    Bingのホームページで**、ページの上部に表示されるタブの一覧で、**Copilotを**選択します。**Microsoft
+    Copilotが**開きます。
 
-    ![](./media/image3.png)
+> ![](./media/image3.png)
+>
+> **注：**ページ上部にタブのリストが表示されない場合は、以下の手順でタブのリストを表示してください。
 
-    **Note:** If you don’t see the list of tabs across the top of the
-    page, please follow the steps below to view the list of tabs.
+- **Microsoft 365
+  認証情報を**使用してサインインしていることを確認します（\[**リソース**\]
+  タブで利用可能）。
 
-    - Ensure you have signed-in using the **Microsoft 365 credentials** (available under the **Resources** tab).
+> ![](./media/image4.png)
 
-      ![](./media/image4.png)
+- **メニューバーを表示する**オプションを有効にする（赤いハイライト部分）
 
-    - Enable the option **Show menu bar** (in red highlight)
+> ![](./media/image5.png)
 
-      ![](./media/image5.png)
+![](./media/image6.png)
 
-      ![](./media/image6.png)
+6.  **Copilotを**選択します。Microsoft Copilotが開きます。
 
-6.  Now select **Copilot**. Doing so opens Microsoft Copilot.
+7.  **Copilot**ページの上部にある**Work/Web**トグルスイッチで、**Workを**選択する。
 
-7.  On the **Copilot** page, in the **Work/Web** toggle switch at the
-    top of the page, select **Work**.
+8.  デフォルトでは、\[**作業\]**オプションを選択すると、Copilotのアクセス範囲がMicrosoft
+    365の組織データに制限されます。ただし、Copilotが企業ネットワークセキュリティ製品のインストールに関するパブリックWebガイドラインにもアクセスできるようにするには、**Web**コンテンツプラグインをEnableにする必要があります。そのためには、ページ下部のプロンプトフィールドに、ファイルを添付するためのペーパークリップのアイコンと、ブロックを積み重ねたアイコンの2つのアイコンが表示されているはずです。後者のアイコンはプラグインのアイコンです。この**プラグインの**アイコンを選択します。
 
-8.  By default, the **Work** option limits Copilot's reach to your
-    Microsoft 365 organizational data. However, since you also want
-    Copilot to access the public web guidelines on installing a
-    corporate network security product, you must enable the **Web
-    content** plugin. To do so, in the prompt field at the bottom of the
-    page, you should notice two icons - the paper clip icon, which is to
-    attach files, and an icon of stacked blocks. This latter icon is the
-    Plugins icon.
+> ![](./media/image7.png)
 
-    ![](./media/image7.png)
+9.  この**Plugins**アイコンを選択し、**Web**コンテンツプラグインを有効にします。
 
-9.  Select this **Plugins** icon and enable **Web content** plugin.
+> ![](./media/image8.png)
+>
+> ![](./media/image9.png)
 
-    ![](./media/image8.png)
-  
-    ![](./media/image9.png)
+10. これで、Copilot
+    を使用する準備ができました。Copilotが**Web**コンテンツプラグインを介して公開WebデータにアクセスするようにMicrosoft
+    Copilotに指示する次のプロンプトを入力し、プロンプトフィールドの下隅にある\[**Submit\]**矢印を選択します：
 
-10. You're now ready to use Copilot. Enter the following prompt, which
-    directs Copilot to access public web data through the **Web
-    content** plugin to Microsoft Copilot, and then select
-    the **Submit** arrow in the bottom corner of the prompt field:
+> **アダツム株式会社のITディレクターです。新しいネットワークセキュリティ製品を企業ネットワークにインストールするためのプロジェクト計画を作成してください。この計画は、ネットワークセキュリティ製品のインストールに関するIT業界のガイドラインに基づいています**。
+>
+> ![](./media/image10.png)
 
-    ++**I'm the Director of IT at Adatum Corporation. Create a project
-    plan for installing a new network security product into a corporate
-    network. Base this plan on IT industry guidelines for installing
-    network security products**.++
+11. Copilotが作成したプロジェクト計画を確認します。
 
-    ![](./media/image10.png)
+> ![](./media/image11.png)
 
-11. Review the project plan that Copilot created.
+12. そのプランがすべての地域を網羅していることに満足していない。次のプロンプトを入力すると、特定の関心分野を含めて計画を修正できます。このプロンプトに含まれる分野がCopilotの前回の回答にすでに含まれている場合は、Copilotが重複しないように、このプロンプトから削除してください：
 
-    ![](./media/image11.png)
+> **これは良いスタートでしたが、重要な分野が欠けているように感じます。以下の項目を既存のリストに追加してください：テストとQA、トレーニング、コミュニケーション、文書と報告、利害関係者の分析、プロジェクトのタイムライン、リスク評価と軽減。**
+>
+> ![](./media/image12.png)
+>
+> ![](./media/image13.png)
 
-12. You aren't satisfied that it encompasses all the areas that it
-    should. Enter the following prompt to have it amend its plan by
-    including areas of specific interest to you. If any of the areas
-    included in this prompt are already in Copilot's previous response,
-    then remove them from this prompt so that Copilot doesn't duplicate
-    them:
+13. 修正されたプロジェクト計画を確認します。カバーするトピックの幅に満足したので、Copilot
+    に Contoso CipherGuard Sentinel X7
+    セキュリティ製品の製品仕様の情報で計画を更新してもらいます。次のプロンプトを入力しますが、次のステップでファイルをプロンプトにリンクする必要があるため、まだ送信しないでください：
 
-    ++**While that was a good start, I feel like it's missing important
-    areas. Please add the following items to the existing list: testing
-    and QA, training, communication, document and reporting, stakeholder
-    analysis, project timeline, and risk assessment and mitigation**++
+> **このバージョンの方が良さそうです。添付ファイル（Contoso CipherGuard
+> Sentinel X7
+> セキュリティ製品の製品仕様書）を確認し、この製品仕様書の情報でプロジェクト計画を更新してください。**
+>
+> ![](./media/image14.png)
 
-    ![](./media/image12.png)
+14. プロンプトフィールドで、プロンプトの後にスペースを入力してから、フォワードスラッ
+    シュ（/）を入力します。プロンプトに何かを添付する要求としてCopilotに認識させるため、フォワードスラッシュの前にスペースを入力する必要があります。次の手順は、Copilotがファイルを選択するためのウィンドウを開くかどうかによって異なります：
 
-    ![](./media/image13.png)
+- フォワードスラッシュ（/）を入力した後にCopilotがウィンドウを開いたら、\[**Files\]**タブを選択します。MRU
+  ファイルのリストが表示されます。**Contoso CipherGuard Product
+  Specification** ファイルを選択し、**Submit** アイコンを選択します。
 
-13. Review the amended project plan. You're happy with the breadth of
-    topics covered, so now you want Copilot to update the plan with
-    information from the product spec for the Contoso CipherGuard
-    Sentinel X7 security product. Enter the following prompt, but don't
-    submit it yet as you must first link the file to the prompt in the
-    next step:
+> ![](./media/image15.png)
 
-    ++**This version looks better. Please review the attached file, which
-    is a product specification for the Contoso CipherGuard Sentinel X7
-    security product, and update your project plan with information from
-    this product spec**++
+- Copilotがフォワードスラッシュ（/）を入力した後に何もしなかった場合は、**Contoso
+  CipherGuard製品仕様書**ファイルへのリンクをコピーして貼り付ける必要があります。そのためには、OneDriveアカウントでファイルを見つけ、**Wordで**開き、Wordリボンの上に表示される**［共有］**ボタンを選択し、表示されるドロップダウンメニューで**［リンクをコピー］を**選択し、このプロンプトフィールドに戻ってフォワードスラッシュに続くリンクを貼り付け、［**送信］**アイコンを選択します。
 
-    ![](./media/image14.png)
+> ![](./media/image16.png)
+>
+> <span class="mark">**注**：Copilotが文書に直接アクセスしたりレビューしたりできない場合は、ログインしているユーザーをサインアウトしてもう一度サインインし、手順9からやり直してください。</span>
+>
+> ![](./media/image17.png)
+>
+> ![](./media/image18.png)
+>
+> <span class="mark">**注**： **Contoso CipherGuard
+> 製品仕様**書を表示および参照できない場合は、次の演習に進んでください。プロジェクト計画書は、残りのラボのアクティビティに進むために利用できます</span>。
 
-14. In the prompt field, enter a space after the prompt and then type a
-    forward slash (/). You must enter the space before the forward slash
-    so that Copilot recognizes it as a request to attach something to
-    the prompt. Your next step depends on whether Copilot opens a window
-    for you to select the file:
+15. Copilotがどのように製品仕様の機能をプロジェクト計画に挿入したかを確認する。
 
-    - If Copilot opens a window after you entered the forward slash (/),
-      then select the **Files** tab. Doing so displays the list of MRU
-      files. Select the **Contoso CipherGuard Product Specification** file
-      and then select the **Submit** icon.
+> ![](./media/image19.png)
 
-      ![](./media/image15.png)
+16. しかし、あなたはこのプロジェクトプランに具体的な詳細が欠けていると感じている。この問題に対処するために、次のプロンプトを入力してください：
 
-    - If Copilot didn't do anything after you entered the forward slash (/),
-      then you'll have to copy and paste in the link to the **Contoso
-      CipherGuard Product Specification** file. To do so, locate the file in
-      your OneDrive account, open it in **Word**, select
-      the **Share** button that appears above the Word ribbon, select **Copy
-      link** in the drop-down menu that appears, and then back in this
-      prompt field, paste in the link following the forward slash and select
-      the **Submit** icon.
+> **あと少しです。レポートの各項目を複数の詳細なステップに分けてください**。
+>
+> ![](./media/image20.png)
 
-      ![](./media/image16.png)
+17. 結果を見直す。
 
-      <span class="mark">**Note**: If Copilot is not able to directly access
-      or review documents, Sign-out of the logged in user and sign-in once
-      again</span> and then continue from **step 9** once again.
-    
-      ![](./media/image17.png)
+> ![](./media/image21.png)
 
-      <span class="mark">**Note**: If you are unable to view and reference
-      **Contoso CipherGuard Product Specification** document, then proceed
-      to the next exercise. The project plan document is made available for
-      you to proceed with the remaining lab activity</span>.
+18. プロジェクト計画書を作成したら、Word文書に保存しなければなりません。**このプロジェクト計画書は、次の演習で使用します**。Copilot
+    の最終回答の下部にある**コピー**ボタンを選択し、回答をコピーして
+    **Word** 文書に貼り付けます。
 
-15. Review how Copilot inserted features from the product spec into the
-    project plan.
+> ![](./media/image22.png)
 
-    ![](./media/image18.png)
+19. この演習で使用した製品仕様書を含む OneDrive アカウントに **Contoso
+    CipherGuard project plan.docx**
+    としてファイルを保存します。このファイルは次の演習で使用します。
 
-16. While this looks good, you feel that the project plan is lacking in
-    specific details. To address this issue, enter the following prompt:
+> ![](./media/image23.png)
 
-    ++**We're almost there. Please break down each item on the report into
-    multiple detailed steps**++
+練習2:
+PowerPointでCopilotを使用してプロジェクトプランのプレゼンテーションを作成する
 
-    ![](./media/image19.png)
+PowerPointのCopilotはインテリジェントな共同作業者として機能し、ITプロフェッショナルがプレゼンテーションを作成する際に、リアルタイムで提案や改善を行います：
 
-17. Review the results.
+- 自分のアイデアや提案をチームや経営陣にプレゼンテーションする。
 
-    ![](./media/image45.png)
+- 新入社員のトレーニングや、新しいソフトウェアやハードウェアのデモンストレーションを顧客に行う。
 
-18. Now that the project plan is created, you MUST save it to a Word
-    document. **You'll use this project plan document in the next
-    exercise**. At the bottom of Copilot's final response, select the
-    **Copy** button to copy and paste the response in a **Word**
-    document.
+- 複雑な技術的概念を、利害関係者や投資家など技術者以外の聴衆に説明する。
 
-    ![](./media/image46.png)
+- 自分の仕事を紹介したり、潜在的な顧客に自分のサービスを宣伝する。
 
-19. Save the file as **Contoso CipherGuard project plan.docx** in your
-    OneDrive account that contains the product specification document
-    that you used in this exercise. You'll use this file in the next
-    exercise.
+Copilot in PowerPoint を使用すると、既存の Word
+文書からプレゼンテーションを作成できます。Copilot in PowerPoint に Word
+文書へのリンクを渡すと、スライドの生成、レイアウトの適用、テーマの選択が行われます。
 
-    ![](./media/image47.png)
+この演習では、PowerPointのCopilotを使用して、前の演習で作成したプロジェクト計画に基づいてスライドプレゼンテーションを作成します。このプレゼンテーションを使用して、ITスタッフ、そして最終的には企業の経営陣にプロジェクト計画を説明します。
 
-## Exercise #2: Create a project plan presentation using Copilot in PowerPoint
+<span class="mark">**注**: 事前の演習を完了し、**Contoso CipherGuard
+プロジェクト計画書.docx** ファイルを作成した場合は、OneDrive
+アカウントに保存したことを確認して次のステップに進んでください。ただし、事前の演習でこのプロジェクト計画を作成できなかった場合は、**C:⽋⽋ファイルに**ある
+**Contoso CipherGuard プロジェクト計画書.docx
+の**コピーをアップロードしてください。</span>
 
-Copilot in PowerPoint serves as an intelligent collaborator, offering
-real-time suggestions and enhancements as IT professionals craft their
-presentations to:
+1.  EdgeブラウザでMicrosoft
+    365のタブを開いている場合は、今すぐ選択します。そうでない場合は、新しいタブを開き、次のURLを入力します：[<u>https://www.office.com
+    Microsoft
+    365のホームページに移動します。</u>](https://www.office.com)
 
-- Present their ideas or proposals to their team or management.
+2.  **Contoso CipherGuard プロジェクト計画書.docx**（**OneDrive**
+    に保存したもの）を開いて閉じ、最近使用したファイル（MRU）リストに追加します。
 
-- Train new employees or demonstrate new software or hardware to
-  clients.
+3.  **Microsoft
+    365の**ナビゲーションペインで、**PowerPointを**選択します。PowerPointで、新しい空白のプレゼンテーションを開きます。
 
-- Explain complex technical concepts to nontechnical audiences, such as
-  stakeholders or investors.
+4.  リボンアイコンの~~右側にある~~**［Copilot］**~~オプションを~~選択します（スクリーンショットのように赤色で強調表示されます）。表示される**Copilot**ペインでは、いくつかの定義済みプロンプトから選択できます。
 
-- Showcase their work or promote their services to potential clients.
+> ![](./media/image24.png)
+>
+> ![](./media/image25.png)
 
-With Copilot in PowerPoint, you can create a presentation from an
-existing Word document. When you provide Copilot in PowerPoint with the
-link to your Word document, it can generate slides, apply layouts, and
-choose a theme for you.
+5.  **ファイルからプレゼンテーションを作成する**プロンプトを選択します。
 
-In this exercise, you use Copilot in PowerPoint to create a slide
-presentation based on the project plan you created in the prior
-exercise. You want to use this presentation to explain the project plan
-to your IT staff, and ultimately to corporate management.
+> ![](./media/image26.png)
 
-<span class="mark">**Note**: If you completed the prior exercise and
-created a **Contoso CipherGuard project plan.docx** file, then ensure
-that you saved it to your OneDrive account and proceed to the next step.
-However, if you were unable to create this project plan in the prior
-exercise, then upload a copy of the document **Contoso CipherGuard
-project plan.docx** available in **C:\LabFiles**.</span>
+6.  **Copilot** ペインの下部にあるプロンプトフィールドに、Copilot
+    が自動的にテキストを入力します：スラッシュは、ファイルへのリンクを入力するための
+    Copilot
+    共通のインジケータです。この場合、このスラッシュを入力すると、Copilotが**Suggestions**ウィンドウを開き、最近使用したファイルを3つ表示します。
 
-1.  If you have a Microsoft 365 tab open in your Edge browser, then
-    select it now; otherwise, open a new tab and enter the following
-    URL: +++<https://www.office.com>+++ to go to **Microsoft 365** home
-    page**.**
+- ファイルがここに表示されたら、それを選択して次のステップに進みます。
 
-2.  Open and close the file **Contoso CipherGuard project plan.docx**
-    (which you saved to **OneDrive**) to get it in your Most Recently
-    Used (MRU) file list
+- ファイルが表示されている3つのうちの1つでない場合、**Suggestions**
+  ウィンドウの右上隅にある右矢印 **(\>)** を選択すると、拡張 MRU
+  ファイルリストが表示されます。ここでファイルが表示されたら、今すぐ選択して次のステップに進みます。
 
-3.  On the **Microsoft 365** navigation pane, select **PowerPoint**. In
-    PowerPoint, open a new blank presentation.
+- 拡張されたMRUリストにファイルが表示されない場合は、レポートへのリンクをコピーし、プロンプトフィールドに貼り付ける必要があります。そのためには
 
-4.  Select the **Copilot** Icon (in red highlight as shown in the
-    screenshot). In the **Copilot** pane that appears, several
-    predefined prompts are available for you to choose from.
+  1.  **Microsoft
+      365**ブラウザタブを選択し、ナビゲーションペインで**Wordを**選択します。
 
-    ![](./media/image20.png)
+  2.  **Wordの**ホームページの最近のファイルのリストで、レポートを選択してWordで開く。
 
-    ![](./media/image21.png)
+  3.  Wordのレポートで、リボンの上の右端にある「**共有」**ボタンを選択します。表示されるドロップダウンメニューで、「**リンクをコピー」を**選択します。ファイルへのリンクがクリップボードにコピーされたことを確認するウィンドウが表示されます。
 
-5.  Select the **Create presentation from file** prompt.
+  4.  **PowerPoint**タブに切り替え、**Copilot**ペインの下部にあるプロンプトフィールドに「**Create
+      presentation from file
+      /（ファイルからプレゼンテーションを作成）**」と表示されているはずです。
+      スラッシュ**（/）の**後にカーソルを置き、レポートへのリンクを貼り付けます（**Ctrl+V**）。
 
-    ![](./media/image22.png)
+7.  プロンプトフィールドにファイルが表示されます。プロンプトフィールドで**［送信］**アイコンを選択します。このプロンプトにより、Copilotはドキュメントに基づいてスライドプレゼンテーションを作成します。その際、まずプレゼンテーションのアウトラインが表示されます。次に、ドキュメントに基づいてプレゼンテーションに加えた変更の一部を箇条書きにしたリストが別のウィンドウに表示されました。
 
-6.  In the prompt field at the bottom of the **Copilot** pane, Copilot
-    automatically enters the text: **Create presentation from file /**.
-    The forward slash is the universal Copilot indicator to enter a link
-    to a file. In this case, it triggers Copilot to open
-    a **Suggestions** window that displays three of the most recently
-    used files.
+> ![](./media/image27.png)
 
-    - If your file appears here, then select it now and proceed to the next step.
+8.  これでスライドを自由に見直し、必要な更新を行うことができます。Copilotがドキュメントに基づいて行った変更には特に注意してください。**デザイナー**ツールを使用して、レイアウトを調整できます。
 
-    - If the file isn't one of the three being displayed, select the right
-      arrow (**\>**) in the upper right corner of the **Suggestions** window
-      to see an expanded MRU file list. If the file appears here, then
-      select it now and proceed to the next step.
+> ![](./media/image28.png)
 
-    - If you don't see your file in the expanded MRU list, then you must copy the link to the report and paste it in the          prompt field. To do so:
+9.  最後に質疑応答（Q&A）セッション用のスライドがないことに気づきました。この見落としを修正するには、次のプロンプトを入力します：
 
-      a.  Select the **Microsoft 365** browser tab and select **Word** in the navigation pane.
+**プレゼンテーションの一番最後に、適切な画像を使ったQ&Aスライドを追加する**。
 
-      b.  In the **Word** home page, in the list of recent files, select the report to open it in Word.
+> ![](./media/image29.png)
 
-      c.  In the report in Word, on the far-right above the ribbon, select the **Share** button. In the drop-down menu that           appears, select **Copy Link**. Wait for the **Link copied** window to appear, which is your assurance that the              link to the file is copied to your clipboard.
+10. 作成された新しいスライドを確認します。Copilotがこのスライドに使用した画像が気に入らないので、次のプロンプトを入力してCopilotに画像の変更を依頼します：
 
-      d.  Switch to your **PowerPoint** tab, and at the bottom of the **Copilot** pane, the prompt field should still be
-          displaying **Create presentation from file /**. Position your cursor after the forward slash (**/**) and then    
-          paste in (**Ctrl+V**) the link to the report.
+> **Q&Aのスライドに使われている画像が気に入りません。別の画像に差し替えてください**。
+>
+> ![](./media/image30.png)
 
-7.  Note how the file appears in the prompt field. Select
-    the **Send** icon in the prompt field. This prompt triggered Copilot
-    to create a slide presentation based on the document. In doing so,
-    it first displayed the outline of the presentation. Then it
-    displayed a separate window showing a bulleted list of some of the
-    changes that it made to the presentation based on the document.
+11. どのような反応がありましたか？Copilotが画像を置き換えず、次のようなメッセージを返すことがありました。
 
-    ![](./media/image23.png)
+> ![](./media/image31.png)
+>
+> <span class="mark">**注：**Copilotは上のような例外を表示することがあります（Copilotはまだ開発中であることを忘れないでください）。</span>
 
-8.  You're now free to review the slides and make any necessary updates.
-    Pay special attention to the changes the Copilot made based on the
-    document. You can use the **Designer** tool to adjust the layouts
+16. プロンプトを言い換えてみるか、以下のようなプロンプト候補を使ってみてください。
 
-    ![](./media/image24.png)
+> ![](./media/image32.png)
 
-9.  You notice that there isn't a slide at the end for a Question and
-    Answer (Q&A) session. To correct this oversight, enter the following
-    prompt:
+17. **についてのスライドを追加\]**コマンドを選択し、**プレゼンテーションの一番最後に**（スクリーンショットに示すように）次の**Q＆Aを**追加します。
 
-    ++**Add a Q&A slide at the very end of the presentation with an
-    appropriate image**++
+> ![](./media/image33.png)
 
-    ![](./media/image25.png)
+18. 送信をクリックして、何が起こるか確認してください。Copilotは指示通りにQ&Aスライドを追加しました。
 
-10. Review the new slide that was created. You don't like the image that
-    Copilot used for this slide, so enter the following prompt asking
-    Copilot to change the image:
+19. 今度は別のプロンプトで試してみよう：
 
-    ++**I don't like the image you used on the Q&A slide. Please replace it
-    with a different image**++
+聴衆がプレゼンテーションについて質問するかもしれない**ことについてのスライドを追加する**。
 
-    ![](./media/image26.png)
+20. 最終的なプレゼンテーションが終了したら、将来の参考のために保存したり、このプレゼンテーションを破棄することができます。
 
-11. What response did you receive? Sometimes Copilot didn't replace the
-    image and it returned the following message.
+21. Q&Aスライドを扱う最後の数ステップがどうであったかにかかわらず、前に進み、最後のことを試してみることにした。プレゼンテーションを見直す中で、トピックの技術的な性質から、プレゼンテーションのテーマをより適切なものに変更したいとあなたは考えます。次のプロンプトを入力します：
 
-    ![](./media/image27.png)
+> **このプレゼンテーションのテーマを、もっと技術的なものに変えて**ください。
+>
+> ![](./media/image34.png)
 
-    <span class="mark">**Note:** Copilot may display some exception
-    (remember that Copilot is still a work in progress) like the one
-    above.</span>
+22. Copilotの反応に注目。
 
-12. Please try rephrasing the prompt or use the suggested prompts like
-    the one below.
+> ![](./media/image35.png)
+>
+> このシナリオは、プロンプトのベストプラクティスを思い出すべき状況の1つです：**Copilotの制限を理解すること**。この場合、Copilot
+> がどのように機能するかを理解する必要があります。この場合、CopilotはPowerPointの既存の機能を紹介します。
 
-    ![](./media/image28.png)
+23. このモジュールの残りのトレーニング演習ではこのプレゼンテーションは使用しませんが、将来参照するために必要であれば、破棄するか保存しておくことができます。
 
-13. Select the command **Add a slide about** and append the following
-    ++**Q&A at the very end of the presentation**++ (as shown in the
-    screenshot)
+練習その3：WordのCopilotを使用して技術レポートを更新する
 
-    ![](./media/image29.png)
+WordのCopilotは、ITプロフェッショナルが文書を作成する際の時間と労力を節約するのに役立ちます。Copilotは、コンテンツの生成、テキストの書き換え、役立つ提案の提供を支援します。CopilotはAI-poweredライティングアシスタントを備えており、文書をより効率的かつ効果的に作成できます。
 
-14. Click Send to check what happens. Copilot has added a Q&A slide as
-    instructed.
+新しい文書を作成したり、既存の文書に手を加えたりするとき、Copilotはさまざまな方法で役立ちます。
 
-15. Now try with another prompt:
+- 新規の白紙の文書や、既存の文書にコンテンツを追加する場合、Copilotに書きたい内容を伝えると、それに応じてコンテンツが生成されます。
 
-    **Add a slide about** what the audience may ask about the presentation.
+- 既存のコンテンツがあるドキュメントでは、Copilot
+  を使用してコンテンツを変換できます。選択したコンテンツを書き換えたり、選択したコンテンツを表に変換したりすることもできます。
 
-16. Once you are done with final presentation you can save for future
-    reference or discard this presentation
+この実習では、WordのCopilotを使用して既存の文書を更新します。Copilotに指示して、新しいテキストを追加し、既存のテキストを書き直し、テキストを表に変換します。
 
-17. Regardless how the last few steps went in dealing with the Q&A
-    slide, you decide to move forward and try one last thing. In
-    reviewing the presentation, you decide that you want to change the
-    theme of the presentation to something more appropriate due to the
-    technical nature of the topic. Enter the following prompt:
+1.  Microsoft EdgeブラウザでMicrosoft
+    365のタブを開いている場合は、今すぐそれを選択します。そうでない場合は、新しいタブを開き、次のURLを入力します：[**<u>https://www.office.com
+    Microsoft
+    365のホームページに移動します。</u>**](https://www.office.com/)
 
-    ++**Change the theme of this presentation to something more technical**++ 
+**注**: 右側の**「Resources」タブで**提供される **Microsoft 365
+認証情報を**使用してサインインする必要があります
+(プロンプトが表示された場合)。
 
-    ![](./media/image30.png)
+2.  **C:◆LabFiles**フォルダを参照し、**Trey Research - VPN Technical
+    Overview.docxを**選択して**OneDriveに**アップロードします。
 
-18. Note Copilot's response.
+> **注**: すべてのドキュメントのコピー（実習ラボ
+> セッションで使用するもの）を、**実習ラボ 0** の指示に従って
+> **C:∕LabFiles**
+> からすでにアップロードしている場合は、この手順を省略できます**。**
 
-    ![](./media/image31.png)
+3.  **Trey Research - VPN Technical
+    Overview.docx**（**OneDriveに**アップロードしたファイル）を開いて閉じ、最近使用したファイル（MRU）リストに表示します。
 
-    This scenario is one of those situations to remember the prompting
-    best practice: **Understand Copilot's limitations**. In this case, it
-    isn't an understanding of a limitation as much as it's an
-    understanding as to how Copilot works. In this case, Copilot points
-    you to an existing PowerPoint feature rather than duplicating what
-    that feature does.
+4.  **Microsoft 365で**、**Microsoft Wordを**開きます。
 
-19. While the remaining training exercises in this module don't use this
-    presentation, you can either discard it or save it if you want it
-    for future reference.
+5.  **Trey Research - VPN Technical Overview.docxファイルを**開きます。
 
-## Exercise #3: Update a technical report using Copilot in Word
+> ![](./media/image36.png)
 
-Copilot in Word can help IT professionals save time and effort when
-creating documents. It can help you generate content, rewrite text, and
-provide helpful suggestions. With its AI-powered writing assistance,
-Copilot can help you create documents more efficiently and effectively.
+6.  **Wordの**リボンで**Copilot**ボタンを選択し、Copilotペインを開きます。
 
-When you create a new document or work on an existing one, Copilot can
-help you in different ways.
+> ![](./media/image37.png)
 
-- In a new, blank document or when you want to add content to an
-  existing document, you can tell Copilot what you want to write about,
-  and it generates the content accordingly.
+7.  **Copilot**ペインで、以下のプロンプトを入力し、矢印（**送信**）アイコンを選択します：
 
-- In a document with existing content, Copilot can help you transform
-  the content. It can rewrite selected content, or even transform
-  selected content into a table.
+**この文書に、VPNの種類についての新しいセクションを書きましょう。各タイプの長所と短所を論じてください。このコンテンツは技術者向けですので、具体的な詳細を記述してください。**
 
-In this exercise, you will use Copilot in Word to update an existing
-document. You direct Copilot to add new text, rewrite existing text, and
-transform text into a table.
+> ![](./media/image38.png)
 
-1.  If you have a Microsoft 365 tab open in your Microsoft Edge browser,
-    then select it now; otherwise, open a new tab and enter the
-    following
-    URL: +++https://www.office.com/+++ to go to the **Microsoft 365** home page.
+8.  Copilot
+    では、新しいコンテンツをドキュメントに直接追加しません。Copilotペインの応答ウィンドウに内容が表示されます。ただし、各レスポンスウィンドウの
+    下部には**コピー**ボタンが用意されているので、**コピー**ボタンを選択すると、その内容がクリップボードにコピーされます。文書を見て、冒頭の段落以下の内容を貼り付けることにしました。今すぐ内容を貼り付けます。
 
-    **Note**: You need to sign-in (if prompted) using the **Microsoft 365
-    Credentials** provided under the **Resources tab** on the right.
+> **ヒント**: 回答ウィンドウで \[**コピー\]**
+> ボタンを選択すると、Copilot
+> のコメントを含むすべての内容がコピーされます。このようなコメントは通常、回答の最初と最後にあります。回答を文書に貼り付けたら、これらのコメントを必ず削除してください。新しい内容のフォントとフォントサイズは、文書全体で使用されている既存のフォントとサイズと一致しない可能性があります。そのため、それらを一致するように変更する必要があります。
 
-2.  Browse to the **C:\LabFiles** folder to select and upload a copy of
-    **Trey Research - VPN Technical Overview.docx** to **OneDrive**.
+9.  さらに確認すると、VPNの使用に関するセキュリティ・ポリシーについての言及がないことに気づく。このトピックは重要な分野なので、次のプロンプトを入力してください：
 
-    **Note**: You can skip this step, if you have already uploaded a copy
-    of all the documents (that you will be using in this hands-on lab
-    session from **C:\LabFiles** as instructed in **Lab 0**).
+**VPN利用に関するセキュリティ・ポリシーについて、この文書に新しいセクションを設けてください。このコンテンツは技術者向けですので、具体的な内容を記載してください。**
 
-3.  Open and close the file **Trey Research - VPN Technical
-    Overview.docx** (which you uploaded to **OneDrive**) to get it in
-    your Most Recently Used (MRU) file list.
+> ![](./media/image39.png)
 
-4.  In **Microsoft 365**, open **Microsoft Word**.
+10. この回答の内容をコピーし、文書に貼り付けます。それを「**リスクと緩和策**」のセクションの直前に配置し、必要に応じて内容を編集する。必要に応じて、このセクションに「**VPN使用に関するセキュリティポリシー**」という見出しを追加する。
 
-5.  Open the **Trey Research - VPN Technical Overview.docx** file.
+> ![](./media/image40.png)
 
-    ![](./media/image32.png)
+11. また、報告書を見直した際、書き直す必要があると思われる内容が1箇所ありました。**リスクと軽減策**」のセクションで、最初の箇条が家庭用
+    VPN と企業用 VPN
+    の両方をカバーしている。企業向けVPNについてのみ記述することを望んでいる。しかし、コンテンツの記述方法を考えると、簡単に修正できるようには思えません。そこで、Copilotに内容を書き直してもらうことにしました。
 
-6.  On the **Word** ribbon, select the **Copilot** button to open the
-    Copilot pane.
+> **ヒント**:
+> Copilotにコンテンツを書き直させるには、まず、Copilotに書き直させたいコンテンツをハイライトする必要があります。
 
-    ![](./media/image33.png)
+12. **リスクと緩和**策のセクションの最初の箇条書きの内容を強調表示し、次のプロンプトを入力する：
 
-7.  In the **Copilot** pane, enter the following prompt and then select
-    the arrow (**Send**) icon:
+> **ハイライトされたコンテンツでは、ホームネットワークと企業ネットワークの両方でVPNを使用するリスクについて論じています。ホームネットワークに関連する内容を削除し、企業ネットワークにおけるVPNのリスクのみに焦点を当てます。**
+>
+> ![](./media/image41.png)
 
-    ++**Write a new section for this document about the types of VPNs.
-    Discuss the pros and cons of each type. This content is for a technical
-    audience, so please provide specific details**++
+13. Copilotの回答を確認してください。この書き換え機能が機能しないこともあった。うまくいかなかった場合、Copilotは次のような応答を返しました。このような状況が発生した場合は、プロンプトをコピーして貼り付け、もう一度試してください（反復、反復、反復を忘れないでください）。
 
-    ![](./media/image34.png)
+> ![](./media/image42.png)
 
-8.  Copilot doesn't add new content directly into a document. It
-    displays the content in a response window in the Copilot pane.
-    However, it does provide a **Copy** button at the bottom of each
-    response window, so select the **Copy** button to copy its contents
-    to your clipboard. In looking at the document, you decide to paste
-    the contents below the opening paragraph. Paste the contents in now.
+14. 文書を最終的に見直した後、VPNを導入することの長所と短所に関するセクションは、箇条書きのリストではなく、表にした方が見栄えが良いと判断します。書き換えるセクションをハイライトしたので、この2つのセクションをハイライトすることにします。両方のセクションをハイライトし、次のプロンプトを入力します：
 
-    **Tip**: When you select the **Copy** button for a response window, it
-    copies ALL the content, including Copilot's comments that are intended
-    for you. These types of comments are typically at the start and end of
-    the response. Make sure you remove these comments once you paste the
-    response into your document. Chances are, the font and font size of
-    the new content won't match the existing font and size used throughout
-    the document. As such, you must change them to match.
+**ハイライトされた内容を表に書き直してください**。
 
-9.  Upon further review, you notice that there's no mention of security
-    policies related to VPN usage. This topic is a key area that you
-    want included, so enter the following prompt:
+> .![](./media/image43.png)
 
-    ++**Please write a new section for this document about security
-    policies related to VPN usage. This content is for a technical audience,
-    so please provide specific details**.++
+15. Copilotの反応に注目してほしい。
 
-    ![](./media/image35.png)
+> ![](./media/image44.png)
 
-10. Copy and paste the content from this response into the document.
-    Place it just before the **Risks and mitigations** section, and then
-    edit the content as needed. If necessary, add a heading for this
-    section titled **Security policies related to VPN usage**.
+16. コンテンツを表に再フォーマットすることは、コンテンツの書き換えとは異なります。表に配置したいコンテンツをハイライトする代わりに、プロンプトに表に含めるコンテンツのセクションを記述する必要があります。今回は、次のプロンプトを入力する：
 
-    ![](./media/image36.png)
+> **VPN導入の長所と短所」の内容を表にまとめる。**
+>
+> ![](./media/image45.png)
 
-11. When you reviewed the report, you also identified one area of
-    content that you felt needed to be rewritten. In the section
-    on **Risks and mitigations**, the first bullet covers both home and
-    enterprise VPNs. You want it to only address enterprise VPNs.
-    However, given the way in which the content is written, it doesn't
-    appear to be an easy fix. You decide to have Copilot rewrite the
-    content for you.
+17. Copilotの応答に注目してください。文書内の既存のコンテンツを表に書き換えたり置き換えたりする代わりに、Copilot
+    の応答には表が表示されます。表をコピーして文書に貼り付けることで、内容を置き換えるのはあなた次第です。回答で**コピー**ボタンを選択し、文書内で長所と短所のセクションをハイライトして表を貼り付けます。表の前にセクション見出しを追加してください：**VPN導入の長所と短所。**おそらく、表の内容のフォントとフォントサイズも、文書全体で使われている既存のフォントとサイズに合わせて変更する必要があるでしょう。
 
-    **Tip**: To have Copilot rewrite content, you must first highlight the
-    content that you want Copilot to rewrite.
+> ![](./media/image46.png)
 
-12. Highlight the content in the first bullet of the **Risks and
-    mitigation** section, and then enter the following prompt:
+18. この時点で、文書が完成したと感じている。しかし、安全策を講じるため、Copilotに文書に他の情報を含める必要があるかどうかを尋ねることにします。次のプロンプトを入力します：
 
-    ++**The highlighted content discusses the risks of using VPNs in both
-    home and enterprise networks. Remove the content related to home
-    networks and focus solely on the risks of VPNs in enterprise
-    networks**++
+**この文書に欠けているもので、追加することをお勧めするものはありますか？**
 
-    ![](./media/image37.png)
+> ![](./media/image47.png)
 
-13. Check Copilot's response. Sometimes this rewrite functionality
-    didn't work. When it didn't work, Copilot returned the following
-    response. If this situation occurs, copy and paste in your prompt
-    and try it again (remember, iterate, iterate, iterate).
+19. Copilotの反応に注目してください。私たちのテストでは、何も不足していないと表示されました。Copilotが別の応答を返すかどうか、もう一度試してみてください。
 
-    ![](./media/image38.png)
+> ![](./media/image48.png)
 
-14. After you make a final review of the document, you decide that the
-    sections on the Pros and Cons of implementing VPNs would look better
-    in a table rather than as bulleted lists. Since you highlighted a
-    section to be rewritten, you decide to highlight these two sections.
-    Highlight both sections and then enter the following prompt:
+20. Copilotから文書にコンテンツを追加するよう推奨された場合は、追加するよう求めるプロンプトを作成します。その後、新しいコンテンツをコピーして文書に貼り付けることができます。
 
-    ++**Please rewrite the highlighted content by placing it in a
-    table**++
+概要
 
-    ![](./media/image39.png)
+この実習ラボでは、Copilot for Microsoft 365
+を使用することで、次のように作業の質を高める方法を検討しました。
 
-15. Note the Copilot response.
+- Microsoft
+  Copilotを使用して、製品仕様書から重要な情報を抽出し、製品を実装するための包括的なプロジェクト計画を策定する。
 
-    ![](./media/image40.png)
+- PowerPointのCopilotを活用して、作成したプロジェクト計画に基づいてプレゼンテーションをデザインし、視覚的に魅力的で、計画の詳細を効果的に伝える。
 
-16. Reformatting content into a table is different than rewriting
-    content. Instead of highlighting the content that you want placed in
-    a table, you must describe in your prompt what sections of content
-    you want included in the table. This time, enter the following
-    prompt:
-
-    ++**Place the content from the Pros and Cons of implementing VPNs
-    into a table**++
-
-    ![](./media/image41.png)
-
-17. Note the Copilot response. Instead of rewriting or replacing the
-    existing content in the document with a table, it displays the table
-    in its response. It's up to you to replace the content by copying
-    and pasting the table into the document. In the response, select
-    the **Copy** button, and then in the document, highlight the Pros
-    and Cons sections and paste in the table. Make sure you add a
-    section heading before the table that says: **Pros and Cons of
-    implementing VPNs.** Chances are, you'll also need to change the
-    font and font size of the table content to match the existing font
-    and size used throughout the document.
-
-    ![](./media/image42.png)
-
-18. At this point, you feel the document is complete. However, to play
-    it safe, you decide to ask Copilot if it feels the document should
-    include any other information. Enter the following prompt:
-
-    ++**Is there anything missing in this document that you would recommend
-    adding?** ++
-
-    ![](./media/image43.png)
-
-19. Note the Copilot response. In our testing, it told us that nothing
-    was missing. Try again to see if Copilot provides a different
-    response.
-
-    ![](./media/image44.png)
-
-20. If Copilot recommended that you add more content to your document,
-    create a prompt that asks it to do so. You can then copy and paste
-    the new content into your document.
-
-## Summary:
-
-In this lab, you explored how Copilot for Microsoft 365 enhances the
-quality of your work by
-
-- Using Microsoft Copilot to distil the key information from a product
-  specification document and develop a comprehensive project plan for
-  implementing the product.
-
-- Leveraging Copilot in PowerPoint to design a presentation based on the
-  project plan you created, ensuring it is visually appealing and
-  effectively communicates the plan's details.
-
-- Utilizing Copilot in Word to revise and enhance a technical
-  specification report, improving clarity, coherence, and overall
-  quality.
+- WordのCopilotを活用し、技術仕様書を修正・強化し、明確さ、一貫性、全体的な品質を向上させる。
