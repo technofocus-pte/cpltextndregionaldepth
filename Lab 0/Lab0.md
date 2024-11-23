@@ -1,88 +1,114 @@
-# Lab 0: Preparing for the lab execution
+ラボ0：ラボ実施の準備
 
-## Log into your Lab Virtual Machine
+ラボ仮想マシンにログインする
 
-On the Log-in screen, select **Admin** account in the lower left
-corner of the screen to sign-in to the lab virtual machine using the
-credentials provided under **PL-500T00A-LON-CL1** in the **Resources 
-tab** on the right (see screenshot).
 
-**Note**: Do not use the **Student** login.
+ ログイン画面で、画面の左下隅にある**管理者アカウントを**選択して、右側の
 
-![](./media/image1.png)
+ **Resources タブにある PL-500T00A-LON-CL1**
 
-## Complete setting up Microsoft 365 subscription and access Copilot for Microsoft 365
+ で提供された認証情報を使用してラボ仮想マシンにサインインします（スクリーンショットを参照）。
 
-1.  If you have a Microsoft 365 tab open in your Edge browser, then
-    select it now; otherwise, open a new tab and enter the following
-    URL:+++**https://portal.office.com**+++
 
-2.  Use the **Microsoft 365 Credentials** provided under Azure Portal
-    section in the **Resources tab** on the right (see screenshot) to
-    sign-in.
 
-    ![](./media/image2.png)
+ **注**：**学生**ログインは使用しないでください。
+
+
+
+ ![](./media/image1.png)
+
+ ![](./media/image2.png)
+
+Microsoft 365サブスクリプションの設定を完了し、Microsoft
+365のCopilotにアクセスします。
+
+1.  EdgeブラウザでMicrosoft
+    365のタブを開いている場合は、今すぐ選択します。そうでない場合は、新しいタブを開き、次のURLを入力します：  +++https://portal.office.com+++
+
+2.  右側の**「Resources」タブの**「Azure
+    Portal」セクションで提供されている **Microsoft 365
+    認証情報を**使用してサインインします（スクリーンショットを参照）。
 
     ![](./media/image3.png)
 
-You will now be able to access all the Microsoft 365 applications and
-will have access to Copilot for Microsoft 365.
+    ![](./media/image4.png)
 
-## Access and launch Microsoft 365 applications
 
-You can access and launch the productivity applications from:
+    これで、Microsoft 365のすべてのアプリケーションにアクセスできるようになり、Copilot for Microsoft 365にアクセスできるようになります。
 
-- **View more Apps** link (in the navigation pane on the left)
+    Microsoft 365アプリケーションへのアクセスと起動
 
-- **App Launcher** (available in the top left just above the left
-  navigation pane)
+    生産性アプリケーションにアクセスし、起動することができます：
 
-**Note: Due to product updates, the placement of office icons might be
-different than the one mentioned above.**
+    - **他のアプリを見る**」リンク（左側のナビゲーションペイン内）
 
-1.  To launch an application from **View more Apps:**
+    - **アプリランチャー**（左上のナビゲーションペインのすぐ上にあります。）
 
-    In the navigation pane on the lower left, select **View more
-    Apps** (ellipsis **…** icon) 🡪 Apps to select and open the office
-    applications you need to work with.
 
-     ![](./media/image4.png)
+    **注：製品のアップデートにより、オフィスアイコンの配置が上記と異なる場合があります。**
 
-2.  To launch an application from **App launcher**:
+1.  **View more Appsから**アプリケーションを起動する：
 
-    The Microsoft 365 app launcher is a menu of apps and services that you
-    are licensed for, and opens when you select the app launcher icon on
-    Microsoft365 page. The App launcher makes opening and switching
-    between your apps easy by highlighting your recently used apps, and
-    providing quick access to your recent online Office documents.
 
-    ![](./media/image5.png)
+ 左下のナビゲーション・ペインで、**View more Apps**（省略記号 **...**
 
-    **Note**: If you do not find an application in the pop-up, then
-    select **More apps** icon to select the same.
+ アイコン）🡪 Apps
 
-## Upload lab assets to OneDrive
+ を選択し、作業に必要なオフィス・アプリケーションを開きます。
 
-The lab assets (Reference documents) that you will be using in this
-hands-on lab session are available in **C:\LabFiles.**
 
-**Note**: When you need to reference a file (a Word document, an Excel
-file, etc) into a Copilot prompt, the file MUST be saved in a OneDrive
-account. You can't link to a locally stored file on your PC.
 
-1.  On the Microsoft 365 navigation pane, select OneDrive to open it.
+ ![](./media/image5.png)
 
-2.  Browse to the **C:\LabFiles** folder to select and upload a copy of
-    the document(s) to OneDrive.
+2.  **App launcherから**アプリケーションを起動する：
 
-    >**Note**: You can either choose to upload a copy of all the documents
-    >or the document(s) related to the particular lab.
 
-     ![](./media/image6.png)
+ Microsoft 365
 
-     ![](./media/image7.png)
+ アプリランチャーは、お客様がライセンスを取得しているアプリやサービスのメニューで、Microsoft 365
 
-     ![](./media/image8.png)
+ ページでアプリランチャーアイコンを選択すると開きます。アプリランチャーでは、最近使用したアプリがハイライト表示され、最近使用したOfficeオンラインドキュメントにすばやくアクセスできるため、アプリを開いたり切り替えたりするのが簡単になります。
 
-    Now you will have the document(s) in **OneDrive** to work
-    with **Copilot for Microsoft 365** labs.
+
+
+ ![](./media/image6.png)
+
+
+
+ **注意**：ポップアップでアプリケーションが見つからない場合は、「**その他のアプリケーション」**アイコンを選択して同じものを選択してください。
+
+OneDriveへのラボ資産のアップロード
+
+
+ この実習ラボ セッションで使用するラボ
+
+ アセット(参照ドキュメント)は、**C:¥LabFiles にあります。**
+
+
+
+ **注**：Copilotプロンプトでファイル（Word文書、Excelファイルなど）を参照する必要がある場合、そのファイルはOneDriveアカウントに保存されている必要があります。PCにローカルに保存されているファイルにリンクすることはできません。
+
+1.  Microsoft 365のナビゲーションペインで、OneDriveを選択して開きます。
+
+2.  **C:◆LabFiles**フォルダを参照し、ドキュメントのコピーを選択してOneDriveにアップロードします。
+
+
+ **注**：すべての書類のコピーをアップロードするか、特定のラボに関連する書類をアップロードするかを選択できます。
+
+
+
+ ![](./media/image7.png)
+
+
+
+ ![](./media/image8.png)
+
+
+
+ ![](./media/image9.png)
+
+
+
+ これで、**Copilot for Microsoft
+
+ 365**ラボで作業するための文書が**OneDriveに保存さ**れます。
