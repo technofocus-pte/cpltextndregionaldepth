@@ -249,7 +249,7 @@ create a draft of your presentation:
     ![](./media/image18.png)
 
 6.  Close this document tab in your Microsoft Edge browser. This return
-    you to the **Word \| Microsoft 365** tab.
+    you to the **Word | Microsoft 365** tab.
 
 7.  On the Word file page, select the **PowerPoint** icon in the **App
     Launcher** pane on the top left.
