@@ -17,7 +17,7 @@ flow when a customer asks about the weather.
 
     ![](./media/image49.png)
 
-3.  Click on **Topics**, open the topic – **Ask about expenses contact.**.
+3.  Click on **Topics**, open the topic – **Ask about expenses contact**.
 
     ![](./media/image50.png)
 
@@ -208,7 +208,9 @@ When you create a flow from Microsoft Copilot Studio, **asynchronous responses**
 
 12. Under the flow node, add a **Message** node, and then enter a message that uses the flow's outputs as below.
 
-    +++Today's forecast for+++ < Select X and choose location > +++:+++  < Select X and choose day_summar y> +++Chance of rain is+++ < Select X and choose chance_of_rain. >
+    +++Today's forecast for < Select X and choose location > : < Select X and choose day_summar y> Chance of rain is < Select X and choose chance_of_rain. >
+
+    Note: Repalce the placeholders for location, day-summary and chance_of_rain with the variables by selecting x and then the vaiable name
     
    ![](./media/image37.png)
 
