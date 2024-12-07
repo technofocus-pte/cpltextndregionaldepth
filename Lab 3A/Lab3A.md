@@ -24,22 +24,23 @@ expense policies in a fictional corporation.
 
     ![](./media/image2.png)
 
-4.  From the left menu, select **Agents** and then select **+ New agent.**
+4.  From the left menu, select **Agents** and then select **+ New agent**.
+    **+New agent.**
 
     ![](./media/image3.png)
 
-5.  Enter the following prompt.
+6.  Enter the following prompt.
 
     +++Create a copilot to help employees with expense claims.+++
 
     ![](./media/image4.png)
 
-6.  Next, it suggest a name for the agent. Accept it or instruct it to
+7.  Next, it suggest a name for the agent. Accept it or instruct it to
     rename it as per your choice.
 
     ![](./media/image5.png)
 
-7.  Add few more instructions like,
+8.  Add few more instructions like,
 
     - Use a friendly, professional tone.
     
@@ -47,22 +48,22 @@ expense policies in a fictional corporation.
 
     ![](./media/image6.png)
 
-8.  When you’re done, click on **Create** on the top right to create the
+9.  When you’re done, click on **Create** on the top right to create the
     agent.
 
     ![](./media/image7.png)
 
-9.  The agent gets created, and gets opened with a message, **Your agent
+10.  The agent gets created, and gets opened with a message, **Your agent
     is ready**.
 
     ![](./media/image8.png)
 
-10. In the **Test your agent** pane, enter the prompt +++Hello+++.
+11. In the **Test your agent** pane, enter the prompt +++Hello+++.
     Review the response, which should be an appropriate message.
 
     ![](./media/image9.png)
 
-11. Now try the following prompt - +++Who should I contact about submitting an expense claim?+++
+12. Now try the following prompt - +++Who should I contact about submitting an expense claim?+++
 
     ![](./media/image10.png)
 
@@ -70,7 +71,7 @@ expense policies in a fictional corporation.
 organization, you’d want the agent to provide an email address of phone
 number for the user to contact.
 
-12. Close the **Test your agent** pane.
+13. Close the **Test your agent** pane.
 
 ### **Task 2: Manage topics in your agent**
 
