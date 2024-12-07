@@ -146,8 +146,7 @@ relevant information.
 
     ![](./media/image21.png)
 
-    **Note**: After uploading the file, you will need to wait while it is
-indexed, which may take 10 minutes (or longer).
+    **Note**: After uploading the file, you will need to wait while it is indexed, which may take 10 minutes (or longer). Click on the **Knowledge** tab to check if the **Status** is still **in progress** or **Ready**.
 
 6.  When the file is ready, view the **Topics** page and open
     the **Conversational boosting** system topic. Recall that this topic
@@ -173,9 +172,9 @@ you uploaded, and include a citation reference.
 
 8.  Try asking some follow-up questions, such as:
 
-        - +++What about flights?+++
+     +++What about flights?+++
     
-        - +++What guidelines are there for entertainment expenses?+++
+     +++What guidelines are there for entertainment expenses?+++
 
 ### **Task 4: Publish your agent**
 
