@@ -25,7 +25,7 @@ Lab duration – 15 minutes
 
     ![](./media/image36.png)
 
-4.  Select **Copilot for Microsoft 365**.
+4.  Select **Copilot for Microsoft 365**, if prompted.
 
     ![](./media/image3.png)
 
