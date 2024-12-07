@@ -140,7 +140,7 @@ Lab duration – 15 minutes
     This description has functional purpose and is used by the Microsoft
     Copilot to determine whether to invoke your plugin or not.
 
-18. Add a **message node** with the list of holidays.
+18. Add a **Send a message** node with the list of holidays.
 
     ```
     - New Year's Day - January 1
