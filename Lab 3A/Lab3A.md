@@ -25,7 +25,6 @@ expense policies in a fictional corporation.
     ![](./media/image2.png)
 
 4.  From the left menu, select **Agents** and then select **+ New agent**.
-    **+New agent.**
 
     ![](./media/image3.png)
 
@@ -79,11 +78,11 @@ number for the user to contact.
 
     ![](./media/image11.png)
 
-2.  In the Topics page, in the **+ Add a topic** menu, select Topic **Create from description with copilot.**
+2.  In the Topics page, in the **+ Add a topic** menu, select Topic **Create from description with copilot**.
 
     ![](./media/image12.png)
 
-3.  In the **Create a description with copilot** dialog box, name the new topic as +++Ask about expenses contact+++ and enter the following text to tell copilot what the topic should do: +++When the user asks who to contact about expense claims, tell them to send an email to <finance@contoso.com>+++
+3.  In the **Create a description with copilot** dialog box, name the new topic as +++Ask about expenses contact+++ and enter the following text to tell copilot what the topic should do: +++When the user asks who to contact about expense claims, tell them to send an email to <finance@contoso.com>+++.
 
 4.  Select **Create**.
 
