@@ -14,7 +14,7 @@ can generate conversational responses, if there's no matching topic.
     +++**https://copilotstudio.microsoft.com/**+++
     using your tenant credentials if not already logged in.
 
-2.  Select **Agents** and then click on **+ New agent.**
+2.  Select **Agents** and then click on **+ New agent**.
 
     ![](./media/image14.png)
 
@@ -61,15 +61,7 @@ can generate conversational responses, if there's no matching topic.
 
     ![](./media/image10.png)
 
-3.  Try asking the copilot about something not on your fallback website.
-
-    For example, type +++**Why is the sky blue?**+++. Since the copilot
-can't find a relevant copilot topic or answer, it replies with a system
-fallback topic and asks you to rephrase the question.
-
-    ![](./media/image11.png)
-
-4.  Click on **Home** to navigate back to the Home page.
+3.  Click on **Home** to navigate back to the Home page.
 
     ![](./media/image12.png)
 
