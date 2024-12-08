@@ -28,8 +28,7 @@ Copilotで利用できるようになります。
 
 4.  **Copilot for Microsoft 365を**選択します。
 
-![A screenshot of a computer Description automatically
-generated](./media/image3.png)
+    ![A screenshot of a computer Description automatically generated](./media/image3.png)
 
 5.  **新しいアクションを**選択します。
 
@@ -79,8 +78,7 @@ generated](./media/image3.png)
 
 5.  **テストプロンプトを**クリックします。
 
-![A screenshot of a computer screen Description automatically
-generated](./media/image10.png)
+    ![A screenshot of a computer screen Description automatically generated](./media/image10.png)
 
 6.  本文を要約したプロンプトの応答が生成されていることに注目してください。
 
