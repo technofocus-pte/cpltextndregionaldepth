@@ -1,79 +1,67 @@
-# **Lab 3C: Building a GenAI copilot with Copilot Studio**
+# ラボ3C：Copilot Studioを使用したGenAICopilotの構築
 
-**Objective**
+**目的**
 
-In this lab, you will learn to create and boost a copilot with expanded
-natural language understanding (NLU) capabilities. With intelligent
-authoring of AI-powered copilots, create a new topic or edit an existing
-one. You can describe what you want the copilot to do. Or, your copilot
-can generate conversational responses, if there's no matching topic.
+このラボでは、自然言語理解（NLU）機能を拡張した Copilot
+を作成し、ブーストする方法を学びます。AI-powered Copilot
+のインテリジェントなオーサリングにより、新しいトピックを作成したり、既存のトピックを編集したりできます。Copilotに何をさせたいかを記述できます。また、一致するトピックがない場合は、Copilotが会話の応答を生成することもできます。
 
-## **Exercise 1: Enable generative answers and add a public website**
+## 練習1：ジェネレーティブ・アンサーを有効にし、公開ウェブサイトを追加する
 
-1.  Login to
-    +++**https://copilotstudio.microsoft.com/**+++
-    using your tenant credentials if not already logged in.
+1.  まだログインしていない場合は、テナントの認証情報を使用して
+    +++https://copilotstudio.microsoft.com/**+++
+    にログインします。
 
-2.  Select **Agents** and then click on **+ New agent.**
+2.  **Copilotを**選択し**、+ New copilotを**クリック**します。**
 
-    ![](./media/image14.png)
+    ![A screenshot of a computer Description automatically generated](./media/image1.png)
 
-3.  If prompted, select **Skip to configure**.
+3.  プロンプトが表示されたら、**Skip to configureを**選択します。
 
-    ![](./media/image2.png)
+    ![A screenshot of a computer Description automatically generated](./media/image2.png)
 
-4.  Type +++**Copilotforknowledge**+++. Select **+ Add knowledge**.
+4.  **+++Copilotforknowledge+++**と入力する。**知識の**追加を選択します。
 
-    ![](./media/image3.png)
+    ![A screenshot of a computer Description automatically generated](./media/image3.png)
 
-5.  Select **Public websites**.
+5.  **公共ウェブサイト（Public Websites) を**選択する。
 
-    ![](./media/image4.png)
+    ![A screenshot of a computer Description automatically generated](./media/image4.png)
 
-6.  Enter +++**https://www.microsoft.com/en-us/store/**+++ under
-    **Public website link** and click on **Add**. This will be the website that
-    the copilot will use for generating answers.
+6.  **Public website
+    link**」の下に「++\*\*https://www.microsoft.com/en-us/store/\*\*\*+++」
+    と入力し、「**Add」を**クリックします。これは、Copilotが回答を生成するために使用するWebサイトになります。
 
-    ![](./media/image13.png)
+    ![A screenshot of a search engine Description automatically generated](./media/image5.png)
 
-7.  Click on **Add**.
+7.  **Addを**クリックする。
 
-    ![](./media/image6.png)
+    ![A screenshot of a computer Description automatically generated](./media/image6.png)
 
-8.  Click on **Create**.
+8.  **作成**」をクリックする。
 
-    ![](./media/image7.png)
+    ![A screenshot of a computer Description automatically generated](./media/image7.png)
 
-9.  Ensure that the copilot is created and ready to use.
+9.  Copilot が作成され、使用できる状態になっていることを確認します。
 
-    ![](./media/image8.png)
+    ![A screenshot of a computer Description automatically generated](./media/image8.png)
 
-## **Exercise 2: Test your copilot**
+## 練習2：Copilotのテスト
 
-1.  Click on **Test** to open the **Test your copilot** pane. Type
-    +++**What is your return policy?**+++
+1.  **テスト\]を**クリックして、\[**Copilotのテスト\]**ウィンドウを開きます。**+++What
+    is your return policy?+++**
 
-    ![](./media/image9.png)
+    ![A screenshot of a computer Description automatically generated](./media/image9.png)
 
-2.  The copilot retrieves information from the website and returns a
-    response. The response provides a link to where it found that
-    information and allows you to provide feedback.
+2.  Copilotはウェブサイトから情報を取得し、応答を返します。レスポンスには、その情報を見つけた場所へのリンクが表示され、フィードバックを提供することができます。
 
-    ![](./media/image10.png)
+    ![A screenshot of a computer Description automatically generated](./media/image10.png)
 
-3.  Try asking the copilot about something not on your fallback website.
+3.  **ホームに**戻るには**ホームを**クリックしてください。
 
-    For example, type +++**Why is the sky blue?**+++. Since the copilot
-can't find a relevant copilot topic or answer, it replies with a system
-fallback topic and asks you to rephrase the question.
+    ![A screenshot of a computer Description automatically generated](./media/image11.png)
 
-    ![](./media/image11.png)
+**概要**
 
-4.  Click on **Home** to navigate back to the Home page.
-
-    ![](./media/image12.png)
-
-**Summary:**
-
-In this lab, we have learnt to enable generative AI answering for a
-copilot.
+このラボでは、Copilotに対してGenerative
+AIによる回答を可能にすることを学んだ。
