@@ -52,10 +52,9 @@ expense policies in a fictional corporation.
 
     ![](./media/image7.png)
 
-10.  The agent gets created, and gets opened with a message, **Your agent
-    is ready**.
+10.  The agent gets created, and gets opened with a message, **Your agent is ready**.
 
-    ![](./media/image8.png)
+     ![](./media/image8.png)
 
 11. In the **Test your agent** pane, enter the prompt +++Hello+++.
     Review the response, which should be an appropriate message.
