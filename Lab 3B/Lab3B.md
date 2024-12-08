@@ -84,7 +84,7 @@ flow when a customer asks about the weather.
 
 10.  **City** and **Zipcode** will be passed on to this node as input.
 
-    ![](./media/image15.png)
+     ![](./media/image15.png)
 
 11. Click on **Return value(s) to Power Virtual Agents** node. In the
     node details pane that opens, click on **+ Add an output**.
