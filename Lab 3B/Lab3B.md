@@ -1,232 +1,237 @@
-# **Lab 3B_Create a flow and invoke it from a copilot topic**
+# Lab 3B_フローを作成して Copilot トピックから呼び出す
 
-**Objective**
+**目的**
 
-In this lab, you will learn how to create a flow that fetches a weather
-forecast and use a Call an action node in a copilot topic to invoke the
-flow when a customer asks about the weather.
+この実習ラボでは、天気予報をフェッチするフローを作成し、Copilot
+トピックで Call an action
+ノードを使用して、顧客が天気について質問したときにフローを呼び出す方法を学習します。
 
-**Duration:** 30 minutes
+**所要時間**30分
 
-## Exercise 1: Create a flow to use with a copilot
+## 練習1：Copilotで使用するフローを作成する
 
-1.  Login to +++**https://copilotstudio.microsoft.com/**+++ using your
-    user credentials if not logged in already.
+1.  まだログインしていない場合は、ユーザー認証情報を使用して
+    [+++https://copilotstudio.microsoft.com/+++](https://copilotstudio.microsoft.com/**+++)
+    にログインしてください。
 
-2.  Open the agent you created in the **Lab 3A**.
+2.  ラボ 3A **で作成したエージェントを開きます**。
 
-    ![](./media/image49.png)
+    ![コンピューターのスクリーンショット 説明が自動的に生成される](./media/image1.png)
 
-3.  Click on **Topics**, open the topic – **Ask about expenses contact.**.
+3.  \[**Topics**\]**をクリックし**、トピックを開いて– **expenses
+    contactについて尋ねます。**
 
-    ![](./media/image50.png)
+    ![](./media/image2.png)
 
-4.  Click on + symbol to add a node after any existing node, select
-    **call an action** and then **Create a flow**.
+4.  既存のノードの後にノードを追加するには、+マークをクリックし、**アクションを呼び出すを**選択し、**フローを作成します**。
 
-    >[!Note] **Note:** This action will not add anything here but will only open the flow creation page on Power Automate with the proper template.
+    [注意: このアクションはここには何も追加せず、Power Automateのフロー作成ページを適切なテンプレートで開くだけです。
 
-    ![](./media/image51.png)
+    ![A screenshot of a computer Description automatically generated](./media/image3.png)
 
-5.  The Power Automate is opened with the basic template required for a
-    Copilot.
+5.  Copilot に必要な基本テンプレートで Power Automate を開きます。
 
-    ![](./media/image4.png)
+    ![A screenshot of a computer Description automatically generated](./media/image4.png)
 
-## Exercise 2: Author the flow on the Power Automate portal
+## 練習2：Power Automateポータル上でフローを作成する
 
-1.  Name the flow that just got opened as, +++**Get weather forecast**+++
+1.  オープンしたばかりのフローに、+++**Get weather
+    forecast+++という**名前をつける。
 
-    ![](./media/image5.png)
+    ![A screenshot of a computer Description automatically generated](./media/image5.png)
 
-2.  Click on the node, **When Copilot Studio calls a flow**. In the node
-    details pane that opens, click on **+ Add an input**.
+2.  **Copilot
+    Studioがフローを呼び出すときに**、ノードをクリックします。開いたノードの詳細ペインで、**+
+    Add an input** をクリックします。
 
-    ![](./media/image6.png)
+    ![A screenshot of a computer Description automatically generated](./media/image6.png)
 
-3.  Choose a **Text** input and name it as +++**City**+++.
+3.  **テキスト**入力を選択し、名前を**「++**City+++」とする。
 
-    ![](./media/image7.png)
+    ![A screenshot of a computer Description automatically generated](./media/image7.png)
 
-4.  Click on **+ Add an input** to add another input field.
+4.  **入力**フィールドを追加するには、**「+ Add an
+    input**」をクリックします。
 
-    ![](./media/image8.png)
+    ![A screenshot of a computer Description automatically generated](./media/image8.png)
 
-5.  Select a **Number** input and name it as +++**Zipcode**+++. Click on
-    the **back(<<)** symbol on the right corner to come out of the node
-    details pane.
+5.  **Number**入力を選択し、名前を「++**Zipcode**+++」とする。右隅にある**戻る(\<\<)**マークをクリックして、ノードの詳細ペインから出ます。
 
-    ![](./media/image9.png)
+    ![A screenshot of a computer Description automatically generated](./media/image9.png)
 
-    ![](./media/image41.png)
+6.  **Copilot Studioがフロー**ノードを**呼び出したら**、\[**Add action**
+    to a add node\]をクリックします。
 
-7.  Click on **Add an action** to a add node after the **When Copilot
-    Studio calls a flow** node.
+    ![A screenshot of a computer Description automatically generated](./media/image10.png)
 
-    ![](./media/image10.png)
+7.  **+++msn weather+++を**検索し、**MSN Weatherの**下の**Get forecast
+    for todayを**選択する。
 
-8.  Search for +++**msn weather**+++ and select **Get forecast for
-    today** under **MSN Weather**.
+    ![A screenshot of a weather forecast Description automatically generated](./media/image11.png)
 
-    ![](./media/image11.png)
+    [注意：新しい接続を作成するよう求められたら、"Create New "を選択してください。
 
-    >[!Note] **Note:** If asked to create a new connection, select **Create New**.
+    ![A screenshot of a computer Description automatically generated](./media/image12.png)
 
-    ![](./media/image12.png)
-
-9.  In the **Get forecast for today** action, in the **Location** box,
-    select **Add dynamic content**, and then
-    select **City** and **Zipcode**.
+8.  **今日の予報を取得する**アクションで、**場所**ボックスで**ダイナミックコンテンツを追加を**選択し、都市と**郵便番号を**選択する。
 
     ![](./media/image13.png)
 
-    ![](./media/image14.png)
+    ![A screenshot of a computer Description automatically generated](./media/image14.png)
 
-10.  **City** and **Zipcode** will be passed on to this node as input.
+9.  **市区**町村と**郵便**番号は入力としてこのノードに渡される。
 
-     ![](./media/image15.png)
+    ![A screenshot of a weather forecast Description automatically generated](./media/image15.png)
 
-11. Click on **Return value(s) to Power Virtual Agents** node. In the
-    node details pane that opens, click on **+ Add an output**.
+10. **Power Virtual Agents** ノードの **\[Return value(s)\]
+    を**クリックします。開いたノードの詳細ペインで、\[**+ Add an
+    output\]** をクリックします。
 
-    ![](./media/image16.png)
+    ![A screenshot of a computer Description automatically generated](./media/image16.png)
 
-12. In the Return value(s) to Microsoft Copilot Studio **Parameters** tab, add the following output parameters and variables.
+11. Microsoft Copilot Studio
+    **Parametersへの**戻り値\]タブで、以下の出力パラメータと変数を追加します。
 
-    |    |    |    |
-    |:-----|:----|:------|
-    |  Output Parameter Name  |   Type | Variable   |
-    | +++day_summary+++   |  Text  |    Day Summary|
-    | +++Location+++   |  Text  | Location|
-    |  +++chance_of_rain+++  |  Number  | Day Rain Chance|
-    
-    >[!Note] **Note:** Select **Add dynamic content**, click on **See more** next to **Get forecast for today** to see the above variable options
+    |  出力パラメータ名  | タイプ   |  可変  |
+    |:----|:-----|:-------|
+    |  +++day_summary+++  |  テキスト  | 一日のまとめ   |
+    |  +++Location+++  |  テキスト  | 所在地   |
+    |  +++chance_of_rain+++  |  テキスト  | 降水確率   |
 
-    ![](./media/image17.png)
+    [注】注：ダイナミックコンテンツの追加を選択し、今日の予報を入手するの隣にある詳細を見るをクリックすると、上記の変数オプションが表示されます。
 
-    ![](./media/image18.png)
+    ![A screenshot of a computer Description automatically generated](./media/image17.png)
 
-    ![](./media/image19.png)
+    ![A screenshot of a computer Description automatically generated](./media/image18.png)
 
-13. Click on **Save Draft** to save the flow.
+    ![A screenshot of a computer Description automatically generated](./media/image19.png)
 
-    ![](./media/image20.png)
+12. **Save Draftを**クリックしてフローを保存する。
 
-14. Look for a success message as in the screenshot below.
+    ![A screenshot of a computer Description automatically generated](./media/image20.png)
 
-    ![](./media/image21.png)
+13. 下のスクリーンショットのような成功のメッセージを探してください。
 
-15. Click on **Publish** and look for a success message.
+    ![A screenshot of a computer Description automatically generated](./media/image21.png)
 
-    ![](./media/image22.png)
+14. **Publishを**クリックし、成功のメッセージを確認する。
 
-    ![](./media/image23.png)
+    ![A screenshot of a computer Description automatically generated](./media/image22.png)
 
-## **Exercise 3: Turn off asynchronous responses in the flow**
+    ![A screenshot of a computer Description automatically generated](./media/image23.png)
 
-Flows that you want to use in a bot must return values in real time, or synchronously. Flows that run in the background, or asynchronously, may cause an error when your bot tries to run them. Instead of running the flow, the bot will say, "Something unexpected happened. We're looking into it. Error code: 3000."
+## 練習3：フローの非同期応答をオフにする
 
-When you create a flow from Microsoft Copilot Studio, **asynchronous responses** are turned off by default. If you modified an existing flow that has asynchronous responses turned on, you'll need to change the setting.
+ボットで使用するフローは、リアルタイム（同期）で値を返す必要があります。バックグラウンドで実行されるフローや非同期で実行されるフローは、ボットが実行しようとするとエラーが発生する可能性があります。フローを実行する代わりに、ボットは「予期しないことが発生しました。現在調査中です。エラーコードは3000."
 
-1.  Select the **Settings** tab in the **Return value(s) to Power Virtual Agents** pane.
+Microsoft Copilot
+Studioからフローを作成する場合、**非同期**応答はデフォルトでオフに設定されています。非同期応答がオンになっている既存のフローを変更した場合は、設定を変更する必要があります。
 
-    ![](./media/image24.png)
+1.  **Power Virtual Agents
+    への戻り値］**ペインの**［設定］**タブを選択します。
 
-2.  Ensure that Asynchronous response is set to **Off**.
+    ![A screenshot of a computer Description automatically generated](./media/image24.png)
 
-    ![](./media/image25.png)
+2.  Asynchronous responseが**Offに**設定されていることを確認する。
 
-## Exercise 4: Call a flow from a topic
+    ![A screenshot of a computer Description automatically generated](./media/image25.png)
 
-1.  Go back to Microsoft Copilot Studio page, select **Done** on **Save & refresh** pop up.
+## 練習 4: トピックからフローを呼び出す
 
-    ![](./media/image45.png)
+1.  Microsoft Copilot Studioページに戻り、**\[Save &
+    refresh\]**ポップアップで\[**Done\]**を選択します。
 
-2.  Select **Topics**. Click on **+ Add -\> Topic -\> From blank**.
+    ![A screenshot of a computer Description automatically generated](./media/image26.png)
 
-    ![](./media/image52.png)
+2.  **トピックを**選択します。**追加」→「トピック」→「空白から**」をクリックします。
 
-3.  Name the topic as +++**Get weather**+++. Click on **Edit** under Phrases to add in the Trigger phrases.
+    ![A screenshot of a computer Description automatically generated](./media/image27.png)
 
-    ![](./media/image53.png)
+3.  トピック名を「+++Get **weather+++」と**する。フレーズ\] の
+    \[**編集\] を**クリックして、トリガー・フレーズを追加します。
 
-4.  Add the following **trigger phrases**:
+    ![A screenshot of a computer Description automatically generated](./media/image28.png)
 
-    - +++**will it rain**+++
-    
-    - +++**today's forecast**+++
-    
-    - +++**get weather**+++
-    
-    - +++**what's the weather**+++
+4.  以下の**トリガーフレーズを**追加する：
 
-    Enter the phrase and then click on **+** symbol to add it.
+    - +++will it rain+++
 
-    ![](./media/image29.png)
+    - +++today's forecast+++
 
-    Similarly, add the other phrases as well.
+    - +++get weather+++
 
-    ![](./media/image30.png)
+    - +++what's the weather+++
 
-5.  After the Trigger node, add a **Message** node and enter the message
-    as +++**I can help you with that**+++.
+    フレーズを入力し、**+**マークをクリックして追加します。
 
-    ![](./media/image31.png)
+    ![A screenshot of a computer Description automatically generated](./media/image29.png)
 
-6.  Next, add an **Ask a question** node.
+    同様に、他のフレーズも加える。
 
-    ![](./media/image32.png)
+    ![A screenshot of a computer Description automatically generated](./media/image30.png)
 
-7.  Add the question +++**What is your city?**+++
+5.  Triggerノードの後に**Message**ノードを追加し、「++++I **can help you
+    with that+++」と**メッセージを入力する。
 
-    |  **Property**  |  **Value**  |
-    |:----------|:----------|
-    |  Question  |  +++What is your city?+++  |
-    |  Identify  |   Select **User’s entire response** |
-    |  Save Response as  | Click on **Var1** to open the Variable properties tab and provide the variable name as +++**city**+++   |
+    ![A screenshot of a chat Description automatically generated](./media/image31.png)
 
-    ![](./media/image33.png)
+6.  次に、**Ask a question**ノードを追加します。
 
-9.  Add another question node and provide the following details.
+    ![A screenshot of a chat Description automatically generated](./media/image32.png)
 
-    |  **Property**  |  **Value**  |
-    |:----------|:----------|
-    |  Question  |  +++What is your Zipcode?+++  |
-    |  Identify  |   Select **Number** |
-    |  Save Response as  | Click on **Var1** to open the Variable properties tab and provide the variable name as +++**Zipcode**+++   |
+7.  **あなたの都市はどこですか？**
 
-    ![](./media/image34.png)
+    |  プロパティ  |  価値  |
+    |:-------|:--------|
+    |  質問  |  +++What is your city?+++  |
+    |  特定する  |  ユーザーの回答全体を選択  |
+    | 応答を名前を付けて保存   |   Var1 をクリックして変数プロパティタブを開き、変数名を +++city+++ とする。 |
 
-10.  Select **Add node** (**+**) under the **Zipcode** question node.
-     In the node selection window, select **Call an action**, and then select the flow you created earlier, **Get weather forecast**.
+    ![A screenshot of a computer Description automatically generated](./media/image33.png)
 
-     ![](./media/image35.png)
+8.  別の質問ノードを追加し、以下の詳細を記入してください。
 
-11. Assign the flow inputs to the output variables from the question nodes. **City (text)** gets its value from the variable **city** and **Zipcode (number)** gets its value from the variable **Zipcode**.
+    |  プロパティ  |  価値  |
+    |:-------|:--------|
+    |  質問  |  +++What is your Zipcode?+++  |
+    |  特定する  |  番号を選択  |
+    | 応答を名前を付けて保存   |  Var1をクリックして変数プロパティタブを開き、変数名を+++Zipcode+++とする。 |
 
-    ![](./media/image36.png)
+    ![A screenshot of a computer Description automatically generated](./media/image34.png)
 
-12. Under the flow node, add a **Message** node, and then enter a message that uses the flow's outputs as below.
+9.  **郵便番号の**質問ノードの下で**ノードの追加**（+）を選択します。ノード選択ウィンドウで、［**アクションを呼び出す］を**選択し、先ほど作成したフロー「**天気予報を取得**」を選択します。
 
-    +++Today's forecast for+++ < Select X and choose location > +++:+++  < Select X and choose day_summar y> +++Chance of rain is+++ < Select X and choose chance_of_rain. >
-    
-   ![](./media/image37.png)
+    ![](./media/image35.png)
 
-13. Click on **Save** to save the topic.
+10. 質問ノードからの出力変数にフロー入力を割り当てます。**City（テキスト）は**変数**cityから**値を取得し、**Zipcode（数値）は**変数**Zipcodeから**値を取得します。
 
-    ![](./media/image38.png)
+    ![A screenshot of a computer Description automatically generated](./media/image36.png)
 
-## Exercise 5: Test your flow and topic
+11. フローノードの下に**Message**ノードを追加し、フローの出力を使用するメッセージを以下のように入力する。
 
-1.  In **Test your Copilot**, type +++**get weather**+++ and click send. Give the City as +++**Redmond**+++ and **Zipcode** as +++**98004**+++ as per the questions from the copilot.
+    +++Today's forecast for < Select X and choose location > : < Select X and choose day_summar y> Chance of rain is < Select X and choose chance_of_rain. >+++.
 
-    ![](./media/image39.png)
+    location、day-summary、chance_of_rain
+のプレースホルダーを変数に置き換えて、x を選択し、次に vaiable name
+を選択します
 
-2.  After sending the Zipcode, your flow will be invoked and the weather
-    details of the specific region is provided by the copilot.
+    ![A screenshot of a computer Description automatically generated](./media/image37.png)
 
-    ![](./media/image40.png)
+13. **\[保存\] を**クリックしてトピックを保存します。
 
-**Summary:**
+    ![A screenshot of a computer Description automatically generated](./media/image38.png)
 
-In this lab, we have learnt to create a flow and invoke it from a topic.
+## 練習5：フローとトピックをテストする
+
+1.  **Copilotのテスト\]**に「+++get
+    **weather+++」と**入力し、\[送信\]をクリックします。Copilotからの質問に従って、Cityを+++**Redmond**+++、**Zipcodeを**+++**98004**+++と入力します。
+
+    ![A screenshot of a chat Description automatically generated](./media/image39.png)
+
+2.  郵便番号を送信すると、フローが起動され、Copilotによって特定の地域の天気の詳細が提供されます。
+
+    ![A screenshot of a chat Description automatically generated](./media/image40.png)
+
+**概要**
+
+このラボでは、フローを作成してトピックから呼び出す方法を学んだ。
