@@ -1,219 +1,245 @@
-# **Lab 2A: Adding a conversational action for Copilot for Microsoft 365**
+# Lab 2A: Copilot for Microsoft 365の会話アクションの追加
 
-**Objective**
+**目的**
 
-Microsoft Copilot provides out of the box experiences to engage with
-content and resources from across your organization. In some situations,
-answers and interaction with external systems are required. With
-Microsoft Copilot Studio, you can author a conversational topic that can
-be published as a Copilot Plugin. Once your Tenant Admin approves the
-Plugin, it can be added to your organization's M365 Chat experiences.
+Microsoft
+Copilotは、組織全体のコンテンツやリソースにすぐにアクセスできる環境を提供します。状況によっては、回答や外部システムとの対話が必要になります。Microsoft
+Copilot
+Studioを使用すると、会話トピックを作成し、Copilotプラグインとして公開できます。テナント管理者がプラグインを承認すると、組織の
+M365 チャット体験に追加できます。
 
-The Plugins will be available in the Microsoft Copilot in production, if
-the organization has valid license for the same.
+プラグインは、組織が同じもののための有効なライセンスを持っている場合、本番のMicrosoft
+Copilotで利用できるようになります。
 
-In this lab, we will learn how to create a Conversational action.
+このラボでは、カンバセーショナル・アクションの作成方法を学びます。
 
-Lab duration – 15 minutes
+ラボの所要時間 - 15分
 
-## **Exercise 1: Setting up your environment**
+## 練習1：環境のセットアップ
 
-1.  From the VM, right click on the clock at the bottom right corner of the screen.
+1.  VMから画面右下の時計を右クリックする。
 
-2.  Select **Adjust date and time**.
+2.  **日付と時刻の調整\]を**選択します。
 
-    ![](./media/image2.jpeg)
+![A screenshot of a computer Description automatically
+generated](./media/image1.jpeg)
 
-3.  On the Settings screen that opens up, click on the **Sync
-    now** under Additional settings.
+3.  開いた設定画面で、「追加設定」の「**今すぐ同期**」をクリックします。
 
-    ![](./media/image3.jpeg)
+![A screenshot of a computer Description automatically
+generated](./media/image2.jpeg)
 
-4.  This takes care of synchronizing the time just in case the automatic
-    synchronization does not work.
+4.  自動同期がうまくいかない場合に備えて、時刻の同期を行います。
 
-    ![](./media/image4.jpeg)
+![](./media/image3.jpeg)
 
-## **Exercise 2: Create a development environment**
+## 練習 2: 開発環境の作成
 
-1.	Login to +++https://admin.powerplatform.microsoft.com/+++.
-   
-2.	Select **Environments** from the left navigation pane and click on **+ New**.
+1.  +++<https://admin.powerplatform.microsoft.com/+++>
+    にログインしてください。
 
-    ![](./media/image43.png)
+2.  左側のナビゲーション ウィンドウから **Environments**  を選択し、**+
+    New をクリックします**。
 
-3.	In the New environment window that opens, fill in the below details and click on **Next**.
+> ![A screenshot of a computer Description automatically
+> generated](./media/image4.png)
 
-    |  **Property**  |  **Value**  |
-  	|:----|:-----|
-  	|   Name |  +++Dev env+++  |
-  	|  Region  |  United States - Default  |
-  	| Type   |  Developer  |
+3.  開いたNew
+    environmentウィンドウで、以下の詳細を入力し、\[**Next**\]をクリックします。
 
-    ![](./media/image44.png)
-  	
-  	![](./media/image45.png)
+[TABLE]
 
-4.	In the **Add Dataverse** window, accept the defaults and click on **Save**.
+> ![A screenshot of a computer Description automatically
+> generated](./media/image5.png)
+>
+> ![A screenshot of a computer Description automatically
+> generated](./media/image6.png)
 
-    ![](./media/image46.png)
+4.  **Add** **Dataverse**
+    ウィンドウで、デフォルトをそのまま使用し、**Saveをクリックします**。
 
-5.	The newly created environment gets listed in the admin center with its status in the Environments pane.
-   
-6.	Once the **status** is **ready**, the environment is ready to use. We will use this environment in the upcoming exercises.
+> ![A screenshot of a computer Description automatically
+> generated](./media/image7.png)
 
-  	![](./media/image47.png)
+5.  新しく作成された環境は、管理センターに一覧表示され、その状態が
+    \[Environments\] ウィンドウに表示されます。
 
-## **Exercise 3: Create a Conversational plugin**
+6.  **status** is **readyになると**、環境を使用する準備が整います。この環境は、今後の演習で使用します。
 
-1.  Open a browser and type +++**https://copilotstudio.microsoft.com/**+++ in the address bar.
+> ![A screenshot of a computer Description automatically
+> generated](./media/image8.png)
 
-2.  Sign in with the **Credentials** provided under the **Resources** tab of your Lab VM.
+## 練習3：会話プラグインを作る
 
-    ![](./media/image28.png)
+1.  ブラウザを開き、[アドレス](https://copilotstudio.microsoft.com/+++)バーに「+++https://copilotstudio.microsoft.com/+++」と入力する。
 
-3.  Once logged in, the Welcome to Microsoft Copilot Studio page, leave the country as **United States** and click on **Get Started**.
+2.  Lab VM の **Resources**
+    タブの下に提供されている**認証情報を**使用してサインインします。
 
-    ![](./media/image7.png)
+![A screenshot of a computer Description automatically
+generated](./media/image9.png)
 
-4.	Select **Skip** in the **Welcome** screen.
+3.  ログインしたら、\[Microsoft Copilot
+    Studioへようこそ\]ページで、国を\[**United
+    States\]**のままにして、\[**Get Started\]**をクリックします。
 
-    ![](./media/image25.png)
+![](./media/image10.png)
 
-5. In the Agent creation page that opens up, click on the 3 dots next to **Create** in the top right and click on **Cancel agent creation** and click on **Leave** in the confirmation dialog.
-   
-    ![](./media/image36.png)
-    
-    ![](./media/image30.png)
+4.  **ようこそ」**画面で**「スキップ」を**選択します。
 
-6.  The Copilot Studio **Home** page opens.
+![](./media/image11.png)
 
-    ![](./media/image8.png)
+5.  開いたCopilot作成ページで、右上の**Createの**横にある3つの点をクリックし、**Cancel
+    copilot
+    creationを**クリックし、確認ダイアログで**Leaveを**クリックします。
 
-7.	Select **Environments** in the top right and select the **Dev env** environment.
+![A screenshot of a computer Description automatically
+generated](./media/image12.png)
 
-  	![](./media/image42.png)
-  	
-8.	From the Home screen’s left pane, select **Agents**.
+![A white background with black text Description automatically
+generated](./media/image13.png)
 
-    ![](./media/image38.png)
-  	
-9.  Select **Copilot for Microsoft 365**.
+6.  Copilot Studio**ホーム**画面が開きます。
 
-    ![](./media/image39.png)
+![A screenshot of a computer Description automatically
+generated](./media/image14.png)
 
-10.  Select **Actions** tab.
+7.  右上の **\[Environments**\] を選択し、**Dev env** 環境を選択します。
 
-     ![](./media/image40.png)
+> ![コンピューターのスクリーンショット
+> 説明が自動的に生成される](./media/image15.png)
 
-11.  Select **New action** or **+ Add Action**.
+8.  ホーム画面の左ペインから**Copilotを**選択します。
 
-     ![](./media/image41.png)
-   	
-12.  Select **Conversational** in the **New action** pane.
+![A screenshot of a computer Description automatically
+generated](./media/image16.png)
 
-     ![](./media/image12.png)
+9.  **Copilot for Microsoft 365を**選択します。
 
-13.  Provide the name for the action as +++**Conversational action**+++. Select **Create**.
+![A screenshot of a computer Description automatically
+generated](./media/image17.png)
 
-     ![](./media/image27.png)
+10. 「アクション」タブを選択します
 
-14. Once ready, the created action opens in Authoring canvas. Select **Topics**.
+![A screenshot of a computer Description automatically
+generated](./media/image18.png)
 
-    ![](./media/image35.png)
+11. **\[新しいアクション\] または \[+ アクションの追加\] を選択します**
 
-14. Select **Allow** if there is a pop up to allow copying.
+> ![A screenshot of a computer Description automatically
+> generated](./media/image19.png)
 
-16. Name the topic as +++Holidaylist+++
+12. **Newアクション**ペインで**Conversationalを**選択する。
 
-    ![](./media/image16.png)
+![A screenshot of a computer Description automatically
+generated](./media/image20.png)
 
-17. In the Trigger node’s description, provide a clear description of
-    how the conversational plugin can help the user and what it can
-    do. Let this topic help the user to find the list of holidays in the
-    year 2024.
+13. アクションの名前を「+++Conversational
+    **action+++」と**します。**Createを**選択する。
 
-    Type +++**This plugin helps to retrieve the list of holidays for the year 2024**.+++ in the Trigger node’s description.
+![A screenshot of a computer Description automatically
+generated](./media/image21.png)
 
-    ![](./media/image17.png)
+14. 準備ができたら、作成したアクションがオーサリングキャンバスで開きます。**トピックを**選択します。
 
-    This description has functional purpose and is used by the Microsoft
-    Copilot to determine whether to invoke your plugin or not.
+![](./media/image22.png)
 
-18. Add a **message node** with the list of holidays.
+15. コピーを許可するポップアップが表示されたら、**「許可**」を選択します。
 
-    ```
-    - New Year's Day - January 1
+16. トピック名を+++Holidaylist+++とする。
 
-    - Martin Luther King, Jr.'s Birthday (Third Monday of January) -
-      January 15, 2024
+![A screenshot of a computer Description automatically
+generated](./media/image23.png)
 
-    - Washington's Birthday or Presidents' Day (third Monday of
-      February) - February 19
+17. トリガーノードの説明では、会話プラグインがどのようにユーザーを助けることができるか、何ができるかを明確に説明してください。このトピックは、ユーザーが2024年の祝日のリストを見つけるのに役立ちます。
 
-    - Memorial Day (last Monday of May) - May 27
+> +++この**プラグインは、2024年の祝日のリストを取得するのに役立ちます**。+++
 
-    - Juneteenth Day - June 19
+![A screenshot of a computer Description automatically
+generated](./media/image24.png)
 
-    - Independence Day - July 4
+この記述には機能的な目的があり、Microsoft
+Copilotがプラグインを起動するかどうかを判断するために使用されます。
 
-    - Labor Day (first Monday of September) - September 2
+18. を追加します。**Send a message** 休日のリストを含むノード。
 
-    - Columbus Day (Second Monday of October) - October 14
+> \- New Year's Day - January 1
+>
+> \- Martin Luther King, Jr.'s Birthday (Third Monday of January) -
+>
+> January 15, 2024
+>
+> \- Washington's Birthday or Presidents' Day (third Monday of
+>
+> February) - February 19
+>
+> \- Memorial Day (last Monday of May) - May 27
+>
+> \- Juneteenth Day - June 19
+>
+> \- Independence Day - July 4
+>
+> \- Labor Day (first Monday of September) - September 2
+>
+> \- Columbus Day (Second Monday of October) - October 14
+>
+> \- Veterans Day or Veterans Day - November 11
+>
+> \- Thanksgiving Day (fourth Thursday of November): November 28
+>
+> \- Christmas Day - December 25
 
-    - Veterans Day or Veterans Day - November 11
+![A screenshot of a calendar Description automatically
+generated](./media/image25.png)
 
-    - Thanksgiving Day (fourth Thursday of November): November 28
+19. **Saveを**クリックしてアクションを保存します。
 
-    - Christmas Day - December 25
-    
-    ```
-    ![](./media/image18.png)
+![A screenshot of a computer Description automatically
+generated](./media/image26.png)
 
-16. Click on **Save** to save the action.
+![A screenshot of a chat box Description automatically
+generated](./media/image27.png)
 
-    ![](./media/image19.png)
+## 練習4：会話アクションをMicrosoft Copilotに公開する
 
-    ![](./media/image20.png)
+1.  会話型プラグインを公開すると、テナントのDataverseレジストリに新しいプラグインが作成されます。そこで利用可能になると、テナント管理者はMicrosoft
+    Copilotプラグインカタログでユーザーが利用できるようにプラグインを承認する必要があります。
 
-## **Exercise 3: Publishing your conversational action to Microsoft Copilot**
+2.  **Publishを**クリックする。
 
-1.  Publishing your conversational plugin creates a new plugin in the
-    Dataverse registry for your Tenant. Once available there, your
-    tenant admin needs to approve your plugin to be available to users
-    in the Microsoft Copilot plugins catalog.
+![A screenshot of a computer Description automatically
+generated](./media/image28.png)
 
-2.  Click on **Publish**.
+3.  **Publishを**選択する。
 
-    ![](./media/image21.png)
+![A screenshot of a computer program Description automatically
+generated](./media/image29.png)
 
-3.  Select **Publish**.
+4.  **最新コンテンツの公開**ダイアログで**公開を**選択する。
 
-    ![](./media/image22.png)
+![A screenshot of a computer Description automatically
+generated](./media/image30.png)
 
-4.  Select **Publish** on **Publish latest content** dialog.
+5.  発行ステータスが画面に表示されます。
 
-    ![](./media/image23.png)
+![A screenshot of a computer Description automatically
+generated](./media/image31.png)
 
-5.  The publish status is shown on the screen.
+\[注】**注：**パブリッシュは迅速に完了する必要があります。Microsoft
+Admin
+Centerで実際に利用できるようになるまで、最大4時間かかることがあります。
 
-    ![](./media/image24.png)
+6.  管理者は、Microsoft Admin
+    Centerの**\[設定\]**、\[**統合\]の**順に表示される**DataverseとMicrosoft
+    Copilot Studio**統合アプリを**確認し、承認します**。
 
-    >[!Note] **Note:** The publishing should be completed quickly. The actual
-availability in the Microsoft Admin Center can take up to 4 hours.
+\[注意\]
+**重要です：**管理者が管理センターに表示するには、有効なCopilotライセンスを保有している必要があります。
 
-6.  Your Admin can find the **Dataverse and Microsoft Copilot
-    Studio** integrated app in the Microsoft Admin Center
-    under **Settings**, then **Integrations to be reviewed and
-    approved**.
+7.  テナント管理者がDataverseとMicrosoft Copilot
+    Studioの統合アプリを承認すると、Microsoft Copilot
+    UIのユーザーのプラグインリストに表示されるようになります。
 
-    >[!Alert] **Important:** For the admin to get it listed in the admin center, the company will have to hold a valid adminCopilot license. This part cannot be done as part of this lab. This lab has got user copilot license.
+**概要**
 
-7.  Once your Tenant admin approves the Dataverse and Microsoft Copilot
-    Studio integrated app, it should appear in the user's list of
-    plugins in their Microsoft Copilot UI.
-
-**Summary:**
-
-In this lab, we have learnt how to create a conversational action and to
-publish it.
+このラボでは、会話アクションを作成し、それを公開する方法を学びました。
