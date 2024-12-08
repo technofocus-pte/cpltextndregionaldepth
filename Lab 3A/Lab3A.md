@@ -1,264 +1,245 @@
-# **Lab 3A - Building your first agent with Copilot Studio**
+# **ラボ 3A - Copilot Studio を使用した最初のエージェントの構築**
 
-**Objective:**
+**目的：**
 
-In this lab, you go through the steps of creating, deploying, and
-testing your first agent that can answer employee questions about
-expense policies in a fictional corporation.
+このラボでは、架空の企業の経費ポリシーに関する従業員の質問に答えることができる最初のエージェントを作成、デプロイ、およびテストする手順を実行します。
 
-## **Exercise 1: Build your first agent**
+## **演習 1: 最初のエージェントを作成する**
 
-### **Task 1: Sign in to create an agent**
+### **タスク 1: サインインしてエージェントを作成する**
 
-1.  From a browser, open the url -
-    +++https://copilotstudio.microsoft.com/+++.
+1.  ブラウザから、URL -
+    +++https://copilotstudio.microsoft.com/+++を開きます。
 
-2.  Sign in with the credentials provided under the **Resources** tab of
-    your Lab VM.
+2.  ラボ VM の **\[Resources**\]
+    タブで指定された資格情報でサインインします。
 
-    ![](./media/image1.png)
+    ![コンピューターのスクリーンショット 説明が自動的に生成される](./media/image1.png)
 
-3.  Ensure that you are on the **Dev env** environment created in Lab
-    2A. If the environment is not present, please redo **Exercise 2 of
-    Lab 2A** and then continue with the remaining exercises of this lab.
+3.  ラボ 2A で作成した Dev env **環境を使用していることを確認します**
+    。環境が存在しない場合は、**ラボ 2A の演習 2**
+    をやり直してから、このラボの残りの演習を続行してください。
 
     ![](./media/image2.png)
 
-4.  From the left menu, select **Agents** and then select **+ New
-    agent.**
+4.  左側のメニューから \[**Agents**\] を選択し、 **+ New
+    agent\]を選択します。**
 
-    ![](./media/image3.png)
+    ![コンピューターのスクリーンショット 説明が自動的に生成される](./media/image3.png)
 
-5.  Enter the following prompt.
+5.  次のプロンプトを入力します。
 
     +++Create a copilot to help employees with expense claims.+++
 
-    ![](./media/image4.png)
+    ![チャットのスクリーンショット 説明が自動的に生成される](./media/image4.png)
 
-6.  Next, it suggest a name for the agent. Accept it or instruct it to
-    rename it as per your choice.
+6.  次に、エージェントの名前を提案します。それを受け入れるか、選択に従って名前を変更するように指示します。
 
-    ![](./media/image5.png)
+    ![チャットのスクリーンショット 説明が自動的に生成される](./media/image5.png)
 
-7.  Add few more instructions like,
+7.  次のようないくつかの指示をさらに追加します。
 
-    - Use a friendly, professional tone.
+    - フレンドリーでプロフェッショナルな口調を使用してください。
     
-    - Avoid providing any tax advice.
+    - 税金に関するアドバイスを提供することは避けてください。
 
-    ![](./media/image6.png)
+    ![電話のスクリーンショット 説明が自動的に生成される](./media/image6.png)
 
-8.  When you’re done, click on **Create** on the top right to create the
-    agent.
+8.  完了したら、右上の「**Create**」をクリックしてエージェントを作成します。
 
-    ![](./media/image7.png)
+    ![チャットのスクリーンショット 説明が自動的に生成される](./media/image7.png)
 
-9.  The agent gets created, and gets opened with a message, **Your agent
-    is ready**.
+9.  エージェントが作成され、メッセージ「**Your agent is
+    ready**」で開きます。
 
-    ![](./media/image8.png)
+    ![コンピューターのスクリーンショット 説明が自動的に生成される](./media/image8.png)
 
-10. In the **Test your agent** pane, enter the prompt +++Hello+++.
-    Review the response, which should be an appropriate message.
+10. \[**Test your agent**\] ウィンドウで、プロンプト +++Hello+++
+    を入力します。応答を確認します
+    (適切なメッセージである必要があります)。
 
-    ![](./media/image9.png)
+    ![チャットのスクリーンショット 説明が自動的に生成される](./media/image9.png)
 
-11. Now try the following prompt - +++Who should I contact about
-    submitting an expense claim?+++
+11. 次に、次のプロンプトを試してください - +++ Who should I contact
+    about submitting an expense claim?+++
 
-    ![](./media/image10.png)
+    ![電話のスクリーンショット 説明が自動的に生成される](./media/image10.png)
 
-    The response may be appropriate, but it’s fairly generic. In a real
-organization, you’d want the agent to provide an email address of phone
-number for the user to contact.
+応答は適切かもしれませんが、かなり一般的です。実際の組織では、ユーザーが連絡する電話番号のメール
+アドレスをエージェントに提供する必要があります。
 
-12. Close the **Test your agent** pane.
+12. \[**Test your agent** **\]** ウィンドウを閉じます。
 
-### **Task 2: Manage topics in your agent**
+### **タスク 2: エージェントのトピックを管理する**
 
-1.  Select Topics from the top menu of the agent.
+1.  エージェントの上部メニューから \[Topics\] を選択します。
 
-    ![](./media/image11.png)
+    ![コンピューターのスクリーンショット 説明が自動的に生成される](./media/image11.png)
 
-2.  In the Topics page, in the **+ Add a topic** menu, select Topic **\>
-    Create from description with copilot.**
+2.  \[Topics\] ページの **+ Add a topic**\] メニューで、 \[Topic**\] \>
+    \[Create from description with copilot\] を選択します。**
 
-    ![](./media/image12.png)
+    ![コンピューターのスクリーンショット 説明が自動的に生成される](./media/image12.png)
 
-3.  In the **Create a description with copilot** dialog box, name the
-    new topic as +++Ask about expenses contact+++ and enter the
-    following text to tell copilot what the topic should do: +++When the
-    user asks who to contact about expense claims, tell them to send an
-    email to <finance@contoso.com>.+++
+3.  **Create a description with
+    copilot**ダイアログボックスで、新しいトピックに +++Ask about
+    expenses contact+++ という名前を付け、以下のテキストを入力して
+    copilot にトピックの動作を指示します： +++ When the user asks who to
+    contact about expense claims, tell them to send an email to
+    test <finance@contoso.com>+++ に電子メールを送信するよう伝えます。
 
-4.  Select **Create**.
+4.  \[**Create**\] を選択します
 
-    ![](./media/image13.png)
+    ![コンピューターのスクリーンショット 説明が自動的に生成される](./media/image13.png)
 
-5.  A new topic named **Ask about expenses contact** gets created and
-    opened in the authoring canvas, where it should look similar to
-    this.
+5.  **Ask about expenses
+    contact**」という名前の新しいトピックが作成され、オーサリングキャンバスで開かれます。
 
-    ![](./media/image14.png)
+    ![コンピューターのスクリーンショット 説明が自動的に生成される](./media/image14.png)
 
-    The new topic should be triggered by phrases that ask about a contact
-for expenses, and respond with a message telling the user to send an
-email to the appropriate address.
+新しいトピックは、経費の連絡先について尋ねるフレーズによってトリガーされ、適切なアドレスに電子メールを送信するようにユーザーに指示するメッセージで応答する必要があります。
 
-6.  Use the **Save** button (at the top right) to save the new topic in
-    your copilot.
+6.  **「Save** 」ボタン(右上)を使用して、新しいトピックをcopilotに保存します。
 
-    ![](./media/image15.png)
+    ![コンピューターのスクリーンショット 説明が自動的に生成される](./media/image15.png)
 
-7.  Open the **Test** pane, and enter the following prompt
+7.  **\[Test**\] ウィンドウを開き、次のプロンプトを入力します
 
     +++Who should I contact about submitting an expense claim?+++
 
-    ![](./media/image16.png)
+    ![電話のスクリーンショット 説明が自動的に生成される](./media/image16.png)
 
-### Task 3: Add a knowledge source for Generative AI responses
+### タスク 3: Generative AI 応答のナレッジ ソースを追加する
 
-You can add topics for all of the inputs that you expect a user to
-enter; but you can’t realistically expect to anticipate every question
-that will be asked. Currently, your agent uses a *Conversation
-boosting* topic to generate AI responses from a language model, but this
-results in generic answers. You need to provide a source of knowledge in
-which the generative AI responses can be *grounded* to provide more
-relevant information.
+ユーザーが入力すると予想されるすべての入力に対してトピックを追加できますが、すべての質問を想定することは現実的には期待できません。現在、エージェントは*会話ブースティング*トピックを使用して言語モデルからAI応答を生成しますが、これにより一般的な回答が得られます。ジェネレーティブAIの応答をより*関連性の高い情報を提供するために*根拠となる知識のソースを提供する必要があります。
 
-1.  Close the **Test your agent** pane to see the page more easily, then
-    select the **Overview** tab and scroll down to the **Knowledge** tab
-    to see the knowledge sources defined in your agent (currently there
-    should be none).
+1.  \[**Test your agent** \] **ウィンドウを閉じ**
+    てページをより簡単に表示し、\[**Overview\]
+    タブを選択し、\[Knowledge** \]
+    タブ**まで下にスクロールし**て、エージェントで定義されているナレッジ
+    ソースを確認します (現在は存在しないはずです)。
 
-    ![](./media/image17.png)
+    ![コンピューターのスクリーンショット 説明が自動的に生成される](./media/image17.png)
 
-2.  Select **+ Add knowledge**, and note the multiple types of knowledge
-    source that you can add to your agent.
+2.  \+ **Add
+    knowledgeを選択し**、エージェントに追加できる複数の種類のナレッジ
+    ソースをメモします。
 
-    ![](./media/image18.png)
+    ![Web ページのスクリーンショット 説明が自動的に生成される](./media/image18.png)
 
-3.  In the **Upload files** section, select **click to browse** option.
+3.  \[**Upload files** \]セクションで、\[**click to
+    browse**\]オプションを選択します。
 
-    ![](./media/image19.png)
+    ![コンピューターのスクリーンショット 説明が自動的に生成される](./media/image19.png)
 
-4.  Navigate to **C:\Labfiles** and upload the **Expenses_Policy**
-    document.
+4.  C:\Labfiles **に移動し**
+    、**Expenses_Policy**ドキュメントをアップロードします。
 
-    ![](./media/image20.png)
+    ![コンピューターのスクリーンショット 説明が自動的に生成される](./media/image20.png)
 
-5.  Click on **Add** to add the document as the knowledge source.
+5.  「**Add」をクリックして**、ドキュメントをナレッジソースとして追加します。
 
-    ![](./media/image21.png)
+    ![コンピューターのスクリーンショット 説明が自動的に生成される](./media/image21.png)
 
-    **Note**: After uploading the file, you will need to wait while it is
-indexed, which may take 10 minutes (or longer).
+**注**:
+ファイルをアップロードした後、インデックスが作成されるまで待つ必要があり、10分(またはそれ以上)かかる場合があります。
 
-6.  When the file is ready, view the **Topics** page and open
-    the **Conversational boosting** system topic. Recall that this topic
-    is triggered by an unknown intent, and then tries to create a
-    generative AI response based on data sources containing knowledge,
-    such as the file you uploaded.
+6.  ファイルの準備ができたら、\[**Topics**\]
+    ページを表示し、**Conversational boosting**
+    システムのトピックを開きます。このトピックは不明なインテントによってトリガーされ、アップロードしたファイルなどのナレッジを含むデータソースに基づいてgenerative
+    AI応答を作成しようとします。
 
-    **Note**: If no relevant answer is found in the custom knowledge sources
-you have added, the topic may use the knowledge inherent in the language
-model to provide a more generic answer. You can configure the topic to
-restrict its search to specific knowledge stores if you want greater
-control over the generative AI responses it returns.
+**注**:
+追加したカスタムナレッジソースに関連する回答が見つからない場合、トピックでは言語モデルに固有のナレッジを使用して、より一般的な回答を提供する場合があります。トピックが返すgenerative
+AI 応答をより詳細に制御する場合は、検索を特定のナレッジ
+ストアに制限するように構成できます。
 
-7.  Expand the **Test** pane and restart the conversation. Then enter
-    the following prompt:
+7.  \[**Test**\]
+    ペインを展開し、会話を再開します。次に、次のプロンプトを入力します。
 
     +++What's the expense limit for a hotel stay?+++
 
-    The response should be based on the information in the knowledge source
-you uploaded, and include a citation reference.
+    回答は、アップロードしたナレッジソースの情報に基づいており、引用文献を含める必要があります。
 
-    ![](./media/image22.png)
+    ![電話のスクリーンショット 説明が自動的に生成される](./media/image22.png)
 
-8.  Try asking some follow-up questions, such as:
+8.  次のようなフォローアップの質問をしてみてください。
 
-        - +++What about flights?+++
-    
-        - +++What guidelines are there for entertainment expenses?+++
+    +++What about flights?+++
 
-### **Task 4: Publish your agent**
+    +++What guidelines are there for entertainment expenses?+++
 
-Now that you have a working agent, you can publish it for people to
-use. The available channels through which you can deliver your agent
-depend on the type of authentication you want to use to restrict access
-to it. In this case, you’ll enable access for anyone and then publish
-the agent for use in a demo web page.
+### **タスク 4: エージェントを公開する**
 
-1.  Hide the **Test your agent** pane.
+これで機能するエージェントができたので、他のユーザーが使用できるように公開できます。エージェントを配信するために使用できるチャネルは、エージェントへのアクセスを制限するために使用する認証のタイプによって異なります。この場合は、すべてのユーザーに対してアクセスを有効にし、デモ
+Web ページで使用するためにエージェントを公開します。
 
-2.  Select **Settings** at the top of the page.
+1.  \[**Test your agent** **\] ウィンドウを非表示にします** 。
 
-    ![](./media/image23.png)
+2.  ページの上部にある \[**Settings** \] を選択します。
 
-3.  In the **Settings** pane, on the **Security** page,
-    select **Authentication**. Then select the option for **No
-    authentication** and **Save** the changes to the configuration.
+    ![コンピューターのスクリーンショット 説明が自動的に生成される](./media/image23.png)
 
-    ![](./media/image24.png)
+3.  **\[Settings** \] ウィンドウの **\[Security** \]
+    ページで、\[**Authentication\] を選択します**。次に、\[**No
+    authentication**\] のオプションを選択し 、
+    設定への変更を保存します。
 
-4.  Close the **Settings** pane.
+    ![コンピューターのスクリーンショット 説明が自動的に生成される](./media/image24.png)
 
-5.  Then, at the top of the page, select the **Channels** tab and review
-    the channels to which you can deploy your copilot. The available
-    channels depend on the authentication settings for your copilot.
+4.  \[**Settings\] ウィンドウ** を閉じます。
 
-    ![](./media/image25.png)
+5.  次に、ページの上部にある **\[Channels**\]
+    タブを選択し、copilotをデプロイできるチャネルを確認します。使用可能なチャネルは、copilotの認証設定によって異なります。
 
-6.  At the top of the page, select **Publish**. Then, on
-    the **Publish** page, select **Publish**, and publish your copilot.
-    Publishing will take a minute or so.
+    ![コンピューターのスクリーンショット 説明が自動的に生成される](./media/image25.png)
 
-    ![](./media/image26.png)
+6.  ページの上部にある **\[Publish\]** を選択します。次に、
+    **\[Publish\]** ページで \[**Publish\]**
+    を選択し、copilotを発行します。出版には1分ほどかかります。
 
-    ![](./media/image27.png)
+    ![コンピューターのスクリーンショット 説明が自動的に生成される](./media/image26.png)
 
-7.  After your copilot has been published, verify the **Publish
-    status** on the **Channels** page.
+    ![コンピューターのスクリーンショット 説明が自動的に生成される](./media/image27.png)
 
-8.  Select the **Demo website** channel. This is an appropriate channel
-    for users to test your copilot.
+7.  copilotが公開されたら、\[**Channels**\] **ページでPublish
+    status** を確認します。
 
-    ![](./media/image28.png)
+8.  **Demo
+    website**チャネルを選択します。これは、ユーザーがcopilotをテストするのに適したチャネルです。
 
-9.  Click on **Start free trial** if prompted and click on Demo website
-    from the Channels page again.
+    ![コンピューターのスクリーンショット 説明が自動的に生成される](./media/image28.png)
+
+9.  プロンプトが表示されたら\[**Start free
+    trial**\]をクリックし、\[チャンネル\]ページから\[デモWebサイト\]を再度クリックします。
 
     ![](./media/image29.png)
 
-10. In the Demo website pane, enter the following settings:
+10. デモ Web サイト ウィンドウで、次を入力します。
 
-    Welcome message: +++Ask me about Expense claims+++
-    
-    Conversation starters:
+    歓迎メッセージ: +++Ask me about Expense claims+++
+会話のきっかけ:
 
     ```
     "Hello"
-    
     "Who should I contact with expense enquiries?"
-    
-    "What are the expense limits for flights?"\
+    "What are the expense limits for flights?"
     ```
 
-11. Select **Save** to save the settings.
 
-    ![](./media/image30.png)
+12. \[**Save** **\] を選択して** 設定を保存します。
 
-12. Then **Copy** the link to your copilot demo website to the
-    clipboard.
+    ![コンピュータ画面のスクリーンショット 説明が自動的に生成される](./media/image30.png)
 
-    ![](./media/image31.png)
+12. 次に
+    **、copilotのデモWebサイトへのリンクをクリップボード**にコピーします。
 
-13. In a new browser tab, navigate to the URL you copied to open the
-    demo website, which should look similar to this.
+    ![コンピューターのスクリーンショット 説明が自動的に生成される](./media/image31.png)
 
-    ![](./media/image32.png)
+13. 新しいブラウザのタブで、コピーしたURLに移動してデモウェブサイトを開き、以下のように見えます。
 
-**Summary:**
+    ![コンピューターのスクリーンショット 説明が自動的に生成される](./media/image32.png)
 
-In this lab, we have learnt to create and publish an agent and adding a knowledge source to the agent.
+**概要：** 
+このラボでは、エージェントを作成して公開する方法と、エージェントにナレッジ ソースを追加する方法を学習しました
+
