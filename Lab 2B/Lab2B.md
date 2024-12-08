@@ -1,64 +1,66 @@
-# **Lab 2B: Adding an AI action to Copilot for Microsoft 365**
+# Lab 2B: Microsoft 365のCopilotにAIアクションを追加する
 
-**Objective**
+**目的**
 
-AI Plugins can be used to extend Microsoft Copilot, or used within a
-custom copilot as a plugin action. In this lab, we will learn about
-creating different types of AI Plugins.
+AIプラグインは、Microsoft
+Copilotを拡張するために使用したり、プラグインアクションとしてカスタムCopilot内で使用したりできます。この実習ラボでは、さまざまな種類の
+AI プラグインの作成について学習します。
 
-The Plugins will be available in the Microsoft Copilot in production, if
-the organization has valid license for the same.
+プラグインは、組織が同じもののための有効なライセンスを持っている場合、本番のMicrosoft
+Copilotで利用できるようになります。
 
-Lab duration – 15 minutes
+ラボの所要時間 - 15分
 
-## **Exercise 1: Generate content or extract insights with AI Builder dynamic prompts**
+## 演習1：AI Builderの動的プロンプトでコンテンツを生成し、インサイトを抽出する
 
-### Task 1: Navigate to the Add a prompt action wizard
+### タスク 1：プロンプトアクションの追加ウィザードに移動する
 
-1.  Sign into Copilot Studio at +++https://copilotstudio.microsoft.com+++ using your tenant credentials under the Resources tab.
+1.  Resources］タブにあるテナント認証情報を使用して、+++https://copCopilot
+    Studioにサインインします。
 
-2.  Select **Library** from the side navigation pane.
+2.  サイドナビゲーションペインから**「ライブラリ**」を選択する。
 
-    ![](./media/image34.png)
+    ![A screenshot of a computer Description automatically generated](./media/image1.png)
 
-3.  Select **+ Add an item**.     
+3.  選択**＋アイテムを追加する**。
 
-    ![](./media/image36.png)
+    ![A screenshot of a computer Description automatically generated](./media/image2.png)
 
-4.  Select **Copilot for Microsoft 365**.
+4.  **Copilot for Microsoft 365を**選択します。
 
-    ![](./media/image3.png)
+![A screenshot of a computer Description automatically
+generated](./media/image3.png)
 
-5.	Select **New action**.
-   
-    ![](./media/image32.png)
-  	
-7.  A **New action** menu appears. Select **Prompt**.
+5.  **新しいアクションを**選択します。
 
-    ![](./media/image4.png)
+    ![A screenshot of a computer Description automatically generated](./media/image4.png)
 
-8.  The **Add a prompt action** wizard opens.
+6.  **新しいアクション**メニューが表示されます。**Prompt を**選択する。
 
-### Task 2: Generate content or extract insights with AI Builder dynamic prompts
+    ![A screenshot of a computer Description automatically generated](./media/image5.png)
 
-1.  Provide the below details and click on **Next**.
+7.  **プロンプトアクションの追加**ウィザードが開きます。
 
-    - Name - +++**Dynamic promptXX**+++ (Replace **XX** with a random number to ensure uniqueness)
-    
-    - Description - +++**Dynamic prompt to summarize text**+++
+### タスク 2: AI Builderの動的プロンプトを使用してコンテンツを生成またはインサイトを抽出する
 
-    ![](./media/image5.png)
+1.  以下の詳細を入力し、「**次へ**」をクリックします。
 
-2.  Select **Summarize text**.
+    - 名前 - +++Dynamic **promptXX+++
+      (**一意性を確保するため、XXを乱数に置き換える)
 
-    ![](./media/image6.png)
+    - 説明 - +++**Dynamic prompt to summarize text+++**
 
-3.  It will add a prompt with a dynamic value **text**.
+    ![A screenshot of a computer Description automatically generated](./media/image6.png)
 
-    ![](./media/image7.png)
+2.  **テキストの要約を**選択します。
 
-4.  Click on the **Input** under Prompt Settings add the below content
-    in the **Sample data**.
+    ![A screenshot of a computer Description automatically generated](./media/image7.png)
+
+3.  これは、動的な値の**テキストを**持つプロンプトを追加します。
+
+    ![A screenshot of a computer Description automatically generated](./media/image8.png)
+
+4.  プロンプト設定\]の\[**入力\]**をクリックし、**\[サンプルデータ**\]に以下の内容を追加します。
 
     ```
     Meet comfortably and confidently with customizable meeting views
@@ -69,42 +71,41 @@ Lab duration – 15 minutes
     
     While the default gallery size for meetings will be 16 participants, you can customize the number of participants visible on your screen to best fit your preference. You can choose from 4, 9, 16, and 49 participants visible on the screen for gallery size.
     
-    There are still a few default configurations that AI will optimize for to improve engagement and efficiency. For virtual participants, these are prioritizing those that have a raised hand and prioritizing the active speaker, enhancing their visibility so comments are not missed.
+    There are still a few default configurations that AI will optimize for to improve engagement and efficiency. For virtual participants, these are prioritizing those that have a raised hand and prioritizing the active speaker, enhancing their visibility so commen
 
     ```
-    
-    ![](./media/image8.png)
 
-5.  Click on **Test prompt**.
+    ![A screenshot of a computer Description automatically generated](./media/image9.png)
 
-    ![](./media/image9.png)
+5.  **テストプロンプトを**クリックします。
 
-6.  Notice that the Prompt response, summarizing the text is generated.
+![A screenshot of a computer screen Description automatically
+generated](./media/image10.png)
 
-    ![](./media/image10.png)
+6.  本文を要約したプロンプトの応答が生成されていることに注目してください。
 
-7.  Click on **Save custom prompt**.
+    ![A screenshot of a computer Description automatically generated](./media/image11.png)
 
-    ![](./media/image11.png)
+7.  **Save custom prompt\]**をクリックします。
 
-8.  Click on **Next**.
+    ![A screenshot of a chat Description automatically generated](./media/image12.png)
 
-    ![](./media/image12.png)
+8.  **「次へ」**をクリックする。
 
-9.  Click on **Publish**.
+    ![A screenshot of a computer Description automatically generated](./media/image13.png)
 
-    ![](./media/image13.png)
+9.  **Publishを**クリックする。
 
-10. Once published, click on **Go to details page** to view the details.
+    ![A screenshot of a computer Description automatically generated](./media/image14.png)
 
-    ![](./media/image14.png)
+10. 公開されたら、「**詳細ページへ」を**クリックして詳細をご覧ください。
 
-    ![](./media/image35.png)
+    ![A screenshot of a computer Description automatically generated](./media/image15.png)
 
-    Your prompt action is now published to **Copilot for Microsoft 365**. It
-will show up in copilot experiences only if you have a valid Copilot
-license.
+    ![A screenshot of a computer Description automatically generated](./media/image16.png)
 
-**Summary:**
+    プロンプトアクションがCopilot for Microsoft 365に公開されました。有効な Copilot ライセンスがある場合にのみ、Copilot エクスペリエンスに表示されます。
 
-In this lab, we have learnt to create **AI actions**.
+**概要**
+
+このラボでは、**AIアクションの**作成について学んだ。
