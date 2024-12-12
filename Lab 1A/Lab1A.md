@@ -149,15 +149,15 @@ Copilot（Word）を使用して、会社の損益計算書に基づいてスピ
     **Fabrikam 2023 Financial
     presentation.docx**.次の演習では、この文書を使用します。
 
-> ![](./media/image15.png)
->
-> **重要**:
-> ファイルはローカルPCではなく**OneDriveに**保存するようにしてください。次の実習では、PowerPointのCopilotを使用して、このドキュメントに基づいてスライドプレゼンテーションを作成します。Copilotがドキュメントにアクセスするには、ドキュメントが**OneDriveに**ある必要があります。
+    ![](./media/image15.png)
 
-16. Microsoft
-    Edgeブラウザで、このドキュメントが含まれているタブを閉じます。
+    **重要**: ファイルはローカルPCではなく**OneDriveに**保存するようにしてください。次の実習では、PowerPointの 
+    Copilotを使用して、このドキュメントに基づいてスライドプレゼンテーションを作成します。Copilotがドキュメントにアク 
+    セスするには、ドキュメントが**OneDriveに**ある必要があります。
 
-練習その2：PowerPointでCopilotを使用してスライドプレゼンテーションを作成する
+16. Microsoft Edgeブラウザで、このドキュメントが含まれているタブを閉じます。
+
+## 練習その2：PowerPointでCopilotを使用してスライドプレゼンテーションを作成する
 
 この演習では、PowerPoint の Copilot を使用して、Word の Copilot
 を使用して作成したスピーチ (損益計算書に基づく株主へのスピーチ)
