@@ -71,45 +71,43 @@ Copilot（Word）を使用して、会社の損益計算書に基づいてスピ
 
 6.  白紙文書の上部に表示される「**Copilotで下書き」**ウィンドウで、次のプロンプトを入力します：
 
-    **ファブリカムのステークホルダー向けに、添付ファイルにある 2023 年の損益計算書の結果を要約したスピーチを書いて** 
-    ください。
+    +++Write a speech for the Fabrikam stakeholders that summarizes the results of the company's 2023 
+    income statement found in the attached file.+++
 
 7.  **Draft with Copilot］**ウィンドウで、［**Reference your
     content］**ボタンを選択します。表示されるポップアップウィンドウで、ファイルを選択します。
 
-> 何らかの理由でファイルが表示されない場合は、ポップアップウィンドウで**「クラウドからファイルを参照**」をクリックします。
->
-> ![](./media/image6.png)
+    何らかの理由でファイルが表示されない場合は、ポップアップウィンドウで**「クラウドからファイルを参照**」をクリック 
+    します。
 
-8.  表示された「**Pick a file」**ウィンドウで、「**Recent**
-    file」リストの下にある「**Fabrikam 2023 Income
+    ![](./media/image6.png)
+
+8.  表示された「**Pick a file」**ウィンドウで、「**Recent** file」リストの下にある「**Fabrikam 2023 Income
     Statement.docx」**ファイルを選択し、**「Attach」**ボタンを選択します。
 
-> ![](./media/image7.png)
+    ![](./media/image7.png)
 
 9.  プロンプトにどのようにファイルが表示されるかに注意してください。**Generateを**選択する。
 
-> ![](./media/image8.png)
->
-> **注**：何らかの理由で、参照ドキュメントを添付した後に**「Generate」**ボタンをクリックすると、「**Something
-> went
-> wrong」**エラーが表示され続ける場合は、そのエラーを解除して次のステップに進んでください。
->
-> ![](./media/image9.png)
->
-> ブラウザでファイルを開き、共有オプションを使用してパスをコピーし、フォワードスラッシュ（/）に続くプロンプトにパスを貼り付けます。
->
-> ![](./media/image10.png)
->
-> ![](./media/image11.png)
->
-> <span class="mark">**重要**：代替オプションを試しても、同じ「something
-> went
-> wrong」例外が表示される場合は、Wordのウェブクライアントを使用するのではなく、Wordのデスクトップバージョンを使用してみてください。</span>
->
-> <span class="mark">デスクトップ版のWordを使用しているときにうまくいく場合、**生成**ボタンをクリックしたときに「something
-> went
-> wrong」という例外が表示される場合は、今後のラボでも同じようにしてください。</span>
+    ![](./media/image8.png)
+
+    **注**：何らかの理由で、参照ドキュメントを添付した後に**「Generate」**ボタンをクリックすると、「**Something
+    went wrong」**エラーが表示され続ける場合は、そのエラーを解除して次のステップに進んでください。
+
+    ![](./media/image9.png)
+
+    ブラウザでファイルを開き、共有オプションを使用してパスをコピーし、フォワードスラッシュ（/）に続くプロンプトにパス 
+    を貼り付けます。
+
+    ![](./media/image10.png)
+
+    ![](./media/image11.png)
+
+    **重要**：代替オプションを試しても、同じ「something went wrong」例外が表示される場合は、Wordのウェブクライアン 
+    トを使用するのではなく、Wordのデスクトップバージョンを使用してみてください。</span>
+
+    デスクトップ版のWordを使用しているときにうまくいく場合、**生成**ボタンをクリックしたときに「something went
+    wrong」という例外が表示される場合は、今後のラボでも同じようにしてください。
 
 10. この時点で、Copilotは損益計算書から財務結果を抽出し、スピーチを作成します。
 
