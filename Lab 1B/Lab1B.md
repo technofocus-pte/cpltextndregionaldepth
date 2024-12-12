@@ -49,29 +49,28 @@ Adatum Corporation の IT 部長として、あなたは Contoso CipherGuard Sen
 > ![](./media/image1.png)
 
 4.  **Microsoft Edgeで**、以下のURLを入力してMicrosoft
-    Bingに移動します：+++https://bing.co[**m+++。**](https://bing.com)
+    Bingに移動します：+++https://bing.com+++
 
-> ![](./media/image2.png)
+    ![](./media/image2.png)
 
 5.  **Microsoft
     Bingのホームページで**、ページの上部に表示されるタブの一覧で、**Copilotを**選択します。**Microsoft
     Copilotが**開きます。
 
-> ![](./media/image3.png)
->
-> **注：**ページ上部にタブのリストが表示されない場合は、以下の手順でタブのリストを表示してください。
+    ![](./media/image3.png)
 
-- **Microsoft 365
-  認証情報を**使用してサインインしていることを確認します（\[**リソース**\]
+    **注：**ページ上部にタブのリストが表示されない場合は、以下の手順でタブのリストを表示してください。
+
+- **Microsoft 365 認証情報を**使用してサインインしていることを確認します（\[**リソース**\]
   タブで利用可能）。
 
-> ![](./media/image4.png)
+    ![](./media/image4.png)
 
-- **メニューバーを表示する**オプションを有効にする（赤いハイライト部分）
+    - **メニューバーを表示する**オプションを有効にする（赤いハイライト部分）
 
-> ![](./media/image5.png)
+    ![](./media/image5.png)
 
-![](./media/image6.png)
+    ![](./media/image6.png)
 
 6.  **Copilotを**選択します。Microsoft Copilotが開きます。
 
