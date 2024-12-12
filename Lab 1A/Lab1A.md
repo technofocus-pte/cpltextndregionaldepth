@@ -62,13 +62,13 @@ Copilot（Word）を使用して、会社の損益計算書に基づいてスピ
 5.  **Microsoft 365でMicrosoft Wordを**開き、新しい空白の文書を開きます。スクリーンショットのように表示される 
     Copilotアイコンをクリックします。
 
-    ![](./media/image4.png)
+    ![](./media/image4a.png)
 
     Copilotアイコンにマウスカーソルを合わせると、**Draft with Copilotツールチップが表示さ**れます。アイコンをクリ 
     ッ クすると、Draft with Copilotウィンドウが表示されます。
 
-    ![](./media/image5.png)
-
+    ![](./media/image5a.png)
+    ![](./media/image5b.png)
 6.  白紙文書の上部に表示される「**Copilotで下書き」**ウィンドウで、次のプロンプトを入力します：
 
     +++Write a speech for the Fabrikam stakeholders that summarizes the results of the company's 2023 
