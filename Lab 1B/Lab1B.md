@@ -36,7 +36,7 @@ Adatum Corporation の IT 部長として、あなたは Contoso CipherGuard Sen
 2.  **C:∕LabFiles** フォルダを参照し、**Contoso CipherGuard 製品仕様書
     report.docx** を選択して **OneDrive** にアップロードします。
 
-    **注**: すべてのドキュメントのコピー（実習ラボ セッションで使用するもの）を、**実習ラボ 0** の指示に従って
+    **注**: すべてのドキュメントのコピー（実習ラボ セッションで使用するもの）を、実習ラボ 0 の指示に従って
     **C:∕LabFiles** からすでにアップロードしている場合は、この手順を省略できます.
 
 3.  **Contoso CipherGuard 製品仕様書 report.docx（OneDrive**
