@@ -81,8 +81,8 @@ Copilot（Word）を使用して、会社の損益計算書に基づいてスピ
 
     ![](./media/image6.png)
 
-8.  表示された「**Pick a file」**ウィンドウで、「**Recent** file」リストの下にある「**Fabrikam 2023 Income
-    Statement.docx」**ファイルを選択し、**「Attach」**ボタンを選択します。
+8.  表示された **Pick a file** ウィンドウで、**Recent** file リストの下にある **Fabrikam 2023 Income
+    Statement.docx** ファイルを選択し、**Attach** ボタンを選択します。
 
     ![](./media/image7.png)
 
