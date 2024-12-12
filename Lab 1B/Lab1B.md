@@ -27,12 +27,10 @@ Adatum Corporation の IT 部長として、あなたは Contoso CipherGuard Sen
 **注意**：この演習の最後に、プロジェクト計画を OneDrive
 アカウントに保存してください。次の演習では、このファイルを使用します。
 
-1.  Microsoft EdgeブラウザでMicrosoft
-    365のタブを開いている場合は、今すぐそれを選択します。そうでない場合は、新しいタブを開き、次のURLを入力します：+++新しいタブを開き、次のURLを入力します：++https://www.office.co**m+++**
-    Microsoft 365のホームページに移動します。
+1.  Microsoft EdgeブラウザでMicrosoft 365のタブを開いている場合は、今すぐそれを選択します。そうでない場合は、新し 
+    い タブを開き、次のURLを入力します：+++https://www.office.com+++ Microsoft 365のホームページに移動します。
 
-**注**: 右側の**「Resources」タブで**提供される **Microsoft 365
-認証情報を**使用してサインインする必要があります
+**注**: 右側の**「Resources」タブで**提供される **Microsoft 365 認証情報を**使用してサインインする必要があります
 (プロンプトが表示された場合)。
 
 2.  **C:∕LabFiles** フォルダを参照し、**Contoso CipherGuard 製品仕様書
