@@ -67,7 +67,7 @@ Copilot（Word）を使用して、会社の損益計算書に基づいてスピ
     アイコンをクリッ クすると、Draft with Copilotウィンドウが表示されます。
 
     ![](./media/image5a.png)
-    ![](./media/image5b.png)
+    
 6.  白紙文書の上部に表示される「**Copilotで下書き」**ウィンドウで、次のプロンプトを入力します：
 
     +++Write a speech for the Fabrikam stakeholders that summarizes the results of the company's 2023 
@@ -79,7 +79,7 @@ Copilot（Word）を使用して、会社の損益計算書に基づいてスピ
     何らかの理由でファイルが表示されない場合は、ポップアップウィンドウで**「クラウドからファイルを参照**」をクリック 
     します。
 
-    ![](./media/image6.png)
+    ![](./media/image6a.png)
 
 8.  表示された **Pick a file** ウィンドウで、**Recent** file リストの下にある **Fabrikam 2023 Income
     Statement.docx** ファイルを選択し、**Attach** ボタンを選択します。
