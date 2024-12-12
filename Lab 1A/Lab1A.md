@@ -64,8 +64,7 @@ Copilot（Word）を使用して、会社の損益計算書に基づいてスピ
 
     ![](./media/image4a.png)
 
-    Copilotアイコンにマウスカーソルを合わせると、**Draft with Copilotツールチップが表示さ**れます。アイコンをクリ 
-    ッ クすると、Draft with Copilotウィンドウが表示されます。
+    アイコンをクリッ クすると、Draft with Copilotウィンドウが表示されます。
 
     ![](./media/image5a.png)
     ![](./media/image5b.png)
