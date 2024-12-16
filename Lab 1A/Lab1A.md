@@ -264,19 +264,24 @@ PowerPointのCopilotにプレゼンテーションの下書きを作成させる
 
 19. Copilotを使用してプレゼンテーションを更新してみる。たとえば、次のプロンプトを入力します：
 
-> **スライド1の後に新しいスライドを追加する。このスライドには、アルプスの山頂の画像を載せます。スライドの一番下に、次のようなテキストボックスを追加します：Fabrikamの社是 -
-> "We overcome every
-> obstacle."（私たちはあらゆる障害を克服します）。この新しいスライドに、Fabrikamがいかに顧客のあらゆる要望を解決するために真摯に取り組み、いかなる障害にも決して立ち向かわずに成功を収めているかについて語るスピーカーノートを追加します**。
->
-> ![](./media/image28.png)
+    +++Add a new slide after slide 1. This slide should have an image of a mountain peak in the Alps.     
+    Towards the bottom of the slide, add a text box that says: Fabrikam's company motto - "We overcome 
+    every obstacle." Add speaker notes to this new slide that talk about how Fabrikam works diligently to 
+    solve every customer's request, never letting any obstacle stand in its way of success+++
 
-作成された新しいスライドを見直す。残りのラボ演習ではこのプレゼンテーションは使用しませんが、将来の参考のために破棄するか、保存しておくことができます。
+    ![](./media/image28.png)
 
-概要
+    作成された新しいスライドを見直す。残りのラボ演習ではこのプレゼンテーションは使用しませんが、将来の参考のために破 
+    棄 するか、保存しておくことができます。
+
+## 概要
 
 このラボでは
 
 - Microsoft
-  CopilotのWord機能を活用し、キーメッセージや会社の最新情報を効果的に伝えるコンテンツの作成を含む、包括的なスピーチの草稿を作成。
+  CopilotのWord機能を活用し、キーメッセージや会社の最新情報を効果的に伝えるコンテンツの作成を含む、包括的なスピーチ 
+  の 草稿を作成。
 
-- MicrosoftのCopilotをPowerPointで活用し、Wordで作成したスピーチを視覚的に魅力的で情報量の多いプレゼンテーションに変換。Copilotを使用してプレゼンテーション形式の一貫性と明瞭性を確保しながら、スピーチの要点を強調するスライドを作成した。
+- MicrosoftのCopilotをPowerPointで活用し、Wordで作成したスピーチを視覚的に魅力的で情報量の多いプレゼンテーションに 
+  変換。Copilotを使用してプレゼンテーション形式の一貫性と明瞭性を確保しながら、スピーチの要点を強調するスライドを作 
+  成 した。
