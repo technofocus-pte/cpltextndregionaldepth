@@ -159,14 +159,10 @@ Copilot（Word）を使用して、会社の損益計算書に基づいてスピ
 
 ## 練習その2：PowerPointでCopilotを使用してスライドプレゼンテーションを作成する
 
-この演習では、PowerPoint の Copilot を使用して、Word の Copilot
-を使用して作成したスピーチ (損益計算書に基づく株主へのスピーチ)
-に基づくスライド・プレゼンテーションを作成します。
+この演習では、PowerPoint の Copilot を使用して、Word の Copilot を使用して作成したスピーチ (損益計算書に基づく株主 
+へのスピーチ) に基づくスライド・プレゼンテーションを作成します。
 
-前回の演習では、Copilot の \[MRU (Most Recently Used)\] ファイル
-リストからファイルにアクセスして、会社の損益計算書にアクセスしました。この演習では、別のプロセスを使用してファイルにアクセスする経験を積みます。MRU
-リストを使用する代わりに、前の演習で作成した **Fabrikam 2023 Financial
-presentation.docx**
+前回の演習では、Copilot の \[MRU (Most Recently Used)\] ファイル リストからファイルにアクセスして、会社の損益計算書にアクセスしました。この演習では、別のプロセスを使用してファイルにアクセスする経験を積みます。MRU リストを使用する代わりに、前の演習で作成した **Fabrikam 2023 Financial presentation.docx**
 ファイルへのリンクをコピーして、スピーチにアクセスする予定です。
 
 PowerPointのCopilotにプレゼンテーションの下書きを作成させるには、以下の手順を実行します：
@@ -228,8 +224,8 @@ PowerPointのCopilotにプレゼンテーションの下書きを作成させる
 
     ![](./media/image23.png)
 
-13. プロンプトフィールドに、Copilotが自動的に「**Create presentation
-    from file /」と**入力します。
+13. プロンプトフィールドに、Copilotが自動的に **Create presentation
+    from file /**と入力します。
     スラッシュの後にカーソルを置き、**Ctrl+Vを**入力して、このドキュメントへのリンクをプロンプトに貼り付けます。
 
     ![](./media/image24.png)
