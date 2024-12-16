@@ -91,9 +91,7 @@ Adatum Corporation の IT 部長として、あなたは Contoso CipherGuard Sen
     するようにMicrosoft Copilotに指示する次のプロンプトを入力し、プロンプトフィールドの下隅にある\[**Submit\]**矢 
     印 を選択します：
 
-    ++**I'm the Director of IT at Adatum Corporation. Create a project plan for installing a new network   
-    security product into a corporate network. Base this plan on IT industry guidelines for installing 
-    network security products**.++
+    ++**I'm the Director of IT at Adatum Corporation. Create a project plan for installing a new network  security product into a corporate network. Base this plan on IT industry guidelines for installing network security products**.++
 
     ![](./media/image10.png)
 
@@ -117,9 +115,7 @@ Adatum Corporation の IT 部長として、あなたは Contoso CipherGuard Sen
     に Contoso CipherGuard Sentinel X7 セキュリティ製品の製品仕様の情報で計画を更新してもらいます。次のプロンプト 
     を 入力しますが、次のステップでファイル を プロンプトにリンクする必要があるため、まだ送信しないでください：
 
-   ++**This version looks better. Please review the attached file, which is a product specification for 
-   the Contoso CipherGuard Sentinel X7 security product, and update your project plan with information 
-   from this product spec**.++
+   ++**This version looks better. Please review the attached file, which is a product specification for the Contoso CipherGuard Sentinel X7 security product, and update your project plan with information from this product spec**.++
 
    ![](./media/image14.png)
 
@@ -159,28 +155,26 @@ Adatum Corporation の IT 部長として、あなたは Contoso CipherGuard Sen
 16. しかし、あなたはこのプロジェクトプランに具体的な詳細が欠けていると感じている。この問題に対処するために、次のプロ 
     ン プトを入力してください：
 
-> **あと少しです。レポートの各項目を複数の詳細なステップに分けてください**。
->
-> ![](./media/image20.png)
+    ++**We're almost there. Please break down each item on the report into multiple detailed steps**.++
+
+    ![](./media/image20.png)
 
 17. 結果を見直す。
 
-> ![](./media/image21.png)
+    ![](./media/image21.png)
 
-18. プロジェクト計画書を作成したら、Word文書に保存しなければなりません。**このプロジェクト計画書は、次の演習で使用します**。Copilot
-    の最終回答の下部にある**コピー**ボタンを選択し、回答をコピーして
-    **Word** 文書に貼り付けます。
+18. プロジェクト計画書を作成したら、Word文書に保存しなければなりません。**このプロジェクト計画書は、次の演習で使用し 
+    ます**。Copilot の最終回答の下部にある**コピー**ボタンを選択し、回答をコピーして **Word** 文書に貼り付けます。
 
-> ![](./media/image22.png)
+    ![](./media/image22.png)
 
 19. この演習で使用した製品仕様書を含む OneDrive アカウントに **Contoso
     CipherGuard project plan.docx**
     としてファイルを保存します。このファイルは次の演習で使用します。
 
-> ![](./media/image23.png)
+    ![](./media/image23.png)
 
-練習2:
-PowerPointでCopilotを使用してプロジェクトプランのプレゼンテーションを作成する
+## 練習2: PowerPointでCopilotを使用してプロジェクトプランのプレゼンテーションを作成する
 
 PowerPointのCopilotはインテリジェントな共同作業者として機能し、ITプロフェッショナルがプレゼンテーションを作成する際に、リアルタイムで提案や改善を行います：
 
@@ -192,22 +186,17 @@ PowerPointのCopilotはインテリジェントな共同作業者として機能
 
 - 自分の仕事を紹介したり、潜在的な顧客に自分のサービスを宣伝する。
 
-Copilot in PowerPoint を使用すると、既存の Word
-文書からプレゼンテーションを作成できます。Copilot in PowerPoint に Word
-文書へのリンクを渡すと、スライドの生成、レイアウトの適用、テーマの選択が行われます。
+Copilot in PowerPoint を使用すると、既存の Word 文書からプレゼンテーションを作成できます。Copilot in PowerPoint に Word 文書へのリンクを渡すと、スライドの生成、レイアウトの適用、テーマの選択が行われます。
 
 この演習では、PowerPointのCopilotを使用して、前の演習で作成したプロジェクト計画に基づいてスライドプレゼンテーションを作成します。このプレゼンテーションを使用して、ITスタッフ、そして最終的には企業の経営陣にプロジェクト計画を説明します。
 
-<span class="mark">**注**: 事前の演習を完了し、**Contoso CipherGuard
-プロジェクト計画書.docx** ファイルを作成した場合は、OneDrive
-アカウントに保存したことを確認して次のステップに進んでください。ただし、事前の演習でこのプロジェクト計画を作成できなかった場合は、**C:⽋⽋ファイルに**ある
-**Contoso CipherGuard プロジェクト計画書.docx
-の**コピーをアップロードしてください。</span>
+**注**: 事前の演習を完了し、**Contoso CipherGuard Project plan.docx** ファイルを作成した場合は、OneDrive アカウ 
+ントに保存したことを確認して次のステップに進んでください。ただし、事前の演習でこのプロジェクト計画を作成できなかった 
+場 合は、**C:\LabFiles**ある **Contoso CipherGuard Project plan.docx** のコピーをアップロードしてください。
 
-1.  EdgeブラウザでMicrosoft
-    365のタブを開いている場合は、今すぐ選択します。そうでない場合は、新しいタブを開き、次のURLを入力します：[<u>https://www.office.com
-    Microsoft
-    365のホームページに移動します。</u>](https://www.office.com)
+1.  EdgeブラウザでMicrosoft 365のタブを開いている場合は、今すぐ選択します。そうでない場合は、新しいタブを開き、次の 
+    URLを入力します：+++https://www.office.com+++ 
+    Microsoft 365のホームページに移動します
 
 2.  **Contoso CipherGuard プロジェクト計画書.docx**（**OneDrive**
     に保存したもの）を開いて閉じ、最近使用したファイル（MRU）リストに追加します。
