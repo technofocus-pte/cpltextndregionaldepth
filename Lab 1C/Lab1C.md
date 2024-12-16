@@ -56,15 +56,12 @@ Tailspin Toysの市場調査担当ディレクターとして、あなたは玩�
     Copilotが玩具業界の市場分析を行うにはWebにアクセスする必要があります。必要に応じて、**Webの**トグルスイッチを選 
     択してください。
 
-
     ![](./media/image6.png)
-
 
     ![](./media/image7.png)
 
-
-   注：旧バージョンのCopilotにあった会話トーンセレクター「**More Creative - More Balanced - More Precise**」 
-   は、最 新バージョンでは廃止されています。
+    注：旧バージョンのCopilotにあった会話トーンセレクター「**More Creative - More Balanced - More Precise**」 
+    は、最 新バージョンでは廃止されています。
 
 5. プロンプトフィールドに以下のプロンプトを入力し、**Submit**アイコンを選択する：
 
