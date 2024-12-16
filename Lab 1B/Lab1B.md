@@ -42,7 +42,7 @@ Adatum Corporation の IT 部長として、あなたは Contoso CipherGuard Sen
 3.  **Contoso CipherGuard 製品仕様書 report.docx（OneDrive**
     にアップロードしたファイル）を開いて閉じ、最近使用したファイル（MRU）リストに表示します。
 
-> ![](./media/image1.png)
+    ![](./media/image1.png)
 
 4.  **Microsoft Edgeで**、以下のURLを入力してMicrosoft
     Bingに移動します：+++https://bing.com+++
@@ -57,90 +57,107 @@ Adatum Corporation の IT 部長として、あなたは Contoso CipherGuard Sen
 
     **注：**ページ上部にタブのリストが表示されない場合は、以下の手順でタブのリストを表示してください。
 
-- **Microsoft 365 認証情報を**使用してサインインしていることを確認します（\[**リソース**\]
-  タブで利用可能）。
+    - **Microsoft 365 認証情報を**使用してサインインしていることを確認します（\[**リソース**\]
+      タブで利用可能）。
 
-    ![](./media/image4.png)
+      ![](./media/image4.png)
 
     - **メニューバーを表示する**オプションを有効にする（赤いハイライト部分）
 
-    ![](./media/image5.png)
+      ![](./media/image5.png)
 
-    ![](./media/image6.png)
+      ![](./media/image6.png)
 
 6.  **Copilotを**選択します。Microsoft Copilotが開きます。
 
 7.  **Copilot**ページの上部にある**Work/Web**トグルスイッチで、**Workを**選択する。
 
-8.  デフォルトでは、\[**作業\]**オプションを選択すると、Copilotのアクセス範囲がMicrosoft
-    365の組織データに制限されます。ただし、Copilotが企業ネットワークセキュリティ製品のインストールに関するパブリックWebガイドラインにもアクセスできるようにするには、**Web**コンテンツプラグインをEnableにする必要があります。そのためには、ページ下部のプロンプトフィールドに、ファイルを添付するためのペーパークリップのアイコンと、ブロックを積み重ねたアイコンの2つのアイコンが表示されているはずです。後者のアイコンはプラグインのアイコンです。この**プラグインの**アイコンを選択します。
+8.  デフォルトでは、\[**作業\]**オプションを選択すると、Copilotのアクセス範囲がMicrosoft 365の組織データに制限され 
+    ます。ただし、Copilotが企業ネットワークセキュリティ製品のインストールに関するパブリックWebガイドラインにもアクセ 
+    スできるようにするには、**Web**コンテンツプラグインをEnableにする必要があります。そのためには、ページ下部のプロ 
+    ン プトフィールドに、ファイルを添付するためのペーパークリップのアイコンと、ブロックを積み重ねたアイコンの2つのア 
+    イ コンが表示されているはずです。後者のアイコンはプラグインのアイコンです。この**プラグインの**アイコンを選択しま 
+    す。
 
-> ![](./media/image7.png)
+    ![](./media/image7.png)
 
 9.  この**Plugins**アイコンを選択し、**Web**コンテンツプラグインを有効にします。
 
-> ![](./media/image8.png)
->
-> ![](./media/image9.png)
+    ![](./media/image8.png)
 
-10. これで、Copilot
-    を使用する準備ができました。Copilotが**Web**コンテンツプラグインを介して公開WebデータにアクセスするようにMicrosoft
-    Copilotに指示する次のプロンプトを入力し、プロンプトフィールドの下隅にある\[**Submit\]**矢印を選択します：
+    ![](./media/image9.png)
 
-> **アダツム株式会社のITディレクターです。新しいネットワークセキュリティ製品を企業ネットワークにインストールするためのプロジェクト計画を作成してください。この計画は、ネットワークセキュリティ製品のインストールに関するIT業界のガイドラインに基づいています**。
->
-> ![](./media/image10.png)
+10. これで、Copilot を使用する準備ができました。Copilotが**Web**コンテンツプラグインを介して公開Webデータにアクセス 
+    するようにMicrosoft Copilotに指示する次のプロンプトを入力し、プロンプトフィールドの下隅にある\[**Submit\]**矢 
+    印 を選択します：
+
+    ++**I'm the Director of IT at Adatum Corporation. Create a project plan for installing a new network   
+    security product into a corporate network. Base this plan on IT industry guidelines for installing 
+    network security products**.++
+
+    ![](./media/image10.png)
 
 11. Copilotが作成したプロジェクト計画を確認します。
 
-> ![](./media/image11.png)
+    ![](./media/image11.png)
 
-12. そのプランがすべての地域を網羅していることに満足していない。次のプロンプトを入力すると、特定の関心分野を含めて計画を修正できます。このプロンプトに含まれる分野がCopilotの前回の回答にすでに含まれている場合は、Copilotが重複しないように、このプロンプトから削除してください：
+12. そのプランがすべての地域を網羅していることに満足していない。次のプロンプトを入力すると、特定の関心分野を含めて計  
+    画 を修正できます。このプロンプトに含まれる分野がCopilotの前回の回答にすでに含まれている場合は、Copilotが重複し 
+    ないように、このプロンプトから削除してください：
 
-> **これは良いスタートでしたが、重要な分野が欠けているように感じます。以下の項目を既存のリストに追加してください：テストとQA、トレーニング、コミュニケーション、文書と報告、利害関係者の分析、プロジェクトのタイムライン、リスク評価と軽減。**
->
-> ![](./media/image12.png)
->
-> ![](./media/image13.png)
+    ++**While that was a good start, I feel like it's missing important areas. Please add the following 
+    items to the existing list: testing and QA, training, communication, document and reporting, 
+    stakeholder analysis, project timeline, and risk assessment and mitigation**.++
+
+    ![](./media/image12.png)
+
+    ![](./media/image13.png)
 
 13. 修正されたプロジェクト計画を確認します。カバーするトピックの幅に満足したので、Copilot
-    に Contoso CipherGuard Sentinel X7
-    セキュリティ製品の製品仕様の情報で計画を更新してもらいます。次のプロンプトを入力しますが、次のステップでファイルをプロンプトにリンクする必要があるため、まだ送信しないでください：
+    に Contoso CipherGuard Sentinel X7 セキュリティ製品の製品仕様の情報で計画を更新してもらいます。次のプロンプト 
+    を 入力しますが、次のステップでファイル を プロンプトにリンクする必要があるため、まだ送信しないでください：
 
-> **このバージョンの方が良さそうです。添付ファイル（Contoso CipherGuard
-> Sentinel X7
-> セキュリティ製品の製品仕様書）を確認し、この製品仕様書の情報でプロジェクト計画を更新してください。**
->
-> ![](./media/image14.png)
+   ++**This version looks better. Please review the attached file, which is a product specification for 
+   the Contoso CipherGuard Sentinel X7 security product, and update your project plan with information 
+   from this product spec**.++
+
+   ![](./media/image14.png)
 
 14. プロンプトフィールドで、プロンプトの後にスペースを入力してから、フォワードスラッ
-    シュ（/）を入力します。プロンプトに何かを添付する要求としてCopilotに認識させるため、フォワードスラッシュの前にスペースを入力する必要があります。次の手順は、Copilotがファイルを選択するためのウィンドウを開くかどうかによって異なります：
+    シュ（/）を入力します。プロンプトに何かを添付する要求としてCopilotに認識させるため、フォワードスラッシュの前にス 
+    ペースを入力する必要があります。次の手順は、Copilotがファイルを選択するためのウィンドウを開くかどうかによって異 
+    な ります：
 
-- フォワードスラッシュ（/）を入力した後にCopilotがウィンドウを開いたら、\[**Files\]**タブを選択します。MRU
-  ファイルのリストが表示されます。**Contoso CipherGuard Product
-  Specification** ファイルを選択し、**Submit** アイコンを選択します。
+  - フォワードスラッシュ（/）を入力した後にCopilotがウィンドウを開いたら、**Files** タブを選択します。MRU
+    ファイルのリストが表示されます。**Contoso CipherGuard Product Specification** ファイルを選択し、**Submit** 
+    アイコンを選択します。
 
-> ![](./media/image15.png)
+    ![](./media/image15.png)
 
-- Copilotがフォワードスラッシュ（/）を入力した後に何もしなかった場合は、**Contoso
-  CipherGuard製品仕様書**ファイルへのリンクをコピーして貼り付ける必要があります。そのためには、OneDriveアカウントでファイルを見つけ、**Wordで**開き、Wordリボンの上に表示される**［共有］**ボタンを選択し、表示されるドロップダウンメニューで**［リンクをコピー］を**選択し、このプロンプトフィールドに戻ってフォワードスラッシュに続くリンクを貼り付け、［**送信］**アイコンを選択します。
+  - Copilotがフォワードスラッシュ（/）を入力した後に何もしなかった場合は、**Contoso CipherGuard Product     
+    Specification**ファイルへのリンクをコピーして貼り付ける必要があります。そのためには、OneDriveアカウントでファイ 
+    ルを見つけ、**Wordで**開き、Wordリボンの上に表示される**［共有］**ボタンを選択し、表示されるドロップダウンメニ 
+    ュ ーで**［リンクをコピー］を**選択し、このプロンプトフィールドに戻ってフォワードスラッシュに続くリンクを貼り付 
+    け、［**送信］**アイコンを選択します。
 
-> ![](./media/image16.png)
->
-> <span class="mark">**注**：Copilotが文書に直接アクセスしたりレビューしたりできない場合は、ログインしているユーザーをサインアウトしてもう一度サインインし、手順9からやり直してください。</span>
->
-> ![](./media/image17.png)
->
-> ![](./media/image18.png)
->
-> <span class="mark">**注**： **Contoso CipherGuard
-> 製品仕様**書を表示および参照できない場合は、次の演習に進んでください。プロジェクト計画書は、残りのラボのアクティビティに進むために利用できます</span>。
+    ![](./media/image16.png)
+
+    **注**：Copilotが文書に直接アクセスしたりレビューしたりできない場合は、ログインしているユーザーをサインアウトし 
+    て もう一度サインインし、手順9からやり直してください。
+
+    ![](./media/image17.png)
+
+    ![](./media/image18.png)
+
+    **注**： **Contoso CipherGuard Specification**書を表示および参照できない場合は、次の演習に進んでください。プ 
+    ロジェクト計画書は、残りのラボのアクティビティに進むために利用できます。
 
 15. Copilotがどのように製品仕様の機能をプロジェクト計画に挿入したかを確認する。
 
-> ![](./media/image19.png)
+    ![](./media/image19.png)
 
-16. しかし、あなたはこのプロジェクトプランに具体的な詳細が欠けていると感じている。この問題に対処するために、次のプロンプトを入力してください：
+16. しかし、あなたはこのプロジェクトプランに具体的な詳細が欠けていると感じている。この問題に対処するために、次のプロ 
+    ン プトを入力してください：
 
 > **あと少しです。レポートの各項目を複数の詳細なステップに分けてください**。
 >
