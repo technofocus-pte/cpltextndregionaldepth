@@ -283,8 +283,8 @@ Copilot in PowerPoint を使用すると、既存の Word 文書からプレゼ�
 
     ![](./media/image28.png)
 
-13. コマンド Add a slide about を選択し、次の内容をプレゼンテーションの最後に追加します: ++**Q&A at the very end 
-    of the presentation**++（スクリーンショットに示されているように）。
+13. コマンド Add a slide about を選択し、次の内容をプレゼンテーションの最後に追加します: +++**Q&A at the very end 
+    of the presentation**+++（スクリーンショットに示されているように）。
 
     ![](./media/image29.png)
 
