@@ -109,7 +109,7 @@ generated](./media/image14.png)
 
     ![コンピューターのスクリーンショット 説明が自動的に生成される](./media/image15.png)
 
-8.  ホーム画面の左ペインから**Copilotを**選択します。
+8.  ホーム画面の左ペインから**Agentsを**選択します。
 
     ![A screenshot of a computer Description automatically generated](./media/image16.png)
 
