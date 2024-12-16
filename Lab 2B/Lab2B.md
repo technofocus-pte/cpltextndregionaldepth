@@ -26,19 +26,15 @@ Copilotで利用できるようになります。
 
     ![A screenshot of a computer Description automatically generated](./media/image2.png)
 
-4.  **Copilot for Microsoft 365を**選択します。
-
-    ![A screenshot of a computer Description automatically generated](./media/image3.png)
-
-5.  **新しいアクションを**選択します。
+4.  **新しいアクションを**選択します。
 
     ![A screenshot of a computer Description automatically generated](./media/image4.png)
 
-6.  **新しいアクション**メニューが表示されます。**Prompt を**選択する。
+5.  **新しいアクション**メニューが表示されます。**Prompt を**選択する。
 
     ![A screenshot of a computer Description automatically generated](./media/image5.png)
 
-7.  **プロンプトアクションの追加**ウィザードが開きます。
+6.  **プロンプトアクションの追加**ウィザードが開きます。
 
 ### タスク 2: AI Builderの動的プロンプトを使用してコンテンツを生成またはインサイトを抽出する
 
