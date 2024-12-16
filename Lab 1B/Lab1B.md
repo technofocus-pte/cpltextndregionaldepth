@@ -329,10 +329,9 @@ WordのCopilotは、ITプロフェッショナルが文書を作成する際の�
 
 この実習では、WordのCopilotを使用して既存の文書を更新します。Copilotに指示して、新しいテキストを追加し、既存のテキストを書き直し、テキストを表に変換します。
 
-1.  Microsoft EdgeブラウザでMicrosoft 365のタブを開いている場合は、今すぐそれを選択します。そうでない場合は、新し 
-    い タブを開き、次のURLを入力します：+++https://www.office.com+++
-    Microsoft
-    365のホームページに移動します。</u>**](https://www.office.com/)
+1. Microsoft Edge ブラウザーで Microsoft 365 のタブを開いている場合は、今すぐそのタブを選択してください。そうでな 
+   い 場合は、新しいタブを開き、次の URL を入力して Microsoft 365 ホームページにアクセスしてください: 
+   +++https://www.office.com/+++
 
     **注**: 右側の**「Resources」タブで**提供される **Microsoft 365 認証情報を**使用してサインインする必要があり 
     ま す(プロンプトが表示された場合)。
