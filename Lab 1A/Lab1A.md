@@ -146,16 +146,17 @@ Copilot（Word）を使用して、会社の損益計算書に基づいてスピ
      ![](./media/image14.png)
 
 15. このファイルを次のファイル名で OneDrive アカウントに保存します：
-    **Fabrikam 2023 Financial
-    presentation.docx**.次の演習では、この文書を使用します。
+    **Fabrikam 2023 Financial presentation.docx**.次の演習では、この文書を使用します。
 
+    ![](./media/image15a.png)
+    
     ![](./media/image15.png)
 
     **重要**: ファイルはローカルPCではなく**OneDriveに**保存するようにしてください。次の実習では、PowerPointの 
     Copilotを使用して、このドキュメントに基づいてスライドプレゼンテーションを作成します。Copilotがドキュメントにアク 
     セスするには、ドキュメントが**OneDriveに**ある必要があります。
 
-16. Microsoft Edgeブラウザで、このドキュメントが含まれているタブを閉じます。
+17. Microsoft Edgeブラウザで、このドキュメントが含まれているタブを閉じます。
 
 ## 練習その2：PowerPointでCopilotを使用してスライドプレゼンテーションを作成する
 
