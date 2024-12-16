@@ -238,10 +238,7 @@ Contoso, Ltd.の一部門であるContoso Beverageのラテンアメリカ（LAT
 
     ![](./media/image24.png)
 
-    +++**This report looks good. However, please add a section titled Competitive Analysis. Review the   
-    beverage companies in Latin America that sell Chai Tea and then provide information in this section on 
-    the strengths and weaknesses of these competitors, their market share, and their pricing 
-    strategies**.+++
+    +++**This report looks good. However, please add a section titled Competitive Analysis. Review the beverage companies in Latin America that sell Chai Tea and then provide information in this section on    the strengths and weaknesses of these competitors, their market share, and their pricing strategies**.+++
 
     ![](./media/image25.png)
 
