@@ -269,7 +269,7 @@ Copilot in PowerPoint を使用すると、既存の Word 文書からプレゼ�
 10. 作成された新しいスライドを確認します。Copilotがこのスライドに使用した画像が気に入らないので、次のプロンプトを入 
     力 してCopilotに画像の変更を依頼します：
 
-    +++**I don't like the image you used on the Q&A slide. Please replace it with a different image**.++
+    +++**I don't like the image you used on the Q&A slide. Please replace it with a different image**.+++
 
     ![](./media/image26.png)
 
