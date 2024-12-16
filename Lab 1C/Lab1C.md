@@ -202,60 +202,61 @@ Contoso, Ltd.の一部門であるContoso Beverageのラテンアメリカ（LAT
 5.  空白ドキュメントの上部に表示される「**Copilotを使用した下書き」**ウィンドウで、次のプロンプトを入力します。ただ 
     し、3つのファイルをプロンプトにリンクするまでは、**「生成」**ボタンを選択しないでください：
 
+    +++**I'm the LATAM Marketing Director for Contoso Beverage. Please create a LATAM Market Analysis 
+    report for our Mystic Spice Premium Chai Tea beverage. Combine the three attached files to create a 
+    report that describes the product, analyzes the market trend for it, and includes a promotion plan for 
+    Latin America**.+++
 
-    +++**I'm the LATAM Marketing Director for Contoso Beverage. Please create a LATAM Market Analysis report for our Mystic Spice Premium Chai Tea beverage. Combine the three attached files to create a report that describes the product, analyzes the market trend for it, and includes a promotion plan for Latin America**.+++
+    ![](./media/image20.png)
 
-
-
-     ![](./media/image20.png)
-
-6.  ここで、3 つの文書をプロンプトに添付する必要があります。**Draft with Copilot** ウィンドウで、\[**Reference your content**\]
-    ボタンを選択します。表示されるドロップダウンメニューで、ファイルの一覧に
-    **Mystic Spice Premium Chai Tea product description.docx**
-    ファイルが表示されている場合は、それを選択します。そうでない場合は、**\[クラウドからファイルを参照\]**
-    を選択し、\[**最近使用した**ファイル\]
-    リストからファイルを選択して、**\[添付\]**
-    ボタンを選択します。プロンプトにファイルがどのように表示されるかに注意してください。
-
-
- ![](./media/image21.png)
-
-7.  **Contoso Chai Tea market trends 2023.docx**ファイルと**Promotion
-    Plan for Chai Tea in Latin
-    America.docx**ファイルの両方について、前のステップを繰り返します。この時点で、3つのファイルへのリンクがプロンプトに表示されるはずです。
+6.  ここで、3 つの文書をプロンプトに添付する必要があります。**Draft with Copilot** ウィンドウで、**Reference your 
+    content** ボタンを選択します。表示されるドロップダウンメニューで、ファイルの一覧に
+    **Mystic Spice Premium Chai Tea product description.docx** ファイルが表示されている場合は、それを選択しま 
+    す。そうでない場合は、**Browse files from cloud** を選択し、**最近使用した**ファイル
+    リストからファイルを選択して、**Attach** ボタンを選択します。プロンプトにファイルがどのように表示されるかに注意 
+    し てください。
 
 
- ![](./media/image22.png)
+    ![](./media/image21.png)
 
-8.  **生成\]を**選択します。そうすると、Copilotは3つのファイルから適切な情報を抽出し、それらを1つのレポートにまとめて、Mystic
-    Spice Premium Chai Teaの市場分析レポートを作成します。
+7.  **Contoso Chai Tea market trends 2023.docx**ファイルと**Promotion Plan for Chai Tea in Latin
+    America.docx**ファイルの両方について、前のステップを繰り返します。この時点で、3つのファイルへのリンクがプロンプ 
+    トに表示されるはずです。
 
+    ![](./media/image22.png)
 
- ![](./media/image23.png)
-
-9.  市場分析レポートの第一稿を見直した結果、重要な情報が欠けていることに気づきました。**競合分析**」というタイトルのセクションが必要です。Copilotに競合を分析させたい。そのためには、レポート下部の
-    Copilot ウィンドウに次のプロンプトを入力し、\[**Generate\] (生成)**
-    矢印を選択します：
-
-
- ![](./media/image24.png)
+8.  **生成\]を**選択します。そうすると、Copilotは3つのファイルから適切な情報を抽出し、それらを1つのレポートにまとめ 
+    て、Mystic Spice Premium Chai Teaの市場分析レポートを作成します。
 
 
+    ![](./media/image23.png)
 
- **このレポートは良くできている。しかし、競合分析というタイトルのセクションを追加してください。ラテンアメリカでチャイ・ティーを販売している飲料メーカーをレビューし、その競合他社の強みと弱み、市場シェア、価格戦略に関する情報をこのセクションで提供してください**。
-
-
-
- ![](./media/image25.png)
-
-10. 新しい「競合分析」セクションを含むレポートの第2稿を見直した後、最後に1つだけ欠けていることに気付きます。Copilotに「**流通チャネル**」のセクションを追加してほしいのです。このセクションでは、ラテンアメリカでチャイティーを販売するために使用される流通チャネルを分析する必要があります。そのためには、レポート下部のCopilotウィンドウに次のプロンプトを入力し、**生成**矢印を選択します：
+9.  市場分析レポートの第一稿を見直した結果、重要な情報が欠けていることに気づきました。**競合分析**」というタイトルの 
+    セクションが必要です。Copilotに競合を分析させたい。そのためには、レポート下部の Copilot ウィンドウに次のプロン 
+    プ トを入力し、\[**Generate\] (生成)** 矢印を選択します：
 
 
- ![](./media/image26.png)
+    ![](./media/image24.png)
+
+    +++**This report looks good. However, please add a section titled Competitive Analysis. Review the   
+    beverage companies in Latin America that sell Chai Tea and then provide information in this section on 
+    the strengths and weaknesses of these competitors, their market share, and their pricing 
+    strategies**.+++
+
+    ![](./media/image25.png)
+
+10. 新しい「競合分析」セクションを含むレポートの第2稿を見直した後、最後に1つだけ欠けていることに気付きます。Copilot 
+    に **Distribution Channels** のセクションを追加してほしいのです。このセクションでは、ラテンアメリカでチャイテ 
+    ィ ーを販売 するために使用される流通チャネルを分析する必要があります。そのためには、レポート下部のCopilotウィン 
+    ド ウに次のプ ロ ンプトを入力し、**Generate**矢印を選択します：
+
+    ![](./media/image26.png)
 
 
 
- **よくやった！最後にひとつだけ。流通チャネル」というセクションを追加してください。ラテンアメリカでチャイ・ティーを販売するために使われている流通経路を検討し、使われている小売店、卸売業者、販売業者の種類に関する情報をこのセクションに提供してください**。
+    +++**Nice job! One last thing. Please add a section titled Distribution Channels. Review the 
+    distribution channels used to sell Chai Tea in Latin America and then provide information in this 
+    section on the types of retailers, wholesalers, and distributors used**.+++
 
 11. 新しい \[販売チャネル\]
     セクションを含む最新の草稿を確認した後、レポートに満足して保存する準備ができました。ドキュメントの下部にある
@@ -263,9 +264,10 @@ Contoso, Ltd.の一部門であるContoso Beverageのラテンアメリカ（LAT
     ドラフトから Word ドキュメントに変換します。
 
 
- ![](./media/image27.png)
+    ![](./media/image27.png)
 
-12. 文書を見直す。手動で変更したい場合は、今すぐ変更できます。ご満足いただけたら、今後の参考のために文書を保存しておきたい場合は、OneDriveに保存してください。
+12. 文書を見直す。手動で変更したい場合は、今すぐ変更できます。ご満足いただけたら、今後の参考のために文書を保存してお 
+    き たい場合は、OneDriveに保存してください。
 
 13. Microsoft Edgeブラウザでこのタブを閉じます。
 
