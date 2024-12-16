@@ -174,50 +174,42 @@ Contoso, Ltd.の一部門であるContoso Beverageのラテンアメリカ（LAT
 
 1.  Microsoft Edgeブラウザで**Microsoft
     365の**タブを開いている場合は、今すぐ選択します。そうでない場合は、新しいタブを開き、次のURLを入力します：
-    +++https://www.office.com+++
+    +++https://www.office.com+++ Microsoft 365のホームページに移動します。
 
-Microsoft
-    365のホームページに移動します。</u
-**](https://www.office.com/)
+    **注**: 右側の に**ある \[リソース\] タブで**提供される **Microsoft 365 認証情報を**使用してサインインする必 
+    要 があります (プロンプトが表示された場合)。
 
-**注**: 右側の に**ある \[リソース\] タブで**提供される **Microsoft 365
-認証情報を**使用してサインインする必要があります
-(プロンプトが表示された場合)。
+2.  **C:\LabFiles**フォルダを参照し、以下のドキュメントのコピーを選択して**OneDriveに**アップロードします。
 
-2.  **C:◆LabFiles**フォルダを参照し、以下のドキュメントのコピーを選択して**OneDriveに**アップロードします。
+    - **Mystic Spice Premium Chai Tea product description**
 
-- **ミスティック・スパイス・プレミアム・チャイティー 商品説明**
+    - **Contoso Chai Tea market trends 2023**
 
-- **コントソチャイティー市場動向2023**
-
-- **ラテンアメリカにおけるチャイティーのプロモーション計画**
+    - **Promotion Plan for Chai Tea in Latin America**
 
 
- **注**: すべてのドキュメントのコピー（実習ラボ
+     **注**: すでに Preparing for the lab execution セクションで提案されたように、すべてのラボ資産を OneDrive 
+     に アップロードしている場合は、この手順をスキップできます。
 
- セッションで使用するもの）を、**実習ラボ 0** の指示に従って **C:\LabFiles**
-
- からすでにアップロードしている場合は、この手順を省略できます。
-
-3.  この練習では、"最近使用したファイル
-    "リストからドキュメントにアクセスします。MRUリストにファイルを表示させるには、3つのドキュメントをそれぞれ開いてから閉じます。
+3.  この練習では、"最近使用したファイル "リストからドキュメントにアクセスします。MRUリストにファイルを表示させるに 
+    は、3つのドキュメントをそれぞれ開いてから閉じます。
 
 
- ![](./media/image19.png)
+    ![](./media/image19.png)
 
 4.  **Microsoft 365でMicrosoft Wordを**開き、新しい空白の文書を開きます。
 
-5.  空白ドキュメントの上部に表示される「**Copilotを使用した下書き」**ウィンドウで、次のプロンプトを入力します。ただし、3つのファイルをプロンプトにリンクするまでは、**「生成」**ボタンを選択しないでください：
+5.  空白ドキュメントの上部に表示される「**Copilotを使用した下書き」**ウィンドウで、次のプロンプトを入力します。ただ 
+    し、3つのファイルをプロンプトにリンクするまでは、**「生成」**ボタンを選択しないでください：
 
 
- **コントソ・ビバレッジのLATAMマーケティング・ディレクターです。ミスティックスパイス・プレミアム・チャイティー飲料のLATAM市場分析レポートの作成をお願いします。添付の3つのファイルを組み合わせて、製品の説明、市場動向の分析、ラテンアメリカでのプロモーション計画を含むレポートを作成してください**。
+    +++**I'm the LATAM Marketing Director for Contoso Beverage. Please create a LATAM Market Analysis report for our Mystic Spice Premium Chai Tea beverage. Combine the three attached files to create a report that describes the product, analyzes the market trend for it, and includes a promotion plan for Latin America**.+++
 
 
 
- ![](./media/image20.png)
+     ![](./media/image20.png)
 
-6.  ここで、3 つの文書をプロンプトに添付する必要があります。**Draft with
-    Copilot** ウィンドウで、\[**Reference your content**\]
+6.  ここで、3 つの文書をプロンプトに添付する必要があります。**Draft with Copilot** ウィンドウで、\[**Reference your content**\]
     ボタンを選択します。表示されるドロップダウンメニューで、ファイルの一覧に
     **Mystic Spice Premium Chai Tea product description.docx**
     ファイルが表示されている場合は、それを選択します。そうでない場合は、**\[クラウドからファイルを参照\]**
