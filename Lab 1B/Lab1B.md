@@ -159,22 +159,22 @@ Adatum Corporation の IT 部長として、あなたは Contoso CipherGuard Sen
 
     ++**We're almost there. Please break down each item on the report into multiple detailed steps**.++
 
-    ![](./media/image20.png)
+    ![](./media/image20a.png)
 
 17. 結果を見直す。
 
-    ![](./media/image21.png)
+    ![](./media/image21a.png)
 
 18. プロジェクト計画書を作成したら、Word文書に保存しなければなりません。**このプロジェクト計画書は、次の演習で使用し 
     ます**。Copilot の最終回答の下部にある**コピー**ボタンを選択し、回答をコピーして **Word** 文書に貼り付けます。
 
-    ![](./media/image22.png)
+    ![](./media/image22a.png)
 
 19. この演習で使用した製品仕様書を含む OneDrive アカウントに **Contoso
     CipherGuard project plan.docx**
     としてファイルを保存します。このファイルは次の演習で使用します。
 
-    ![](./media/image23.png)
+    ![](./media/image23a.png)
 
 ## 練習2: PowerPointでCopilotを使用してプロジェクトプランのプレゼンテーションを作成する
 
