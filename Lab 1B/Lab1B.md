@@ -301,7 +301,7 @@ Copilot in PowerPoint を使用すると、既存の Word 文書からプレゼ�
     ンテーションを見直す中で、トピックの技術的な性質から、プレゼンテーションのテーマをより適切なものに変更したいとあ 
     な たは考えます。次のプロンプトを入力します：
 
-    **このプレゼンテーションのテーマを、もっと技術的なものに変えて**ください。
+    +++**Change the theme of this presentation to something more technical**.+++ 
 
     ![](./media/image30.png)
 
