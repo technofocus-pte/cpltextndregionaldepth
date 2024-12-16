@@ -176,6 +176,10 @@ Adatum Corporation の IT 部長として、あなたは Contoso CipherGuard Sen
 
     ![](./media/image23a.png)
 
+    ![](./media/image23b.png)
+
+    ![](./media/image23c.png)
+
 ## 練習2: PowerPointでCopilotを使用してプロジェクトプランのプレゼンテーションを作成する
 
 PowerPointのCopilotはインテリジェントな共同作業者として機能し、ITプロフェッショナルがプレゼンテーションを作成する際に、リアルタイムで提案や改善を行います：
