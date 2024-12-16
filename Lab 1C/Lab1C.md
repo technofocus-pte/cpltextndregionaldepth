@@ -66,12 +66,14 @@ Tailspin Toysの市場調査担当ディレクターとして、あなたは玩�
    注：旧バージョンのCopilotにあった会話トーンセレクター「**More Creative - More Balanced - More Precise**」 
    は、最 新バージョンでは廃止されています。
 
-5.  プロンプトフィールドに以下のプロンプトを入力し、**Submit**アイコンを選択する：
+5. プロンプトフィールドに以下のプロンプトを入力し、**Submit**アイコンを選択する：
 
-   ++**I'm the Director for Market Research for Tailspin Toys, a U.S. based toy manufacturer. Conduct a market analysis of the toy industry to identify sales figures, the latest trends, consumer preferences, and the most popular toys in the market**.++
+    ++**I'm the Director for Market Research for Tailspin Toys, a U.S. based toy manufacturer. Conduct a   
+    market analysis of the toy industry to identify sales figures, the latest trends, consumer 
+    preferences, and the most popular toys in the market**.++
 
 
-    ![](./media/image8.png)
+     ![](./media/image8.png)
 
 6.  Copilotが作成した市場分析を確認してください。提出したリクエストのような一般的なリクエストでは、市場動向、消費者 
     の 嗜好、玩具のトレンドなどの基本的な情報が得られることを理解しています。しかし、市場シェアや消費者の声など、玩具 
@@ -80,14 +82,13 @@ Tailspin Toysの市場調査担当ディレクターとして、あなたは玩�
     する：
 
 
-   ++**That analysis was great. However, I'm also interested in including data on the toy industry, including market share and consumer feedback. Please amend your prior analysis to include this information. Thanks**!++
-
+    ++**That analysis was great. However, I'm also interested in including data on the toy industry, 
+    including market share and consumer feedback. Please amend your prior analysis to include this 
+    information. Thanks**!++
 
     ![](./media/image9.png)
 
-
     ![](./media/image10.png)
-
 
     ![](./media/image11.png)
 
@@ -97,7 +98,9 @@ Tailspin Toysの市場調査担当ディレクターとして、あなたは玩�
     う依頼できませんでした。この欠点を修正するには、次のプロンプトを入力します：
 
 
-    ++**I think all the data is complete. With all the information that you captured, please analyze the data and identify patterns, trends, and insights that can help me determine what Tailspin Toy's business plan should be for the upcoming year**.++
+    ++**I think all the data is complete. With all the information that you captured, please analyze the 
+    data and identify patterns, trends, and insights that can help me determine what Tailspin Toy's 
+    business plan should be for the upcoming year**.++
 
     ![](./media/image12.png)
 
@@ -108,7 +111,9 @@ Tailspin Toysの市場調査担当ディレクターとして、あなたは玩�
     に不足しているものがないかどうかを判断してもらうことにしました。次のプロンプトを入力します：
 
 
-     ++**Please analyze the data in this market analysis and business plan. Is there any other information that a toy company would typically request for market analysis and business plans that I failed to request? If so, can you please amend your responses to include this information. Thank you**!++
+    ++**Please analyze the data in this market analysis and business plan. Is there any other information 
+    that a toy company would typically request for market analysis and business plans that I failed to 
+    request? If so, can you please amend your responses to include this information. Thank you**!++
 
     ![](./media/image14.png)
 
@@ -117,7 +122,9 @@ Tailspin Toysの市場調査担当ディレクターとして、あなたは玩�
 9.  Copilot が提供する情報に基づき、Copilot にこれらの領域の分析を含めることで、レポートの効果を最大限に高めること 
     が できます。レポートの仕上げを行うには、次のプロンプトを入力します：
 
-    ++**Please amend the market analysis to include an analysis of each of these areas for the Toy industry. Also update the business plan that you created for Tailspin Toys based on these insights. Thanks**!++
+    ++**Please amend the market analysis to include an analysis of each of these areas for the Toy 
+    industry. Also update the business plan that you created for Tailspin Toys based on these insights. 
+    Thanks**!++
 
     ![](./media/image16.png)
 
