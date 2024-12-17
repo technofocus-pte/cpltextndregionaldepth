@@ -35,7 +35,7 @@ generated](./media/image2.jpeg)
 
 ## 練習 2: 開発環境の作成
 
-1.  +++<https://admin.powerplatform.microsoft.com/+++>
+1.  +++https://admin.powerplatform.microsoft.com/+++
     にログインしてください。
 
 2.  左側のナビゲーション ウィンドウから **Environments**  を選択し、**+
@@ -66,7 +66,7 @@ generated](./media/image4.png)
 5.  新しく作成された環境は、管理センターに一覧表示され、その状態が
     \[Environments\] ウィンドウに表示されます。
 
-6.  **status** is **readyになると**、環境を使用する準備が整います。この環境は、今後の演習で使用します。
+6.  statusが**ready**になると, 環境を使用する準備が整います。この環境は、今後の演習で使用します。
 
     ![A screenshot of a computer Description automatically generated](./media/image8.png)
 
@@ -153,7 +153,7 @@ generated](./media/image14.png)
 この記述には機能的な目的があり、Microsoft
 Copilotがプラグインを起動するかどうかを判断するために使用されます。
 
-18. を追加します。**Send a message** 休日のリストを含むノード。
+18. 「＋」を押して、新しいステップを追加します。Send a messageを選択し、次のテキストを入力します。これは休日のリストを含むノートです。
 
     ```
     - New Year's Day - January 1
