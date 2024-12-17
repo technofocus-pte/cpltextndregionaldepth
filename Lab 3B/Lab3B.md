@@ -10,16 +10,14 @@
 
 ## 練習1：Copilotで使用するフローを作成する
 
-1.  まだログインしていない場合は、ユーザー認証情報を使用して
-    [+++https://copilotstudio.microsoft.com/+++](https://copilotstudio.microsoft.com/**+++)
+1.  まだログインしていない場合は、ユーザー認証情報を使用して +++https://copilotstudio.microsoft.com/+++
     にログインしてください。
 
 2.  ラボ 3A **で作成したエージェントを開きます**。
 
     ![コンピューターのスクリーンショット 説明が自動的に生成される](./media/image1.png)
 
-3.  \[**Topics**\]**をクリックし**、トピックを開いて– **expenses
-    contactについて尋ねます。**
+3.  **Topics** をクリックし**、トピックを開いて– **expenses contactについて尋ねます。**
 
     ![](./media/image2.png)
 
@@ -35,8 +33,7 @@
 
 ## 練習2：Power Automateポータル上でフローを作成する
 
-1.  オープンしたばかりのフローに、+++**Get weather
-    forecast+++という**名前をつける。
+1.  オープンしたばかりのフローに、+++**Get weather forecast+++という**名前をつける。
 
     ![A screenshot of a computer Description automatically generated](./media/image5.png)
 
@@ -55,12 +52,11 @@
 
     ![A screenshot of a computer Description automatically generated](./media/image8.png)
 
-5.  **Number**入力を選択し、名前を「++**Zipcode**+++」とする。右隅にある**戻る(\<\<)**マークをクリックして、ノードの詳細ペインから出ます。
+5.  **Number**入力を選択し、名前を「+++**Zipcode**+++」とする。右隅にある**戻る(\<\<)**マークをクリックして、ノードの詳細ペインから出ます。
 
     ![A screenshot of a computer Description automatically generated](./media/image9.png)
 
-6.  **Copilot Studioがフロー**ノードを**呼び出したら**、\[**Add action**
-    to a add node\]をクリックします。
+6.  **Copilot Studioがフロー**ノードを**呼び出したら**、\[**Add action** to a add node\]をクリックします。
 
     ![A screenshot of a computer Description automatically generated](./media/image10.png)
 
@@ -83,9 +79,7 @@
 
     ![A screenshot of a weather forecast Description automatically generated](./media/image15.png)
 
-10. **Power Virtual Agents** ノードの **\[Return value(s)\]
-    を**クリックします。開いたノードの詳細ペインで、\[**+ Add an
-    output\]** をクリックします。
+10. **Power Virtual Agents** ノードの **\[Return value(s)\] を**クリックします。開いたノードの詳細ペインで、\[**+ Add an output\]** をクリックします。
 
     ![A screenshot of a computer Description automatically generated](./media/image16.png)
 
@@ -170,8 +164,7 @@ Studioからフローを作成する場合、**非同期**応答はデフォル�
 
     ![A screenshot of a computer Description automatically generated](./media/image30.png)
 
-5.  Triggerノードの後に**Message**ノードを追加し、「++++I **can help you
-    with that+++」と**メッセージを入力する。
+5.  Triggerノードの後に**Message**ノードを追加し、「+++I **can help you with that+++」と**メッセージを入力する。
 
     ![A screenshot of a chat Description automatically generated](./media/image31.png)
 
@@ -223,8 +216,7 @@ Studioからフローを作成する場合、**非同期**応答はデフォル�
 
 ## 練習5：フローとトピックをテストする
 
-1.  **Copilotのテスト\]**に「+++get
-    **weather+++」と**入力し、\[送信\]をクリックします。Copilotからの質問に従って、Cityを+++**Redmond**+++、**Zipcodeを**+++**98004**+++と入力します。
+1.  **Copilotのテスト\]**に「+++get weather+++」と**入力し、\[送信\]をクリックします。Copilotからの質問に従って、Cityを +++**Redmond**+++、**Zipcodeを** +++**98004**+++と入力します。
 
     ![A screenshot of a chat Description automatically generated](./media/image39.png)
 
