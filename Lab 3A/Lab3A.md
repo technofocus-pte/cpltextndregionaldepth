@@ -42,6 +42,10 @@
     - フレンドリーでプロフェッショナルな口調を使用してください。
     
     - 税金に関するアドバイスを提供することは避けてください。
+  
+      +++Use a friendly, professional tone+++
+
+      +++Avoid providing any tax advice+++
 
     ![電話のスクリーンショット 説明が自動的に生成される](./media/image6.png)
 
