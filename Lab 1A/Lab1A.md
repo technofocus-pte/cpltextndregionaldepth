@@ -262,10 +262,10 @@ PowerPointのCopilotにプレゼンテーションの下書きを作成させる
 
 19. Copilotを使用してプレゼンテーションを更新してみる。たとえば、次のプロンプトを入力します：
 
-    +++Add a new slide after slide 1. This slide should have an image of a mountain peak in the Alps.     
+    ++Add a new slide after slide 1. This slide should have an image of a mountain peak in the Alps.     
     Towards the bottom of the slide, add a text box that says: Fabrikam's company motto - "We overcome 
     every obstacle." Add speaker notes to this new slide that talk about how Fabrikam works diligently to 
-    solve every customer's request, never letting any obstacle stand in its way of success+++
+    solve every customer's request, never letting any obstacle stand in its way of success++
 
     ![](./media/image28.png)
 
