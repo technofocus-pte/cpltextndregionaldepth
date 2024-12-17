@@ -15,14 +15,13 @@ Copilotで利用できるようになります。
 
 ### タスク 1：プロンプトアクションの追加ウィザードに移動する
 
-1.  Resources］タブにあるテナント認証情報を使用して、+++https://copCopilot
-    Studioにサインインします。
+1.  Resources］タブにあるテナント認証情報を使用して、+++https://CopilotStudio.microsoft.com+++にサインインします。
 
 2.  サイドナビゲーションペインから**「ライブラリ**」を選択する。
 
     ![A screenshot of a computer Description automatically generated](./media/image1.png)
 
-3.  選択**＋アイテムを追加する**。
+3.  **+Add an Item** を選択する
 
     ![A screenshot of a computer Description automatically generated](./media/image2.png)
 
