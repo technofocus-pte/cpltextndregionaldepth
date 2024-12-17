@@ -175,7 +175,7 @@ Adatum Corporation の IT 部長として、あなたは Contoso CipherGuard Sen
 19. この演習で使用した製品仕様書を含む OneDrive アカウントに +++**Contoso CipherGuard project plan**+++
     としてファイルを保存します。このファイルは次の演習で使用します。
 
-    ![](./media/image23b.png)
+    ![](./media/image23-b.png)
 
     ![](./media/image23c.png)
 
