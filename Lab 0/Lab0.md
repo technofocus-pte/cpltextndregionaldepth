@@ -76,7 +76,7 @@
 
     ![](./media/image6.png)
 
-    ![](./media/image7.png)
+    ![](./media/image7a.png)
 
     ![](./media/image8.png)
 
